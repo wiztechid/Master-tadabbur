@@ -432,23 +432,6 @@ article.en-session details > p:last-child{
   .journey-state-badge{position:static;margin-top:9px}
   .reading-summary-v13 .stats{grid-template-columns:1fr 1fr}
 }
-</style><style id="session-014-plus-spacing-sync-v14-2">
-/* Technical-only layout sync: Sessions 014+ follow the established Session 013 reading rhythm. */
-#s14 > section.card,#s15 > section.card,#s16 > section.card,#s17 > section.card,#s18 > section.card,#s19 > section.card,
-#en-s14 > section.card,#en-s15 > section.card,#en-s16 > section.card,#en-s17 > section.card,#en-s18 > section.card,#en-s19 > section.card{
-  padding:24px!important;
-  margin:0 0 20px!important;
-}
-#s14 > section.card.feature,#s15 > section.card.feature,#s16 > section.card.feature,#s17 > section.card.feature,#s18 > section.card.feature,#s19 > section.card.feature,
-#en-s14 > section.card.feature,#en-s15 > section.card.feature,#en-s16 > section.card.feature,#en-s17 > section.card.feature,#en-s18 > section.card.feature,#en-s19 > section.card.feature{padding:24px!important}
-#s14 .session-head,#s15 .session-head,#s16 .session-head,#s17 .session-head,#s18 .session-head,#s19 .session-head,
-#en-s14 .session-head,#en-s15 .session-head,#en-s16 .session-head,#en-s17 .session-head,#en-s18 .session-head,#en-s19 .session-head{padding:25px!important;margin:16px 0!important}
-@media(max-width:640px){
-  #s14 > section.card,#s15 > section.card,#s16 > section.card,#s17 > section.card,#s18 > section.card,#s19 > section.card,
-  #en-s14 > section.card,#en-s15 > section.card,#en-s16 > section.card,#en-s17 > section.card,#en-s18 > section.card,#en-s19 > section.card{padding:18px!important}
-  #s14 .session-head,#s15 .session-head,#s16 .session-head,#s17 .session-head,#s18 .session-head,#s19 .session-head,
-  #en-s14 .session-head,#en-s15 .session-head,#en-s16 .session-head,#en-s17 .session-head,#en-s18 .session-head,#en-s19 .session-head{padding:18px!important}
-}
 </style><style id="v14-1-completion-mirror-fix">
 /* V14.1: bilingual mirror + explicit reading completion sync */
 .finish-reflection-wrap{margin:22px 0 12px;padding:18px;border:1px solid #d9c477;border-radius:18px;background:linear-gradient(135deg,#fffdf4,#edf8f2);text-align:center;box-shadow:0 7px 20px #0b4c3810}
@@ -1325,6 +1308,7 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 </article>
 
 
+</div>
 <button class="top" onclick="scrollTo({top:0,behavior:'smooth'})">↑</button>
 <article class="session" data-lang="id" data-session-number="14" id="s14">
 <div class="session-head"><small>SESI 014 • AL-ISRA 17:53 • TEMATIK/NON-LINEAR</small><h2>Pilih Kata yang Lebih Baik</h2><p>Tidak semua kalimat yang benar harus disampaikan dengan cara yang paling tajam. Al-Qur'an mengarahkan hamba Allah bukan sekadar kepada kata yang baik, tetapi kepada pilihan ucapan yang <b>lebih baik</b>—karena satu kalimat dapat meredakan masalah atau justru membuka pintu perselisihan.</p></div>
@@ -1508,7 +1492,6 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 <section class="card"><h3>✅ Practical Action Today</h3><p>Choose <b>one change you have wanted for some time</b>. Identify one internal behavior holding it back, then define <b>one small action you can repeat for seven days</b>. Start today.</p></section>
 <section class="card secondary"><h3>🔗 Connection to the Journey</h3><p>Session 018 taught us to notice ease within hardship. Session 019 adds the next step: once you see the space that remains open, <b>use that space to change</b>. Ar-Ra‘d 13:11 is a new verse in this journey.</p></section>
 <div class="finish-reflection-wrap" data-lang="en" data-session="19"><p>Finished reading and reflecting on this session? Mark it complete so the Journey/Home status stays in sync.</p><button class="complete-reflection-btn primary" type="button">✓ Mark Reflection Complete</button></div><div class="session-nav"><button onclick="showEnglishSession(18)">← Session 018</button><button onclick="showJourney()">☰ Journey</button><span class="btn disabled">Session 020 →</span></div></article>
-</div>
 <footer>❖ Master Tadabbur Al-Qur'an • Sesi 001–019 ❖<br/><small>Posisi terakhir tersimpan otomatis di perangkat ini.</small>
 <div class="credit"><strong>Thank to Allah SWT proudly made by Suiza Ixan Saputro bin Ngalimin x chatgpt</strong></div>
 </footer>
@@ -1982,9 +1965,7 @@ window.addEventListener('load',()=>{
   function language(){return localStorage.getItem('tadabburLang')==='en'?'en':'id'}
   function ensureStart(){if(!localStorage.getItem(K_START))localStorage.setItem(K_START,new Date().toISOString().slice(0,10))}
   function elapsed(){ensureStart();const a=new Date(localStorage.getItem(K_START)+'T00:00:00');const b=new Date();b.setHours(0,0,0,0);return Math.max(0,Math.floor((b-a)/86400000))}
-  const OWNER_BUILD=true;
-  if(OWNER_BUILD){localStorage.setItem(K_MASTER,'true');}
-  function unlockedCount(){if(OWNER_BUILD||localStorage.getItem(K_MASTER)==='true')return TOTAL;const reward=parseInt(localStorage.getItem(K_REWARD)||'0',10)||0;return Math.min(TOTAL,1+elapsed()+reward)}
+  function unlockedCount(){if(localStorage.getItem(K_MASTER)==='true')return TOTAL;const reward=parseInt(localStorage.getItem(K_REWARD)||'0',10)||0;return Math.min(TOTAL,1+elapsed()+reward)}
   function isUnlocked(n){return n>=1&&n<=unlockedCount()}
   window.isTadabburUnlocked=isUnlocked;
   const rKey=n=>'tadabburReading_'+n, pKey=n=>'tadabburReadPercent_'+n;
@@ -2004,7 +1985,7 @@ window.addEventListener('load',()=>{
     let box=h.querySelector('.reading-summary-v14');
     if(!box){box=document.createElement('div');box.className='reading-summary-v14 reading-summary-v13';const search=h.querySelector('input[type="search"],input[placeholder*="Search"],input[placeholder*="Cari"]');if(search)search.parentNode.insertBefore(box,search);else h.prepend(box)}
     const c=counts(),open=TOTAL-c.locked;
-    box.innerHTML=`<div class="stats"><div class="stat"><b>${TOTAL}</b><span>${T[l].sessions}</span></div><div class="stat"><b>🔓 ${open}</b><span>${T[l].unlocked}</span></div><div class="stat"><b>✓ ${c.done}</b><span>${T[l].done}</span></div><div class="stat"><b>◐ ${c.progress}</b><span>${T[l].progress}</span></div></div><div class="journey-main-progress"><div style="width:${open?c.done/open*100:0}%"></div></div><div class="journey-lock-explainer"><span class="daily">${T[l].daily}</span><span class="reward">${T[l].reward}</span><span class="master">${T[l].master}</span>${OWNER_BUILD?'<span class="master">👑 Owner • Full Access</span>':''}<span class="locked">${c.locked} ${T[l].lockedN}</span></div><div class="journey-filter-row"><button class="journey-filter-btn" data-f="all">${T[l].all} ${TOTAL}</button><button class="journey-filter-btn" data-f="done">✓ ${T[l].done} ${c.done}</button><button class="journey-filter-btn" data-f="progress">◐ ${T[l].progress} ${c.progress}</button><button class="journey-filter-btn" data-f="unread">○ ${T[l].unread} ${c.unread}</button><button class="journey-filter-btn" data-f="locked">🔒 ${T[l].locked} ${c.locked}</button></div>`;
+    box.innerHTML=`<div class="stats"><div class="stat"><b>${TOTAL}</b><span>${T[l].sessions}</span></div><div class="stat"><b>🔓 ${open}</b><span>${T[l].unlocked}</span></div><div class="stat"><b>✓ ${c.done}</b><span>${T[l].done}</span></div><div class="stat"><b>◐ ${c.progress}</b><span>${T[l].progress}</span></div></div><div class="journey-main-progress"><div style="width:${open?c.done/open*100:0}%"></div></div><div class="journey-lock-explainer"><span class="daily">${T[l].daily}</span><span class="reward">${T[l].reward}</span><span class="master">${T[l].master}</span><span class="locked">${c.locked} ${T[l].lockedN}</span></div><div class="journey-filter-row"><button class="journey-filter-btn" data-f="all">${T[l].all} ${TOTAL}</button><button class="journey-filter-btn" data-f="done">✓ ${T[l].done} ${c.done}</button><button class="journey-filter-btn" data-f="progress">◐ ${T[l].progress} ${c.progress}</button><button class="journey-filter-btn" data-f="unread">○ ${T[l].unread} ${c.unread}</button><button class="journey-filter-btn" data-f="locked">🔒 ${T[l].locked} ${c.locked}</button></div>`;
     box.querySelectorAll('.journey-filter-btn').forEach(b=>b.onclick=e=>{e.preventDefault();e.stopPropagation();localStorage.setItem(K_FILTER,b.dataset.f);applyFilter(h,l)});
   }
   function searchQuery(h,l){const input=document.getElementById(l==='en'?'search-en':'search');return (input?.value||'').toLowerCase().trim()}
