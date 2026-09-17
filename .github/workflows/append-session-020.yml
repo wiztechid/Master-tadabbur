@@ -1,0 +1,113 @@
+name: Append Tadabbur Session 020
+on:
+  push:
+    paths:
+      - '.github/workflows/append-session-020.yml'
+permissions:
+  contents: write
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append session 020 without changing published sessions
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          SESSION_ID = r'''<article class="session" data-lang="id" data-session-number="20" id="s20">
+          <div class="session-head"><small>SESI 020 • AL-MA'IDAH 5:8 • TEMATIK/NON-LINEAR</small><h2>Tetap Adil Bahkan kepada yang Tidak Kita Sukai</h2><p>Keadilan paling mudah ketika kita menyukai orang yang sedang dinilai. Ujian yang lebih berat datang ketika ada luka, konflik, perbedaan, atau ketidaksukaan. Al-Qur'an memerintahkan: jangan biarkan kebencian menggeser kita dari keadilan.</p></div>
+          <section class="feature card"><h3>🌙 Ayat Utama Hari Ini</h3><div class="ayahbox"><div class="ayah">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ</div><div class="latin">Yā ayyuhallażīna āmanū kūnū qawwāmīna lillāhi syuhadā'a bil-qisṭi, wa lā yajrimannakum syana'ānu qawmin ‘alā allā ta‘dilū. I‘dilū huwa aqrabu lit-taqwā, wattaqullāh. Innallāha khabīrun bimā ta‘malūn.</div><div class="tr"><b>Al-Ma'idah 5:8 — Makna ringkas:</b> Wahai orang-orang yang beriman, tegakkanlah kebenaran karena Allah dan jadilah saksi dengan adil. Jangan sampai kebencian terhadap suatu kaum mendorong kalian untuk tidak berlaku adil. Berlaku adillah; itu lebih dekat kepada takwa. Bertakwalah kepada Allah; sungguh Allah Mahateliti terhadap apa yang kalian kerjakan.</div></div><p>Ayat ini tidak meminta kita menghapus penilaian moral terhadap kesalahan. Ia menuntut sesuatu yang lebih disiplin: <b>ketidaksukaan tidak boleh mengubah standar keadilan</b>.</p></section>
+          <section class="card"><h3>📚 Tafsir Mu‘tabar</h3><details open><summary>Keadilan berlaku kepada kawan maupun lawan</summary><p>Dalam tafsir Al-Ma'idah 5:8, Ibn Kathir menjelaskan bahwa kebencian kepada suatu kaum tidak boleh membuat seseorang meninggalkan keadilan. Keadilan tetap ditegakkan kepada setiap orang, baik yang disukai maupun yang tidak disukai.</p></details><details><summary>Adil lebih dekat kepada takwa</summary><p>Ayat menghubungkan keadilan dengan takwa. Ini menunjukkan bahwa adil bukan hanya teknik hukum atau tata kelola; ia adalah disiplin hati di hadapan Allah. Ketika emosi memiliki alasan untuk memihak, takwa menjaga ukuran agar tidak berubah.</p></details></section>
+          <section class="card secondary"><h3>🤲 Hadis Sahih</h3><p>Dalam <b>Sahih al-Bukhari 2444</b>, Rasulullah ﷺ memerintahkan untuk menolong saudara yang zalim maupun yang dizalimi. Ketika para sahabat bertanya bagaimana menolong orang yang zalim, beliau menjelaskan bahwa pertolongannya adalah <b>mencegahnya dari berbuat zalim</b>. Loyalitas yang benar bukan membenarkan kesalahan orang yang kita bela.</p></section>
+          <section class="card"><h3>🧭 Fakta • Pelajaran • Batas</h3><p><b>Fakta dari nash:</b> Al-Ma'idah 5:8 secara eksplisit melarang kebencian kepada suatu kelompok menjadi alasan untuk meninggalkan keadilan. Ibn Kathir menegaskan keadilan berlaku kepada kawan maupun lawan.</p><p><b>Pelajaran:</b> integritas terlihat ketika standar yang kita gunakan kepada orang yang kita sukai tetap sama ketika diterapkan kepada orang yang tidak kita sukai.</p><p><b>Batas:</b> adil tidak berarti menganggap benar dan salah sama, menghapus konsekuensi, atau membiarkan pelanggaran. Keadilan justru dapat menuntut koreksi, sanksi yang sah, perlindungan korban, dan penghentian kezaliman—tetapi semuanya harus berdasarkan ukuran yang benar, bukan dendam.</p></section>
+          <section class="card secondary"><h3>🌍 Konteks Faktual</h3><p>Prinsip ini sangat relevan dalam keluarga, tempat kerja, organisasi, ekonomi, penegakan aturan, dan pemerintahan. Konflik kepentingan, kedekatan pribadi, rivalitas, atau sentimen kelompok dapat mengganggu penilaian. Karena itu prosedur, bukti, dokumentasi, hak jawab, pemisahan kewenangan, dan standar yang konsisten membantu manusia menjaga keputusan dari bias pribadi.</p><p><b>Pelajaran/analogi:</b> sistem yang baik membantu kita tetap adil ketika emosi sedang tidak netral. Ini adalah penerapan prinsip, bukan klaim bahwa ayat menunjuk sistem administrasi modern tertentu.</p><p><b>Prediksi:</b> tidak ada peristiwa modern khusus yang diramalkan oleh ayat ini.</p></section>
+          <section class="card secondary"><h3>🪞 Muhasabah</h3><p>Apakah standar saya berubah ketika kesalahan yang sama dilakukan oleh orang yang saya sukai dan orang yang tidak saya sukai?</p><p>Dalam satu konflik yang sedang saya hadapi, bagian mana yang merupakan fakta dan hak, dan bagian mana yang sebenarnya hanya dorongan untuk membalas?</p></section>
+          <section class="card call"><h3>💡 Hikmah Utama</h3><p><b>Keadilan yang paling jujur sering diuji bukan ketika kita netral, tetapi ketika hati punya alasan untuk memihak.</b></p></section>
+          <section class="card"><h3>✅ Amal Praktis Hari Ini</h3><p>Pilih satu penilaian atau keputusan yang melibatkan orang yang Anda sukai atau tidak sukai. Sebelum memutuskan, tulis tiga hal: <b>fakta yang terverifikasi</b>, <b>standar yang seharusnya berlaku untuk siapa pun</b>, dan <b>emosi pribadi yang perlu dipisahkan</b>. Lalu gunakan standar yang sama.</p></section>
+          <section class="card secondary"><h3>🔗 Hubungan dengan Perjalanan</h3><p><b>Rujukan silang:</b> Sesi 004 membahas An-Nisa 4:58 dan 4:135 tentang amanah serta keadilan, termasuk ketika kepentingan diri dan kerabat terlibat. Sesi 020 melanjutkannya dari sisi lain: <b>bagaimana tetap adil ketika yang muncul justru kebencian atau permusuhan</b>. Al-Ma'idah 5:8 adalah ayat baru dalam perjalanan ini.</p></section>
+          <div class="finish-reflection-wrap" data-lang="id" data-session="20"><p>Sudah selesai membaca dan merenungkan sesi ini? Tandai selesai agar status pada Journey/Home ikut diperbarui.</p><button class="complete-reflection-btn primary" type="button">✓ Tandai Selesai Tadabbur</button></div><div class="session-nav"><button onclick="showSession(19)">← Sesi 019</button><button onclick="showJourney()">☰ Daftar</button><span class="btn disabled">Sesi 021 →</span></div></article>'''.replace('\n          ','\n')
+
+          SESSION_EN = r'''<article class="en-session" data-lang="en" data-session-number="20" id="en-s20">
+          <div class="session-head"><small>SESSION 020 • AL-MA'IDAH 5:8 • THEMATIC/NON-LINEAR</small><h2>Remain Just Even toward Those You Dislike</h2><p>Justice is easiest when we like the person being judged. The harder test comes when there is hurt, conflict, disagreement, or dislike. The Qur'an commands us not to let hatred move us away from justice.</p></div>
+          <section class="feature card"><h3>🌙 Today's Key Verse</h3><div class="ayahbox"><div class="ayah">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ</div><div class="latin">Yā ayyuhallażīna āmanū kūnū qawwāmīna lillāhi syuhadā'a bil-qisṭi, wa lā yajrimannakum syana'ānu qawmin ‘alā allā ta‘dilū. I‘dilū huwa aqrabu lit-taqwā, wattaqullāh. Innallāha khabīrun bimā ta‘malūn.</div><div class="tr"><b>Al-Ma'idah 5:8 — M. Pickthall:</b> O ye who believe! Be steadfast witnesses for Allah in equity, and let not hatred of any people seduce you that ye deal not justly. Deal justly, that is nearer to your duty. Observe your duty to Allah. Lo! Allah is Informed of what ye do.</div></div><div class="en-note">English Qur'an translation reference: M. Pickthall (public-domain translation). Arabic text and transliteration are identical to the Indonesian edition. Transliteration is a reading aid and does not replace tajwid or talaqqi.</div><p>The verse does not ask us to erase moral judgment about wrongdoing. It demands something more disciplined: <b>dislike must not alter the standard of justice</b>.</p></section>
+          <section class="card"><h3>📚 Tafsir Notes</h3><details open><summary>Justice applies to friend and opponent alike</summary><p>In his tafsir of Al-Ma'idah 5:8, Ibn Kathir explains that hatred of a people must not cause a person to abandon justice. Justice is to be upheld with everyone, whether friend or enemy.</p></details><details><summary>Justice is nearer to taqwa</summary><p>The verse connects justice with taqwa. Justice is therefore not merely a legal or administrative technique; it is discipline of the heart before Allah. When emotion has a reason to take sides, taqwa keeps the measure from changing.</p></details></section>
+          <section class="card secondary"><h3>🤲 Authentic Hadith</h3><p>In <b>Sahih al-Bukhari 2444</b>, the Prophet ﷺ commanded Muslims to help a brother whether he is an oppressor or oppressed. When the Companions asked how an oppressor should be helped, he explained that the help is to <b>prevent him from oppressing others</b>. True loyalty does not mean validating the wrongdoing of someone we support.</p></section>
+          <section class="card"><h3>🧭 Fact • Lesson • Boundary</h3><p><b>Fact from revelation:</b> Al-Ma'idah 5:8 explicitly forbids hatred of a people from becoming a reason to abandon justice. Ibn Kathir emphasizes justice toward friend and opponent alike.</p><p><b>Lesson:</b> integrity becomes visible when the standard we use for people we like remains the same when applied to people we dislike.</p><p><b>Boundary:</b> justice does not mean treating right and wrong as equal, erasing consequences, or tolerating violations. Justice may require correction, lawful sanctions, protection of victims, and stopping oppression—but these must follow a sound standard rather than revenge.</p></section>
+          <section class="card secondary"><h3>🌍 Factual Context</h3><p>This principle is highly relevant in families, workplaces, organizations, economic dealings, rule enforcement, and government. Conflicts of interest, personal closeness, rivalry, and group sentiment can distort judgment. Procedures, evidence, documentation, a right of response, separation of authority, and consistent standards can help people protect decisions from personal bias.</p><p><b>Lesson/analogy:</b> good systems help us remain fair when our emotions are not neutral. This is an application of the principle, not a claim that the verse predicts a particular modern administrative system.</p><p><b>Prediction:</b> no specific modern event is predicted by this verse.</p></section>
+          <section class="card secondary"><h3>🪞 Reflection</h3><p>Does my standard change when the same mistake is made by someone I like and someone I dislike?</p><p>In one conflict I am facing, which parts are facts and rights, and which parts are simply the urge to retaliate?</p></section>
+          <section class="card call"><h3>💡 Main Wisdom</h3><p><b>The most honest test of justice often comes not when we are neutral, but when the heart has a reason to take sides.</b></p></section>
+          <section class="card"><h3>✅ Practical Action Today</h3><p>Choose one judgment or decision involving someone you like or dislike. Before deciding, write three things: <b>verified facts</b>, <b>the standard that should apply to anyone</b>, and <b>the personal emotion that must be separated</b>. Then apply the same standard.</p></section>
+          <section class="card secondary"><h3>🔗 Connection to the Journey</h3><p><b>Cross-reference:</b> Session 004 discussed An-Nisa 4:58 and 4:135 on trust and justice, including when self-interest and family are involved. Session 020 continues from the other side: <b>how to remain just when hatred or hostility is present</b>. Al-Ma'idah 5:8 is a new verse in this journey.</p></section>
+          <div class="finish-reflection-wrap" data-lang="en" data-session="20"><p>Finished reading and reflecting on this session? Mark it complete so the Journey/Home status stays in sync.</p><button class="complete-reflection-btn primary" type="button">✓ Mark Reflection Complete</button></div><div class="session-nav"><button onclick="showEnglishSession(19)">← Session 019</button><button onclick="showJourney()">☰ Journey</button><span class="btn disabled">Session 021 →</span></div></article>'''.replace('\n          ','\n')
+
+          ID_INDEX = '<div class="index-item" data-search="adil keadilan kebencian al-maidah 5 8 takwa saksi integritas bias konflik" onclick="showSession(20)"><b>020 — Tetap Adil Bahkan kepada yang Tidak Kita Sukai</b><br/><small>Al-Ma\'idah 8 • Keadilan, kebencian, takwa, integritas, bias</small></div>'
+          EN_INDEX = '<div class="index-item en-index-item" data-search="justice hatred al-maidah 5 8 taqwa witness integrity bias conflict" onclick="showEnglishSession(20)"><b>020 — Remain Just Even toward Those You Dislike</b><br/><small>Al-Ma\'idah 8 • Justice, hatred, taqwa, integrity, bias</small></div>'
+          MISSION = '{n:20,ti:"Tetap Adil Bahkan kepada yang Tidak Kita Sukai",te:"Remain Just Even toward Those You Dislike",id:"Sebelum satu keputusan hari ini, pisahkan fakta, standar yang berlaku untuk siapa pun, dan emosi pribadi; lalu gunakan standar yang sama.",en:"Before one decision today, separate verified facts, the standard that should apply to anyone, and personal emotion; then apply the same standard.",qi:"Keadilan paling jujur diuji ketika hati punya alasan untuk memihak.",qe:"Justice is tested most honestly when the heart has a reason to take sides."},'
+
+          def patch(path):
+              p=Path(path); text=p.read_text(encoding='utf-8')
+              if 'id="s20"' in text or 'id="en-s20"' in text:
+                  raise SystemExit(f'{path}: Session 020 already exists; refusing duplicate append')
+              # Technical counters only.
+              text=text.replace('Sesi 001–019 • Bilingual ID–EN','Sesi 001–020 • Bilingual ID–EN')
+              text=text.replace('19 dari target ±1.000 sesi • ±1,9%','20 dari target ±1.000 sesi • ±2,0%')
+              text=text.replace('19 of approximately 1,000 sessions • ~1.9%','20 of approximately 1,000 sessions • ~2.0%')
+              text=text.replace('width:1.6%;min-width:10px','width:2%;min-width:10px',1)
+              # Journey summary counters that were technically stale.
+              text=text.replace('<div class="stats"><div class="stat"><b>16</b>Sesi</div><div class="stat"><b>28</b>Ayat utama</div><div class="stat"><b>1,6%</b>Target</div></div>','<div class="stats"><div class="stat"><b>20</b>Sesi</div><div class="stat"><b>33</b>Ayat utama</div><div class="stat"><b>2,0%</b>Target</div></div>')
+              text=text.replace('<div class="stats"><div class="stat"><b>16</b>Sessions</div><div class="stat"><b>28</b>Key verses</div><div class="stat"><b>1.6%</b>Target</div></div>','<div class="stats"><div class="stat"><b>20</b>Sessions</div><div class="stat"><b>33</b>Key verses</div><div class="stat"><b>2.0%</b>Target</div></div>')
+              # Append Journey index entries immediately after 019.
+              m=re.search(r'(<div class="index-item"[^>]*onclick="showSession\(19\)".*?</div>)',text)
+              if not m: raise SystemExit(f'{path}: Indonesian index 019 anchor not found')
+              text=text[:m.end()]+"\n"+ID_INDEX+text[m.end():]
+              m=re.search(r'(<div class="index-item en-index-item"[^>]*onclick="showEnglishSession\(19\)".*?</div>)',text)
+              if not m: raise SystemExit(f'{path}: English index 019 anchor not found')
+              text=text[:m.end()]+"\n"+EN_INDEX+text[m.end():]
+              # Activate Session 019 -> 020 navigation (technical only).
+              text=text.replace('<span class="btn disabled">Sesi 020 →</span>','<button class="primary" onclick="showSession(20)">Sesi 020 →</button>',1)
+              text=text.replace('<span class="btn disabled">Session 020 →</span>','<button class="primary" onclick="showEnglishSession(20)">Session 020 →</button>',1)
+              # Append both bilingual articles before the footer; old session content is untouched.
+              footer='<footer>❖ Master Tadabbur Al-Qur\'an • Sesi 001–019 ❖'
+              if footer not in text: raise SystemExit(f'{path}: canonical footer anchor not found')
+              text=text.replace(footer,SESSION_ID+'\n'+SESSION_EN+'\n<footer>❖ Master Tadabbur Al-Qur\'an • Sesi 001–020 ❖',1)
+              # Mission/task entry.
+              mm=re.search(r'(const missionData\s*=\s*\[)(.*?)(\n\];)',text,re.S)
+              if not mm: raise SystemExit(f'{path}: missionData not found')
+              text=text[:mm.start(3)]+'\n'+MISSION+text[mm.start(3):]
+              # All TOTAL constants for access/progress become 20; entitlement logic itself is untouched.
+              text=text.replace('const TOTAL=19;','const TOTAL=20;')
+              # QC.
+              assert text.count('id="s20"')==1
+              assert text.count('id="en-s20"')==1
+              assert text.count('data-session-number="20"')==2
+              assert text.count('data-session="20"')==2
+              assert text.count('020 — Tetap Adil Bahkan kepada yang Tidak Kita Sukai')==1
+              assert text.count('020 — Remain Just Even toward Those You Dislike')==1
+              assert 'Sesi 001–020' in text
+              assert 'const TOTAL=20;' in text
+              credit='Thank to Allah SWT proudly made by Suiza Ixan Saputro bin Ngalimin x chatgpt'
+              assert text.count(credit)==1
+              assert text.find(credit) > text.find('id="en-s20"')
+              p.write_text(text,encoding='utf-8')
+
+          for f in ['index.html','owner/index.html']:
+              patch(f)
+          # OWNER and USER must carry the exact same newly published bilingual content.
+          u=Path('index.html').read_text(encoding='utf-8')
+          o=Path('owner/index.html').read_text(encoding='utf-8')
+          for sid in ['s20','en-s20']:
+              pat=rf'<article[^>]+id="{sid}".*?</article>'
+              a=re.search(pat,u,re.S); b=re.search(pat,o,re.S)
+              assert a and b and a.group(0)==b.group(0), f'{sid} not synchronized'
+      - name: Commit OWNER and USER together
+        run: |
+          git config user.name "wiztechid-tadabbur-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html owner/index.html
+          git diff --cached --check
+          git commit -m "Tadabbur: publish bilingual session 020"
+          git push
