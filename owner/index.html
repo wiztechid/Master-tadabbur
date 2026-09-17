@@ -2035,7 +2035,7 @@ window.addEventListener('load',()=>{
 
 /* Wrap navigation functions so opening from any route updates the same reading state used by Home/Journey. */
 (function(){
-  const idShow=window.showSession, enShow=window.showEnglishSession, journey=window.showJourney;
+  const idShow=window.showSession, enShow=window.showEnglishSession, journey=window.showJourney || window.showHome;
   window.showSession=function(n){if(window.isTadabburUnlocked&&!window.isTadabburUnlocked(n)){alert('Sesi Tadabbur ini masih terkunci.');return}idShow(n);if(window.markReflectionInProgress)window.markReflectionInProgress(n);localStorage.setItem('tadabburLastView','session')};
   window.showEnglishSession=function(n){if(window.isTadabburUnlocked&&!window.isTadabburUnlocked(n)){alert('This Reflection Session is still locked.');return}enShow(n);if(window.markReflectionInProgress)window.markReflectionInProgress(n);localStorage.setItem('tadabburLastView','session')};
   window.showJourney=function(){journey();if(window.renderJourneyProgress)window.renderJourneyProgress();localStorage.setItem('tadabburLastView','journey')};
