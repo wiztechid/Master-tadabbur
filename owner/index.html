@@ -2033,13 +2033,36 @@ window.addEventListener('load',()=>{
   document.addEventListener('DOMContentLoaded',render);setTimeout(render,250);addEventListener('storage',render);
 })();
 
-/* Wrap navigation functions so opening from any route updates the same reading state used by Home/Journey. */
-(function(){
-  const idShow=window.showSession, enShow=window.showEnglishSession, journey=window.showJourney || window.showHome;
-  window.showSession=function(n){if(window.isTadabburUnlocked&&!window.isTadabburUnlocked(n)){alert('Sesi Tadabbur ini masih terkunci.');return}idShow(n);if(window.markReflectionInProgress)window.markReflectionInProgress(n);localStorage.setItem('tadabburLastView','session')};
-  window.showEnglishSession=function(n){if(window.isTadabburUnlocked&&!window.isTadabburUnlocked(n)){alert('This Reflection Session is still locked.');return}enShow(n);if(window.markReflectionInProgress)window.markReflectionInProgress(n);localStorage.setItem('tadabburLastView','session')};
-  window.showJourney=function(){journey();if(window.renderJourneyProgress)window.renderJourneyProgress();localStorage.setItem('tadabburLastView','journey')};
-  window.showHome=window.showJourney;
-  window.continueTadabbur=function(){const n=window.nextReadableSession?window.nextReadableSession():parseInt(localStorage.getItem('tadabburLast')||'1',10);const lang=localStorage.getItem('tadabburLang')||'id';lang==='en'?window.showEnglishSession(n):window.showSession(n)};
-})();
+/* OWNER navigation: direct, self-contained, and independent of public unlock/progress gates. */
+window.showSession=function(n){
+  localStorage.setItem('tadabburLang','id');
+  updateLanguageUI('id');
+  hideMissionViews();
+  hideAllViews();
+  const el=document.getElementById('s'+n);
+  if(el){el.classList.add('active');lastRead=n;localStorage.setItem('tadabburLast',n);localStorage.setItem('tadabburLastView','session');window.scrollTo({top:0,behavior:'smooth'});}
+};
+window.showEnglishSession=function(n){
+  localStorage.setItem('tadabburLang','en');
+  updateLanguageUI('en');
+  hideMissionViews();
+  hideAllViews();
+  const el=document.getElementById('en-s'+n);
+  if(el){el.classList.add('active');lastRead=n;localStorage.setItem('tadabburLast',n);localStorage.setItem('tadabburLastView','session');window.scrollTo({top:0,behavior:'smooth'});}
+};
+window.showJourney=function(){
+  hideMissionViews();
+  hideAllViews();
+  const lang=localStorage.getItem('tadabburLang')||'id';
+  const h=document.getElementById(lang==='en'?'home-en':'home');
+  if(h){h.style.display='block';h.classList.add('is-visible');}
+  localStorage.setItem('tadabburLastView','journey');
+  if(window.renderJourneyProgress)window.renderJourneyProgress();
+  window.scrollTo({top:0,behavior:'smooth'});
+};
+window.showHome=window.showJourney;
+window.continueTadabbur=function(){
+  const n=Math.max(1,Math.min(TOTAL,parseInt(localStorage.getItem('tadabburLast')||'1',10)||1));
+  (localStorage.getItem('tadabburLang')==='en'?window.showEnglishSession:window.showSession)(n);
+};
 </script></body></html>
