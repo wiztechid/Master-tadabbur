@@ -15,19 +15,20 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          import traceback
           src=Path('.github/workflows/append-session-021.yml').read_text(encoding='utf-8')
           a=src.index("          python3 - <<'PY'")+len("          python3 - <<'PY'\n")
           b=src.index("\n          PY",a)
           lines=src[a:b].splitlines()
           code='\n'.join((line[10:] if line.startswith('          ') else line) for line in lines)
-          try:
-              exec(compile(code,'append-session-021-payload','exec'))
-          except Exception as e:
-              tb=e.__traceback__
-              while tb.tb_next: tb=tb.tb_next
-              print('FAILED LOCALS:', {k:v for k,v in tb.tb_frame.f_locals.items() if k in ('path','marker','m')})
-              raise
+          old="""    marker='</div>\\n<footer>'
+    assert marker in s
+    s=s.replace(marker,ID_SESSION+EN_SESSION+'</div>\\n<footer>',1)"""
+          new="""    marker='</div>\\n<footer>' if '</div>\\n<footer>' in s else '<footer>'
+    replacement=ID_SESSION+EN_SESSION+'</div>\\n<footer>' if marker.startswith('</div>') else ID_SESSION+EN_SESSION+'<footer>'
+    s=s.replace(marker,replacement,1)"""
+          assert old in code
+          code=code.replace(old,new)
+          exec(compile(code,'append-session-021-payload','exec'))
           PY
       - name: QC and publish
         shell: bash
