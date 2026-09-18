@@ -1602,6 +1602,14 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 const TOTAL=23;
 const K_LANG='ownerTadabburLang',K_LAST='ownerTadabburLast',K_VIEW='ownerTadabburLastView';
 const rKey=n=>'ownerTadabburReading_'+n,pKey=n=>'ownerTadabburReadPercent_'+n;
+/* OWNER progress remains permanently namespaced away from USER progress. */
+const K_OWNER_PROGRESS_SCHEMA='ownerTadabburProgressSchema',OWNER_PROGRESS_SCHEMA='stable-v1';
+function preserveOwnerProgress(){
+ if(!localStorage.getItem(K_OWNER_PROGRESS_SCHEMA))localStorage.setItem(K_OWNER_PROGRESS_SCHEMA,OWNER_PROGRESS_SCHEMA);
+ let highest=0;
+ for(let n=1;n<=TOTAL;n++){const st=localStorage.getItem(rKey(n)),pct=parseInt(localStorage.getItem(pKey(n))||'0',10)||0;if(st==='done'||st==='progress'||pct>0)highest=n}
+ const last=parseInt(localStorage.getItem(K_LAST)||'0',10)||0;if(!last&&highest)localStorage.setItem(K_LAST,String(highest));
+}
 function lang(){return localStorage.getItem(K_LANG)==='en'?'en':'id'}
 function hideViews(){document.querySelectorAll('.session,.en-session').forEach(x=>x.classList.remove('active'));['home','home-en'].forEach(id=>{const h=document.getElementById(id);if(h){h.style.display='none';h.classList.remove('is-visible')}});document.querySelectorAll('.mission-view').forEach(x=>x.remove())}
 function ui(l){
@@ -1636,7 +1644,7 @@ window.filterSessions=function(){const q=(document.getElementById('search')?.val
 window.filterEnglishSessions=function(){const q=(document.getElementById('search-en')?.value||'').toLowerCase();document.querySelectorAll('#home-en .index-item').forEach(x=>x.style.display=(x.dataset.search||'').toLowerCase().includes(q)?'block':'none')};
 window.showMissions=function(){const n=Math.max(1,Math.min(TOTAL,parseInt(localStorage.getItem(K_LAST)||'1',10)||1));openSession(n,lang());setTimeout(()=>{const a=document.querySelector((lang()==='en'?'#en-s':'#s')+n),t=a?.querySelector('.call,.finish-reflection-wrap');if(t)t.scrollIntoView({behavior:'smooth',block:'center'})},80)};
 function render(){[['home','id'],['home-en','en']].forEach(([id,l])=>{const h=document.getElementById(id);if(!h)return;[...h.querySelectorAll('.index-item')].slice(0,TOTAL).forEach((card,i)=>{const n=i+1,st=localStorage.getItem(rKey(n))||'unread';card.classList.remove('state-locked','state-unread','state-progress','state-done');card.classList.add('state-'+st);let b=card.querySelector('.journey-state-badge');if(!b){b=document.createElement('span');card.appendChild(b)}b.className='journey-state-badge '+st;b.textContent=st==='done'?'✓ '+(l==='en'?'Completed':'Selesai'):st==='progress'?'◐ '+(l==='en'?'Continue':'Dilanjutkan'):'○ '+(l==='en'?'Unread':'Belum dibaca')})});for(let n=1;n<=TOTAL;n++)[['s','id'],['en-s','en']].forEach(([pre,l])=>{const a=document.getElementById(pre+n),b=a?.querySelector('.complete-reflection-btn');if(!b)return;const done=localStorage.getItem(rKey(n))==='done';b.disabled=false;b.classList.toggle('done',done);b.textContent=done?(l==='en'?'✓ Reading Completed':'✓ Sudah Selesai Dibaca'):(l==='en'?'✓ Mark Reflection Complete':'✓ Tandai Selesai Tadabbur');b.onclick=()=>{localStorage.setItem(rKey(n),'done');localStorage.setItem(pKey(n),'100');render()}})}
-document.addEventListener('DOMContentLoaded',()=>{ui(lang());document.getElementById('search')?.addEventListener('input',window.filterSessions);document.getElementById('search-en')?.addEventListener('input',window.filterEnglishSessions);render();if(localStorage.getItem(K_VIEW)==='session')window.continueTadabbur();else window.showJourney()});
+document.addEventListener('DOMContentLoaded',()=>{preserveOwnerProgress();ui(lang());document.getElementById('search')?.addEventListener('input',window.filterSessions);document.getElementById('search-en')?.addEventListener('input',window.filterEnglishSessions);render();if(localStorage.getItem(K_VIEW)==='session')window.continueTadabbur();else window.showJourney()});
 })();
 </script><canvas aria-label="Reflection card image 1:1" height="1080" id="share-canvas" width="1080"></canvas>
 </body></html>
