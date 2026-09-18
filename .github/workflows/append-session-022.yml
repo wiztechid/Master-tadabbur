@@ -1,0 +1,24 @@
+name: Append Tadabbur Session 022
+on:
+  push:
+    paths:
+      - '.github/workflows/append-session-022.yml'
+permissions:
+  contents: write
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append and QC session 022
+        run: python tools/append_s22.py
+      - name: Commit synchronized masters
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html owner/index.html
+          git diff --cached --check
+          git commit -m "Publish Tadabbur session 022 bilingual"
+          git push
