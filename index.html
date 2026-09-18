@@ -1603,7 +1603,20 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 const TOTAL=23;
 const K_START='tadabburJourneyStartDate',K_REWARD='tadabburRewardUnlockCount',K_MASTER='tadabburMasterAccess',K_FILTER='tadabburJourneyFilter',K_LANG='tadabburLang',K_LAST='tadabburLast',K_VIEW='tadabburLastView';
 const rKey=n=>'tadabburReading_'+n,pKey=n=>'tadabburReadPercent_'+n;
-function ensureStart(){if(!localStorage.getItem(K_START))localStorage.setItem(K_START,new Date().toISOString().slice(0,10))}
+/* Persistent USER progress schema. Never version these keys per release. */
+const K_PROGRESS_SCHEMA='tadabburUserProgressSchema',PROGRESS_SCHEMA='stable-v1';
+function preserveUserProgress(){
+  /* Migration is additive only: never clears or rewrites existing reading progress. */
+  if(!localStorage.getItem(K_PROGRESS_SCHEMA))localStorage.setItem(K_PROGRESS_SCHEMA,PROGRESS_SCHEMA);
+  let highest=0;
+  for(let n=1;n<=TOTAL;n++){
+    const st=localStorage.getItem(rKey(n)),pct=parseInt(localStorage.getItem(pKey(n))||'0',10)||0;
+    if(st==='done'||st==='progress'||pct>0)highest=n;
+  }
+  const last=parseInt(localStorage.getItem(K_LAST)||'0',10)||0;
+  if(!last&&highest)localStorage.setItem(K_LAST,String(highest));
+}
+function ensureStart(){preserveUserProgress();if(!localStorage.getItem(K_START))localStorage.setItem(K_START,new Date().toISOString().slice(0,10))}
 function elapsed(){ensureStart();const s=new Date(localStorage.getItem(K_START)+'T00:00:00'),d=new Date();return Math.max(0,Math.floor((new Date(d.getFullYear(),d.getMonth(),d.getDate())-s)/86400000))}
 function unlockedCount(){if(localStorage.getItem(K_MASTER)==='true')return TOTAL;const reward=parseInt(localStorage.getItem(K_REWARD)||'0',10)||0;return Math.min(TOTAL,1+elapsed()+reward)}
 function isUnlocked(n){return n>=1&&n<=unlockedCount()} window.isTadabburUnlocked=isUnlocked;
