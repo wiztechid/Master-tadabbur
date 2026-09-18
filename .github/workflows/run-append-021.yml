@@ -20,12 +20,9 @@ jobs:
           b=src.index("\n          PY",a)
           lines=src[a:b].splitlines()
           code='\n'.join((line[10:] if line.startswith('          ') else line) for line in lines)
-          old="""    marker='</div>\\n<footer>'
-    assert marker in s
-    s=s.replace(marker,ID_SESSION+EN_SESSION+'</div>\\n<footer>',1)"""
-          new="""    marker='</div>\\n<footer>' if '</div>\\n<footer>' in s else '<footer>'
-    replacement=ID_SESSION+EN_SESSION+'</div>\\n<footer>' if marker.startswith('</div>') else ID_SESSION+EN_SESSION+'<footer>'
-    s=s.replace(marker,replacement,1)"""
+          nl=chr(10)
+          old="    marker='</div>\\n<footer>'"+nl+"    assert marker in s"+nl+"    s=s.replace(marker,ID_SESSION+EN_SESSION+'</div>\\n<footer>',1)"
+          new="    marker='</div>\\n<footer>' if '</div>\\n<footer>' in s else '<footer>'"+nl+"    replacement=ID_SESSION+EN_SESSION+'</div>\\n<footer>' if marker.startswith('</div>') else ID_SESSION+EN_SESSION+'<footer>'"+nl+"    s=s.replace(marker,replacement,1)"
           assert old in code
           code=code.replace(old,new)
           exec(compile(code,'append-session-021-payload','exec'))
