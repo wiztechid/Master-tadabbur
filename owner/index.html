@@ -9,7 +9,7 @@
 <style>
 :root{--e:#075b45;--e2:#0d7a5b;--d:#063d30;--g:#d4a72c;--paper:#fffef9;--ink:#16352c;--muted:#64766f;--line:#dce8e1}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#edf8f2,#fffaf2 45%,#f5fbf7);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif}
-.wrap{max-width:980px;margin:auto;padding:16px}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--d),var(--e2));color:white;border-radius:28px;padding:34px 28px;box-shadow:0 18px 45px #0645322b}.hero:after{content:"✦";position:absolute;right:-20px;top:-35px;color:#e6c86d2b;font-size:190px}.k{color:#f2d87e;font-weight:800;letter-spacing:.12em;font-size:.8rem}h1{font-size:clamp(2rem,6vw,3.3rem);line-height:1.08;margin:.3rem 0}.hero p{color:#e8f4ef;max-width:740px}.progress{height:12px;background:#d9e8e0;border-radius:99px;overflow:hidden;margin-top:15px}.progress span{display:block;width:2%;min-width:10px;height:100%;background:linear-gradient(90deg,var(--g),#f0d36f)}
+.wrap{max-width:980px;margin:auto;padding:16px}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--d),var(--e2));color:white;border-radius:28px;padding:34px 28px;box-shadow:0 18px 45px #0645322b}.hero:after{content:"✦";position:absolute;right:-20px;top:-35px;color:#e6c86d2b;font-size:190px}.k{color:#f2d87e;font-weight:800;letter-spacing:.12em;font-size:.8rem}h1{font-size:clamp(2rem,6vw,3.3rem);line-height:1.08;margin:.3rem 0}.hero p{color:#e8f4ef;max-width:740px}.progress{height:12px;background:#d9e8e0;border-radius:99px;overflow:hidden;margin-top:15px}.progress span{display:block;width:2.3%;min-width:10px;height:100%;background:linear-gradient(90deg,var(--g),#f0d36f)}
 .toolbar{position:sticky;top:7px;z-index:10;display:flex;gap:7px;flex-wrap:wrap;background:#ffffffed;backdrop-filter:blur(9px);border:1px solid var(--line);padding:9px;border-radius:18px;margin:14px 0;box-shadow:0 6px 20px #0001}
 button,.btn{border:0;border-radius:999px;padding:9px 13px;font-weight:750;cursor:pointer;text-decoration:none;background:#fff;color:var(--d);border:1px solid var(--line)}button.primary,.btn.primary{background:var(--g);color:#2c260e}.disabled{opacity:.42;pointer-events:none}
 .dashboard,.card{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:22px;margin:15px 0;box-shadow:0 8px 24px #0b4c3810}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{text-align:center;background:#eef8f2;border-radius:15px;padding:12px}.stat b{display:block;font-size:1.35rem;color:var(--e)}
@@ -446,7 +446,7 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 @media(max-width:650px){.finish-reflection-wrap{padding:15px}.complete-reflection-btn{width:100%;min-width:0}}
 </style></head>
 <body id="top"><div class="wrap">
-<header class="hero"><div class="k" id="hero-kicker">✦ PERJALANAN TADABBUR AL-QUR'AN ✦</div><h1>Master Tadabbur</h1><p id="hero-subtitle">Satu perjalanan yang saling terhubung • baca, pahami, renungkan, lalu bawa ayat ke dalam kehidupan.</p><div class="progress"><span></span></div><small id="hero-progress-text">22 dari target ±1.000 sesi • ±2,2%</small></header>
+<header class="hero"><div class="k" id="hero-kicker">✦ PERJALANAN TADABBUR AL-QUR'AN ✦</div><h1>Master Tadabbur</h1><p id="hero-subtitle">Satu perjalanan yang saling terhubung • baca, pahami, renungkan, lalu bawa ayat ke dalam kehidupan.</p><div class="progress"><span></span></div><small id="hero-progress-text">23 dari target ±1.000 sesi • ±2,3%</small></header>
 <div class="toolbar">
 <button class="primary" id="continue-btn" onclick="continueTadabbur()">▶ Lanjutkan / Continue</button>
 <div aria-label="Pilihan bahasa / Language" class="lang-inline">
@@ -464,7 +464,7 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 <p style="margin:7px 0 0">Pilih versi bacaan: <button onclick="setLanguage('id')">🇮🇩 Indonesia</button> <button onclick="setLanguage('en')">🇬🇧 English</button></p>
 </div>
 <h2>📖 Daftar Perjalanan</h2>
-<div class="stats"><div class="stat"><b>22</b>Sesi</div><div class="stat"><b>37</b>Ayat utama</div><div class="stat"><b>2,2%</b>Target</div></div>
+<div class="stats"><div class="stat"><b>23</b>Sesi</div><div class="stat"><b>38</b>Ayat utama</div><div class="stat"><b>2,3%</b>Target</div></div>
 <p><input class="search" id="search" oninput="filterSessions()" placeholder="Cari tema, surah, atau ayat…"/></p>
 <div id="index">
 <div class="index-item" data-search="jalan seorang hamba al-fatihah 1 7 tauhid hidayah ibadah" onclick="showSession(1)"><b>001 — Jalan Seorang Hamba</b><br/><small>Al-Fatihah 1–7 • Tauhid, penghambaan, pertolongan, hidayah</small></div>
@@ -501,7 +501,7 @@ body.lang-en .en-session .card,body:not(.lang-en) .session .card{transition:box-
 </p>
 </div>
 <h2>📖 Tadabbur Journey</h2>
-<div class="stats"><div class="stat"><b>22</b>Sessions</div><div class="stat"><b>37</b>Key verses</div><div class="stat"><b>2.2%</b>Target</div></div>
+<div class="stats"><div class="stat"><b>23</b>Sessions</div><div class="stat"><b>38</b>Key verses</div><div class="stat"><b>2.3%</b>Target</div></div>
 <p><input class="search" id="search-en" oninput="filterEnglishSessions()" placeholder="Search theme, surah, or verse…"/></p>
 <div id="index-en">
 <div class="index-item en-index-item" data-search="path servant al-fatihah 1 7 tawhid guidance worship help" onclick="showEnglishSession(1)"><b>001 — The Path of a Servant</b><br/><small>Al-Fatihah 1–7 • Tawhid, worship, help, guidance</small></div>
@@ -1604,7 +1604,26 @@ const K_LANG='ownerTadabburLang',K_LAST='ownerTadabburLast',K_VIEW='ownerTadabbu
 const rKey=n=>'ownerTadabburReading_'+n,pKey=n=>'ownerTadabburReadPercent_'+n;
 function lang(){return localStorage.getItem(K_LANG)==='en'?'en':'id'}
 function hideViews(){document.querySelectorAll('.session,.en-session').forEach(x=>x.classList.remove('active'));['home','home-en'].forEach(id=>{const h=document.getElementById(id);if(h){h.style.display='none';h.classList.remove('is-visible')}});document.querySelectorAll('.mission-view').forEach(x=>x.remove())}
-function ui(l){document.body.classList.toggle('lang-en',l==='en');document.documentElement.lang=l;document.querySelectorAll('#btn-id').forEach(x=>x.classList.toggle('active',l==='id'));document.querySelectorAll('#btn-en').forEach(x=>x.classList.toggle('active',l==='en'))}
+function ui(l){
+ l=l==='en'?'en':'id';
+ document.body.classList.toggle('lang-en',l==='en');document.documentElement.lang=l;
+ document.querySelectorAll('#btn-id').forEach(x=>x.classList.toggle('active',l==='id'));
+ document.querySelectorAll('#btn-en').forEach(x=>x.classList.toggle('active',l==='en'));
+ const T=l==='en'?{
+  kicker:"✦ QUR'AN TADABBUR JOURNEY ✦",
+  subtitle:"One connected journey • read, understand, reflect, then bring the verses into life.",
+  progress:"23 of a target ±1,000 sessions • ±2.3%",
+  cont:"▶ Continue",journey:"☰ Journey",missions:"🌱 Mission / Task",focus:"◉ Focus Mode",open:"Open All"
+ }:{
+  kicker:"✦ PERJALANAN TADABBUR AL-QUR'AN ✦",
+  subtitle:"Satu perjalanan yang saling terhubung • baca, pahami, renungkan, lalu bawa ayat ke dalam kehidupan.",
+  progress:"23 dari target ±1.000 sesi • ±2,3%",
+  cont:"▶ Lanjutkan",journey:"☰ Daftar",missions:"🌱 Misi / Tugas",focus:"◉ Mode Fokus",open:"Buka Semua"
+ };
+ const set=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+ set('hero-kicker',T.kicker);set('hero-subtitle',T.subtitle);set('hero-progress-text',T.progress);
+ set('continue-btn',T.cont);set('journey-btn',T.journey);set('missions-btn',T.missions);set('focus-btn',T.focus);set('openall-btn',T.open);
+}
 function openSession(n,l){n=Number(n);if(!Number.isInteger(n)||n<1||n>TOTAL)return;l=l==='en'?'en':'id';localStorage.setItem(K_LANG,l);ui(l);hideViews();const el=document.getElementById((l==='en'?'en-s':'s')+n);if(!el)return;el.classList.add('active');localStorage.setItem(K_LAST,String(n));localStorage.setItem(K_VIEW,'session');if(localStorage.getItem(rKey(n))!=='done'){localStorage.setItem(rKey(n),'progress');localStorage.setItem(pKey(n),'5')}render();window.scrollTo({top:0,behavior:'smooth'})}
 window.showSession=n=>openSession(n,'id');
 window.showEnglishSession=n=>openSession(n,'en');
