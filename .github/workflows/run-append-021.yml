@@ -1,0 +1,52 @@
+name: Run Tadabbur Append 021
+on:
+  push:
+    paths:
+      - '.github/workflows/run-append-021.yml'
+permissions:
+  contents: write
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute append payload
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          src=Path('.github/workflows/append-session-021.yml').read_text(encoding='utf-8')
+          a=src.index("          python3 - <<'PY'")+len("          python3 - <<'PY'\n")
+          b=src.index("\n          PY",a)
+          lines=src[a:b].splitlines()
+          code='\n'.join((line[10:] if line.startswith('          ') else line) for line in lines)
+          exec(compile(code,'append-session-021-payload','exec'))
+          PY
+      - name: QC and publish
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          for f in ['index.html','owner/index.html']:
+              s=Path(f).read_text(encoding='utf-8')
+              ids=re.findall(r'\bid="([^"]+)"',s)
+              assert len(ids)==len(set(ids)), f'duplicate IDs in {f}'
+              assert len(re.findall(r'<article class="session"',s))==21
+              assert len(re.findall(r'<article class="en-session"',s))==21
+              assert s.count('id="s21"')==1 and s.count('id="en-s21"')==1
+              assert s.index('id="s21"') < s.index('<footer>')
+              assert s.index('id="en-s21"') < s.index('<footer>')
+              assert 'const TOTAL=21;' in s
+              assert 'Thank to Allah SWT proudly made by Suiza Ixan Saputro bin Ngalimin x chatgpt' in s
+          pub=Path('index.html').read_text(encoding='utf-8')
+          own=Path('owner/index.html').read_text(encoding='utf-8')
+          assert "K_START='tadabburJourneyStartDate'" in pub and 'function unlockedCount()' in pub
+          assert 'ownerTadabbur' in own and 'public-clean-runtime-v1' not in own
+          PY
+          rm -f .github/workflows/run-append-021.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html owner/index.html .github/workflows/append-session-021.yml .github/workflows/run-append-021.yml
+          git commit -m 'Publish Tadabbur session 021 bilingual'
+          git push
