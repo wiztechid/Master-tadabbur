@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Append and QC session 022
-        run: python tools/append_s22.py
+        run: python tools/append_s22_v2.py
       - name: Commit synchronized masters
         run: |
           git config user.name "github-actions[bot]"
