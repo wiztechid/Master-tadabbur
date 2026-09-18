@@ -1,0 +1,93 @@
+name: Append Tadabbur Session 022
+on:
+  push:
+    paths:
+      - '.github/workflows/append-session-022.yml'
+permissions:
+  contents: write
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Append session 022 to USER and OWNER
+        shell: python
+        run: |
+          import re, pathlib, sys
+
+          ID = '''<article class="session" data-lang="id" data-session-number="22" id="s22">
+          <div class="session-head"><small>SESI 022 • AL-BAQARAH 2:188 • TEMATIK/NON-LINEAR</small><h2>Jangan Menang dengan Cara yang Batil</h2><p>Tidak semua kemenangan di atas kertas berarti benar di sisi Allah. Seseorang dapat memiliki argumen yang lebih rapi, akses yang lebih kuat, atau keputusan formal yang menguntungkannya—namun jika ia mengetahui bahwa hak itu bukan miliknya, hasil tersebut tidak mengubah yang batil menjadi halal.</p></div>
+          <section class="feature card"><h3>🌙 Ayat Utama Hari Ini</h3><div class="ayahbox"><div class="ayah">وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَـٰطِلِ وَتُدْلُوا۟ بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًۭا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ</div><div class="latin">Wa lā ta’kulū amwālakum bainakum bil-bāṭili wa tudlū bihā ilal-ḥukkāmi li-ta’kulū farīqam min amwālin-nāsi bil-iṡmi wa antum ta‘lamūn.</div><div class="tr"><b>Al-Baqarah 2:188 — Makna ringkas:</b> Jangan memakan harta sesama dengan cara yang batil dan jangan membawa harta atau perkara itu kepada para penguasa atau hakim agar dengan sengaja dapat mengambil sebagian harta orang lain secara berdosa.</div></div><p>Ayat ini menghubungkan dua lapis integritas: <b>cara memperoleh harta harus benar, dan proses hukum atau kekuasaan tidak boleh dipakai untuk melegitimasi pengambilan hak orang lain yang kita sendiri tahu tidak benar.</b></p></section>
+          <section class="card"><h3>📚 Tafsir Mu‘tabar</h3><details open><summary>Putusan formal tidak mengubah hakikat yang diketahui pelakunya</summary><p>Ibn Kathir menjelaskan Al-Baqarah 2:188 dengan contoh orang yang mengetahui bahwa suatu harta bukan haknya, tetapi membawa perkara kepada penguasa atau hakim untuk memperoleh keputusan yang menguntungkannya. Putusan berdasarkan bukti yang tampak tidak menjadikan yang haram sebagai halal bagi orang yang mengetahui kenyataan sebenarnya.</p></details><details><summary>Larangan memakan harta dengan cara batil</summary><p>Al-Tabari menjelaskan larangan mengambil harta orang lain melalui cara yang tidak dibenarkan. Penyebutan para hakim menegaskan bahwa proses penyelesaian sengketa pun tidak boleh dijadikan jalan untuk mengambil hak orang lain dengan dosa dan pengetahuan.</p></details><details><summary>Konteksnya harta; pelajarannya menyentuh integritas proses</summary><p>Konteks langsung ayat adalah harta dan sengketa hak. Pelajaran yang dapat ditarik ialah bahwa prosedur yang sah secara lahir tidak boleh sengaja dimanipulasi untuk menghasilkan keuntungan yang diketahui tidak benar. Ini adalah penerapan prinsip ayat, bukan perluasan hukum tanpa batas.</p></details></section>
+          <section class="card secondary"><h3>🤲 Hadis Sahih</h3><p>Dalam <b>Sahih al-Bukhari 2680</b>, Umm Salamah meriwayatkan bahwa Rasulullah ﷺ mengingatkan para pihak yang bersengketa: sebagian orang mungkin lebih fasih menyampaikan argumennya sehingga beliau memutus berdasarkan apa yang terdengar. Jika dengan itu seseorang memperoleh sesuatu yang sebenarnya merupakan hak saudaranya, ia tidak boleh mengambilnya; Nabi ﷺ menggambarkannya sebagai <b>sepotong api</b>.</p><p>Hadis ini memperjelas batas penting: <b>kemampuan memenangkan perkara tidak sama dengan kebenaran hakikat perkara.</b></p></section>
+          <section class="card secondary"><h3>🌍 Konteks Faktual</h3><p><b>Fakta dari nash:</b> Al-Baqarah 2:188 melarang pengambilan harta secara batil dan penggunaan proses di hadapan penguasa atau hakim untuk mengambil harta orang lain secara berdosa dengan sengaja. Hadis sahih menegaskan bahwa keputusan yang keliru karena argumen yang lebih meyakinkan tidak menghalalkan hak orang lain.</p><p><b>Pelajaran/analogi:</b> prinsip ini relevan bagi kontrak, sengketa, bisnis, pengadaan, administrasi, dan pemerintahan. Dokumen, prosedur, kewenangan, atau celah aturan tidak boleh sengaja dipakai untuk menciptakan hasil yang kita ketahui merampas hak pihak lain.</p><p><b>Batas:</b> ayat ini bukan alasan untuk mengabaikan lembaga hukum atau menuduh setiap putusan yang tidak kita sukai sebagai batil. Penilaian perkara modern tetap memerlukan fakta, bukti, kewenangan, aturan, dan proses yang berlaku. Ayat ini juga bukan ramalan atas kasus politik atau hukum tertentu.</p></section>
+          <section class="card secondary"><h3>🪞 Muhasabah</h3><p>Apakah saya pernah merasa suatu keuntungan menjadi benar hanya karena ada dokumen, persetujuan, atau keputusan yang mendukung saya—padahal saya mengetahui ada hak orang lain yang terambil?</p><p>Ketika berada dalam posisi yang lebih kuat, apakah saya mencari kebenaran atau hanya mencari cara agar posisi saya menang?</p></section>
+          <section class="card call"><h3>💡 Hikmah Utama</h3><p><b>Integritas bukan sekadar mampu memenangkan proses; integritas adalah menolak keuntungan yang kita tahu bukan hak kita, bahkan ketika proses memungkinkan kita mendapatkannya.</b></p></section>
+          <section class="card"><h3>✅ Amal Praktis Hari Ini</h3><p>Periksa satu urusan yang menyangkut uang, hak, dokumen, keputusan, atau pembagian manfaat. Tanyakan: <b>“Jika seluruh fakta diketahui semua pihak, apakah saya masih merasa hasil ini adil?”</b> Jika ada hak yang belum jelas, jangan manfaatkan ketidakjelasan itu; klarifikasi sebelum mengambil manfaat.</p></section>
+          <section class="card secondary"><h3>🔗 Hubungan dengan Perjalanan</h3><p><b>Sesi 021</b> membahas kecurangan ketika seseorang mengurangi ukuran hak orang lain. <b>Sesi 022</b> bergerak ke lapisan berikutnya: jangan memakai proses, argumen, atau kewenangan untuk membuat pengambilan hak yang batil tampak sah. Al-Baqarah 2:188 adalah ayat baru dalam perjalanan ini.</p></section>
+          <div class="finish-reflection-wrap" data-lang="id" data-session="22"><p>Sudah selesai membaca dan merenungkan sesi ini? Tandai selesai agar status pada Journey/Home ikut diperbarui.</p><button class="complete-reflection-btn primary" type="button">✓ Tandai Selesai Tadabbur</button></div><div class="session-nav"><button onclick="showSession(21)">← Sesi 021</button><button onclick="showJourney()">☰ Daftar</button><span class="btn disabled">Sesi 023 →</span></div></article>'''
+
+          EN = '''<article class="en-session" data-lang="en" data-session-number="22" id="en-s22">
+          <div class="session-head"><small>SESSION 022 • AL-BAQARAH 2:188 • THEMATIC/NON-LINEAR</small><h2>Do Not Win by Wrongful Means</h2><p>Not every victory on paper is right before Allah. A person may have a more polished argument, stronger access, or a formal decision in his favor—yet if he knows the right is not his, that outcome does not turn falsehood into something lawful.</p></div>
+          <section class="feature card"><h3>🌙 Today's Key Verse</h3><div class="ayahbox"><div class="ayah">وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَـٰطِلِ وَتُدْلُوا۟ بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًۭا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ</div><div class="latin">Wa lā ta’kulū amwālakum bainakum bil-bāṭili wa tudlū bihā ilal-ḥukkāmi li-ta’kulū farīqam min amwālin-nāsi bil-iṡmi wa antum ta‘lamūn.</div><div class="tr"><b>Al-Baqarah 2:188 — M. Pickthall:</b> And eat not up your property among yourselves in vanity, nor seek by it to gain the hearing of the judges that ye may knowingly devour a portion of the property of others wrongfully.</div></div><div class="en-note">English Qur'an translation reference: M. Pickthall (public-domain translation). Arabic text and transliteration are identical to the Indonesian edition. Transliteration is a reading aid and does not replace tajwid or talaqqi.</div><p>The verse joins two layers of integrity: <b>wealth must be acquired rightfully, and legal or governmental process must not be used to legitimize taking another person's right when we know the claim is false.</b></p></section>
+          <section class="card"><h3>📚 Tafsir Notes</h3><details open><summary>A formal ruling does not change a reality known to the claimant</summary><p>Ibn Kathir explains Al-Baqarah 2:188 with the case of a person who knows that property is not truly his but brings the dispute before authority to obtain a favorable judgment. A ruling based on outward evidence does not make unlawful property lawful for someone who knows the actual truth.</p></details><details><summary>Do not consume wealth through false means</summary><p>Al-Tabari explains the prohibition against taking other people's wealth through means that are not rightfully permitted. The reference to judges emphasizes that dispute-resolution processes must not become a route for knowingly taking another person's property through sin.</p></details><details><summary>The direct context is property; the lesson concerns integrity of process</summary><p>The verse directly concerns wealth and disputed rights. A sound lesson is that a formally valid procedure must not be deliberately manipulated to produce an outcome one knows is wrongful. This applies the verse's principle without turning it into an unlimited legal claim.</p></details></section>
+          <section class="card secondary"><h3>🤲 Authentic Hadith</h3><p>In <b>Sahih al-Bukhari 2680</b>, Umm Salamah narrates that the Prophet ﷺ warned litigants that one person might present an argument more eloquently, leading him to judge according to what he heard. If that caused someone to receive what was actually his brother's right, he must not take it; the Prophet ﷺ described it as <b>a piece of Fire</b>.</p><p>The hadith makes the boundary clear: <b>the ability to win a case is not the same as possessing the right in truth.</b></p></section>
+          <section class="card secondary"><h3>🌍 Factual Context</h3><p><b>Fact from revelation:</b> Al-Baqarah 2:188 prohibits wrongful consumption of wealth and knowingly using proceedings before judges or authorities to take another person's property sinfully. Authentic hadith confirms that an erroneous favorable ruling caused by a more persuasive argument does not make another person's right lawful.</p><p><b>Lesson/analogy:</b> the principle is relevant to contracts, disputes, business, procurement, administration, and government. Documents, procedures, authority, or regulatory gaps must not be deliberately used to create an outcome we know deprives another party of its right.</p><p><b>Boundary:</b> the verse is not a license to disregard courts or label every unfavorable ruling as wrongful. Modern disputes still require facts, evidence, lawful authority, applicable rules, and due process. Nor is the verse a prediction about any particular political or legal case.</p></section>
+          <section class="card secondary"><h3>🪞 Reflection</h3><p>Have I ever treated a gain as rightful merely because a document, approval, or decision supported me—even while knowing that another person's right was being taken?</p><p>When I hold the stronger position, am I seeking what is right or merely seeking a way to win?</p></section>
+          <section class="card call"><h3>💡 Main Wisdom</h3><p><b>Integrity is not merely the ability to win a process; it is refusing a benefit we know is not ours, even when the process makes it possible to obtain.</b></p></section>
+          <section class="card"><h3>✅ Practical Action Today</h3><p>Review one matter involving money, rights, documents, a decision, or allocation of benefit. Ask: <b>“If every fact were known to every party, would I still consider this outcome fair?”</b> If a right remains unclear, do not exploit the uncertainty; clarify it before taking the benefit.</p></section>
+          <section class="card secondary"><h3>🔗 Connection to the Journey</h3><p><b>Session 021</b> addressed fraud through diminishing another person's due. <b>Session 022</b> moves to the next layer: do not use process, argument, or authority to make wrongful taking appear legitimate. Al-Baqarah 2:188 is new to this journey.</p></section>
+          <div class="finish-reflection-wrap" data-lang="en" data-session="22"><p>Finished reading and reflecting on this session? Mark it complete so the Journey/Home status stays in sync.</p><button class="complete-reflection-btn primary" type="button">✓ Mark Reflection Complete</button></div><div class="session-nav"><button onclick="showEnglishSession(21)">← Session 021</button><button onclick="showJourney()">☰ Journey</button><span class="btn disabled">Session 023 →</span></div></article>'''
+
+          IDX_ID='<div class="index-item" data-search="harta batil hakim penguasa hak sengketa al-baqarah 2 188 integritas proses suap keadilan" onclick="showSession(22)"><b>022 — Jangan Menang dengan Cara yang Batil</b><br/><small>Al-Baqarah 188 • Harta, hak, sengketa, integritas proses, keadilan</small></div>'
+          IDX_EN='<div class="index-item en-index-item" data-search="wealth wrongful judges authority rights dispute al-baqarah 2 188 integrity process justice" onclick="showEnglishSession(22)"><b>022 — Do Not Win by Wrongful Means</b><br/><small>Al-Baqarah 188 • Wealth, rights, disputes, integrity of process, justice</small></div>'
+
+          def patch(path, owner):
+              p=pathlib.Path(path); s=p.read_text(encoding='utf-8')
+              if 'id="s22"' in s or 'id="en-s22"' in s: raise SystemExit(f'{path}: session 022 already exists')
+              if 'data-session-number="21" id="s21"' not in s or 'data-session-number="21" id="en-s21"' not in s: raise SystemExit(f'{path}: canonical session 021 missing')
+              # Index append: preserve all published cards byte-for-byte.
+              marker='</div></section>\n<div class="orn secondary">'
+              pos=s.find(marker)
+              if pos<0: raise SystemExit(f'{path}: ID index end not found')
+              s=s[:pos]+IDX_ID+'\n'+s[pos:]
+              marker_en='</div></section>\n<article class="session" data-lang="id" data-session-number="1"'
+              pos=s.find(marker_en)
+              if pos<0: raise SystemExit(f'{path}: EN index end not found')
+              s=s[:pos]+IDX_EN+'\n'+s[pos:]
+              # Enable S21 -> S22 only; published substance remains untouched.
+              s=s.replace('<span class="btn disabled">Sesi 022 →</span>','<button class="primary" onclick="showSession(22)">Sesi 022 →</button>',1)
+              s=s.replace('<span class="btn disabled">Session 022 →</span>','<button class="primary" onclick="showEnglishSession(22)">Session 022 →</button>',1)
+              # Append new bilingual content immediately before the shared wrap closes.
+              end='</div>\n<footer>❖ Master Tadabbur Al-Qur\'an • Sesi 001–021 ❖'
+              if end not in s: raise SystemExit(f'{path}: final wrap/footer marker not found')
+              s=s.replace(end,ID+'\n\n'+EN+'\n</div>\n<footer>❖ Master Tadabbur Al-Qur\'an • Sesi 001–022 ❖',1)
+              # Technical counters only.
+              s=s.replace('Sesi 001–021 • Bilingual ID–EN','Sesi 001–022 • Bilingual ID–EN',1)
+              s=s.replace('21 dari target ±1.000 sesi • ±2,1%','22 dari target ±1.000 sesi • ±2,2%',1)
+              s=s.replace('<div class="stat"><b>21</b>Sesi</div><div class="stat"><b>36</b>Ayat utama</div><div class="stat"><b>2,1%</b>Target</div>','<div class="stat"><b>22</b>Sesi</div><div class="stat"><b>37</b>Ayat utama</div><div class="stat"><b>2,2%</b>Target</div>',1)
+              s=s.replace('<div class="stat"><b>21</b>Sessions</div><div class="stat"><b>36</b>Key verses</div><div class="stat"><b>2.1%</b>Target</div>','<div class="stat"><b>22</b>Sessions</div><div class="stat"><b>37</b>Key verses</div><div class="stat"><b>2.2%</b>Target</div>',1)
+              s=s.replace('const TOTAL=21;','const TOTAL=22;',1)
+              # QC
+              if s.count('id="s22"')!=1 or s.count('id="en-s22"')!=1: raise SystemExit(f'{path}: duplicate/new ID QC failed')
+              if s.count('data-session-number="22"')!=2: raise SystemExit(f'{path}: bilingual count QC failed')
+              if 'Thank to Allah SWT proudly made by Suiza Ixan Saputro bin Ngalimin x chatgpt' not in s: raise SystemExit(f'{path}: credit QC failed')
+              if s.find('id="s22"')>s.find('<footer>') or s.find('id="en-s22"')>s.find('<footer>'): raise SystemExit(f'{path}: footer ordering QC failed')
+              if owner:
+                  if 'owner-clean-runtime-v1' not in s or 'public-clean-runtime-v1' in s: raise SystemExit(f'{path}: OWNER entitlement runtime QC failed')
+              else:
+                  if 'public-clean-runtime-v1' not in s or 'function unlockedCount()' not in s or 'ownerTadabbur' in s: raise SystemExit(f'{path}: USER entitlement runtime QC failed')
+              p.write_text(s,encoding='utf-8')
+
+          patch('index.html',False)
+          patch('owner/index.html',True)
+      - name: Commit synchronized masters
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html owner/index.html
+          git diff --cached --check
+          git commit -m "Publish Tadabbur session 022 bilingual"
+          git push
