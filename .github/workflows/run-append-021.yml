@@ -15,12 +15,19 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import traceback
           src=Path('.github/workflows/append-session-021.yml').read_text(encoding='utf-8')
           a=src.index("          python3 - <<'PY'")+len("          python3 - <<'PY'\n")
           b=src.index("\n          PY",a)
           lines=src[a:b].splitlines()
           code='\n'.join((line[10:] if line.startswith('          ') else line) for line in lines)
-          exec(compile(code,'append-session-021-payload','exec'))
+          try:
+              exec(compile(code,'append-session-021-payload','exec'))
+          except Exception as e:
+              tb=e.__traceback__
+              while tb.tb_next: tb=tb.tb_next
+              print('FAILED LOCALS:', {k:v for k,v in tb.tb_frame.f_locals.items() if k in ('path','marker','m')})
+              raise
           PY
       - name: QC and publish
         shell: bash
@@ -35,12 +42,10 @@ jobs:
               assert len(re.findall(r'<article class="session"',s))==21
               assert len(re.findall(r'<article class="en-session"',s))==21
               assert s.count('id="s21"')==1 and s.count('id="en-s21"')==1
-              assert s.index('id="s21"') < s.index('<footer>')
-              assert s.index('id="en-s21"') < s.index('<footer>')
+              assert s.index('id="s21"') < s.index('<footer>') and s.index('id="en-s21"') < s.index('<footer>')
               assert 'const TOTAL=21;' in s
               assert 'Thank to Allah SWT proudly made by Suiza Ixan Saputro bin Ngalimin x chatgpt' in s
-          pub=Path('index.html').read_text(encoding='utf-8')
-          own=Path('owner/index.html').read_text(encoding='utf-8')
+          pub=Path('index.html').read_text(encoding='utf-8'); own=Path('owner/index.html').read_text(encoding='utf-8')
           assert "K_START='tadabburJourneyStartDate'" in pub and 'function unlockedCount()' in pub
           assert 'ownerTadabbur' in own and 'public-clean-runtime-v1' not in own
           PY
