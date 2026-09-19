@@ -1,0 +1,446 @@
+{
+  "generated": "2026-09-20",
+  "methodology": "Long-tail targets are SERP opportunity hypotheses from specific-query/result-type inspection, not search-volume claims. Published session substance remains locked.",
+  "sessions": [
+    {
+      "session": "001",
+      "locked_title": "Jalan Seorang Hamba",
+      "primary_long_tail": "tadabbur Al Fatihah ayat 5 makna iyyaka na'budu wa iyyaka nasta'in",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/001/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=1&lang=id"
+    },
+    {
+      "session": "002",
+      "locked_title": "Kompas Orang Bertakwa",
+      "primary_long_tail": "ciri orang bertakwa Al Baqarah 1-5 dalam kehidupan sehari hari",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/002/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=2&lang=id"
+    },
+    {
+      "session": "003",
+      "locked_title": "Untuk Apa Kita Diciptakan?",
+      "primary_long_tail": "tujuan manusia diciptakan menurut Al Quran Al Baqarah 21 22",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/003/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=3&lang=id"
+    },
+    {
+      "session": "004",
+      "locked_title": "Amanah Tidak Berhenti pada Jabatan",
+      "primary_long_tail": "ayat tentang amanah dan keadilan dalam pekerjaan dan jabatan",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/004/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=4&lang=id"
+    },
+    {
+      "session": "005",
+      "locked_title": "Menjaga Kehormatan Orang Lain",
+      "primary_long_tail": "ayat tentang menjaga kehormatan orang lain prasangka ghibah",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/005/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=5&lang=id"
+    },
+    {
+      "session": "006",
+      "locked_title": "Saat Hidup Terasa Berat",
+      "primary_long_tail": "ayat Al Quran saat hidup terasa berat sabar dan shalat",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/006/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=6&lang=id"
+    },
+    {
+      "session": "007",
+      "locked_title": "Jangan Putus Asa untuk Kembali",
+      "primary_long_tail": "ayat tentang jangan putus asa dari rahmat Allah dan taubat",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/007/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=7&lang=id"
+    },
+    {
+      "session": "008",
+      "locked_title": "Tawakal Bukan Berdiam Diri",
+      "primary_long_tail": "makna tawakal bukan pasrah tanpa usaha dalam Islam",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/008/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=8&lang=id"
+    },
+    {
+      "session": "009",
+      "locked_title": "Syukur Harus Menjadi Tindakan",
+      "primary_long_tail": "cara bersyukur kepada Allah bukan hanya ucapan",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/009/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=9&lang=id"
+    },
+    {
+      "session": "010",
+      "locked_title": "Jangan Biarkan Waktu Berlalu Tanpa Arah",
+      "primary_long_tail": "tadabbur surat Al Asr tentang mengatur waktu dan hidup",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/010/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=10&lang=id"
+    },
+    {
+      "session": "011",
+      "locked_title": "Jangan Bertindak Sebelum Memeriksa",
+      "primary_long_tail": "ayat tentang cek fakta sebelum menyebarkan berita tabayyun",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/011/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=11&lang=id"
+    },
+    {
+      "session": "012",
+      "locked_title": "Jangan Remehkan Kebaikan Kecil",
+      "primary_long_tail": "ayat tentang kebaikan kecil jangan diremehkan",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/012/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=12&lang=id"
+    },
+    {
+      "session": "013",
+      "locked_title": "Marah Boleh Datang, Jangan Biarkan Ia Memimpin",
+      "primary_long_tail": "ayat Al Quran tentang menahan amarah dan mengendalikan diri",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/013/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=13&lang=id"
+    },
+    {
+      "session": "014",
+      "locked_title": "Pilih Kata yang Lebih Baik",
+      "primary_long_tail": "ayat tentang menjaga ucapan memilih kata yang baik",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/014/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=14&lang=id"
+    },
+    {
+      "session": "015",
+      "locked_title": "Jangan Bangun Vonis dari Prasangka",
+      "primary_long_tail": "ayat tentang prasangka buruk tajassus dan ghibah",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/015/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=15&lang=id"
+    },
+    {
+      "session": "016",
+      "locked_title": "Audit Diri Sebelum Hari Berakhir",
+      "primary_long_tail": "tadabbur Al Hashr 18 untuk muhasabah diri sebelum tidur",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/016/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=16&lang=id"
+    },
+    {
+      "session": "017",
+      "locked_title": "Berbeda untuk Saling Mengenal, Bukan Saling Merendahkan",
+      "primary_long_tail": "ayat tentang perbedaan suku bangsa untuk saling mengenal",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/017/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=17&lang=id"
+    },
+    {
+      "session": "018",
+      "locked_title": "Bersama Kesulitan Ada Kemudahan",
+      "primary_long_tail": "tadabbur Asy Syarh 5 6 bersama kesulitan ada kemudahan",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/018/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=18&lang=id"
+    },
+    {
+      "session": "019",
+      "locked_title": "Perubahan Dimulai dari Apa yang Ada dalam Diri",
+      "primary_long_tail": "ayat tentang mengubah diri sebelum mengubah keadaan",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/019/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=19&lang=id"
+    },
+    {
+      "session": "020",
+      "locked_title": "Tetap Adil Bahkan kepada yang Tidak Kita Sukai",
+      "primary_long_tail": "ayat tentang tetap adil kepada orang yang tidak disukai",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/020/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=20&lang=id"
+    },
+    {
+      "session": "021",
+      "locked_title": "Jangan Kurangi Hak Orang Lain",
+      "primary_long_tail": "ayat tentang tidak mengurangi hak orang lain dalam pekerjaan",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/021/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=21&lang=id"
+    },
+    {
+      "session": "022",
+      "locked_title": "Jangan Menang dengan Cara yang Batil",
+      "primary_long_tail": "ayat tentang mengambil harta orang lain dengan cara batil",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/022/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=22&lang=id"
+    },
+    {
+      "session": "023",
+      "locked_title": "Amanah Harus Kembali kepada yang Berhak",
+      "primary_long_tail": "ayat tentang amanah harus diberikan kepada yang berhak",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/023/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=23&lang=id"
+    },
+    {
+      "session": "024",
+      "locked_title": "Jangan Ringankan Janji yang Sudah Diikat",
+      "primary_long_tail": "ayat Al Quran tentang menepati janji akad dan komitmen",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/024/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=24&lang=id"
+    },
+    {
+      "session": "025",
+      "locked_title": "Jangan Ambil Hak Tanpa Kerelaan",
+      "primary_long_tail": "ayat tentang harta dengan kerelaan dalam jual beli Islam",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/025/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=25&lang=id"
+    },
+    {
+      "session": "026",
+      "locked_title": "Harta yang Ditanam untuk Kebaikan",
+      "primary_long_tail": "tadabbur Al Baqarah 261 tentang infak dan pahala",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/026/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=26&lang=id"
+    },
+    {
+      "session": "027",
+      "locked_title": "Jangan Berjalan dengan Kesombongan",
+      "primary_long_tail": "ayat tentang sombong dalam pergaulan dan cara rendah hati",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/027/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=27&lang=id"
+    },
+    {
+      "session": "028",
+      "locked_title": "Damaikan, Jangan Hanya Menonton Konflik",
+      "primary_long_tail": "ayat tentang mendamaikan konflik sesama muslim",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/028/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=28&lang=id"
+    },
+    {
+      "session": "029",
+      "locked_title": "Petunjuk Ditemukan dalam Kesungguhan",
+      "primary_long_tail": "ayat tentang kesungguhan ikhtiar dan petunjuk Allah",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/029/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=29&lang=id"
+    },
+    {
+      "session": "030",
+      "locked_title": "Jangan Hidup Tanpa Menghitung Bekal Esok",
+      "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat dan evaluasi diri",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/030/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=30&lang=id"
+    },
+    {
+      "session": "031",
+      "locked_title": "Jangan Berputus Asa dari Rahmat Allah",
+      "primary_long_tail": "ayat untuk orang yang merasa banyak dosa dan ingin kembali kepada Allah",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/031/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=31&lang=id"
+    },
+    {
+      "session": "032",
+      "locked_title": "Beban, Doa, dan Batas Kemampuan",
+      "primary_long_tail": "makna Allah tidak membebani seseorang di luar kemampuannya",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/032/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=32&lang=id"
+    },
+    {
+      "session": "033",
+      "locked_title": "Kerja Sama Juga Harus Memiliki Arah Moral",
+      "primary_long_tail": "ayat tentang kerja sama dalam kebaikan bukan dalam dosa",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/033/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=33&lang=id"
+    },
+    {
+      "session": "034",
+      "locked_title": "Dunia di Tangan, Akhirat Tetap Menjadi Arah",
+      "primary_long_tail": "ayat tentang keseimbangan dunia dan akhirat Al Qasas 77",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/034/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=34&lang=id"
+    },
+    {
+      "session": "035",
+      "locked_title": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh",
+      "primary_long_tail": "ayat tentang adil dan ihsan dalam kehidupan sehari hari",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/035/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=35&lang=id"
+    },
+    {
+      "session": "036",
+      "locked_title": "Jangan Biarkan Harta Hilang Tanpa Arah",
+      "primary_long_tail": "ayat tentang boros dan cara menggunakan harta dengan benar",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/036/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=36&lang=id"
+    },
+    {
+      "session": "037",
+      "locked_title": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah",
+      "primary_long_tail": "ayat tentang musyawarah dalam mengambil keputusan bersama",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/037/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=37&lang=id"
+    },
+    {
+      "session": "038",
+      "locked_title": "Kebaikan Tidak Cukup Menjadi Simbol",
+      "primary_long_tail": "makna kebaikan sejati Al Baqarah 177 bukan sekadar simbol",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/038/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=38&lang=id"
+    },
+    {
+      "session": "039",
+      "locked_title": "Amal yang Benar Membutuhkan Niat yang Lurus",
+      "primary_long_tail": "ayat tentang ikhlas dalam beramal Al Bayyinah 5",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/039/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=39&lang=id"
+    },
+    {
+      "session": "040",
+      "locked_title": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah",
+      "primary_long_tail": "tadabbur Al Maun tentang ibadah dan kepedulian sosial",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/040/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=40&lang=id"
+    },
+    {
+      "session": "041",
+      "locked_title": "Yang Indah Belum Tentu yang Paling Bertahan",
+      "primary_long_tail": "ayat tentang harta anak dan amal yang kekal Al Kahf 46",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/041/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=41&lang=id"
+    },
+    {
+      "session": "042",
+      "locked_title": "Jangan Bertindak Sebelum Informasi Diperiksa",
+      "primary_long_tail": "ayat tabayyun sebelum mengambil keputusan dari informasi",
+      "intent": "informational-reflection",
+      "cluster": "iman-akhlak-kehidupan",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/042/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=42&lang=id"
+    },
+    {
+      "session": "043",
+      "locked_title": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia",
+      "primary_long_tail": "ayat tentang rendah hati dalam cara berjalan dan berbicara",
+      "intent": "informational-reflection",
+      "cluster": "akhlak-relasi-informasi",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/043/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=43&lang=id"
+    },
+    {
+      "session": "044",
+      "locked_title": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan",
+      "primary_long_tail": "makna surat Al Asr tentang waktu agar hidup tidak sia sia",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/044/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=44&lang=id"
+    }
+  ]
+}
