@@ -10,7 +10,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/001/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=1&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=1&lang=id",
+      "seo_title": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in — Al-Fatihah 5",
+      "meta_description": "Jalan Seorang Hamba. Mengenal Allah → memuji-Nya → menyadari pertanggungjawaban → beribadah dan meminta pertolongan → memohon hidayah.",
+      "h1": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in — Al-Fatihah 5",
+      "related_sessions": [
+        "002",
+        "003",
+        "012",
+        "013"
+      ]
     },
     {
       "session": "002",
@@ -20,7 +29,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/002/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=2&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=2&lang=id",
+      "seo_title": "Ciri Orang Bertakwa dalam Al-Baqarah 1–5",
+      "meta_description": "Kompas Orang Bertakwa. Wahyu, iman kepada yang gaib, salat, infak, kesatuan wahyu, dan keyakinan kepada akhirat.",
+      "h1": "Ciri Orang Bertakwa dalam Al-Baqarah 1–5",
+      "related_sessions": [
+        "001",
+        "003",
+        "012",
+        "013"
+      ]
     },
     {
       "session": "003",
@@ -30,7 +48,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/003/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=3&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=3&lang=id",
+      "seo_title": "Tujuan Manusia Diciptakan Menurut Al-Qur'an — Al-Baqarah 21–22",
+      "meta_description": "Untuk Apa Kita Diciptakan?. Dari mengenali Sang Pencipta menuju ibadah, syukur, tauhid, dan ketakwaan.",
+      "h1": "Tujuan Manusia Diciptakan Menurut Al-Qur'an — Al-Baqarah 21–22",
+      "related_sessions": [
+        "002",
+        "001",
+        "012",
+        "013"
+      ]
     },
     {
       "session": "004",
@@ -40,7 +67,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/004/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=4&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=4&lang=id",
+      "seo_title": "Ayat tentang Amanah dan Keadilan dalam Pekerjaan — An-Nisa 58",
+      "meta_description": "Amanah Tidak Berhenti pada Jabatan. Amanah → menempatkan hak pada pemiliknya → adil dalam keputusan → berani adil bahkan terhadap diri sendiri.",
+      "h1": "Ayat tentang Amanah dan Keadilan dalam Pekerjaan — An-Nisa 58",
+      "related_sessions": [
+        "020",
+        "021",
+        "022",
+        "023"
+      ]
     },
     {
       "session": "005",
@@ -50,7 +86,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/005/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=5&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=5&lang=id",
+      "seo_title": "Menjaga Kehormatan Orang Lain: Prasangka dan Ghibah",
+      "meta_description": "Menjaga Kehormatan Orang Lain. Ejekan → label buruk → prasangka → mencari-cari aib → ghibah. Al-Qur'an memutus rantai kerusakan sosial sejak dari pikiran",
+      "h1": "Menjaga Kehormatan Orang Lain: Prasangka dan Ghibah",
+      "related_sessions": [
+        "009",
+        "011",
+        "014",
+        "015"
+      ]
     },
     {
       "session": "006",
@@ -60,7 +105,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/006/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=6&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=6&lang=id",
+      "seo_title": "Ayat Al-Qur'an Saat Hidup Terasa Berat: Sabar dan Salat",
+      "meta_description": "Saat Hidup Terasa Berat. Sabar bukan pasif. Salat bukan pelarian. Keduanya menjaga seorang mukmin tetap berdiri ketika keadaan belum berubah.",
+      "h1": "Ayat Al-Qur'an Saat Hidup Terasa Berat: Sabar dan Salat",
+      "related_sessions": [
+        "007",
+        "008",
+        "018",
+        "029"
+      ]
     },
     {
       "session": "007",
@@ -70,7 +124,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/007/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=7&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=7&lang=id",
+      "seo_title": "Jangan Putus Asa dari Rahmat Allah: Jalan Taubat",
+      "meta_description": "Jangan Putus Asa untuk Kembali. Kesalahan tidak boleh dianggap ringan, tetapi dosa juga tidak boleh dijadikan alasan untuk menjauh dari Allah.",
+      "h1": "Jangan Putus Asa dari Rahmat Allah: Jalan Taubat",
+      "related_sessions": [
+        "006",
+        "008",
+        "018",
+        "029"
+      ]
     },
     {
       "session": "008",
@@ -80,7 +143,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/008/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=8&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=8&lang=id",
+      "seo_title": "Tawakal Bukan Pasrah Tanpa Usaha — Makna At-Talaq 2–3",
+      "meta_description": "Tawakal Bukan Berdiam Diri. Takwa menjaga cara kita bertindak, ikhtiar menggerakkan langkah, dan tawakal menjaga hati agar tidak menggantungkan hasil",
+      "h1": "Tawakal Bukan Pasrah Tanpa Usaha — Makna At-Talaq 2–3",
+      "related_sessions": [
+        "007",
+        "006",
+        "018",
+        "029"
+      ]
     },
     {
       "session": "009",
@@ -90,7 +162,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/009/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=9&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=9&lang=id",
+      "seo_title": "Cara Bersyukur kepada Allah Bukan Hanya dengan Ucapan",
+      "meta_description": "Syukur Harus Menjadi Tindakan. Syukur bukan sekadar mengucapkan alhamdulillah. Ia dimulai dari mengenali nikmat, mengakui Pemberinya,",
+      "h1": "Cara Bersyukur kepada Allah Bukan Hanya dengan Ucapan",
+      "related_sessions": [
+        "011",
+        "005",
+        "014",
+        "015"
+      ]
     },
     {
       "session": "010",
@@ -100,7 +181,16 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/010/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=10&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=10&lang=id",
+      "seo_title": "Tadabbur Al-'Asr: Empat Bekal Agar Waktu Tidak Rugi",
+      "meta_description": "Jangan Biarkan Waktu Berlalu Tanpa Arah. Al-'Asr merangkum empat unsur agar hidup tidak habis dalam kerugian: iman, amal saleh,",
+      "h1": "Tadabbur Al-'Asr: Empat Bekal Agar Waktu Tidak Rugi",
+      "related_sessions": [
+        "016",
+        "030",
+        "034",
+        "039"
+      ]
     },
     {
       "session": "011",
@@ -110,7 +200,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/011/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=11&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=11&lang=id",
+      "seo_title": "Tabayyun Sebelum Share Berita — Al-Hujurat 49:6",
+      "meta_description": "Jangan Bertindak Sebelum Memeriksa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Tabayyun Sebelum Share Berita — Al-Hujurat 49:6",
+      "related_sessions": [
+        "009",
+        "014",
+        "015",
+        "005"
+      ]
     },
     {
       "session": "012",
@@ -120,7 +219,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/012/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=12&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=12&lang=id",
+      "seo_title": "Jangan Remehkan Kebaikan Kecil — Az-Zalzalah 7–8",
+      "meta_description": "Jangan Remehkan Kebaikan Kecil. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Jangan Remehkan Kebaikan Kecil — Az-Zalzalah 7–8",
+      "related_sessions": [
+        "013",
+        "017",
+        "019",
+        "003"
+      ]
     },
     {
       "session": "013",
@@ -130,7 +238,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/013/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=13&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=13&lang=id",
+      "seo_title": "Ayat tentang Menahan Amarah dan Mengendalikan Diri",
+      "meta_description": "Marah Boleh Datang, Jangan Biarkan Ia Memimpin. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Ayat tentang Menahan Amarah dan Mengendalikan Diri",
+      "related_sessions": [
+        "012",
+        "017",
+        "019",
+        "003"
+      ]
     },
     {
       "session": "014",
@@ -140,7 +257,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/014/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=14&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=14&lang=id",
+      "seo_title": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik",
+      "meta_description": "Pilih Kata yang Lebih Baik. Tidak semua kalimat yang benar harus disampaikan dengan cara yang paling tajam.",
+      "h1": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik",
+      "related_sessions": [
+        "015",
+        "011",
+        "009",
+        "005"
+      ]
     },
     {
       "session": "015",
@@ -150,7 +276,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/015/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=15&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=15&lang=id",
+      "seo_title": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12",
+      "meta_description": "Jangan Bangun Vonis dari Prasangka. Satu dugaan yang belum terbukti dapat berubah menjadi pencarian kesalahan,",
+      "h1": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12",
+      "related_sessions": [
+        "014",
+        "011",
+        "009",
+        "005"
+      ]
     },
     {
       "session": "016",
@@ -160,7 +295,16 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/016/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=16&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=16&lang=id",
+      "seo_title": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18",
+      "meta_description": "Audit Diri Sebelum Hari Berakhir. Al-Qur'an tidak hanya meminta kita melihat apa yang sudah terjadi. Ia meminta kita melihat apa yang sedang kita kirim ke",
+      "h1": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18",
+      "related_sessions": [
+        "010",
+        "030",
+        "034",
+        "039"
+      ]
     },
     {
       "session": "017",
@@ -170,7 +314,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/017/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=17&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=17&lang=id",
+      "seo_title": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
+      "meta_description": "Berbeda untuk Saling Mengenal, Bukan Saling Merendahkan. Perbedaan bangsa, suku, keluarga, bahasa, dan latar sosial bukan izin untuk membuat tangga",
+      "h1": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
+      "related_sessions": [
+        "019",
+        "013",
+        "012",
+        "003"
+      ]
     },
     {
       "session": "018",
@@ -180,7 +333,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/018/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=18&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=18&lang=id",
+      "seo_title": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
+      "meta_description": "Bersama Kesulitan Ada Kemudahan. Al-Qur'an tidak menjanjikan hidup tanpa kesulitan. Ia mengajarkan cara memandang kesulitan: jangan menganggapnya sebagai",
+      "h1": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
+      "related_sessions": [
+        "008",
+        "007",
+        "029",
+        "006"
+      ]
     },
     {
       "session": "019",
@@ -190,7 +352,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/019/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=19&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=19&lang=id",
+      "seo_title": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
+      "meta_description": "Perubahan Dimulai dari Apa yang Ada dalam Diri. Ada keadaan yang berada di luar kendali kita. Namun Al-Qur'an juga menolak sikap pasif yang terus menunggu",
+      "h1": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
+      "related_sessions": [
+        "017",
+        "013",
+        "012",
+        "003"
+      ]
     },
     {
       "session": "020",
@@ -200,7 +371,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/020/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=20&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=20&lang=id",
+      "seo_title": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
+      "meta_description": "Tetap Adil Bahkan kepada yang Tidak Kita Sukai. Keadilan paling mudah ketika kita menyukai orang yang sedang dinilai.",
+      "h1": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
+      "related_sessions": [
+        "021",
+        "022",
+        "023",
+        "024"
+      ]
     },
     {
       "session": "021",
@@ -210,7 +390,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/021/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=21&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=21&lang=id",
+      "seo_title": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
+      "meta_description": "Jangan Kurangi Hak Orang Lain. Kecurangan tidak selalu hadir dalam bentuk pencurian yang terang-terangan. Ia dapat muncul ketika seseorang menuntut haknya",
+      "h1": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
+      "related_sessions": [
+        "020",
+        "022",
+        "023",
+        "024"
+      ]
     },
     {
       "session": "022",
@@ -220,7 +409,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/022/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=22&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=22&lang=id",
+      "seo_title": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
+      "meta_description": "Jangan Menang dengan Cara yang Batil. Tidak semua kemenangan di atas kertas berarti benar di sisi Allah. Seseorang dapat memiliki argumen yang lebih rapi,",
+      "h1": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
+      "related_sessions": [
+        "021",
+        "023",
+        "020",
+        "024"
+      ]
     },
     {
       "session": "023",
@@ -230,7 +428,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/023/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=23&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=23&lang=id",
+      "seo_title": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
+      "meta_description": "Amanah Harus Kembali kepada yang Berhak. Amanah bukan hanya barang titipan. Ia juga menyentuh tanggung jawab, kewenangan, informasi, pekerjaan,",
+      "h1": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
+      "related_sessions": [
+        "022",
+        "024",
+        "021",
+        "025"
+      ]
     },
     {
       "session": "024",
@@ -240,7 +447,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/024/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=24&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=24&lang=id",
+      "seo_title": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
+      "meta_description": "Jangan Ringankan Janji yang Sudah Diikat. Kepercayaan tidak berhenti pada niat baik. Ketika sebuah janji, akad, atau komitmen telah kita ikat secara sah,",
+      "h1": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
+      "related_sessions": [
+        "023",
+        "025",
+        "022",
+        "026"
+      ]
     },
     {
       "session": "025",
@@ -250,7 +466,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/025/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=25&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=25&lang=id",
+      "seo_title": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
+      "meta_description": "Jangan Ambil Hak Tanpa Kerelaan. Muamalah, kerelaan, harta, hak. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
+      "related_sessions": [
+        "024",
+        "026",
+        "023",
+        "022"
+      ]
     },
     {
       "session": "026",
@@ -260,7 +485,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/026/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=26&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=26&lang=id",
+      "seo_title": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
+      "meta_description": "Harta yang Ditanam untuk Kebaikan. Infak, kedermawanan, pahala, niat. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
+      "related_sessions": [
+        "025",
+        "024",
+        "023",
+        "022"
+      ]
     },
     {
       "session": "027",
@@ -270,7 +504,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/027/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=27&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=27&lang=id",
+      "seo_title": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
+      "meta_description": "Jangan Berjalan dengan Kesombongan. Tawaduk, kesombongan, adab sosial. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
+      "related_sessions": [
+        "028",
+        "015",
+        "014",
+        "011"
+      ]
     },
     {
       "session": "028",
@@ -280,7 +523,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/028/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=28&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=28&lang=id",
+      "seo_title": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
+      "meta_description": "Damaikan, Jangan Hanya Menonton Konflik. Persaudaraan, islah, konflik, takwa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
+      "related_sessions": [
+        "027",
+        "015",
+        "014",
+        "043"
+      ]
     },
     {
       "session": "029",
@@ -290,7 +542,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/029/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=29&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=29&lang=id",
+      "seo_title": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
+      "meta_description": "Petunjuk Ditemukan dalam Kesungguhan. Kesungguhan, hidayah, ikhtiar, ihsan. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
+      "related_sessions": [
+        "031",
+        "032",
+        "018",
+        "008"
+      ]
     },
     {
       "session": "030",
@@ -300,7 +561,16 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/030/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=30&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=30&lang=id",
+      "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
+      "meta_description": "Jangan Hidup Tanpa Menghitung Bekal Esok. Muhasabah, takwa, masa depan, tanggung jawab Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
+      "related_sessions": [
+        "034",
+        "039",
+        "040",
+        "016"
+      ]
     },
     {
       "session": "031",
@@ -310,7 +580,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/031/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=31&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=31&lang=id",
+      "seo_title": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
+      "meta_description": "Jangan Berputus Asa dari Rahmat Allah. Harapan, taubat, rahmat, kembali kepada Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
+      "related_sessions": [
+        "032",
+        "029",
+        "018",
+        "008"
+      ]
     },
     {
       "session": "032",
@@ -320,7 +599,16 @@
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/032/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=32&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=32&lang=id",
+      "seo_title": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
+      "meta_description": "Beban, Doa, dan Batas Kemampuan. Kemampuan, tanggung jawab, doa, pertolongan Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "h1": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
+      "related_sessions": [
+        "031",
+        "029",
+        "018",
+        "008"
+      ]
     },
     {
       "session": "033",
@@ -330,7 +618,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/033/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=33&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=33&lang=id",
+      "seo_title": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
+      "meta_description": "Kerja Sama Juga Harus Memiliki Arah Moral. Tidak semua kekompakan adalah kebaikan. Al-Qur'an memberi ukuran yang lebih dalam: kerja sama dinilai bukan",
+      "h1": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
+      "related_sessions": [
+        "035",
+        "036",
+        "037",
+        "026"
+      ]
     },
     {
       "session": "034",
@@ -340,7 +637,16 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/034/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=34&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=34&lang=id",
+      "seo_title": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
+      "meta_description": "Dunia di Tangan, Akhirat Tetap Menjadi Arah. Al-Qur'an tidak mengajarkan meninggalkan dunia, tetapi menolak menjadikan dunia sebagai tujuan terakhir.",
+      "h1": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
+      "related_sessions": [
+        "030",
+        "039",
+        "040",
+        "044"
+      ]
     },
     {
       "session": "035",
@@ -350,7 +656,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/035/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=35&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=35&lang=id",
+      "seo_title": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
+      "meta_description": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh. Ada tingkat minimum yang tidak boleh ditawar: keadilan. Namun Al-Qur'an tidak berhenti pada batas minimum",
+      "h1": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
+      "related_sessions": [
+        "036",
+        "033",
+        "037",
+        "041"
+      ]
     },
     {
       "session": "036",
@@ -360,7 +675,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/036/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=36&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=36&lang=id",
+      "seo_title": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
+      "meta_description": "Jangan Biarkan Harta Hilang Tanpa Arah. Al-Qur'an menempatkan pemberian hak dan larangan pemborosan dalam satu rangkaian: harta bukan sekadar sesuatu yang",
+      "h1": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
+      "related_sessions": [
+        "035",
+        "037",
+        "033",
+        "041"
+      ]
     },
     {
       "session": "037",
@@ -370,7 +694,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/037/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=37&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=37&lang=id",
+      "seo_title": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
+      "meta_description": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah. Keputusan bersama yang sehat membutuhkan lebih dari satu suara.",
+      "h1": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
+      "related_sessions": [
+        "036",
+        "035",
+        "033",
+        "041"
+      ]
     },
     {
       "session": "038",
@@ -380,7 +713,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/038/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=38&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=38&lang=id",
+      "seo_title": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
+      "meta_description": "Kebaikan Tidak Cukup Menjadi Simbol. Al-Qur'an membongkar kecenderungan manusia menyempitkan agama menjadi tanda lahiriah.",
+      "h1": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
+      "related_sessions": [
+        "042",
+        "019",
+        "017",
+        "013"
+      ]
     },
     {
       "session": "039",
@@ -390,7 +732,16 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/039/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=39&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=39&lang=id",
+      "seo_title": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
+      "meta_description": "Amal yang Benar Membutuhkan Niat yang Lurus. Setelah Sesi 038 mengingatkan bahwa kebaikan tidak cukup menjadi simbol,",
+      "h1": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
+      "related_sessions": [
+        "040",
+        "034",
+        "044",
+        "030"
+      ]
     },
     {
       "session": "040",
@@ -400,7 +751,16 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/040/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=40&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=40&lang=id",
+      "seo_title": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
+      "meta_description": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah. Surah Al-Ma'un mempertemukan pengingkaran Hari Pembalasan,",
+      "h1": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
+      "related_sessions": [
+        "039",
+        "044",
+        "034",
+        "030"
+      ]
     },
     {
       "session": "041",
@@ -410,7 +770,16 @@
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/041/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=41&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=41&lang=id",
+      "seo_title": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
+      "meta_description": "Yang Indah Belum Tentu yang Paling Bertahan. Harta dan keluarga adalah nikmat yang nyata, tetapi Al-Qur'an mengingatkan bahwa keduanya termasuk perhiasan",
+      "h1": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
+      "related_sessions": [
+        "037",
+        "036",
+        "035",
+        "033"
+      ]
     },
     {
       "session": "042",
@@ -420,7 +789,16 @@
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/042/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=42&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=42&lang=id",
+      "seo_title": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
+      "meta_description": "Jangan Bertindak Sebelum Informasi Diperiksa. Sesudah perjalanan tadabbur menata niat, amanah, musyawarah, dan tanggung jawab sosial,",
+      "h1": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
+      "related_sessions": [
+        "038",
+        "019",
+        "017",
+        "013"
+      ]
     },
     {
       "session": "043",
@@ -430,7 +808,16 @@
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "low-medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/043/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=43&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=43&lang=id",
+      "seo_title": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
+      "meta_description": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia. Nasihat Luqman tidak berhenti pada keyakinan dan ibadah. Ia turun sampai ke bahasa tubuh,",
+      "h1": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
+      "related_sessions": [
+        "028",
+        "027",
+        "015",
+        "014"
+      ]
     },
     {
       "session": "044",
@@ -440,7 +827,55 @@
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/044/",
-      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=44&lang=id"
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=44&lang=id",
+      "seo_title": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
+      "meta_description": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan. Surah yang sangat pendek ini menyusun ukuran keselamatan manusia secara padat: iman, amal saleh,",
+      "h1": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
+      "related_sessions": [
+        "040",
+        "039",
+        "034",
+        "030"
+      ]
+    }
+  ],
+  "version": "1.1",
+  "updated": "2026-09-20",
+  "cannibalization_controls": [
+    {
+      "sessions": [
+        "010",
+        "044"
+      ],
+      "separation": "010 = Al-'Asr four-part framework for managing time; 044 = broader search intent on meaning of Surah Al-'Asr and avoiding a wasted life."
+    },
+    {
+      "sessions": [
+        "011",
+        "042"
+      ],
+      "separation": "011 = verification before forwarding/sharing news; 042 = verification before decisions that affect rights/outcomes."
+    },
+    {
+      "sessions": [
+        "016",
+        "030"
+      ],
+      "separation": "016 = daily/nightly muhasabah; 030 = preparing provisions for the Hereafter and future accountability."
+    },
+    {
+      "sessions": [
+        "007",
+        "031"
+      ],
+      "separation": "007 = repentance process and returning after sin; 031 = hope in Allah's mercy for a person burdened by many sins."
+    },
+    {
+      "sessions": [
+        "027",
+        "043"
+      ],
+      "separation": "027 = arrogance as an inner/social attitude; 043 = humility expressed through walking, presence, and speech."
     }
   ]
 }
