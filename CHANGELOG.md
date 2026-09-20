@@ -13,6 +13,16 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Added `CURRENT-STATUS.md` v1.0 as the living project baseline.
 - Established repository and live implementation verification as the authority for current implementation status.
 
+### [Governance] Master SOP v1.1 — Sacred Source & SEO-Adaptive Content
+- Established Quran text, surah/ayah references, approved Quran translation, and verified hadith text/references as an **Absolute Sacred Lock** against SEO or editorial optimization.
+- Allowed verified factual/source corrections through a dedicated source-verification process rather than SEO rewriting.
+- Established the explanatory layer as SEO-adaptive to independently validated bilingual keyword targets, search intent, and SERP opportunities.
+- Defined reflection, key takeaway, Journey Mission, and practical action as **meaning-constrained** rather than freely SEO-adaptive.
+- Established that semantic religious anchor parity is mandatory across languages while explanatory SEO parity is not.
+- Added the **Religious Evidence Boundary**: search demand does not create religious evidence.
+- Required substantive religious claims in explanatory content to have traceable evidentiary basis.
+- Required weak-SERP opportunities to pass relevance, intent-fit, content-value, evidence, and cannibalization safeguards before targeting.
+
 ### [Corpus] Published Corpus Baseline
 - Verified Sessions 001–047 as the published corpus.
 - Verified 47 Indonesian and 47 English session landings.
