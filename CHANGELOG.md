@@ -29,9 +29,9 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Established 94 session-language targets as the active corpus.
 - Material beyond Session 047 remains outside the published corpus until publicly released and verified.
 
-### [SEO] Live SERP Validation — Sessions 001–004
-- Validated bilingual live-SERP search direction.
-- Aligned ID and EN metadata/H1 with their respective search territories.
+### [SEO] Deep Live SERP Validation — Sessions 001–004
+- Completed bilingual Deep Live SERP validation.
+- Aligned ID and EN metadata/H1 with their validated search territories.
 - Maintained independent ID and EN targeting.
 
 ### [SEO] Deep Live SERP Validation — Sessions 005–008
