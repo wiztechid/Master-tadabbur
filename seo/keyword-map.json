@@ -285,10 +285,10 @@
     {
       "session": "009",
       "locked_title": "Syukur Harus Menjadi Tindakan",
-      "primary_long_tail": "cara bersyukur kepada Allah bukan hanya ucapan",
+      "primary_long_tail": "cara bersyukur kepada Allah melalui tindakan",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/009/",
       "reader": "https://wiztechid.github.io/Master-tadabbur/?session=9&lang=id",
       "seo_title": "Cara Bersyukur kepada Allah Bukan Hanya dengan Ucapan",
@@ -302,16 +302,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "cara bersyukur kepada Allah bukan hanya ucapan",
+          "primary_long_tail": "cara bersyukur kepada Allah melalui tindakan",
+          "adjacent_long_tail": "syukur bukan hanya ucapan Alhamdulillah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
+          "competition": "medium"
         },
         "en": {
           "primary_long_tail": "how to show gratitude to Allah through actions",
-          "adjacent_long_tail": "gratitude to Allah beyond saying alhamdulillah",
+          "adjacent_long_tail": "gratitude to Allah beyond saying Alhamdulillah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -319,7 +320,7 @@
     {
       "session": "010",
       "locked_title": "Jangan Biarkan Waktu Berlalu Tanpa Arah",
-      "primary_long_tail": "tadabbur surat Al Asr tentang mengatur waktu dan hidup",
+      "primary_long_tail": "cara memanfaatkan waktu menurut Surat Al Asr",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
@@ -336,16 +337,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "tadabbur surat Al Asr tentang mengatur waktu dan hidup",
+          "primary_long_tail": "cara memanfaatkan waktu menurut Surat Al Asr",
+          "adjacent_long_tail": "empat bekal agar waktu tidak sia sia dalam Al Asr",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "Quran guidance on using time wisely",
-          "adjacent_long_tail": "how Islam teaches us to value time",
+          "primary_long_tail": "how to use time wisely according to Surah Al Asr",
+          "adjacent_long_tail": "four lessons from Surah Al Asr about using time wisely",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -353,10 +355,10 @@
     {
       "session": "011",
       "locked_title": "Jangan Bertindak Sebelum Memeriksa",
-      "primary_long_tail": "ayat tentang cek fakta sebelum menyebarkan berita tabayyun",
+      "primary_long_tail": "ayat tabayyun sebelum menyebarkan berita",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/011/",
       "reader": "https://wiztechid.github.io/Master-tadabbur/?session=11&lang=id",
       "seo_title": "Tabayyun Sebelum Share Berita — Al-Hujurat 49:6",
@@ -370,16 +372,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang cek fakta sebelum menyebarkan berita tabayyun",
+          "primary_long_tail": "ayat tabayyun sebelum menyebarkan berita",
+          "adjacent_long_tail": "cek fakta sebelum share berita menurut Al Hujurat 6",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
+          "competition": "medium"
         },
         "en": {
           "primary_long_tail": "Quran verse about verifying news before sharing it",
-          "adjacent_long_tail": "Islamic teaching on fact checking information",
+          "adjacent_long_tail": "verify information before sharing Quran 49 6",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -405,15 +408,16 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat tentang kebaikan kecil jangan diremehkan",
+          "adjacent_long_tail": "kebaikan sebesar zarrah Az Zalzalah 7",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "Quran verse about small good deeds",
-          "adjacent_long_tail": "does Allah count small acts of kindness",
+          "primary_long_tail": "Quran verse about even the smallest good deed",
+          "adjacent_long_tail": "whoever does an atom's weight of good Quran 99 7",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -1640,6 +1644,17 @@
         "007 owns action intent: how to return to Allah after sin; 031 owns emotional/despair intent for someone who feels their sins are too many.",
         "008 owns misconception intent: tawakkul is not inaction; distinct from hardship and repentance clusters.",
         "EN targets are independent search formulations, not literal ID translations."
+      ]
+    },
+    "009-012": {
+      "date": "2026-09-20",
+      "status": "deep-validated",
+      "method": "live bilingual SERP inspection plus cannibalization QC; directional demand only, no numeric volume claimed",
+      "notes": [
+        "009 owns practical gratitude-through-action intent, not generic gratitude definition.",
+        "010 owns practical use-of-time / four safeguards in Al-Asr; 044 remains broader meaningful-life / avoiding a wasted life intent.",
+        "011 owns verify-before-sharing-news intent; 042 remains verify-before-making-a-decision intent.",
+        "012 owns smallest-good-deed / atom-weight accountability intent anchored to Az-Zalzalah 99:7-8."
       ]
     }
   }
