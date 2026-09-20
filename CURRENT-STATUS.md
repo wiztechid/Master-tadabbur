@@ -186,7 +186,7 @@ All published sessions have a search-direction architecture, but evidence depth 
 
 ### Deep/live bilingual validation completed
 
-**Sessions 001–012**
+**Sessions 001–012 are Deep Live SERP validated bilingually
 
 These sessions have gone through the newer Deep SERP / bilingual QC workflow, including work on:
 
@@ -288,7 +288,7 @@ Green Gate requires consistent valid structured data across all 94 landings, whi
 
 Metadata quality is not uniform across the active corpus.
 
-### Sessions 001–012
+### Sessions 001–012 are Deep Live SERP validated bilingually
 
 Recent Deep SERP work has produced more refined:
 
@@ -626,7 +626,7 @@ Recommended handoff instruction:
 **Sitemap / robots baseline:** PASS on audited implementation  
 **Keyword mapping:** 001–047 bilingual mapped  
 **Deep SERP:** 001–012 bilingual validated  
-**Deep SERP coverage:** 12/47 sessions  
+**Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
 **Internal linking:** ID stronger; EN normalization required  
 **Schema:** Implemented; corpus normalization required  
 **Metadata:** Implemented; quality normalization required  
