@@ -837,6 +837,63 @@
         "034",
         "030"
       ]
+    },
+    {
+      "session": "045",
+      "locked_title": "Saat Jawaban Belum Datang, Jangan Mengira Allah Meninggalkanmu",
+      "primary_long_tail": "ayat ketika merasa Allah meninggalkan kita saat doa belum terjawab",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/045/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=45&lang=id",
+      "seo_title": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
+      "meta_description": "Tadabbur Ad-Duha 93:3–5 tentang masa sunyi, doa yang terasa tertunda, dan cara menjaga husnuzan kepada Allah tanpa membuat janji hasil yang tidak disebut nash.",
+      "h1": "Saat Doa Belum Terjawab: Tadabbur Ad-Duha 93:3–5",
+      "related_sessions": [
+        "018",
+        "031",
+        "032",
+        "007"
+      ]
+    },
+    {
+      "session": "046",
+      "locked_title": "Selesai Satu Urusan, Jangan Biarkan Hati Kehilangan Arah",
+      "primary_long_tail": "apa yang dilakukan setelah selesai satu urusan menurut Al Quran",
+      "intent": "informational-reflection",
+      "cluster": "muhasabah-ibadah-akhirat",
+      "serp_competition_estimate": "low",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/046/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=46&lang=id",
+      "seo_title": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
+      "meta_description": "Tadabbur Ash-Sharh 94:7–8 tentang ritme setelah menyelesaikan urusan: bersungguh-sungguh pada amal berikutnya dan mengarahkan harap hanya kepada Allah.",
+      "h1": "Setelah Selesai Satu Urusan — Tadabbur Ash-Sharh 94:7–8",
+      "related_sessions": [
+        "018",
+        "044",
+        "010",
+        "039"
+      ]
+    },
+    {
+      "session": "047",
+      "locked_title": "Kerjakan dengan Sungguh-Sungguh, karena Amal Tidak Berhenti pada Penilaian Manusia",
+      "primary_long_tail": "ayat tentang bekerja sungguh sungguh meski tidak diawasi orang",
+      "intent": "informational-reflection",
+      "cluster": "amanah-muamalah-sosial",
+      "serp_competition_estimate": "low-medium",
+      "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/047/",
+      "reader": "https://wiztechid.github.io/Master-tadabbur/?session=47&lang=id",
+      "seo_title": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
+      "meta_description": "Tadabbur At-Tawbah 9:105 tentang amal, integritas kerja, pengawasan Allah, dan pertanggungjawaban yang melampaui penilaian manusia.",
+      "h1": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
+      "related_sessions": [
+        "004",
+        "023",
+        "039",
+        "035"
+      ]
     }
   ],
   "version": "1.1",
