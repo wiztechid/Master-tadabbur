@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-20",
-  "methodology": "Long-tail targets are SERP opportunity hypotheses from specific-query/result-type inspection, not search-volume claims. Published session substance remains locked.",
+  "methodology": "Bilingual SERP architecture. Indonesian and English targets are researched as independent search territories, not literal translations. Search demand is treated as directional SERP evidence unless first-party keyword-volume data is available. One primary intent per canonical landing; adjacent intent is used where sessions overlap.",
   "sessions": [
     {
       "session": "001",
@@ -19,7 +19,22 @@
         "003",
         "012",
         "013"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tadabbur Al Fatihah ayat 5 makna iyyaka na'budu wa iyyaka nasta'in",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "meaning of you alone we worship and you alone we ask for help",
+          "adjacent_long_tail": "meaning of iyyaka nabudu wa iyyaka nastain",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "002",
@@ -38,7 +53,22 @@
         "003",
         "012",
         "013"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ciri orang bertakwa Al Baqarah 1-5 dalam kehidupan sehari hari",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "characteristics of muttaqin in Quran 2 1-5",
+          "adjacent_long_tail": "signs of a God conscious person in the Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "003",
@@ -57,7 +87,22 @@
         "001",
         "012",
         "013"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tujuan manusia diciptakan menurut Al Quran Al Baqarah 21 22",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "why did Allah create us according to the Quran",
+          "adjacent_long_tail": "purpose of human life in Islam according to Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "004",
@@ -76,7 +121,22 @@
         "021",
         "022",
         "023"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang amanah dan keadilan dalam pekerjaan dan jabatan",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about trust and justice in leadership",
+          "adjacent_long_tail": "amanah and justice in Islam at work",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "005",
@@ -95,7 +155,22 @@
         "011",
         "014",
         "015"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang menjaga kehormatan orang lain prasangka ghibah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about backbiting suspicion and protecting honor",
+          "adjacent_long_tail": "how Islam protects people's honor from backbiting",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "006",
@@ -114,7 +189,22 @@
         "008",
         "018",
         "029"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat Al Quran saat hidup terasa berat sabar dan shalat",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verses for when life feels hard",
+          "adjacent_long_tail": "what does Quran say when life feels overwhelming",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "007",
@@ -133,7 +223,22 @@
         "008",
         "018",
         "029"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang jangan putus asa dari rahmat Allah dan taubat",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about never giving up on returning to Allah",
+          "adjacent_long_tail": "can I return to Allah after sinning",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "008",
@@ -152,7 +257,22 @@
         "006",
         "018",
         "029"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "makna tawakal bukan pasrah tanpa usaha dalam Islam",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "does tawakkul mean doing nothing",
+          "adjacent_long_tail": "tawakkul after making effort in Islam",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "009",
@@ -171,7 +291,22 @@
         "005",
         "014",
         "015"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "cara bersyukur kepada Allah bukan hanya ucapan",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "how to show gratitude to Allah through actions",
+          "adjacent_long_tail": "gratitude to Allah beyond saying alhamdulillah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "010",
@@ -190,7 +325,22 @@
         "030",
         "034",
         "039"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tadabbur surat Al Asr tentang mengatur waktu dan hidup",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran guidance on using time wisely",
+          "adjacent_long_tail": "how Islam teaches us to value time",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "011",
@@ -209,7 +359,22 @@
         "014",
         "015",
         "005"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang cek fakta sebelum menyebarkan berita tabayyun",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about verifying news before sharing it",
+          "adjacent_long_tail": "Islamic teaching on fact checking information",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "012",
@@ -228,7 +393,22 @@
         "017",
         "019",
         "003"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang kebaikan kecil jangan diremehkan",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about small good deeds",
+          "adjacent_long_tail": "does Allah count small acts of kindness",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "013",
@@ -247,7 +427,22 @@
         "017",
         "019",
         "003"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat Al Quran tentang menahan amarah dan mengendalikan diri",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about controlling anger",
+          "adjacent_long_tail": "how to control anger according to Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "014",
@@ -266,7 +461,22 @@
         "011",
         "009",
         "005"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang menjaga ucapan memilih kata yang baik",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about speaking kindly to others",
+          "adjacent_long_tail": "what does Quran say about choosing good words",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "015",
@@ -285,7 +495,22 @@
         "011",
         "009",
         "005"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang prasangka buruk tajassus dan ghibah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about suspicion spying and backbiting",
+          "adjacent_long_tail": "how to avoid bad suspicion in Islam",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "016",
@@ -304,7 +529,22 @@
         "030",
         "034",
         "039"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tadabbur Al Hashr 18 untuk muhasabah diri sebelum tidur",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse for daily self reflection and accountability",
+          "adjacent_long_tail": "muhasabah before sleep in Islam",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        }
+      }
     },
     {
       "session": "017",
@@ -323,7 +563,22 @@
         "013",
         "012",
         "003"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang perbedaan suku bangsa untuk saling mengenal",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about different nations and tribes",
+          "adjacent_long_tail": "why Allah created different nations and tribes",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "018",
@@ -342,7 +597,22 @@
         "007",
         "029",
         "006"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tadabbur Asy Syarh 5 6 bersama kesulitan ada kemudahan",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "with hardship comes ease meaning Quran 94 5-6",
+          "adjacent_long_tail": "meaning of surely with hardship comes ease",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "019",
@@ -361,7 +631,22 @@
         "013",
         "012",
         "003"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang mengubah diri sebelum mengubah keadaan",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Allah does not change a people until they change themselves meaning",
+          "adjacent_long_tail": "Quran verse about changing yourself first",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "020",
@@ -380,7 +665,22 @@
         "022",
         "023",
         "024"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang tetap adil kepada orang yang tidak disukai",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about being just to people you dislike",
+          "adjacent_long_tail": "justice toward enemies in Islam Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "021",
@@ -399,7 +699,22 @@
         "022",
         "023",
         "024"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang tidak mengurangi hak orang lain dalam pekerjaan",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about not depriving people of their rights",
+          "adjacent_long_tail": "Islamic teaching on giving people their due",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        }
+      }
     },
     {
       "session": "022",
@@ -418,7 +733,22 @@
         "023",
         "020",
         "024"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang mengambil harta orang lain dengan cara batil",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about consuming wealth unjustly",
+          "adjacent_long_tail": "taking people's money unlawfully in Islam",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "023",
@@ -437,7 +767,22 @@
         "024",
         "021",
         "025"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang amanah harus diberikan kepada yang berhak",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about returning trusts to their owners",
+          "adjacent_long_tail": "render trusts to whom they are due meaning Quran 4 58",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "024",
@@ -456,7 +801,22 @@
         "025",
         "022",
         "026"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat Al Quran tentang menepati janji akad dan komitmen",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about fulfilling contracts and promises",
+          "adjacent_long_tail": "fulfill your contracts Quran 5 1 meaning",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "025",
@@ -475,7 +835,22 @@
         "026",
         "023",
         "022"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang harta dengan kerelaan dalam jual beli Islam",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about trade by mutual consent",
+          "adjacent_long_tail": "mutual consent in Islamic trade Quran 4 29",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        }
+      }
     },
     {
       "session": "026",
@@ -494,7 +869,22 @@
         "024",
         "023",
         "022"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tadabbur Al Baqarah 261 tentang infak dan pahala",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran 2 261 meaning charity seven hundred grains",
+          "adjacent_long_tail": "reward of charity in Quran 2 261",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "027",
@@ -513,7 +903,22 @@
         "015",
         "014",
         "011"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang sombong dalam pergaulan dan cara rendah hati",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about walking with arrogance",
+          "adjacent_long_tail": "how to avoid arrogance according to Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "028",
@@ -532,7 +937,22 @@
         "015",
         "014",
         "043"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang mendamaikan konflik sesama muslim",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about reconciling between believers",
+          "adjacent_long_tail": "how to reconcile conflict in Islam Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "029",
@@ -551,7 +971,22 @@
         "032",
         "018",
         "008"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang kesungguhan ikhtiar dan petunjuk Allah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran 29 69 meaning those who strive for Us",
+          "adjacent_long_tail": "Quran verse about striving and guidance",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "030",
@@ -570,7 +1005,22 @@
         "039",
         "040",
         "016"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat dan evaluasi diri",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about preparing for the Hereafter",
+          "adjacent_long_tail": "what have you prepared for tomorrow Quran 59 18",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "031",
@@ -589,7 +1039,22 @@
         "029",
         "018",
         "008"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat untuk orang yang merasa banyak dosa dan ingin kembali kepada Allah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse for someone who thinks their sins are too many",
+          "adjacent_long_tail": "do not despair of Allah's mercy meaning Quran 39 53",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "032",
@@ -608,7 +1073,22 @@
         "029",
         "018",
         "008"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "makna Allah tidak membebani seseorang di luar kemampuannya",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Allah does not burden a soul beyond what it can bear meaning",
+          "adjacent_long_tail": "Quran 2 286 meaning burden beyond capacity",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "033",
@@ -627,7 +1107,22 @@
         "036",
         "037",
         "026"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang kerja sama dalam kebaikan bukan dalam dosa",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about cooperating in goodness not sin",
+          "adjacent_long_tail": "cooperate in righteousness Quran 5 2 meaning",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "034",
@@ -646,7 +1141,22 @@
         "039",
         "040",
         "044"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang keseimbangan dunia dan akhirat Al Qasas 77",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "how to balance dunya and akhirah Quran 28 77",
+          "adjacent_long_tail": "Quran verse about balance between world and hereafter",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "035",
@@ -665,7 +1175,22 @@
         "033",
         "037",
         "041"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang adil dan ihsan dalam kehidupan sehari hari",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about justice and excellence ihsan",
+          "adjacent_long_tail": "Allah commands justice and ihsan Quran 16 90 meaning",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "036",
@@ -684,7 +1209,22 @@
         "037",
         "033",
         "041"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang boros dan cara menggunakan harta dengan benar",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about wasteful spending",
+          "adjacent_long_tail": "how to avoid extravagance in Islam Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "037",
@@ -703,7 +1243,22 @@
         "035",
         "033",
         "041"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang musyawarah dalam mengambil keputusan bersama",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about consultation in decision making",
+          "adjacent_long_tail": "shura consultation in Islam Quran 42 38",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "038",
@@ -722,7 +1277,22 @@
         "019",
         "017",
         "013"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "makna kebaikan sejati Al Baqarah 177 bukan sekadar simbol",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran 2 177 meaning righteousness is not turning faces",
+          "adjacent_long_tail": "what is true righteousness in Islam Quran 2 177",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "039",
@@ -741,7 +1311,22 @@
         "034",
         "044",
         "030"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang ikhlas dalam beramal Al Bayyinah 5",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about sincerity in worship",
+          "adjacent_long_tail": "how to make intention sincere for Allah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "040",
@@ -760,7 +1345,22 @@
         "044",
         "034",
         "030"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "tadabbur Al Maun tentang ibadah dan kepedulian sosial",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Surah Al Maun meaning prayer and caring for the poor",
+          "adjacent_long_tail": "what Surah Al Maun teaches about social responsibility",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "041",
@@ -779,7 +1379,22 @@
         "036",
         "035",
         "033"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang harta anak dan amal yang kekal Al Kahf 46",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "wealth and children are adornment Quran 18 46 meaning",
+          "adjacent_long_tail": "lasting good deeds better than wealth and children",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "042",
@@ -798,7 +1413,22 @@
         "019",
         "017",
         "013"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tabayyun sebelum mengambil keputusan dari informasi",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about verifying information before making a decision",
+          "adjacent_long_tail": "tabayyun meaning verify information Quran 49 6",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        }
+      }
     },
     {
       "session": "043",
@@ -817,7 +1447,22 @@
         "027",
         "015",
         "014"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang rendah hati dalam cara berjalan dan berbicara",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about humility in walking and speaking",
+          "adjacent_long_tail": "Luqman 31 18 19 meaning humility",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "044",
@@ -836,7 +1481,22 @@
         "039",
         "034",
         "030"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "makna surat Al Asr tentang waktu agar hidup tidak sia sia",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        },
+        "en": {
+          "primary_long_tail": "Surah Al Asr meaning how not to waste your life",
+          "adjacent_long_tail": "lessons from Surah Al Asr about a meaningful life",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "high"
+        }
+      }
     },
     {
       "session": "045",
@@ -855,7 +1515,22 @@
         "031",
         "032",
         "007"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat ketika merasa Allah meninggalkan kita saat doa belum terjawab",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "what does Islam say when you feel Allah has abandoned you",
+          "adjacent_long_tail": "Surah Ad Duha when you feel abandoned by Allah",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "medium"
+        }
+      }
     },
     {
       "session": "046",
@@ -874,7 +1549,22 @@
         "044",
         "010",
         "039"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "apa yang dilakukan setelah selesai satu urusan menurut Al Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low"
+        },
+        "en": {
+          "primary_long_tail": "Quran 94 7 8 meaning when you finish a task",
+          "adjacent_long_tail": "when you finish your duties turn to Allah Quran",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        }
+      }
     },
     {
       "session": "047",
@@ -893,46 +1583,31 @@
         "023",
         "039",
         "035"
-      ]
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "ayat tentang bekerja sungguh sungguh meski tidak diawasi orang",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        },
+        "en": {
+          "primary_long_tail": "Quran verse about working sincerely when no one is watching",
+          "adjacent_long_tail": "Islamic teaching on integrity at work when no one is watching",
+          "intent": "informational-reflection",
+          "demand_evidence": "serp-directional",
+          "competition": "low-medium"
+        }
+      }
     }
   ],
-  "version": "1.1",
+  "version": "2.0-bilingual-serp",
   "updated": "2026-09-20",
   "cannibalization_controls": [
-    {
-      "sessions": [
-        "010",
-        "044"
-      ],
-      "separation": "010 = Al-'Asr four-part framework for managing time; 044 = broader search intent on meaning of Surah Al-'Asr and avoiding a wasted life."
-    },
-    {
-      "sessions": [
-        "011",
-        "042"
-      ],
-      "separation": "011 = verification before forwarding/sharing news; 042 = verification before decisions that affect rights/outcomes."
-    },
-    {
-      "sessions": [
-        "016",
-        "030"
-      ],
-      "separation": "016 = daily/nightly muhasabah; 030 = preparing provisions for the Hereafter and future accountability."
-    },
-    {
-      "sessions": [
-        "007",
-        "031"
-      ],
-      "separation": "007 = repentance process and returning after sin; 031 = hope in Allah's mercy for a person burdened by many sins."
-    },
-    {
-      "sessions": [
-        "027",
-        "043"
-      ],
-      "separation": "027 = arrogance as an inner/social attitude; 043 = humility expressed through walking, presence, and speech."
-    }
+    "One primary search intent per language per canonical landing.",
+    "English targets are independently selected and must not be literal translations by default.",
+    "When two sessions share a verse/theme, assign different problem/question intents and adjacent long-tail territory.",
+    "Do not publish numeric monthly search volume without a verifiable keyword-volume source.",
+    "Re-check existing ID and EN registry before every new session."
   ]
 }
