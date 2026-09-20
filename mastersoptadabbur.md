@@ -73,7 +73,7 @@ Lapisan adaptif dapat mencakup:
 - transition/copy;
 - internal-link context;
 - summary/key takeaway;
-- Journey Mission/practical action apabila penyesuaian tetap konsisten dengan petunjuk sesi.
+- wording/copy Journey Mission atau practical action hanya apabila makna tindakannya tetap konsisten dengan petunjuk sesi.
 
 Penyesuaian diperbolehkan hanya apabila:
 
@@ -86,7 +86,28 @@ Penyesuaian diperbolehkan hanya apabila:
 7. tidak menciptakan cannibalization yang tidak disengaja;
 8. mempertahankan journey dan kualitas tadabbur.
 
-**Prinsip:** WAHYU/DALIL ADALAH ANCHOR YANG TETAP. EXPLANATORY LAYER BOLEH SEARCH-ADAPTIVE.
+### 2.3 Meaning-Constrained Layer
+
+Refleksi, key takeaway, Journey Mission, dan practical action bukan bagian yang bebas diubah hanya untuk mengejar keyword.
+
+Elemen tersebut boleh diperjelas, dikontekstualkan, atau diperbaiki penyajiannya untuk kebutuhan pembaca dan search intent, tetapi makna, arah nasihat, dan tindakan yang dianjurkan harus tetap dapat ditelusuri secara wajar kepada sacred anchor dan evidence keagamaan sesi.
+
+SEO tidak boleh menciptakan tuntunan, janji, larangan, keutamaan, konsekuensi agama, atau practical action baru hanya karena query tersebut memiliki peluang SERP.
+
+**Prinsip:** WAHYU/DALIL ADALAH ANCHOR YANG TETAP. EXPLANATORY LAYER BOLEH SEARCH-ADAPTIVE. REFLECTION DAN ACTION TETAP MEANING-CONSTRAINED.
+
+### 2.4 Verified Source Correction
+
+Absolute Sacred Lock berarti sumber tidak boleh diubah untuk SEO atau optimasi editorial. Absolute Sacred Lock tidak melarang koreksi faktual yang telah diverifikasi.
+
+Jika ditemukan typo teks ayat, salah referensi surah/ayat, kesalahan terjemahan yang tersalin, kesalahan teks/rujukan/atribusi hadis, atau masalah sumber lain:
+
+1. hentikan SEO rewrite pada bagian tersebut;
+2. verifikasi terhadap sumber yang layak dan dapat ditelusuri;
+3. lakukan koreksi hanya pada kesalahan yang terverifikasi;
+4. jangan menyamarkan koreksi sumber sebagai optimasi SEO;
+5. lakukan Sacred Source Integrity QC setelah koreksi;
+6. catat koreksi material dalam CHANGELOG.
 
 ---
 
@@ -149,6 +170,10 @@ Untuk masing-masing ecosystem evaluasi:
 
 Search territory dan explanatory presentation antarbahasa dapat berbeda selama tetap berakar pada sumber agama dan tema sesi yang sama.
 
+**Semantic religious anchor parity is mandatory; explanatory SEO parity is not.**
+
+ID dan EN tidak wajib memiliki FAQ, answer block, contoh, heading, atau panjang penjelasan yang identik. Masing-masing boleh mengikuti kebutuhan SERP dan pembacanya selama sacred anchor, religious meaning, dan batas evidence tetap konsisten.
+
 ### 6.2 Functional Parity
 
 Tidak ada bahasa yang boleh menjadi versi sekunder TadabburLife.
@@ -181,13 +206,25 @@ Target harus memenuhi seluruh prinsip berikut:
 
 Keyword/search territory hanya layak ditarget jika dapat dijawab secara substantif oleh sesi tanpa memaksakan makna ayat/hadis.
 
-### 7.3 One Intent Territory → One Canonical Landing
+### 7.3 Religious Evidence Boundary
+
+**SEARCH DEMAND DOES NOT CREATE RELIGIOUS EVIDENCE.**
+
+SERP membantu menentukan pertanyaan yang perlu dijawab dan bahasa yang digunakan pembaca. SERP tidak menentukan jawaban agama dan tidak dapat menjadi dasar untuk menciptakan klaim agama.
+
+Klaim substantif tentang makna ayat/hadis, hukum, larangan, anjuran, keutamaan, janji, sebab-akibat spiritual, atau konsekuensi agama harus memiliki evidentiary basis yang dapat ditelusuri.
+
+Untuk explanatory synthesis, bedakan secara jelas antara teks sumber, penjelasan/tafsir atau evidence keagamaan yang dirujuk, dan contextual/editorial synthesis TadabburLife.
+
+Jika sebuah keyword hanya dapat dijawab dengan klaim agama yang tidak memiliki dasar memadai, keyword tersebut harus ditolak atau search territory dipersempit.
+
+### 7.4 One Intent Territory → One Canonical Landing
 
 Setiap primary search intent / keyword territory harus memiliki satu canonical landing utama.
 
 Sebelum menetapkan target baru wajib dilakukan cannibalization check terhadap active corpus.
 
-### 7.4 SEO Workflow
+### 7.5 SEO Workflow
 
 DEEP SERP  
 → INTENT CLASSIFICATION  
@@ -284,7 +321,15 @@ Verifikasi bahwa:
 
 Untuk perubahan global, sacred-source integrity harus dapat diverifikasi corpus-wide sebanyak mungkin secara otomatis.
 
-### 13.2 Explanatory Content QC
+### 13.2 Religious Evidence & Attribution QC
+
+Untuk penambahan explanatory content yang mengandung klaim agama substantif, periksa bahwa evidence dapat ditelusuri kepada sumber yang relevan seperti Al-Qur'an, hadis yang layak digunakan, tafsir, atau sumber keislaman yang kredibel sesuai jenis klaim.
+
+Pastikan sumber, atribusi, dan explanatory synthesis tidak dicampur seolah-olah semuanya merupakan teks wahyu atau kutipan sumber asli.
+
+Contoh kehidupan, struktur tulisan, analogi non-doktrinal, UX copy, dan penjelasan editorial biasa tidak memerlukan beban evidentiary yang sama selama tidak berubah menjadi klaim agama.
+
+### 13.3 Explanatory Content QC
 
 Periksa:
 
@@ -297,21 +342,21 @@ Periksa:
 - tidak ada forced interpretation;
 - konsistensi dengan tema sesi.
 
-### 13.3 Reader QC
+### 13.4 Reader QC
 
 Periksa clarity, usefulness, hierarchy, mobile comfort, navigation, next-step clarity, dan apakah perjalanan tadabbur tetap natural.
 
-### 13.4 SEO QC
+### 13.5 SEO QC
 
 Periksa SERP intent, search territory, keyword mapping, relevance gate, title, H1, meta description, canonical, hreflang, internal linking, schema, sitemap, indexability, cannibalization, dan crawler-visible HTML.
 
 Setiap bahasa dievaluasi berdasarkan search ecosystem masing-masing.
 
-### 13.5 Technical / Regression QC
+### 13.6 Technical / Regression QC
 
 Periksa mobile, desktop, layout, spacing/padding, broken links, language switching, journey state, next-session behavior, sharing, OG metadata, crawler-visible HTML, dan regression terhadap halaman/sesi lain.
 
-### 13.6 Active Corpus QC
+### 13.7 Active Corpus QC
 
 QC mengikuti **ACTIVE CORPUS**, bukan jumlah sesi permanen.
 
@@ -366,6 +411,9 @@ JANGAN:
 - memaksakan keyword yang tidak relevan dengan ayat/hadis atau tema sesi;
 - mengejar weak SERP hanya karena kompetisinya rendah;
 - membuat unsupported religious claim;
+- menggunakan search demand atau SERP sebagai pengganti religious evidence;
+- menciptakan janji, keutamaan, larangan, hukum, sebab-akibat spiritual, atau practical action agama baru hanya untuk mengejar keyword;
+- mengubah makna refleksi/Journey Mission hanya untuk menyesuaikan keyword;
 - melakukan keyword stuffing;
 - menerjemahkan keyword satu bahasa secara otomatis menjadi target bahasa lain;
 - membuat target keyword tanpa SERP evidence;
@@ -395,7 +443,7 @@ MASTER-SOP adalah dokumen stabil.
 
 MASTER-SOP hanya direvisi apabila terjadi perubahan fundamental pada content integrity, product philosophy, architecture principle, search principle, QC principle, atau governance proyek.
 
-Perubahan fundamental harus menaikkan versi dokumen dan dicatat dalam CHANGELOG.
+Perubahan fundamental harus menaikkan versi dokumen dan dicatat dalam CHANGELOG. Koreksi atau penyempurnaan guardrail dalam versi yang sama harus tetap dicatat apabila material.
 
 ---
 
