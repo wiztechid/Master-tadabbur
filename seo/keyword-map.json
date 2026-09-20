@@ -5,7 +5,7 @@
     {
       "session": "001",
       "locked_title": "Jalan Seorang Hamba",
-      "primary_long_tail": "tadabbur Al Fatihah ayat 5 makna iyyaka na'budu wa iyyaka nasta'in",
+      "primary_long_tail": "makna iyyaka nabudu wa iyyaka nastain dalam kehidupan",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
@@ -22,16 +22,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "tadabbur Al Fatihah ayat 5 makna iyyaka na'budu wa iyyaka nasta'in",
+          "primary_long_tail": "makna iyyaka nabudu wa iyyaka nastain dalam kehidupan",
+          "adjacent_long_tail": "mengapa ibadah dan meminta pertolongan hanya kepada Allah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "meaning of you alone we worship and you alone we ask for help",
-          "adjacent_long_tail": "meaning of iyyaka nabudu wa iyyaka nastain",
+          "primary_long_tail": "meaning of iyyaka nabudu wa iyyaka nastain in daily life",
+          "adjacent_long_tail": "why worship Allah and ask Him for help Quran 1 5",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -39,7 +40,7 @@
     {
       "session": "002",
       "locked_title": "Kompas Orang Bertakwa",
-      "primary_long_tail": "ciri orang bertakwa Al Baqarah 1-5 dalam kehidupan sehari hari",
+      "primary_long_tail": "ciri orang bertakwa menurut Al Baqarah ayat 1-5",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
       "serp_competition_estimate": "medium",
@@ -56,16 +57,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ciri orang bertakwa Al Baqarah 1-5 dalam kehidupan sehari hari",
+          "primary_long_tail": "ciri orang bertakwa menurut Al Baqarah ayat 1-5",
+          "adjacent_long_tail": "ciri orang bertakwa dalam kehidupan sehari hari",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "characteristics of muttaqin in Quran 2 1-5",
-          "adjacent_long_tail": "signs of a God conscious person in the Quran",
+          "primary_long_tail": "characteristics of the muttaqin in Quran 2 1-5",
+          "adjacent_long_tail": "signs of a God conscious person according to Quran",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -73,10 +75,10 @@
     {
       "session": "003",
       "locked_title": "Untuk Apa Kita Diciptakan?",
-      "primary_long_tail": "tujuan manusia diciptakan menurut Al Quran Al Baqarah 21 22",
+      "primary_long_tail": "untuk apa manusia diciptakan menurut Al Quran",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/003/",
       "reader": "https://wiztechid.github.io/Master-tadabbur/?session=3&lang=id",
       "seo_title": "Tujuan Manusia Diciptakan Menurut Al-Qur'an — Al-Baqarah 21–22",
@@ -90,16 +92,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "tujuan manusia diciptakan menurut Al Quran Al Baqarah 21 22",
+          "primary_long_tail": "untuk apa manusia diciptakan menurut Al Quran",
+          "adjacent_long_tail": "tujuan hidup manusia untuk beribadah kepada Allah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "live-serp-validated-2026-09-20",
+          "competition": "medium-high"
         },
         "en": {
           "primary_long_tail": "why did Allah create us according to the Quran",
           "adjacent_long_tail": "purpose of human life in Islam according to Quran",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "high"
         }
       }
@@ -107,10 +110,10 @@
     {
       "session": "004",
       "locked_title": "Amanah Tidak Berhenti pada Jabatan",
-      "primary_long_tail": "ayat tentang amanah dan keadilan dalam pekerjaan dan jabatan",
+      "primary_long_tail": "ayat tentang amanah dan keadilan dalam jabatan",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium",
       "canonical": "https://wiztechid.github.io/Master-tadabbur/tadabbur/004/",
       "reader": "https://wiztechid.github.io/Master-tadabbur/?session=4&lang=id",
       "seo_title": "Ayat tentang Amanah dan Keadilan dalam Pekerjaan — An-Nisa 58",
@@ -124,16 +127,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang amanah dan keadilan dalam pekerjaan dan jabatan",
+          "primary_long_tail": "ayat tentang amanah dan keadilan dalam jabatan",
+          "adjacent_long_tail": "amanah pemimpin menurut An Nisa ayat 58",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "live-serp-validated-2026-09-20",
+          "competition": "medium"
         },
         "en": {
           "primary_long_tail": "Quran verse about trust and justice in leadership",
-          "adjacent_long_tail": "amanah and justice in Islam at work",
+          "adjacent_long_tail": "amanah and justice in leadership Quran 4 58",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -1609,5 +1613,18 @@
     "When two sessions share a verse/theme, assign different problem/question intents and adjacent long-tail territory.",
     "Do not publish numeric monthly search volume without a verifiable keyword-volume source.",
     "Re-check existing ID and EN registry before every new session."
-  ]
+  ],
+  "serp_audit": {
+    "001-004": {
+      "date": "2026-09-20",
+      "status": "validated",
+      "method": "live SERP inspection; head-term saturation and intent adjacency checked; no numeric volume claimed without first-party volume source",
+      "notes": [
+        "001 moved from generic exact-phrase meaning toward practical-life intent because exact phrase SERP is crowded by major media.",
+        "002 retains Al-Baqarah 1-5 characteristics intent; adjacent target captures everyday-life application.",
+        "003 uses direct question intent in both languages; English SERP shows strong established demand and high competition.",
+        "004 separated from session 023: 004 owns leadership/decision justice; 023 remains returning trusts to rightful owners."
+      ]
+    }
+  }
 }
