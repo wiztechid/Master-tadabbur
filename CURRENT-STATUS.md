@@ -375,17 +375,21 @@ Verify:
 - Sacred Source Integrity,
 - meaning-constrained reflection/action integrity.
 
-### G2 — Metadata Normalization
+### G2 — Metadata / Signal Integrity
 
-Verify 94/94 have appropriate:
+Verify 94/94 have technically valid and internally consistent:
 
 - title,
 - H1,
 - meta description,
 - OG metadata,
-- language/context consistency.
+- language/context signals.
 
-This does **not** require all Sessions 013–047 to complete full Deep SERP before technical Green Gate, but obvious legacy/thin/inconsistent metadata must be normalized safely. Metadata/content refinement must remain driven by SERP evidence, session relevance, reader value, and the Religious Evidence Boundary.
+**Deep-SERP boundary:** Sessions **001–012** may use their completed Deep Live SERP evidence for editorial SEO refinement. Sessions **013–047** are only directionally mapped and must **not** receive speculative or mass editorial SEO rewrites before their own Deep Live SERP batch is completed.
+
+Before Deep SERP validation, work on 013–047 is limited to safe technical integrity fixes and obvious defects such as missing/broken metadata, language mismatch, malformed tags, incorrect session references, or inconsistent crawler/share signals. Keyword targeting, search-territory refinement, title/H1/meta optimization, answer blocks, FAQ, and explanatory SEO adaptation remain part of the later per-batch Deep SERP workflow.
+
+Metadata/content refinement must remain driven by SERP evidence, session relevance, reader value, and the Religious Evidence Boundary.
 
 ### G3 — Schema Normalization
 
@@ -546,7 +550,9 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**94-LANDING NORMALIZATION → CORPUS-WIDE QC → LIVE REGRESSION QC → GREEN GATE**
+**94-LANDING TECHNICAL NORMALIZATION → CORPUS-WIDE QC → LIVE REGRESSION QC → GREEN GATE**
+
+The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
 Priority order:
 
@@ -554,7 +560,7 @@ Priority order:
 2. audit/normalize 94 landing technical structure,
 3. close EN internal-link parity gap,
 4. normalize schema,
-5. normalize legacy/thin metadata where safely justified,
+5. normalize metadata **technical integrity** across 94 landings without speculative editorial rewrites on Sessions 013–047,
 6. verify keyword-map ↔ landing synchronization,
 7. corpus-wide technical QC,
 8. deploy/live regression QC,
@@ -568,7 +574,9 @@ After Green Gate:
 
 ### Batch 013–016
 
-Perform independent ID + EN Deep SERP.
+Perform independent ID + EN **Deep Live SERP** as the next four-session research batch.
+
+Deep SERP editorial work is deliberately performed in controlled **4-session batches**. Sessions 001–012 have completed this process; Sessions 013–047 have not yet completed the same validation standard.
 
 Then:
 
@@ -643,7 +651,7 @@ Recommended handoff instruction:
 **Schema:** Implemented; corpus normalization required  
 **Metadata:** Implemented; quality normalization required  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** 94-Landing Normalization + Corpus-Wide QC  
+**Immediate work:** 94-Landing Technical Normalization + Corpus-Wide QC  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
