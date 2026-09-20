@@ -145,7 +145,7 @@
     {
       "session": "005",
       "locked_title": "Menjaga Kehormatan Orang Lain",
-      "primary_long_tail": "ayat tentang menjaga kehormatan orang lain prasangka ghibah",
+      "primary_long_tail": "ayat tentang menjaga kehormatan orang lain ejekan dan panggilan buruk",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
@@ -162,16 +162,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang menjaga kehormatan orang lain prasangka ghibah",
+          "primary_long_tail": "ayat tentang menjaga kehormatan orang lain ejekan dan panggilan buruk",
+          "adjacent_long_tail": "menjaga kehormatan sesama menurut Al Hujurat 11 12",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "Quran verse about backbiting suspicion and protecting honor",
-          "adjacent_long_tail": "how Islam protects people's honor from backbiting",
+          "primary_long_tail": "Quran verse about mocking people and calling them offensive names",
+          "adjacent_long_tail": "protecting other people's honor in Quran 49 11 12",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -197,23 +198,24 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat Al Quran saat hidup terasa berat sabar dan shalat",
+          "adjacent_long_tail": "sabar dan shalat saat menghadapi kesulitan Al Baqarah 45",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "Quran verses for when life feels hard",
-          "adjacent_long_tail": "what does Quran say when life feels overwhelming",
+          "primary_long_tail": "Quran verse for when life feels hard patience and prayer",
+          "adjacent_long_tail": "seek help through patience and prayer Quran 2 45",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "live-serp-validated-2026-09-20",
+          "competition": "medium-high"
         }
       }
     },
     {
       "session": "007",
       "locked_title": "Jangan Putus Asa untuk Kembali",
-      "primary_long_tail": "ayat tentang jangan putus asa dari rahmat Allah dan taubat",
+      "primary_long_tail": "cara kembali kepada Allah setelah berbuat dosa",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
@@ -230,16 +232,17 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang jangan putus asa dari rahmat Allah dan taubat",
+          "primary_long_tail": "cara kembali kepada Allah setelah berbuat dosa",
+          "adjacent_long_tail": "jalan taubat setelah melakukan dosa menurut Al Quran",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         },
         "en": {
-          "primary_long_tail": "Quran verse about never giving up on returning to Allah",
-          "adjacent_long_tail": "can I return to Allah after sinning",
+          "primary_long_tail": "how to return to Allah after sinning",
+          "adjacent_long_tail": "Quran guidance on returning to Allah after sin",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -265,15 +268,16 @@
       "seo": {
         "id": {
           "primary_long_tail": "makna tawakal bukan pasrah tanpa usaha dalam Islam",
+          "adjacent_long_tail": "tawakal setelah berusaha menurut Al Quran",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "low-medium"
         },
         "en": {
           "primary_long_tail": "does tawakkul mean doing nothing",
           "adjacent_long_tail": "tawakkul after making effort in Islam",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
+          "demand_evidence": "live-serp-validated-2026-09-20",
           "competition": "medium"
         }
       }
@@ -1624,6 +1628,17 @@
         "002 retains Al-Baqarah 1-5 characteristics intent; adjacent target captures everyday-life application.",
         "003 uses direct question intent in both languages; English SERP shows strong established demand and high competition.",
         "004 separated from session 023: 004 owns leadership/decision justice; 023 remains returning trusts to rightful owners."
+      ]
+    },
+    "005-008": {
+      "date": "2026-09-20",
+      "status": "validated",
+      "method": "live bilingual SERP inspection; intent overlap checked against existing registry; no numeric volume claimed",
+      "notes": [
+        "005 moved away from suspicion/backbiting as primary territory because session 015 owns that narrower intent; 005 now owns protection of dignity from mockery/offensive labels.",
+        "006 keeps hardship + patience/prayer problem intent; evidence shows direct search-result alignment with Al-Baqarah 2:45.",
+        "007 moved away from generic despair/mercy wording to return-to-Allah-after-sin intent so session 031 can own the 'too many sins/despair of mercy' territory.",
+        "008 validated strongly: current SERP explicitly answers whether tawakkul means inaction; effort-plus-reliance intent retained."
       ]
     }
   }
