@@ -5,7 +5,7 @@
 **Snapshot:** 20 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
 **Primary Branch:** `main`  
-**Governing SOP:** `mastersoptadabbur.md` v1.0 — FROZEN
+**Governing SOP:** `mastersoptadabbur.md` v1.1 — FROZEN GOVERNANCE BASELINE
 
 > MASTER-SOP defines how TadabburLife must be developed.  
 > CURRENT-STATUS records where the project actually stands now.  
@@ -27,7 +27,7 @@ Current published corpus:
 
 Source/work material exists with numbering beyond the published corpus, including material named through 051 in repository data areas. These are **not counted as published sessions** until public session landings are actually released and verified.
 
-The approved substance of published sessions remains protected under the LOCKED CONTENT rules in MASTER-SOP.
+Published sessions follow Master SOP v1.1 content integrity: Quran/hadith source material is protected by the **Absolute Sacred Lock**; explanatory/supporting content may be SEO-adaptive when relevant and evidence-based; reflection, key takeaway, Journey Mission, and practical action remain **meaning-constrained**.
 
 ---
 
@@ -37,7 +37,7 @@ Project governance currently uses:
 
 1. `mastersoptadabbur.md` — stable/frozen development principles.
 2. `CURRENT-STATUS.md` — current implementation and work status.
-3. Future `CHANGELOG.md` — significant project decisions and changes.
+3. `CHANGELOG.md` — verified significant project decisions and changes.
 4. Repository/live website — source of truth for actual implementation.
 
 Historical chat statements must not override a newer verified repository/live state.
@@ -186,7 +186,7 @@ All published sessions have a search-direction architecture, but evidence depth 
 
 ### Deep/live bilingual validation completed
 
-**Sessions 001–012 are Deep Live SERP validated bilingually
+**Sessions 001–012 are Deep Live SERP validated bilingually.**
 
 These sessions have gone through the newer Deep SERP / bilingual QC workflow, including work on:
 
@@ -332,7 +332,7 @@ Known-good behavior to protect includes:
 - mobile usability,
 - share experience.
 
-SEO normalization must not alter locked tadabbur substance.
+SEO normalization must preserve the **Absolute Sacred Lock** and the meaning constraints of reflection/action. The explanatory layer may be adapted when supported by reader need, independently validated search intent, session relevance, and adequate religious evidence.
 
 ---
 
@@ -372,7 +372,8 @@ Verify:
 - x-default,
 - indexability,
 - no broken public landing,
-- locked content integrity.
+- Sacred Source Integrity,
+- meaning-constrained reflection/action integrity.
 
 ### G2 — Metadata Normalization
 
@@ -384,7 +385,7 @@ Verify 94/94 have appropriate:
 - OG metadata,
 - language/context consistency.
 
-This does **not** require all Sessions 013–047 to complete full Deep SERP before technical Green Gate, but obvious legacy/thin/inconsistent metadata must be normalized safely.
+This does **not** require all Sessions 013–047 to complete full Deep SERP before technical Green Gate, but obvious legacy/thin/inconsistent metadata must be normalized safely. Metadata/content refinement must remain driven by SERP evidence, session relevance, reader value, and the Religious Evidence Boundary.
 
 ### G3 — Schema Normalization
 
@@ -472,14 +473,19 @@ Then continue in controlled batches through the active corpus.
 Workflow:
 
 DEEP SERP  
-→ INTENT VALIDATION  
+→ INTENT CLASSIFICATION  
+→ LONG-TAIL / WEAK-SERP OPPORTUNITY  
 → SEARCH TERRITORY  
+→ KEYWORD MAPPING  
+→ QURAN / HADITH RELEVANCE CHECK  
 → CANNIBALIZATION CHECK  
-→ ID TARGET  
-→ EN TARGET  
-→ TITLE/H1/META  
-→ LANDING IMPLEMENTATION  
-→ LIVE QC  
+→ BILINGUAL EXPLANATORY ADAPTATION  
+→ TITLE / H1 / META  
+→ ANSWER LAYER / SUPPORTING CONTENT  
+→ INTERNAL LINKING / SCHEMA  
+→ READER QC  
+→ RELIGIOUS-INTEGRITY QC  
+→ TECHNICAL / LIVE QC  
 → UPDATE KEYWORD MAP / STATUS
 
 This allows technical architecture to become green without falsely claiming Sessions 013–047 have completed individual Deep SERP research.
@@ -488,11 +494,11 @@ This allows technical architecture to become green without falsely claiming Sess
 
 ## 17. CURRENT RISKS
 
-### R1 — Locked Content Regression
+### R1 — Sacred Source Regression
 
-Global normalization accidentally changes approved tadabbur substance.
+Global normalization accidentally changes Quran/hadith source text, established translation, references, or verified attribution.
 
-**Control:** content-integrity verification.
+**Control:** Sacred Source Integrity QC and verified-source-correction procedure.
 
 ### R2 — Bilingual Drift
 
@@ -528,6 +534,12 @@ Old conversation history is treated as proof of current implementation.
 
 **Control:** repository/live verification.
 
+### R8 — SEO Overreach / Religious Evidence Drift
+
+Search opportunity or keyword demand causes explanatory content to overstate, invent, or force a religious claim beyond the available evidence.
+
+**Control:** **SEARCH DEMAND DOES NOT CREATE RELIGIOUS EVIDENCE.** Apply Quran/hadith relevance checks, traceable religious evidence where required, and Religious Evidence & Attribution QC.
+
 ---
 
 ## 18. CURRENT PRIORITY
@@ -538,7 +550,7 @@ Old conversation history is treated as proof of current implementation.
 
 Priority order:
 
-1. preserve locked content,
+1. preserve Absolute Sacred Lock and meaning-constrained reflection/action,
 2. audit/normalize 94 landing technical structure,
 3. close EN internal-link parity gap,
 4. normalize schema,
@@ -611,13 +623,13 @@ Then verify repository/live state when the requested work depends on current imp
 
 Recommended handoff instruction:
 
-> Continue TadabburLife. Read mastersoptadabbur.md and CURRENT-STATUS.md first. Preserve all locked substance. Verify current repository/live state before making implementation claims. Continue only the active priority unless explicitly instructed otherwise.
+> Continue TadabburLife. Read mastersoptadabbur.md and CURRENT-STATUS.md first. Preserve the Absolute Sacred Lock and meaning-constrained reflection/action. Allow evidence-backed SEO adaptation only in the explanatory layer. Verify current repository/live state before making implementation claims. Continue only the active priority unless explicitly instructed otherwise.
 
 ---
 
 ## 22. CURRENT SNAPSHOT
 
-**Master SOP:** v1.0 FROZEN  
+**Master SOP:** v1.1 FROZEN GOVERNANCE BASELINE  
 **Published sessions:** 001–047  
 **Languages:** ID + EN  
 **Published search targets:** 94  
