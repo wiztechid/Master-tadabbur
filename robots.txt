@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /owner/
-Sitemap: https://wiztechid.github.io/Master-tadabbur/sitemap.xml
+Sitemap: https://tadabburlife.com/sitemap.xml
