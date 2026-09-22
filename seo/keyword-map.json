@@ -3085,15 +3085,15 @@
     {
       "session": "045",
       "locked_title": "Saat Jawaban Belum Datang, Jangan Mengira Allah Meninggalkanmu",
-      "primary_long_tail": "ayat ketika merasa Allah meninggalkan kita saat doa belum terjawab",
+      "primary_long_tail": "Ad Duha 93:3 5 Allah tidak meninggalkan saat doa belum terjawab",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/045/",
       "reader": "https://tadabburlife.com/?session=45&lang=id",
-      "seo_title": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
-      "meta_description": "Tadabbur Ad-Duha 93:3–5 tentang masa sunyi, doa yang terasa tertunda, dan cara menjaga husnuzan kepada Allah tanpa membuat janji hasil yang tidak disebut nash.",
-      "h1": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
+      "seo_title": "Ad-Duha 93:3–5: Allah Tidak Meninggalkanmu saat Jawaban Belum Datang",
+      "meta_description": "Ad-Duha 93:3–5 menegaskan Allah tidak meninggalkan Nabi ﷺ pada masa jeda wahyu. Pahami cara menjaga husnuzan saat jawaban terasa tertunda tanpa menjanjikan hasil tertentu.",
+      "h1": "Ad-Duha 93:3–5: Allah Tidak Meninggalkanmu saat Jawaban Belum Datang",
       "related_sessions": [
         "018",
         "031",
@@ -3102,28 +3102,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat ketika merasa Allah meninggalkan kita saat doa belum terjawab",
+          "primary_long_tail": "Ad Duha 93:3 5 Allah tidak meninggalkan saat doa belum terjawab",
+          "adjacent_long_tail": "ayat ketika merasa Allah meninggalkan kita Ad Duha 3 5",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Ad-Duha 93:3-5 on the Prophet being reassured during a pause in revelation that his Lord had not forsaken or hated him; broader reflection for believers on not reading delay as proof of divine abandonment, without promising a specific personal outcome.",
+          "cannibalization_guard": "Session 018 owns hardship accompanied by ease. Session 031 owns despair caused by sin and return to mercy. Session 032 owns burden within capacity. Session 045 owns the feeling that Allah has abandoned a person during silence/delay and the correction of that conclusion through Ad-Duha 93:3-5."
         },
         "en": {
-          "primary_long_tail": "what does Islam say when you feel Allah has abandoned you",
+          "primary_long_tail": "Quran 93:3-5 your Lord has not forsaken you meaning",
           "adjacent_long_tail": "Surah Ad Duha when you feel abandoned by Allah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 93:3-5 on the Prophet being reassured during a pause in revelation that his Lord had not forsaken him, with a careful believer-facing reflection against equating delay with abandonment.",
+          "cannibalization_guard": "Session 018 owns hardship/ease; Session 031 owns sin-related despair and repentance; Session 032 owns burden/capacity. Session 045 owns perceived divine abandonment during delay or silence."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/045/",
           "reader": "https://tadabburlife.com/?session=45&lang=id",
-          "seo_title": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
-          "meta_description": "Tadabbur Ad-Duha 93:3–5 tentang masa sunyi, doa yang terasa tertunda, dan cara menjaga husnuzan kepada Allah tanpa membuat janji hasil yang tidak disebut nash.",
-          "h1": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
+          "seo_title": "Ad-Duha 93:3–5: Allah Tidak Meninggalkanmu saat Jawaban Belum Datang",
+          "meta_description": "Ad-Duha 93:3–5 menegaskan Allah tidak meninggalkan Nabi ﷺ pada masa jeda wahyu. Pahami cara menjaga husnuzan saat jawaban terasa tertunda tanpa menjanjikan hasil tertentu.",
+          "h1": "Ad-Duha 93:3–5: Allah Tidak Meninggalkanmu saat Jawaban Belum Datang",
           "html_lang": "id",
           "related_sessions": [
             "018",
@@ -3135,9 +3140,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/045/",
           "reader": "https://tadabburlife.com/?session=45&lang=en",
-          "seo_title": "What does Islam say when you feel Allah has abandoned you",
-          "meta_description": "When the Answer Has Not Come, Do Not Assume Allah Has Abandoned You. A quiet season and a delayed answer do not automatically mean that Allah has abandoned a servant.",
-          "h1": "What does Islam say when you feel Allah has abandoned you",
+          "seo_title": "Quran 93:3–5: Your Lord Has Not Forsaken You | TadabburLife",
+          "meta_description": "Quran 93:3–5 reassures the Prophet ﷺ that his Lord had not forsaken him during a pause in revelation. Explore delayed answers, hope, and the limits against promising a specific outcome.",
+          "h1": "Quran 93:3–5: Your Lord Has Not Forsaken You",
           "html_lang": "en",
           "related_sessions": [
             "018",
@@ -3151,15 +3156,15 @@
     {
       "session": "046",
       "locked_title": "Selesai Satu Urusan, Jangan Biarkan Hati Kehilangan Arah",
-      "primary_long_tail": "apa yang dilakukan setelah selesai satu urusan menurut Al Quran",
+      "primary_long_tail": "Ash Sharh 94:7 8 setelah selesai satu urusan bersungguh sungguh",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "low",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/046/",
       "reader": "https://tadabburlife.com/?session=46&lang=id",
-      "seo_title": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
-      "meta_description": "Tadabbur Ash-Sharh 94:7–8 tentang ritme setelah menyelesaikan urusan: bersungguh-sungguh pada amal berikutnya dan mengarahkan harap hanya kepada Allah.",
-      "h1": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
+      "seo_title": "Ash-Sharh 94:7–8: Setelah Selesai, Bersungguh-sungguh dan Berharap kepada Allah",
+      "meta_description": "Ash-Sharh 94:7–8 mengajarkan setelah selesai dari satu urusan untuk tetap bersungguh-sungguh dan mengarahkan harap kepada Allah. Pahami ritme amal tanpa menolak istirahat.",
+      "h1": "Ash-Sharh 94:7–8: Setelah Selesai, Bersungguh-sungguh dan Berharap kepada Allah",
       "related_sessions": [
         "018",
         "044",
@@ -3168,28 +3173,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "apa yang dilakukan setelah selesai satu urusan menurut Al Quran",
+          "primary_long_tail": "Ash Sharh 94:7 8 setelah selesai satu urusan bersungguh sungguh",
+          "adjacent_long_tail": "fa idza faraghta fanshab wa ila rabbika farghab makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Ash-Sharh 94:7-8 on what follows completion of an affair: renewed earnest effort and directing desire/hope to Allah, without turning the verses into a command for nonstop work.",
+          "cannibalization_guard": "Session 018 owns Ash-Sharh 94:5-6 and the hardship/ease message. Session 044 owns Al-Asr's four-condition framework for directing time. Session 039 owns sincerity in worship. Session 046 owns the transition after finishing an affair: renewed striving plus hope directed to Allah."
         },
         "en": {
-          "primary_long_tail": "Quran 94 7 8 meaning when you finish a task",
-          "adjacent_long_tail": "when you finish your duties turn to Allah Quran",
+          "primary_long_tail": "Quran 94:7-8 when you finish strive turn to Allah meaning",
+          "adjacent_long_tail": "when you finish a task turn to Allah Quran 94 7 8",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Quran 94:7-8 on renewed earnest effort after finishing an affair and directing hope/desire to Allah, with an explicit boundary against nonstop-work readings.",
+          "cannibalization_guard": "Session 018 owns Quran 94:5-6 hardship/ease; Session 044 owns Al-Asr/time direction; Session 039 owns sincerity. Session 046 owns the after-finishing transition."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/046/",
           "reader": "https://tadabburlife.com/?session=46&lang=id",
-          "seo_title": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
-          "meta_description": "Tadabbur Ash-Sharh 94:7–8 tentang ritme setelah menyelesaikan urusan: bersungguh-sungguh pada amal berikutnya dan mengarahkan harap hanya kepada Allah.",
-          "h1": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
+          "seo_title": "Ash-Sharh 94:7–8: Setelah Selesai, Bersungguh-sungguh dan Berharap kepada Allah",
+          "meta_description": "Ash-Sharh 94:7–8 mengajarkan setelah selesai dari satu urusan untuk tetap bersungguh-sungguh dan mengarahkan harap kepada Allah. Pahami ritme amal tanpa menolak istirahat.",
+          "h1": "Ash-Sharh 94:7–8: Setelah Selesai, Bersungguh-sungguh dan Berharap kepada Allah",
           "html_lang": "id",
           "related_sessions": [
             "018",
@@ -3201,9 +3211,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/046/",
           "reader": "https://tadabburlife.com/?session=46&lang=en",
-          "seo_title": "Quran 94 7 8 meaning when you finish a task",
-          "meta_description": "When One Task Ends, Do Not Let the Heart Lose Its Direction. The Qur'an teaches a rhythm after one task ends: continue with earnest purpose and direct hope to Allah.",
-          "h1": "Quran 94 7 8 meaning when you finish a task",
+          "seo_title": "Quran 94:7–8: When You Finish, Strive and Turn to Allah | TadabburLife",
+          "meta_description": "Quran 94:7–8 teaches that when one task is finished, continue with earnest effort and direct hope to Allah. Explore purposeful continuity without turning the verse into nonstop-work advice.",
+          "h1": "Quran 94:7–8: When You Finish, Strive and Turn to Allah",
           "html_lang": "en",
           "related_sessions": [
             "018",
@@ -3217,15 +3227,15 @@
     {
       "session": "047",
       "locked_title": "Kerjakan dengan Sungguh-Sungguh, karena Amal Tidak Berhenti pada Penilaian Manusia",
-      "primary_long_tail": "ayat tentang bekerja sungguh sungguh meski tidak diawasi orang",
+      "primary_long_tail": "At Taubah 9:105 bekerjalah Allah akan melihat amalmu",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/047/",
       "reader": "https://tadabburlife.com/?session=47&lang=id",
-      "seo_title": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
-      "meta_description": "Tadabbur At-Tawbah 9:105 tentang amal, integritas kerja, pengawasan Allah, dan pertanggungjawaban yang melampaui penilaian manusia.",
-      "h1": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
+      "seo_title": "At-Tawbah 9:105: Bekerjalah, Allah Akan Melihat Amalmu",
+      "meta_description": "At-Tawbah 9:105 memerintahkan beramal dan mengingatkan bahwa amal akan dilihat serta dipertanggungjawabkan kepada Allah. Pahami kerja, integritas, dan akuntabilitas.",
+      "h1": "At-Tawbah 9:105: Bekerjalah, Allah Akan Melihat Amalmu",
       "related_sessions": [
         "004",
         "023",
@@ -3234,28 +3244,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang bekerja sungguh sungguh meski tidak diawasi orang",
+          "primary_long_tail": "At Taubah 9:105 bekerjalah Allah akan melihat amalmu",
+          "adjacent_long_tail": "ayat tentang kerja amal dilihat Allah At Taubah 105",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "At-Tawbah 9:105 on the command to act/work, the visibility of deeds to Allah/the Messenger/believers, return to the Knower of unseen and seen, and final accountability.",
+          "cannibalization_guard": "Session 004 owns trust and justice in office/authority. Session 023 owns delivering trusts/rights. Session 039 owns sincere devotion/ikhlas. Session 035 owns justice + ihsan. Session 047 owns action/work under divine visibility and final accountability."
         },
         "en": {
-          "primary_long_tail": "Quran verse about working sincerely when no one is watching",
-          "adjacent_long_tail": "Islamic teaching on integrity at work when no one is watching",
+          "primary_long_tail": "Quran 9:105 work Allah will see your deeds meaning",
+          "adjacent_long_tail": "Quran verse work Allah sees your deeds accountability",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 9:105 on action/work, deeds being seen, return to the Knower of unseen and witnessed, and accountability beyond human evaluation.",
+          "cannibalization_guard": "Session 004 owns trust/justice in authority; Session 023 owns entrusted rights; Session 039 owns sincerity; Session 035 owns justice + ihsan. Session 047 owns work/deeds under divine visibility and accountability."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/047/",
           "reader": "https://tadabburlife.com/?session=47&lang=id",
-          "seo_title": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
-          "meta_description": "Tadabbur At-Tawbah 9:105 tentang amal, integritas kerja, pengawasan Allah, dan pertanggungjawaban yang melampaui penilaian manusia.",
-          "h1": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
+          "seo_title": "At-Tawbah 9:105: Bekerjalah, Allah Akan Melihat Amalmu",
+          "meta_description": "At-Tawbah 9:105 memerintahkan beramal dan mengingatkan bahwa amal akan dilihat serta dipertanggungjawabkan kepada Allah. Pahami kerja, integritas, dan akuntabilitas.",
+          "h1": "At-Tawbah 9:105: Bekerjalah, Allah Akan Melihat Amalmu",
           "html_lang": "id",
           "related_sessions": [
             "004",
@@ -3267,9 +3282,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/047/",
           "reader": "https://tadabburlife.com/?session=47&lang=en",
-          "seo_title": "Quran verse about working sincerely when no one is watching",
-          "meta_description": "At-Tawbah 9:105 commands action and reminds us that deeds are seen by Allah and will be accounted for. Integrity cannot depend on whether people are watching.",
-          "h1": "Quran verse about working sincerely when no one is watching",
+          "seo_title": "Quran 9:105: Work—Allah Will See Your Deeds | TadabburLife",
+          "meta_description": "Quran 9:105 commands action and says Allah will see your deeds before final accountability. Explore work, integrity, visibility, and responsibility beyond human evaluation.",
+          "h1": "Quran 9:105: Work—Allah Will See Your Deeds",
           "html_lang": "en",
           "related_sessions": [
             "004",
@@ -3335,12 +3350,13 @@
     "last_deep_serp_audit": "seo/deep-serp-021-024-2026-09-22.md"
   },
   "deep_serp_boundary": {
-    "deep_through": "044",
-    "directional_from": "045",
-    "deep_sessions": 44,
-    "directional_sessions": 3,
-    "session_language_targets_deep": 88,
-    "last_completed_batch": "041-044",
-    "validated_on": "2026-09-23"
+    "deep_through": "047",
+    "directional_from": null,
+    "deep_sessions": 47,
+    "directional_sessions": 0,
+    "session_language_targets_deep": 94,
+    "last_completed_batch": "045-047",
+    "validated_on": "2026-09-23",
+    "status": "complete"
   }
 }
