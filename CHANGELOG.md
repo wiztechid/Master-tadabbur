@@ -8,6 +8,18 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-22
 
+### [SEO] Deep Live SERP + Cannibalization — Sessions 017–028 — PASS
+- Completed independent Indonesian + English Deep Live SERP research for Sessions **017–028**, advancing coverage to **28 / 47 sessions = 56 / 94 session-language targets**.
+- Added and validated search territories and cannibalization guards for batches **017–020, 021–024, and 025–028**.
+- Sessions 025–028 now own distinct intents: **025 mutual-consent trade (Quran 4:29), 026 charity + multiplied reward (Quran 2:261), 027 arrogance/contempt (Quran 31:18), 028 reconciliation/islah (Quran 49:10)**.
+- Added direct-answer blocks and synchronized title/H1/meta for all 025–028 ID + EN landings.
+- Hardened the same-verse guard **027↔043**: Session 027 owns arrogance/contempt; Session 043 owns the positive practice of humility in walking and speaking across Quran 31:18–19.
+- Corrected Session 043 journey wording so it no longer states that Quran 31:18 had not appeared previously.
+- Preserved sacred Quran/hadith source text and the locked reflection/practical-action meaning layer.
+- Updated `seo/keyword-map.json`, added `seo/deep-serp-025-028-2026-09-22.md`, and advanced the live keyword-map QC boundary to **001–028 Deep / 029–047 directional**.
+- Active Deep SERP priority advances to **Sessions 029–032 bilingual**.
+
+
 ### [SEO] Deep Live SERP + Cannibalization — Sessions 013–016 — PASS
 - Completed independent **Indonesian + English live-SERP research** for Sessions **013–016**.
 - Advanced Deep Live SERP coverage from **12 / 47** to **16 / 47 sessions** = **32 / 94 session-language targets**.
