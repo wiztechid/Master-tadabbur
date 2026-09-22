@@ -8,6 +8,19 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-22
 
+### [SEO] Deep Live SERP + Cannibalization — Sessions 037–040 — PASS
+- Completed independent Indonesian + English Deep Live SERP research for Sessions **037–040**, advancing coverage to **40 / 47 sessions = 80 / 94 session-language targets**.
+- Session **037** now owns shura/consultation in shared decision-making under Asy-Syura/Quran 42:38, separated from cooperation-direction (033) and information-verification (042).
+- Session **038** now owns the integrated definition of **al-birr / true righteousness** under Al-Baqarah/Quran 2:177, separated from contracts (024), charity multiplication (026), sincerity (039), and Al-Ma'un's ritual-social warning (040).
+- Session **039** now owns sincere devotion/ikhlas in worship under Al-Bayyinah/Quran 98:5.
+- Session **040** now owns Surah Al-Ma'un's specific connection between final accountability, orphans/poor, heedless or showy prayer, and withholding useful help.
+- Added direct-answer blocks and synchronized title/H1/meta for all **8** ID/EN landings.
+- Strengthened explicit internal cannibalization guards for **037↔042** and **038↔039/040/024**.
+- Preserved sacred Qur'an/hadith source text and the locked reflection/practical-action meaning layer.
+- Updated `seo/keyword-map.json`, added `seo/deep-serp-037-040-2026-09-23.md`, and advanced the live keyword-map QC boundary to **001–040 Deep / 041–047 directional**.
+- Active Deep SERP priority advances to **Sessions 041–044 bilingual**.
+
+
 ### [SEO] Deep Live SERP + Cannibalization — Sessions 033–036 — PASS
 - Completed independent Indonesian + English Deep Live SERP research for Sessions **033–036**, advancing coverage to **36 / 47 sessions = 72 / 94 session-language targets**.
 - Session **033** now owns cooperation in righteousness and piety versus cooperation in sin/aggression under Al-Ma'idah/Quran 5:2.
