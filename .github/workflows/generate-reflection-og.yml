@@ -63,4 +63,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add og/reflection tadabbur en/tadabbur seo/keyword-map.json
           git commit -m "Share: publish 94 Reflection Card OG images"
+          git pull --rebase origin main
           git push
