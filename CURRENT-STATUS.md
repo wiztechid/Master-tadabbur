@@ -446,34 +446,63 @@ Reusable controls now exist at:
 
 ## 12. METADATA STATUS
 
-Metadata quality is not uniform across the active corpus.
+Technical metadata integrity is now normalized and live-verified across all **94** session landings.
 
-### Sessions 001–012 are Deep Live SERP validated bilingually
+The normalization deliberately stayed within the technical-integrity boundary. It did **not** perform speculative keyword/intent optimization on Sessions 013–047.
 
-Recent Deep SERP work has produced more refined:
+Initial corpus audit found:
 
-- titles,
-- descriptions,
-- H1/search targeting,
-- ID/EN intent alignment.
+- **50 / 94** landings missing Twitter/X card metadata;
+- **35 / 94** landings missing `og:site_name`;
+- **11** Twitter titles drifting from the current H1;
+- **12** Twitter descriptions drifting from the current meta description;
+- **34** meta descriptions objectively truncated mid-thought/mid-word;
+- **8** English meta descriptions objectively too thin to function as useful summaries.
 
-### Sessions 013–047
+Safe normalization performed:
 
-Metadata exists, but some pages still reflect an earlier/directional SEO generation and can be materially thinner than the latest standard.
+- `og:type=article`;
+- `og:site_name=TadabburLife`;
+- language-correct `og:locale`;
+- `og:title` synchronized to the landing H1;
+- `og:description` synchronized to the meta description;
+- `og:url` synchronized to canonical;
+- `twitter:card=summary`;
+- Twitter title synchronized to H1;
+- Twitter description synchronized to meta description;
+- broken/thin descriptions repaired only from **existing H2/paragaph content on the same page**;
+- `Article.headline` / `Article.description` schema kept synchronized;
+- keyword-map implementation snapshots re-synchronized after metadata repair.
 
-Examples observed during audit include English titles/descriptions that are substantially less developed than recently optimized pages.
+Safety result:
 
-Therefore:
+- **94 / 94 page bodies remained byte-for-byte unchanged**;
+- metadata description repairs: **42 total**;
+- objective truncation repairs: **34**;
+- thin-description repairs: **8**;
+- source technical metadata/OG/share QC: **94 / 94 PASS**;
+- live custom-domain metadata/OG/share QC: **94 / 94 PASS**;
+- live HTTP 200: **94 / 94**;
+- failures: **0**.
 
-**Metadata availability: 🟢**
+The former EN Session 013 mid-word description defect is fixed. Example current description begins:
 
-**Metadata implementation registry: 🟢 synchronized through keyword-map**
+`Anger May Come—Do Not Let It Lead. The Qur'an does not describe taqwa as a life without emotion.`
 
-**Metadata quality normalization: 🟡**
+### OG image scope
 
-Keyword-map synchronization surfaced objective legacy quality defects that are separate from registry drift. Example: the current live English meta description for Session 013 ends mid-word (`...they restrain themselves, ma`). This is now accurately recorded by the map, but still requires a safe metadata-integrity fix.
+The current social implementation intentionally uses **text-summary cards** (`twitter:card=summary`). There is currently **no `og:image` on the 94 session landings**.
 
-Do not mass-rewrite Sessions 013–047 based only on stylistic preference. Before Deep SERP validation, limit changes to objective defects such as truncation, malformed metadata, language mismatch, incorrect session references, or inconsistent crawler/share signals.
+This is **not treated as a technical-integrity failure** because the required title/description/URL/share context is valid and consistent. A branded image-rich social preview can be added later as a separate enhancement if desired; it is not required to close the current technical Green Gate.
+
+### Research boundary remains unchanged
+
+- Sessions **001–012**: Deep Live SERP validated bilingually;
+- Sessions **013–047**: still directional-only until their own Deep SERP batch.
+
+Technical metadata repair does not upgrade search-evidence status.
+
+**G2 — Metadata / Signal Integrity: 🟢 PASS**
 
 ---
 
@@ -502,18 +531,25 @@ SEO normalization must preserve the **Absolute Sacred Lock** and the meaning con
 
 ## 14. SHARE / OG BASELINE
 
-Sharing remains a product-level behavior.
+The static head-level share metadata is now normalized across all 94 session landings.
 
-Expected behavior:
+Verified live behavior at the metadata layer:
 
-- correct active session,
-- correct language,
-- correct public URL,
-- matching title/description,
-- appropriate OG/share metadata,
-- no cross-session card mismatch.
+- correct active-session canonical URL;
+- correct language-specific locale;
+- `og:title` matches the current landing H1;
+- `og:description` matches the current meta description;
+- `og:url` matches canonical;
+- `og:site_name` = TadabburLife;
+- Twitter/X summary metadata matches the same session and language;
+- schema headline/description remain synchronized;
+- keyword-map implementation snapshot matches the deployed metadata.
 
-Because share behavior has experienced regression during earlier development, metadata/global-template changes require regression QC.
+**Head-level OG/Share Integrity: 🟢 PASS 94/94 source + live**
+
+The remaining share-related Green-Gate work is **interactive reader/share regression behavior** rather than missing or inconsistent static metadata.
+
+No `og:image` is currently published; text-summary cards are the active baseline.
 
 ---
 
@@ -543,21 +579,24 @@ Still verify content-integrity aspects plus:
 - Sacred Source Integrity,
 - meaning-constrained reflection/action integrity.
 
-### G2 — Metadata / Signal Integrity
+### G2 — Metadata / Signal Integrity — 🟢 PASS
 
-Verify 94/94 have technically valid and internally consistent:
+Completed and live-verified across **94 / 94** session landings.
 
-- title,
-- H1,
-- meta description,
-- OG metadata,
-- language/context signals.
+- title/H1 technical integrity: PASS
+- meta-description availability/integrity: PASS
+- objective truncation defects repaired: **34**
+- objective thin-description defects repaired: **8**
+- OG type/site/locale/title/description/URL consistency: PASS
+- Twitter/X summary card/title/description consistency: PASS
+- Article schema headline/description synchronization: PASS
+- keyword-map implementation re-sync after metadata repair: PASS
+- page body unchanged during normalization: **94 / 94**
+- live custom-domain metadata/OG/share validation: **94 / 94 PASS**
 
-**Deep-SERP boundary:** Sessions **001–012** may use their completed Deep Live SERP evidence for editorial SEO refinement. Sessions **013–047** are only directionally mapped and must **not** receive speculative or mass editorial SEO rewrites before their own Deep Live SERP batch is completed.
+The Deep-SERP boundary remains intact: Sessions 013–047 received only objective technical repairs, not speculative search-intent or keyword optimization.
 
-Before Deep SERP validation, work on 013–047 is limited to safe technical integrity fixes and obvious defects such as missing/broken metadata, language mismatch, malformed tags, incorrect session references, or inconsistent crawler/share signals. Keyword targeting, search-territory refinement, title/H1/meta optimization, answer blocks, FAQ, and explanatory SEO adaptation remain part of the later per-batch Deep SERP workflow.
-
-Metadata/content refinement must remain driven by SERP evidence, session relevance, reader value, and the Religious Evidence Boundary.
+`og:image` is not part of the current text-summary-card baseline and is not a blocker for this technical gate.
 
 ### G3 — Schema Normalization — 🟢 PASS
 
@@ -627,15 +666,20 @@ Verify:
 
 **Deploy parity source → GitHub Pages artifact: 🟢 PASS (22 Sep 2026).**
 
-Live 103-URL crawl on the actual custom domain is 🟢 PASS for transport/indexability/canonical/soft-404 checks. Remaining reader/regression verification:
+Live 103-URL crawl on the actual custom domain is 🟢 PASS for transport/indexability/canonical/soft-404 checks.
 
-- desktop,
-- mobile,
-- interactive-reader CTA,
-- navigation,
-- language behavior,
-- share/OG behavior,
-- session progression,
+Static metadata + OG/share integrity is also 🟢 PASS across 94/94 session landings.
+
+Remaining reader/regression verification:
+
+- desktop rendering;
+- mobile/tablet rendering;
+- interactive-reader CTA behavior;
+- navigation interactions;
+- language behavior;
+- interactive share action/context;
+- session progression;
+- progress/read state where applicable;
 - no material regression.
 
 Only after G1–G7 pass should this document record:
@@ -704,7 +748,7 @@ Growth toward 1,000+ sessions creates overlapping primary search territories.
 
 Different generations of landing templates create inconsistent metadata, schema, or internal links.
 
-**Current concern:** schema and internal-link generation drift have been normalized; remaining template drift risk is primarily metadata/OG/share consistency.
+**Current concern:** schema, internal-link, metadata, and static OG/share drift are normalized; remaining risk is interactive reader/regression behavior.
 
 ### R5 — Share Regression
 
@@ -734,7 +778,7 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**METADATA TECHNICAL INTEGRITY + OG/SHARE QC → LIVE READER/REGRESSION QC → GREEN GATE**
+**LIVE READER/REGRESSION QC → GREEN GATE**
 
 The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
@@ -744,10 +788,10 @@ Priority order:
 2. audit/normalize 94 landing technical structure,
 3. **internal-link functional parity — COMPLETE / PASS 94/94 source + live**, 
 4. **schema normalization — COMPLETE / PASS 94/94 source + live**,
-5. normalize metadata **technical integrity** only where an objective defect exists; do not perform speculative editorial rewrites on Sessions 013–047,
+5. **metadata technical integrity + static OG/share — COMPLETE / PASS 94/94 source + live**,
 6. **keyword-map ↔ landing synchronization — COMPLETE / PASS 94/94 source + live**,
 7. **live 103-URL crawl QC — COMPLETE / PASS**,
-8. close remaining objective metadata/OG-share and reader-regression gaps,
+8. close remaining **interactive reader/regression** gaps,
 9. mark Technical Integrity GREEN only after G1–G7 evidence passes.
 
 ---
@@ -833,11 +877,11 @@ Recommended handoff instruction:
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
 **Internal linking:** 🟢 NORMALIZED + LIVE VERIFIED 94/94; related parity 47/47  
 **Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
-**Metadata:** implementation registry synced; objective quality defects still require normalization  
+**Metadata / OG / Share:** 🟢 TECHNICALLY NORMALIZED + LIVE VERIFIED 94/94  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** Metadata Technical Integrity + OG/Share QC  
+**Immediate work:** Live Reader / Regression QC  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
