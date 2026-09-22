@@ -22,6 +22,23 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [SEO / Technical] Metadata Technical Integrity + OG/Share — PASS
+- Audited all **94** Indonesian + English session landings for title, H1, meta description, canonical, language, Open Graph, Twitter/X, and schema synchronization.
+- Initial audit found **50** landings missing Twitter/X summary metadata, **35** missing `og:site_name`, **11** Twitter-title mismatches, **12** Twitter-description mismatches, and **34** objectively truncated meta descriptions.
+- Also repaired **8** objectively thin English meta descriptions.
+- Standardized all 94 landings to `og:type=article`, `og:site_name=TadabburLife`, language-correct `og:locale`, H1-synchronized OG/Twitter titles, meta-synchronized OG/Twitter descriptions, canonical-synchronized `og:url`, and `twitter:card=summary`.
+- Repaired broken/thin meta descriptions only from H2/paragraph text already present on the same page; no new search-intent positioning was invented.
+- Updated `Article.headline` / `Article.description` schema in lockstep with repaired metadata.
+- Re-synchronized `seo/keyword-map.json` implementation snapshots after metadata repair.
+- Preserved session body content byte-for-byte: **94 / 94 bodies unchanged**.
+- Source QC: **94 / 94 metadata/OG/share PASS**, **42 description repairs** total (**34 truncation + 8 thin**), **0 failures**.
+- Live custom-domain QC: **94 / 94 HTTP 200**, **94 / 94 metadata/OG/share PASS**, **0 failures**.
+- The former EN Session 013 mid-word meta description defect is fixed.
+- The current baseline intentionally uses text-summary social cards; `og:image` is not yet published on session landings and is treated as an optional image-rich preview enhancement rather than a technical-integrity blocker.
+- Added reusable automation: `.github/scripts/audit_metadata_og.py`, `.github/workflows/audit-metadata-og.yml`, `.github/scripts/normalize_metadata_og.py`, `.github/workflows/normalize-metadata-og.yml`, `.github/scripts/live_metadata_og_qc.py`, and `.github/workflows/live-metadata-og-qc.yml`.
+- Marked **G2 Metadata / Signal Integrity = PASS**.
+- Moved active Green-Gate priority to **Live Reader / Regression QC**.
+
 ### [SEO / Technical] Keyword-Map ↔ 94 Landing Sync — PASS
 - Upgraded `seo/keyword-map.json` from an ID-heavy implementation registry into a bilingual research + implementation registry covering **47 sessions × 2 languages = 94 landing implementations**.
 - Added per-language `implementation.id` and `implementation.en` snapshots sourced from the actual landing files.
