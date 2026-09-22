@@ -224,12 +224,13 @@ The existing SEO research fields continue to store:
 - competition estimate;
 - ID and EN demand evidence.
 
-The research boundary remains unchanged:
+The current research boundary is:
 
 - Sessions **001–012**: `deep-live-serp-validated-2026-09-20` in ID + EN;
-- Sessions **013–047**: `serp-directional` in ID + EN.
+- Sessions **013–016**: `deep-live-serp-validated-2026-09-22` in ID + EN;
+- Sessions **017–047**: `serp-directional` in ID + EN.
 
-**No session was silently upgraded from directional evidence to Deep SERP validation during synchronization.**
+Deep status is upgraded only after a controlled live-SERP + cannibalization batch, never by technical synchronization alone.
 
 ### Implementation layer
 
@@ -471,7 +472,7 @@ Reusable controls now exist at:
 
 Technical metadata integrity is now normalized and live-verified across all **94** session landings.
 
-The normalization deliberately stayed within the technical-integrity boundary. It did **not** perform speculative keyword/intent optimization on Sessions 013–047.
+The original metadata-normalization pass stayed within the technical-integrity boundary and did not perform speculative keyword/intent optimization. Sessions 013–016 have since completed their own Deep Live SERP batch; Sessions 017–047 remain protected from speculative editorial SEO changes until individually validated.
 
 Initial corpus audit found:
 
@@ -518,12 +519,12 @@ The current social implementation intentionally uses **text-summary cards** (`tw
 
 This is **not treated as a technical-integrity failure** because the required title/description/URL/share context is valid and consistent. A branded image-rich social preview can be added later as a separate enhancement if desired; it is not required to close the current technical Green Gate.
 
-### Research boundary remains unchanged
+### Current research boundary
 
-- Sessions **001–012**: Deep Live SERP validated bilingually;
-- Sessions **013–047**: still directional-only until their own Deep SERP batch.
+- Sessions **001–016**: Deep Live SERP validated bilingually;
+- Sessions **017–047**: directional-only until their own Deep SERP batch.
 
-Technical metadata repair does not upgrade search-evidence status.
+Technical metadata repair alone never upgrades search-evidence status.
 
 **G2 — Metadata / Signal Integrity: 🟢 PASS**
 
@@ -660,7 +661,7 @@ Completed and live-verified across **94 / 94** session landings.
 - page body unchanged during normalization: **94 / 94**
 - live custom-domain metadata/OG/share validation: **94 / 94 PASS**
 
-The Deep-SERP boundary remains intact: Sessions 013–047 received only objective technical repairs, not speculative search-intent or keyword optimization.
+The Deep-SERP boundary remains intact: Sessions 013–016 were later upgraded only through their dedicated validated research batch; Sessions 017–047 still receive only safe technical repairs until their own Deep Live SERP work.
 
 `og:image` is now part of the required baseline: **94/94 unique Reflection Card-derived PNGs are live and verified at 1200×630**, with Twitter/X upgraded to `summary_large_image`.
 
@@ -782,7 +783,7 @@ All G1–G7 technical-integrity gates are now closed.
 
 **🟢 SEO ARCHITECTURE / TECHNICAL INTEGRITY — PASS**
 
-This Green Gate remains separate from the unfinished Deep SERP research track. Sessions 013–047 have not thereby become Deep SERP validated.
+This Green Gate remains separate from the unfinished Deep SERP research track. Sessions 013–016 became Deep SERP validated later through their dedicated research batch; Sessions 017–047 have not thereby become Deep SERP validated.
 
 ---
 
