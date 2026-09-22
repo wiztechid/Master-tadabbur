@@ -2801,15 +2801,15 @@
     {
       "session": "041",
       "locked_title": "Yang Indah Belum Tentu yang Paling Bertahan",
-      "primary_long_tail": "ayat tentang harta anak dan amal yang kekal Al Kahf 46",
+      "primary_long_tail": "Al Kahf 18:46 harta anak amal saleh yang kekal",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/041/",
       "reader": "https://tadabburlife.com/?session=41&lang=id",
-      "seo_title": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46 | TadabburLife",
-      "meta_description": "Yang Indah Belum Tentu yang Paling Bertahan. Harta dan keluarga adalah nikmat yang nyata, tetapi Al-Qur'an mengingatkan bahwa keduanya termasuk perhiasan kehidupan dunia.",
-      "h1": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
+      "seo_title": "Al-Kahf 18:46: Harta, Anak, dan Amal Saleh yang Kekal | TadabburLife",
+      "meta_description": "Al-Kahf 18:46 menyebut harta dan anak sebagai perhiasan kehidupan dunia, sedangkan amal saleh yang kekal lebih baik dalam pahala dan harapan di sisi Allah.",
+      "h1": "Al-Kahf 18:46: Harta, Anak, dan Amal Saleh yang Kekal",
       "related_sessions": [
         "037",
         "036",
@@ -2818,28 +2818,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang harta anak dan amal yang kekal Al Kahf 46",
+          "primary_long_tail": "Al Kahf 18:46 harta anak amal saleh yang kekal",
+          "adjacent_long_tail": "harta dan anak perhiasan dunia amal yang kekal Al Kahf 46",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Al-Kahf 18:46 on wealth and children as adornments of worldly life versus al-baqiyat as-salihat / enduring righteous deeds as better in reward and hope.",
+          "cannibalization_guard": "Session 034 owns dunya-akhirah orientation and using worldly blessings as a means. Session 036 owns tabdhir/wasteful spending. Session 041 owns the explicit comparison between wealth/children as worldly adornment and lasting righteous deeds."
         },
         "en": {
-          "primary_long_tail": "wealth and children are adornment Quran 18 46 meaning",
-          "adjacent_long_tail": "lasting good deeds better than wealth and children",
+          "primary_long_tail": "Quran 18:46 wealth children lasting good deeds meaning",
+          "adjacent_long_tail": "wealth and children are adornment lasting righteous deeds Quran 18 46",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 18:46 on wealth and children as worldly adornment versus enduring righteous deeds as better in reward and hope.",
+          "cannibalization_guard": "Session 034 owns dunya-akhirah orientation; Session 036 owns wasteful spending. Session 041 owns the wealth/children versus lasting-good-deeds comparison."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/041/",
           "reader": "https://tadabburlife.com/?session=41&lang=id",
-          "seo_title": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46 | TadabburLife",
-          "meta_description": "Yang Indah Belum Tentu yang Paling Bertahan. Harta dan keluarga adalah nikmat yang nyata, tetapi Al-Qur'an mengingatkan bahwa keduanya termasuk perhiasan kehidupan dunia.",
-          "h1": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
+          "seo_title": "Al-Kahf 18:46: Harta, Anak, dan Amal Saleh yang Kekal | TadabburLife",
+          "meta_description": "Al-Kahf 18:46 menyebut harta dan anak sebagai perhiasan kehidupan dunia, sedangkan amal saleh yang kekal lebih baik dalam pahala dan harapan di sisi Allah.",
+          "h1": "Al-Kahf 18:46: Harta, Anak, dan Amal Saleh yang Kekal",
           "html_lang": "id",
           "related_sessions": [
             "037",
@@ -2851,9 +2856,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/041/",
           "reader": "https://tadabburlife.com/?session=41&lang=en",
-          "seo_title": "Wealth and children are adornment Quran 18 46 meaning",
-          "meta_description": "What Is Beautiful Is Not Always What Lasts. Wealth and family are real blessings, yet the Qur'an calls them adornments of worldly life.",
-          "h1": "Wealth and children are adornment Quran 18 46 meaning",
+          "seo_title": "Quran 18:46: Wealth, Children, and Lasting Good Deeds | TadabburLife",
+          "meta_description": "Quran 18:46 calls wealth and children adornments of worldly life, while lasting righteous deeds are better in reward and hope. Explore what endures beyond worldly possessions.",
+          "h1": "Quran 18:46: Wealth, Children, and Lasting Good Deeds",
           "html_lang": "en",
           "related_sessions": [
             "037",
@@ -2867,15 +2872,15 @@
     {
       "session": "042",
       "locked_title": "Jangan Bertindak Sebelum Informasi Diperiksa",
-      "primary_long_tail": "ayat tabayyun sebelum mengambil keputusan dari informasi",
+      "primary_long_tail": "Al Hujurat 49:6 tabayyun verifikasi informasi",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/042/",
       "reader": "https://tadabburlife.com/?session=42&lang=id",
-      "seo_title": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6 | TadabburLife",
-      "meta_description": "Jangan Bertindak Sebelum Informasi Diperiksa. Sesudah perjalanan tadabbur menata niat, amanah, musyawarah, dan tanggung jawab sosial,",
-      "h1": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
+      "seo_title": "Al-Hujurat 49:6: Tabayyun dan Verifikasi Informasi | TadabburLife",
+      "meta_description": "Al-Hujurat 49:6 memerintahkan tabayyun terhadap berita sebelum tindakan yang dapat merugikan orang lain. Pahami verifikasi informasi, kehati-hatian, dan risiko keputusan tergesa-gesa.",
+      "h1": "Al-Hujurat 49:6: Tabayyun dan Verifikasi Informasi",
       "related_sessions": [
         "038",
         "019",
@@ -2884,28 +2889,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tabayyun sebelum mengambil keputusan dari informasi",
+          "primary_long_tail": "Al Hujurat 49:6 tabayyun verifikasi informasi",
+          "adjacent_long_tail": "ayat tabayyun sebelum bertindak atas berita",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Al-Hujurat 49:6 on tabayyun: verifying consequential reports before acting so people are not harmed through ignorance and regret.",
+          "cannibalization_guard": "Session 037 owns consultation/shura as the collective decision process. Session 042 owns verification of incoming information before it becomes a basis for judgment or action."
         },
         "en": {
-          "primary_long_tail": "Quran verse about verifying information before making a decision",
-          "adjacent_long_tail": "tabayyun meaning verify information Quran 49 6",
+          "primary_long_tail": "Quran 49:6 verify information before acting",
+          "adjacent_long_tail": "tabayyun meaning verify reports Quran 49 6",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 49:6 on verifying consequential information before action to avoid harming people through ignorance.",
+          "cannibalization_guard": "Session 037 owns consultation in decision-making. Session 042 owns verification before information becomes action."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/042/",
           "reader": "https://tadabburlife.com/?session=42&lang=id",
-          "seo_title": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6 | TadabburLife",
-          "meta_description": "Jangan Bertindak Sebelum Informasi Diperiksa. Sesudah perjalanan tadabbur menata niat, amanah, musyawarah, dan tanggung jawab sosial,",
-          "h1": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
+          "seo_title": "Al-Hujurat 49:6: Tabayyun dan Verifikasi Informasi | TadabburLife",
+          "meta_description": "Al-Hujurat 49:6 memerintahkan tabayyun terhadap berita sebelum tindakan yang dapat merugikan orang lain. Pahami verifikasi informasi, kehati-hatian, dan risiko keputusan tergesa-gesa.",
+          "h1": "Al-Hujurat 49:6: Tabayyun dan Verifikasi Informasi",
           "html_lang": "id",
           "related_sessions": [
             "038",
@@ -2917,9 +2927,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/042/",
           "reader": "https://tadabburlife.com/?session=42&lang=en",
-          "seo_title": "Quran verse about verifying information before making a decision",
-          "meta_description": "Do Not Act Before Information Is Verified. After the journey has explored intention, trust, consultation, and social responsibility, Al-Hujurat 49:6 teaches a foundational discipline: information that may affect another person's rights or welfare must not be turned into action before it is examined.",
-          "h1": "Quran verse about verifying information before making a decision",
+          "seo_title": "Quran 49:6: Verify Information Before Acting | TadabburLife",
+          "meta_description": "Quran 49:6 teaches verification before acting on consequential reports so people are not harmed through ignorance. Explore tabayyun, evidence, caution, and responsible decisions.",
+          "h1": "Quran 49:6: Verify Information Before Acting",
           "html_lang": "en",
           "related_sessions": [
             "038",
@@ -2933,15 +2943,15 @@
     {
       "session": "043",
       "locked_title": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia",
-      "primary_long_tail": "ayat tentang rendah hati dalam cara berjalan dan berbicara",
+      "primary_long_tail": "Luqman 31:18 19 rendah hati berjalan berbicara",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/043/",
       "reader": "https://tadabburlife.com/?session=43&lang=id",
-      "seo_title": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19 | TadabburLife",
-      "meta_description": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia. Nasihat Luqman tidak berhenti pada keyakinan dan ibadah. Ia turun sampai ke bahasa tubuh,",
-      "h1": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
+      "seo_title": "Luqman 31:18–19: Rendah Hati dalam Berjalan dan Berbicara | TadabburLife",
+      "meta_description": "Luqman 31:18–19 melarang kesombongan lalu mengajarkan berjalan dengan wajar dan merendahkan suara. Pahami rendah hati dalam sikap, bahasa tubuh, dan cara berbicara.",
+      "h1": "Luqman 31:18–19: Rendah Hati dalam Berjalan dan Berbicara",
       "related_sessions": [
         "028",
         "027",
@@ -2950,32 +2960,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang rendah hati dalam cara berjalan dan berbicara",
+          "primary_long_tail": "Luqman 31:18 19 rendah hati berjalan berbicara",
+          "adjacent_long_tail": "sederhanakan berjalan rendahkan suara Luqman 31 19 makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium",
-          "search_territory": "Luqman 31:18–19 on the positive practice of humility in how one carries oneself: measured walking, modest bearing and restrained speech/voice.",
-          "cannibalization_guard": "Session 027 owns the negative prohibition of arrogance/contempt in Luqman 31:18. Session 043 owns the positive practice of humility in walking and speaking across Luqman 31:18–19."
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Luqman 31:18-19 on the positive practice of humility in bearing, walking and speech/voice after rejecting arrogance and contempt.",
+          "cannibalization_guard": "Session 027 owns the negative prohibition of arrogance, contempt and turning the face away in Luqman 31:18. Session 014 owns choosing better words/speech. Session 043 owns humility expressed through bearing, measured walking and restrained voice across Luqman 31:18-19."
         },
         "en": {
-          "primary_long_tail": "Quran verse about humility in walking and speaking",
-          "adjacent_long_tail": "Luqman 31 18 19 meaning humility",
+          "primary_long_tail": "Quran 31:18-19 humility walking speaking meaning",
+          "adjacent_long_tail": "Luqman 31 19 lower your voice walk moderately meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium",
-          "search_territory": "Quran 31:18–19 on the positive practice of humility in walking, bearing and speech/voice.",
-          "cannibalization_guard": "Session 027 owns arrogance/contempt in Quran 31:18. Session 043 owns humility in walking and speaking across Quran 31:18–19."
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 31:18-19 on humility in bearing, measured walking and restrained speech/voice.",
+          "cannibalization_guard": "Session 027 owns arrogance/contempt in Quran 31:18; Session 014 owns better speech/word choice. Session 043 owns the positive embodied practice of humility across Quran 31:18-19."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/043/",
           "reader": "https://tadabburlife.com/?session=43&lang=id",
-          "seo_title": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19 | TadabburLife",
-          "meta_description": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia. Nasihat Luqman tidak berhenti pada keyakinan dan ibadah. Ia turun sampai ke bahasa tubuh,",
-          "h1": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
+          "seo_title": "Luqman 31:18–19: Rendah Hati dalam Berjalan dan Berbicara | TadabburLife",
+          "meta_description": "Luqman 31:18–19 melarang kesombongan lalu mengajarkan berjalan dengan wajar dan merendahkan suara. Pahami rendah hati dalam sikap, bahasa tubuh, dan cara berbicara.",
+          "h1": "Luqman 31:18–19: Rendah Hati dalam Berjalan dan Berbicara",
           "html_lang": "id",
           "related_sessions": [
             "028",
@@ -2987,9 +2998,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/043/",
           "reader": "https://tadabburlife.com/?session=43&lang=en",
-          "seo_title": "Quran verse about humility in walking and speaking",
-          "meta_description": "Humility Appears in How We Carry Ourselves Among People. Luqman's counsel does not stop at belief and worship. It reaches body language, walking, and the volume of the voice.",
-          "h1": "Quran verse about humility in walking and speaking",
+          "seo_title": "Quran 31:18–19: Humility in Walking and Speaking | TadabburLife",
+          "meta_description": "Quran 31:18–19 forbids arrogant conduct and teaches measured walking and a restrained voice. Explore humility in bearing, body language, and speech.",
+          "h1": "Quran 31:18–19: Humility in Walking and Speaking",
           "html_lang": "en",
           "related_sessions": [
             "028",
@@ -3003,15 +3014,15 @@
     {
       "session": "044",
       "locked_title": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan",
-      "primary_long_tail": "makna surat Al Asr tentang waktu agar hidup tidak sia sia",
+      "primary_long_tail": "Surat Al Asr makna manusia dalam kerugian iman amal kebenaran sabar",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/044/",
       "reader": "https://tadabburlife.com/?session=44&lang=id",
-      "seo_title": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia | TadabburLife",
-      "meta_description": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan. Surah yang sangat pendek ini menyusun ukuran keselamatan manusia secara padat: iman, amal saleh,",
-      "h1": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
+      "seo_title": "Surat Al-'Asr: Waktu, Kerugian, Iman, Amal, Kebenaran, dan Sabar | TadabburLife",
+      "meta_description": "Surat Al-'Asr menjelaskan manusia berada dalam kerugian kecuali yang beriman, beramal saleh, saling menasihati dalam kebenaran, dan saling menasihati dalam kesabaran.",
+      "h1": "Surat Al-'Asr: Waktu, Kerugian, Iman, Amal, Kebenaran, dan Sabar",
       "related_sessions": [
         "040",
         "039",
@@ -3020,28 +3031,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "makna surat Al Asr tentang waktu agar hidup tidak sia sia",
+          "primary_long_tail": "Surat Al Asr makna manusia dalam kerugian iman amal kebenaran sabar",
+          "adjacent_long_tail": "makna Surat Al Asr tentang waktu agar hidup tidak sia sia",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Surah Al-Asr as a compact framework of human loss and the four exceptions: faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience.",
+          "cannibalization_guard": "Session 030 owns deeds sent ahead for tomorrow/the Hereafter. Session 039 owns sincerity in worship. Session 040 owns Al-Ma'un's ritual-social warning. Session 044 owns Surah Al-Asr's four-condition framework for escaping loss and directing time."
         },
         "en": {
-          "primary_long_tail": "Surah Al Asr meaning how not to waste your life",
-          "adjacent_long_tail": "lessons from Surah Al Asr about a meaningful life",
+          "primary_long_tail": "Surah Al Asr meaning loss faith good deeds truth patience",
+          "adjacent_long_tail": "Surah Al Asr meaning how not to waste your life",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Surah Al-Asr on humanity's loss and the four exceptions: faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience.",
+          "cannibalization_guard": "Session 030 owns provision for the Hereafter; Session 039 owns sincere devotion; Session 040 owns Al-Ma'un's ritual-social warning. Session 044 owns the four-condition framework of Al-Asr."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/044/",
           "reader": "https://tadabburlife.com/?session=44&lang=id",
-          "seo_title": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia | TadabburLife",
-          "meta_description": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan. Surah yang sangat pendek ini menyusun ukuran keselamatan manusia secara padat: iman, amal saleh,",
-          "h1": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
+          "seo_title": "Surat Al-'Asr: Waktu, Kerugian, Iman, Amal, Kebenaran, dan Sabar | TadabburLife",
+          "meta_description": "Surat Al-'Asr menjelaskan manusia berada dalam kerugian kecuali yang beriman, beramal saleh, saling menasihati dalam kebenaran, dan saling menasihati dalam kesabaran.",
+          "h1": "Surat Al-'Asr: Waktu, Kerugian, Iman, Amal, Kebenaran, dan Sabar",
           "html_lang": "id",
           "related_sessions": [
             "040",
@@ -3053,9 +3069,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/044/",
           "reader": "https://tadabburlife.com/?session=44&lang=en",
-          "seo_title": "Surah Al Asr meaning how not to waste your life",
-          "meta_description": "Time Must Not Merely Be Filled; It Must Be Directed. This very short surah gives a dense measure of human salvation: faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience.",
-          "h1": "Surah Al Asr meaning how not to waste your life",
+          "seo_title": "Surah Al-Asr: Time, Loss, Faith, Good Deeds, Truth, and Patience | TadabburLife",
+          "meta_description": "Surah Al-Asr says humanity is in loss except those who combine faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience. Explore its meaning for time and life.",
+          "h1": "Surah Al-Asr: Time, Loss, Faith, Good Deeds, Truth, and Patience",
           "html_lang": "en",
           "related_sessions": [
             "040",
@@ -3319,12 +3335,12 @@
     "last_deep_serp_audit": "seo/deep-serp-021-024-2026-09-22.md"
   },
   "deep_serp_boundary": {
-    "deep_through": "040",
-    "directional_from": "041",
-    "deep_sessions": 40,
-    "directional_sessions": 7,
-    "session_language_targets_deep": 80,
-    "last_completed_batch": "037-040",
+    "deep_through": "044",
+    "directional_from": "045",
+    "deep_sessions": 44,
+    "directional_sessions": 3,
+    "session_language_targets_deep": 88,
+    "last_completed_batch": "041-044",
     "validated_on": "2026-09-23"
   }
 }
