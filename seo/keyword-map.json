@@ -1665,15 +1665,15 @@
     {
       "session": "025",
       "locked_title": "Jangan Ambil Hak Tanpa Kerelaan",
-      "primary_long_tail": "ayat tentang harta dengan kerelaan dalam jual beli Islam",
+      "primary_long_tail": "An Nisa 4:29 jual beli atas dasar saling rela",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/025/",
       "reader": "https://tadabburlife.com/?session=25&lang=id",
-      "seo_title": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29 | TadabburLife",
-      "meta_description": "Jangan Ambil Hak Tanpa Kerelaan. Muamalah, kerelaan, harta, hak. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
+      "seo_title": "An-Nisa 4:29: Jual Beli atas Dasar Saling Rela | TadabburLife",
+      "meta_description": "An-Nisa 4:29 melarang mengambil harta secara batil dan membolehkan perdagangan atas dasar saling rela. Pahami makna kerelaan, kejujuran, dan hak dalam transaksi.",
+      "h1": "An-Nisa 4:29: Jual Beli atas Dasar Saling Rela",
       "related_sessions": [
         "024",
         "026",
@@ -1682,17 +1682,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang harta dengan kerelaan dalam jual beli Islam",
+          "primary_long_tail": "An Nisa 4:29 jual beli atas dasar saling rela",
+          "adjacent_long_tail": "kerelaan dalam jual beli menurut Al Quran",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "An-Nisa 4:29 on lawful trade by mutual consent, with emphasis on genuine consent, honesty and protection from wrongful taking of wealth.",
+          "cannibalization_guard": "Session 022 owns unjust wealth plus bribery/formal-process manipulation under Al-Baqarah 2:188. Session 024 owns fulfillment of contracts. Session 025 owns mutual consent in trade under An-Nisa 4:29."
         },
         "en": {
-          "primary_long_tail": "Quran verse about trade by mutual consent",
+          "primary_long_tail": "Quran 4:29 trade by mutual consent",
           "adjacent_long_tail": "mutual consent in Islamic trade Quran 4 29",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Quran 4:29 on lawful commerce by mutual consent, genuine consent, honesty and the boundary against wrongful taking of wealth.",
+          "cannibalization_guard": "Session 022 owns unjust wealth/bribery; Session 024 owns fulfillment of contracts. Session 025 owns mutual-consent trade."
         }
       },
       "implementation": {
@@ -1701,9 +1706,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/025/",
           "reader": "https://tadabburlife.com/?session=25&lang=id",
-          "seo_title": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29 | TadabburLife",
-          "meta_description": "Jangan Ambil Hak Tanpa Kerelaan. Muamalah, kerelaan, harta, hak. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
+          "seo_title": "An-Nisa 4:29: Jual Beli atas Dasar Saling Rela | TadabburLife",
+          "meta_description": "An-Nisa 4:29 melarang mengambil harta secara batil dan membolehkan perdagangan atas dasar saling rela. Pahami makna kerelaan, kejujuran, dan hak dalam transaksi.",
+          "h1": "An-Nisa 4:29: Jual Beli atas Dasar Saling Rela",
           "html_lang": "id",
           "related_sessions": [
             "024",
@@ -1715,9 +1720,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/025/",
           "reader": "https://tadabburlife.com/?session=25&lang=en",
-          "seo_title": "Quran verse about trade by mutual consent",
-          "meta_description": "Do Not Take Rights Without Mutual Consent. Ibn Kathir explains the prohibition broadly in relation to ways of acquiring wealth that Allah has forbidden.",
-          "h1": "Quran verse about trade by mutual consent",
+          "seo_title": "Quran 4:29: Trade by Mutual Consent | TadabburLife",
+          "meta_description": "Quran 4:29 forbids consuming wealth unjustly while permitting lawful trade by mutual consent. Explore what genuine consent, honesty, and rights mean in transactions.",
+          "h1": "Quran 4:29: Trade by Mutual Consent",
           "html_lang": "en",
           "related_sessions": [
             "024",
@@ -1731,15 +1736,15 @@
     {
       "session": "026",
       "locked_title": "Harta yang Ditanam untuk Kebaikan",
-      "primary_long_tail": "tadabbur Al Baqarah 261 tentang infak dan pahala",
+      "primary_long_tail": "Al Baqarah 2:261 infak pahala dilipatgandakan",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/026/",
       "reader": "https://tadabburlife.com/?session=26&lang=id",
-      "seo_title": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan | TadabburLife",
-      "meta_description": "Harta yang Ditanam untuk Kebaikan. Infak, kedermawanan, pahala, niat. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
+      "seo_title": "Al-Baqarah 2:261: Infak dan Pahala yang Dilipatgandakan | TadabburLife",
+      "meta_description": "Al-Baqarah 2:261 mengibaratkan infak di jalan Allah seperti satu biji yang menumbuhkan tujuh tangkai, masing-masing seratus biji. Pahami makna pahala berlipat dan niat.",
+      "h1": "Al-Baqarah 2:261: Infak dan Pahala yang Dilipatgandakan",
       "related_sessions": [
         "025",
         "024",
@@ -1748,17 +1753,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "tadabbur Al Baqarah 261 tentang infak dan pahala",
+          "primary_long_tail": "Al Baqarah 2:261 infak pahala dilipatgandakan",
+          "adjacent_long_tail": "tujuh tangkai seratus biji Al Baqarah 261 makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Al-Baqarah 2:261 on spending in Allah's cause, the seven ears/hundred grains parable, multiplied reward, generosity and intention.",
+          "cannibalization_guard": "No close same-verse competitor in the current corpus. Keep Session 026 on charity/infak and multiplied reward, not general wealth ethics or lasting deeds."
         },
         "en": {
-          "primary_long_tail": "Quran 2 261 meaning charity seven hundred grains",
+          "primary_long_tail": "Quran 2:261 charity seven hundred grains meaning",
           "adjacent_long_tail": "reward of charity in Quran 2 261",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Quran 2:261 on charity/spending in Allah's cause, the seven ears with a hundred grains each, and multiplied reward.",
+          "cannibalization_guard": "No close same-verse competitor. Session 026 owns Quran 2:261 charity multiplication rather than broad wealth, consent, or Hereafter themes."
         }
       },
       "implementation": {
@@ -1767,9 +1777,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/026/",
           "reader": "https://tadabburlife.com/?session=26&lang=id",
-          "seo_title": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan | TadabburLife",
-          "meta_description": "Harta yang Ditanam untuk Kebaikan. Infak, kedermawanan, pahala, niat. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
+          "seo_title": "Al-Baqarah 2:261: Infak dan Pahala yang Dilipatgandakan | TadabburLife",
+          "meta_description": "Al-Baqarah 2:261 mengibaratkan infak di jalan Allah seperti satu biji yang menumbuhkan tujuh tangkai, masing-masing seratus biji. Pahami makna pahala berlipat dan niat.",
+          "h1": "Al-Baqarah 2:261: Infak dan Pahala yang Dilipatgandakan",
           "html_lang": "id",
           "related_sessions": [
             "025",
@@ -1781,9 +1791,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/026/",
           "reader": "https://tadabburlife.com/?session=26&lang=en",
-          "seo_title": "Quran 2 261 meaning charity seven hundred grains",
-          "meta_description": "Wealth Planted for Good. Ibn Kathir explains one grain producing seven ears, each with a hundred grains, as a picture of the great multiplication of reward for spending in Allah's cause.",
-          "h1": "Quran 2 261 meaning charity seven hundred grains",
+          "seo_title": "Quran 2:261: Charity and the Seven Hundred Grains | TadabburLife",
+          "meta_description": "Quran 2:261 compares charity in Allah’s cause to one grain growing seven ears with a hundred grains each. Explore the meaning of multiplied reward, generosity, and intention.",
+          "h1": "Quran 2:261: Charity and the Seven Hundred Grains",
           "html_lang": "en",
           "related_sessions": [
             "025",
@@ -1797,34 +1807,39 @@
     {
       "session": "027",
       "locked_title": "Jangan Berjalan dengan Kesombongan",
-      "primary_long_tail": "ayat tentang sombong dalam pergaulan dan cara rendah hati",
+      "primary_long_tail": "Luqman 31:18 memalingkan wajah karena sombong",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/027/",
       "reader": "https://tadabburlife.com/?session=27&lang=id",
-      "seo_title": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18 | TadabburLife",
-      "meta_description": "Jangan Berjalan dengan Kesombongan. Tawaduk, kesombongan, adab sosial. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
+      "seo_title": "Luqman 31:18: Jangan Memalingkan Wajah karena Sombong | TadabburLife",
+      "meta_description": "Luqman 31:18 melarang memalingkan wajah dari manusia karena sombong dan berjalan dengan angkuh. Pahami kesombongan, merendahkan orang lain, dan adab sosial.",
+      "h1": "Luqman 31:18: Jangan Memalingkan Wajah karena Sombong",
       "related_sessions": [
         "028",
         "015",
         "014",
-        "011"
+        "043"
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang sombong dalam pergaulan dan cara rendah hati",
+          "primary_long_tail": "Luqman 31:18 memalingkan wajah karena sombong",
+          "adjacent_long_tail": "ayat tentang kesombongan dan merendahkan orang lain Luqman 31 18",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Luqman 31:18 on arrogance toward other people: turning one's face away in contempt, walking arrogantly and belittling others.",
+          "cannibalization_guard": "Session 043 also uses Luqman 31:18 but extends to 31:19 and owns the positive practice of humility in walking and speaking/voice. Session 027 owns arrogance, contempt and belittling others."
         },
         "en": {
-          "primary_long_tail": "Quran verse about walking with arrogance",
-          "adjacent_long_tail": "how to avoid arrogance according to Quran",
+          "primary_long_tail": "Quran 31:18 turn away from people in arrogance",
+          "adjacent_long_tail": "Quran 31:18 arrogance contempt meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 31:18 on arrogance and contempt toward people, including turning away from them and walking arrogantly.",
+          "cannibalization_guard": "Session 043 owns humility in walking and speaking from Quran 31:18–19. Session 027 owns arrogance/contempt in Quran 31:18."
         }
       },
       "implementation": {
@@ -1833,29 +1848,29 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/027/",
           "reader": "https://tadabburlife.com/?session=27&lang=id",
-          "seo_title": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18 | TadabburLife",
-          "meta_description": "Jangan Berjalan dengan Kesombongan. Tawaduk, kesombongan, adab sosial. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
+          "seo_title": "Luqman 31:18: Jangan Memalingkan Wajah karena Sombong | TadabburLife",
+          "meta_description": "Luqman 31:18 melarang memalingkan wajah dari manusia karena sombong dan berjalan dengan angkuh. Pahami kesombongan, merendahkan orang lain, dan adab sosial.",
+          "h1": "Luqman 31:18: Jangan Memalingkan Wajah karena Sombong",
           "html_lang": "id",
           "related_sessions": [
             "028",
             "015",
             "014",
-            "011"
+            "043"
           ]
         },
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/027/",
           "reader": "https://tadabburlife.com/?session=27&lang=en",
-          "seo_title": "Quran verse about walking with arrogance",
-          "meta_description": "Do Not Walk in Arrogance. Ibn Kathir explains the turning of the face as contemptuous arrogance; advantages do not grant permission to belittle others.",
-          "h1": "Quran verse about walking with arrogance",
+          "seo_title": "Quran 31:18: Do Not Turn Away from People in Arrogance | TadabburLife",
+          "meta_description": "Quran 31:18 forbids turning away from people in contempt and walking arrogantly. Explore pride, belittling others, and the social manners taught by Luqman.",
+          "h1": "Quran 31:18: Do Not Turn Away from People in Arrogance",
           "html_lang": "en",
           "related_sessions": [
             "028",
             "015",
             "014",
-            "011"
+            "043"
           ]
         }
       }
@@ -1863,15 +1878,15 @@
     {
       "session": "028",
       "locked_title": "Damaikan, Jangan Hanya Menonton Konflik",
-      "primary_long_tail": "ayat tentang mendamaikan konflik sesama muslim",
+      "primary_long_tail": "Al Hujurat 49:10 mendamaikan konflik sesama muslim",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/028/",
       "reader": "https://tadabburlife.com/?session=28&lang=id",
-      "seo_title": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10 | TadabburLife",
-      "meta_description": "Damaikan, Jangan Hanya Menonton Konflik. Persaudaraan, islah, konflik, takwa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
+      "seo_title": "Al-Hujurat 49:10: Mendamaikan Konflik Sesama Muslim | TadabburLife",
+      "meta_description": "Al-Hujurat 49:10 menyebut orang beriman bersaudara dan memerintahkan islah ketika mereka berselisih. Pahami persaudaraan, rekonsiliasi, keadilan, dan takwa.",
+      "h1": "Al-Hujurat 49:10: Mendamaikan Konflik Sesama Muslim",
       "related_sessions": [
         "027",
         "015",
@@ -1880,17 +1895,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang mendamaikan konflik sesama muslim",
+          "primary_long_tail": "Al Hujurat 49:10 mendamaikan konflik sesama muslim",
+          "adjacent_long_tail": "ayat tentang islah persaudaraan orang beriman",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Al-Hujurat 49:10 on believers as brothers and the duty of islah/reconciliation when they are in conflict, with justice and taqwa.",
+          "cannibalization_guard": "Session 014 owns choosing better words to reduce discord; Session 015 owns suspicion/tajassus/backbiting. Session 028 owns active reconciliation/islah between believers in conflict."
         },
         "en": {
-          "primary_long_tail": "Quran verse about reconciling between believers",
-          "adjacent_long_tail": "how to reconcile conflict in Islam Quran",
+          "primary_long_tail": "Quran 49:10 reconcile between believers",
+          "adjacent_long_tail": "how to reconcile conflict in Islam Quran 49 10",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 49:10 on brotherhood and active reconciliation between believers in conflict, guided by justice and taqwa.",
+          "cannibalization_guard": "Session 014 owns speech/word choice in discord; Session 015 owns suspicion and fault-finding. Session 028 owns reconciliation/islah between believers."
         }
       },
       "implementation": {
@@ -1899,9 +1919,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/028/",
           "reader": "https://tadabburlife.com/?session=28&lang=id",
-          "seo_title": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10 | TadabburLife",
-          "meta_description": "Damaikan, Jangan Hanya Menonton Konflik. Persaudaraan, islah, konflik, takwa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
+          "seo_title": "Al-Hujurat 49:10: Mendamaikan Konflik Sesama Muslim | TadabburLife",
+          "meta_description": "Al-Hujurat 49:10 menyebut orang beriman bersaudara dan memerintahkan islah ketika mereka berselisih. Pahami persaudaraan, rekonsiliasi, keadilan, dan takwa.",
+          "h1": "Al-Hujurat 49:10: Mendamaikan Konflik Sesama Muslim",
           "html_lang": "id",
           "related_sessions": [
             "027",
@@ -1913,9 +1933,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/028/",
           "reader": "https://tadabburlife.com/?session=28&lang=en",
-          "seo_title": "Quran verse about reconciling between believers",
-          "meta_description": "Reconcile, Do Not Merely Watch Conflict. Ibn Kathir explains believers as brothers; disagreement should not become a license for mutual destruction.",
-          "h1": "Quran verse about reconciling between believers",
+          "seo_title": "Quran 49:10: Reconcile Between Believers | TadabburLife",
+          "meta_description": "Quran 49:10 calls believers brothers and commands reconciliation when they fall into conflict. Explore brotherhood, peacemaking, justice, and taqwa.",
+          "h1": "Quran 49:10: Reconcile Between Believers",
           "html_lang": "en",
           "related_sessions": [
             "027",
@@ -2878,14 +2898,18 @@
           "primary_long_tail": "ayat tentang rendah hati dalam cara berjalan dan berbicara",
           "intent": "informational-reflection",
           "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "competition": "low-medium",
+          "search_territory": "Luqman 31:18–19 on the positive practice of humility in how one carries oneself: measured walking, modest bearing and restrained speech/voice.",
+          "cannibalization_guard": "Session 027 owns the negative prohibition of arrogance/contempt in Luqman 31:18. Session 043 owns the positive practice of humility in walking and speaking across Luqman 31:18–19."
         },
         "en": {
           "primary_long_tail": "Quran verse about humility in walking and speaking",
           "adjacent_long_tail": "Luqman 31 18 19 meaning humility",
           "intent": "informational-reflection",
           "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Quran 31:18–19 on the positive practice of humility in walking, bearing and speech/voice.",
+          "cannibalization_guard": "Session 027 owns arrogance/contempt in Quran 31:18. Session 043 owns humility in walking and speaking across Quran 31:18–19."
         }
       },
       "implementation": {
@@ -2909,7 +2933,7 @@
           "canonical": "https://tadabburlife.com/en/tadabbur/043/",
           "reader": "https://tadabburlife.com/?session=43&lang=en",
           "seo_title": "Quran verse about humility in walking and speaking",
-          "meta_description": "Humility Appears in How We Carry Ourselves Among People. Luqman's counsel does not stop at belief and worship. It reaches body language, walking, and the volume of the voice.",
+          "meta_description": "Humility Appears in How We Carry Ourselves Among People. Luqman&#x27;s counsel does not stop at belief and worship. It reaches body language, walking, and the volume of the voice.",
           "h1": "Quran verse about humility in walking and speaking",
           "html_lang": "en",
           "related_sessions": [
