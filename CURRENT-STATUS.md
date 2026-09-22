@@ -330,6 +330,9 @@ Live batch QC:
 - exactly one Deep-SERP answer block per landing: PASS
 - evidence/search-territory/cannibalization-guard fields: PASS
 - failures: **0**
+- full keyword-map source recheck: **94 / 94 PASS**
+- full keyword-map live recheck: **94 / 94 HTTP 200 + map/live PASS**
+- research boundary: **16 Deep / 31 directional**, issues **0**
 
 Research report:
 
