@@ -1,0 +1,46 @@
+name: Live Reflection Card OG QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-reflection-og-qc.yml'
+      - '.github/scripts/live_reflection_og_qc.py'
+      - 'og/reflection/**'
+
+permissions:
+  contents: read
+
+jobs:
+  live-reflection-og:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live Reflection Card OG QC
+        id: qc
+        continue-on-error: true
+        run: python3 .github/scripts/live_reflection_og_qc.py
+
+      - name: Upload live Reflection Card OG report and samples
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-reflection-og-qc
+          path: |
+            qc-live-reflection-og-report/
+            og/reflection/id/001.png
+            og/reflection/en/013.png
+            og/reflection/id/025.png
+            og/reflection/en/047.png
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce live Reflection Card OG QC
+        if: steps.qc.outcome == 'failure'
+        run: |
+          echo "Live Reflection Card OG QC failed. See artifact."
+          exit 1
