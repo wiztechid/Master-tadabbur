@@ -8,6 +8,26 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-22
 
+### [SEO] Deep Live SERP + Cannibalization — Sessions 013–016 — PASS
+- Completed independent **Indonesian + English live-SERP research** for Sessions **013–016**.
+- Advanced Deep Live SERP coverage from **12 / 47** to **16 / 47 sessions** = **32 / 94 session-language targets**.
+- Upgraded `demand_evidence` for 013–016 ID + EN to `deep-live-serp-validated-2026-09-22`.
+- Added explicit `search_territory` and `cannibalization_guard` fields to the bilingual keyword registry.
+- Session **013** now owns **anger restraint + forgiveness** around Ali 'Imran/Quran 3:134; Session 014 retains speech/word-choice intent.
+- Session **014** now owns **speaking what is best / avoiding discord** around Al-Isra/Quran 17:53; Session 013 retains anger-management intent.
+- Session **015** now owns **unsupported suspicion → tajassus/fault-finding → backbiting** around Al-Hujurat/Quran 49:12. Session 005 remains mocking/offensive names, Session 011 news-before-sharing, and Session 042 information-before-decision.
+- Session **016** now owns **nightly/daily muhasabah and self-accountability before sleep**. Session 030 retains the separate Al-Hashr/Quran 59:18 territory of preparing provision for the Hereafter.
+- Updated evidence-backed title/H1/meta for all **8** ID/EN landings.
+- Added exactly one concise reader-first direct-answer block to each of the eight landing pages.
+- Preserved Quran/hadith sacred-source text and did not rewrite the locked reflection/practical-action meaning layer.
+- Re-normalized Article/Breadcrumb schema and OG/Twitter metadata after the editorial SEO changes.
+- Re-synchronized `seo/keyword-map.json` implementation snapshots.
+- Updated keyword-map validators so the research boundary is now **001–016 Deep validated / 017–047 directional**.
+- Added research record `seo/deep-serp-013-016-2026-09-22.md`.
+- Added targeted live validator `.github/scripts/live_deep_serp_013_016_qc.py` and workflow `.github/workflows/live-deep-serp-013-016-qc.yml`.
+- Final live batch QC: **8 / 8 HTTP 200, 8 / 8 PASS, 0 failures** for title/H1/meta ↔ map, canonical, OG, Article schema, answer-block presence, evidence status, search territory, and cannibalization guard.
+- Active Deep SERP priority advances to **Sessions 017–020 bilingual**.
+
 ### [Domain / SEO] TadabburLife Custom-Domain Baseline
 - Established `https://tadabburlife.com/` as the canonical public host for the active TadabburLife corpus.
 - Verified 47 Indonesian + 47 English public session landings = **94 session-language targets**.
