@@ -22,6 +22,19 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [SEO / Technical] 94-Landing Schema Normalization — PASS
+- Normalized structured data across all **94** Indonesian + English session landings.
+- Standardized each landing to exactly one valid `Article` JSON-LD object and one valid `BreadcrumbList`.
+- Standardized `headline`, `description`, `inLanguage`, canonical `url`, `mainEntityOfPage`, `author`, `publisher`, and `isPartOf`.
+- Preserved existing `alternativeHeadline` and `keywords` when they were already present rather than inventing new editorial SEO data.
+- Used a schema-only rewrite with a hard safety assertion that the entire page body remain byte-for-byte unchanged.
+- Source QC verified **94 / 94 bodies unchanged**, **94 / 94 Article schemas valid**, **94 / 94 BreadcrumbList schemas valid**, and **0 JSON-LD parse errors**.
+- GitHub Pages successfully deployed the normalized corpus.
+- Live custom-domain schema QC verified **94 / 94 URLs HTTP 200** and **94 / 94 schema PASS**, with **0 failures**.
+- Added reusable automation: `.github/scripts/normalize_schema.py`, `.github/workflows/normalize-schema.yml`, `.github/scripts/live_schema_qc.py`, and `.github/workflows/live-schema-qc.yml`.
+- Marked **G3 Schema Normalization = PASS**.
+- Moved active Green-Gate priority to **Internal-Link Parity → Keyword-Map ↔ Landing Sync**.
+
 ### [Technical / P0] Live 103-URL Crawl QC — PASS
 - Added permanent public-network crawler at `.github/scripts/live_crawl_qc.py`.
 - Added GitHub Actions workflow `.github/workflows/live-crawl-qc.yml` so the custom-domain crawl is repeatable and auditable.
