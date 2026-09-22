@@ -6,6 +6,36 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ---
 
+## 2026-09-22
+
+### [Domain / SEO] TadabburLife Custom-Domain Baseline
+- Established `https://tadabburlife.com/` as the canonical public host for the active TadabburLife corpus.
+- Verified 47 Indonesian + 47 English public session landings = **94 session-language targets**.
+- Verified the repository sitemap inventory at **103 canonical public URLs**: homepage, ID/EN hubs, 94 session landings, and 6 public information/legal pages.
+- Verified `robots.txt` allows public crawling, blocks `/owner/`, and references the custom-domain sitemap.
+- Confirmed the 94 session landings have the source-level technical baseline for self-referencing canonical, reciprocal ID/EN hreflang, x-default, index/follow, title, meta description, and H1.
+
+### [UI / Trust] Public Information & Legal Pages
+- Restyled About, Privacy Policy, Cookie Policy, Terms, Disclaimer, and Contact to the TadabburLife visual system instead of plain browser-default HTML.
+- Preserved bilingual Indonesian/English content while removing redundant ID/EN selector pills from those six pages.
+- Removed small hero kicker labels such as “TENTANG PROYEK” from the six information pages for a cleaner visual hierarchy.
+- Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
+- Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
+
+### [Technical / P0] Deploy Parity & Cache Verification
+- Verified final `main` head `c413b663031913a3661f33a492e303e3cc7490d3` completed a successful GitHub Pages deployment.
+- Verified the generated `github-pages` artifact was built from the same head SHA as `main`.
+- Verified source ↔ deployment-artifact parity for critical public files/structure.
+- Classified the earlier stale visual state as pre-final-deployment timing rather than a source/build mismatch.
+- Marked **P0 Deploy Parity / Cache = PASS** for source → GitHub Pages artifact.
+- Kept the overall Technical Green Gate open pending **live 103-URL custom-domain crawl QC** and remaining live regression checks.
+
+### [Governance] Master SOP v1.2
+- Added a dedicated **Deploy Parity / Cache QC** gate.
+- Required repository source, deployment artifact, and live custom-domain state to be treated as separate verification layers.
+- Added deploy-parity verification to the post-deploy workflow and Definition of Done.
+- Explicitly prohibited rewriting correct source merely to chase stale browser/edge cache.
+
 ## 2026-09-20
 
 ### [Governance] Project Governance v1.0
