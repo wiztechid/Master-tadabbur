@@ -288,33 +288,60 @@ Do not assign a new primary intent solely because a keyword appears relevant to 
 
 ## 10. INTERNAL LINKING STATUS
 
-### Indonesian
+Internal-link functional parity is now normalized across all **94** session landings.
 
-The more mature ID landing architecture contains combinations of:
+Every ID + EN landing now has the same functional navigation layers:
 
-- homepage/breadcrumb,
-- interactive-reader CTA,
-- previous session,
-- next session,
-- related sessions.
+- homepage discovery through breadcrumb;
+- **visible reciprocal ID ↔ EN session link** in the breadcrumb;
+- interactive-reader CTA with the correct session number and language;
+- previous-session link where a previous session exists;
+- language-specific Tadabbur hub link in the center navigation;
+- next-session link where a next session exists;
+- related-session block;
+- related-session targets kept in parity between the ID/EN pair.
 
-This creates useful journey and topical crawl paths.
+Normalization preserved existing descriptive previous/next anchor copy where it already existed. Related-session editorial choices were not globally regenerated.
 
-However implementation is not yet guaranteed uniform across all 47 ID landings.
+Initial corpus QC found only two historical ID/EN related-graph mismatches:
 
-**Status: 🟢/🟡 IMPLEMENTED, NORMALIZATION REQUIRED**
+- Session **005**: ID targets `009, 011, 014, 015`; old EN targets `015, 013, 011, 002`;
+- Session **006**: ID targets `007, 008, 018, 029`; old EN targets `018, 032, 010, 001`.
 
-### English
+Because the Indonesian graph was the more mature existing baseline, EN Sessions 005 and 006 were aligned to the same target session numbers, using the destination English H1 as anchor text.
 
-English canonical landings exist and are correctly paired with ID, but audited EN pages have a materially thinner internal-link graph than mature ID pages.
+Safety controls:
 
-Several audited EN pages primarily link back to the interactive reader and do not yet provide equivalent previous/next/related-session discovery.
+- only navigation outside the session `<article>` was changed;
+- **94 / 94 article blocks remained byte-for-byte unchanged**;
+- reader CTA blocks were preserved;
+- existing related blocks were preserved except the two verified EN parity corrections above.
 
-**Status: 🟡 PRIORITY NORMALIZATION GAP**
+Repository/source QC:
 
-Required outcome:
+- landing files checked: **94 / 94**
+- page structural-link PASS: **94 / 94**
+- related-session pair parity: **47 / 47**
+- related pair mismatches: **0**
+- article content unchanged: **94 / 94**
 
-English must achieve functional/search-navigation parity with Indonesian where appropriate, without forcing identical anchor wording or keyword targeting.
+Live custom-domain QC:
+
+- live URLs checked: **94 / 94**
+- HTTP 200: **94 / 94**
+- structural internal-link PASS: **94 / 94**
+- live related-session ID/EN parity: **47 / 47**
+- failures: **0**
+- propagation retry needed: **no; PASS on first live attempt**
+
+Reusable controls:
+
+- `.github/scripts/normalize_internal_links.py`
+- `.github/workflows/normalize-internal-links.yml`
+- `.github/scripts/live_internal_links_qc.py`
+- `.github/workflows/live-internal-links-qc.yml`
+
+**G4 — Internal-Link Parity: 🟢 PASS**
 
 ---
 
@@ -491,18 +518,21 @@ Completed and verified across **94 / 94** ID + EN session landings.
 
 Schema normalization is no longer an active Green-Gate gap.
 
-### G4 — Internal-Link Parity
+### G4 — Internal-Link Parity — 🟢 PASS
 
-Normalize:
+Completed and verified across **94 / 94** session landings.
 
-- breadcrumb/home discovery,
-- reader CTA,
-- previous/next where appropriate,
-- related-session graph.
+- breadcrumb/home discovery: PASS
+- visible reciprocal ID ↔ EN session links: PASS
+- interactive-reader CTA target: PASS
+- previous/next navigation: PASS
+- language-specific hub link: PASS
+- related-session block: PASS
+- ID/EN related-target parity: **47 / 47**
+- source article block unchanged: **94 / 94**
+- live custom-domain structural-link QC: **94 / 94 PASS**
 
-Priority:
-
-**English internal-link parity.**
+Internal-link parity is no longer an active Green-Gate gap.
 
 ### G5 — Keyword Map ↔ Landing Sync
 
@@ -599,7 +629,7 @@ Global normalization accidentally changes Quran/hadith source text, established 
 
 ID and EN architecture diverge functionally.
 
-**Current concern:** English internal linking.
+**Current concern:** no active ID/EN internal-link parity defect after 94/94 source + live normalization.
 
 ### R3 — Cannibalization
 
@@ -611,7 +641,7 @@ Growth toward 1,000+ sessions creates overlapping primary search territories.
 
 Different generations of landing templates create inconsistent metadata, schema, or internal links.
 
-**Current concern:** observed across active corpus.
+**Current concern:** schema and internal-link generation drift have been normalized; remaining template drift risk is primarily metadata/OG/share consistency.
 
 ### R5 — Share Regression
 
@@ -641,7 +671,7 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**INTERNAL-LINK PARITY → KEYWORD-MAP ↔ LANDING SYNC → OG/SHARE + LIVE READER/REGRESSION QC → GREEN GATE**
+**KEYWORD-MAP ↔ LANDING SYNC → OG/SHARE + LIVE READER/REGRESSION QC → GREEN GATE**
 
 The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
@@ -649,12 +679,12 @@ Priority order:
 
 1. preserve Absolute Sacred Lock and meaning-constrained reflection/action,
 2. audit/normalize 94 landing technical structure,
-3. close **EN/internal-link functional parity** gap,
+3. **internal-link functional parity — COMPLETE / PASS 94/94 source + live**, 
 4. **schema normalization — COMPLETE / PASS 94/94 source + live**,
 5. normalize metadata **technical integrity** only where an objective defect exists; do not perform speculative editorial rewrites on Sessions 013–047,
 6. verify keyword-map ↔ landing synchronization,
 7. **live 103-URL crawl QC — COMPLETE / PASS**,
-8. close remaining internal-link/keyword-map/OG and reader-regression gaps,
+8. close remaining keyword-map/OG and reader-regression gaps,
 9. mark Technical Integrity GREEN only after G1–G7 evidence passes.
 
 ---
@@ -738,13 +768,13 @@ Recommended handoff instruction:
 **Keyword mapping:** 001–047 bilingual mapped  
 **Deep SERP:** 001–012 bilingual validated  
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
-**Internal linking:** ID stronger; EN normalization required  
+**Internal linking:** 🟢 NORMALIZED + LIVE VERIFIED 94/94; related parity 47/47  
 **Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
 **Metadata:** Implemented; quality normalization required  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** Internal-Link Parity → Keyword-Map ↔ Landing Sync  
+**Immediate work:** Keyword-Map ↔ Landing Sync  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
