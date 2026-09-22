@@ -209,7 +209,7 @@ def main() -> int:
     for n, s in enumerate(sessions, 1):
         id_ev = (s.get("seo", {}).get("id", {}) or {}).get("demand_evidence", "")
         en_ev = (s.get("seo", {}).get("en", {}) or {}).get("demand_evidence", "")
-        if n <= 40:
+        if n <= 44:
             if id_ev.startswith("deep-live-serp-validated") and en_ev.startswith("deep-live-serp-validated"):
                 deep_ok += 1
             else:
@@ -235,8 +235,8 @@ def main() -> int:
             len(rows) == 94
             and not failures
             and not pair_issues
-            and deep_ok == 40
-            and directional_ok == 7
+            and deep_ok == 44
+            and directional_ok == 3
             and not research_issues
         ),
     }
@@ -259,8 +259,8 @@ def main() -> int:
         f"- HTTP 200: {summary['http_200_count']} / 94",
         f"- Map ↔ live PASS: {summary['map_live_pass_count']} / 94",
         f"- Related ID/EN parity: {summary['related_pair_parity_count']} / 47",
-        f"- Deep SERP boundary 001–040: {summary['deep_serp_boundary_pass_count']} / 40",
-        f"- Directional boundary 041–047: {summary['directional_boundary_pass_count']} / 7",
+        f"- Deep SERP boundary 001–044: {summary['deep_serp_boundary_pass_count']} / 44",
+        f"- Directional boundary 045–047: {summary['directional_boundary_pass_count']} / 3",
         f"- Failures: {summary['map_live_fail_count']}",
         f"- Overall: {'PASS' if summary['overall_pass'] else 'FAIL'}",
         "",
