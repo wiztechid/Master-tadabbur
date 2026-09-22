@@ -1,0 +1,38 @@
+name: Live Deep SERP 013-016 QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-deep-serp-013-016-qc.yml'
+      - '.github/scripts/live_deep_serp_013_016_qc.py'
+
+permissions:
+  contents: read
+
+jobs:
+  live-deep-serp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live Deep SERP batch QC
+        id: qc
+        continue-on-error: true
+        run: python3 .github/scripts/live_deep_serp_013_016_qc.py
+
+      - name: Upload live batch report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-deep-serp-013-016-qc
+          path: qc-live-deep-serp-013-016/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce live batch QC
+        if: steps.qc.outcome == 'failure'
+        run: exit 1
