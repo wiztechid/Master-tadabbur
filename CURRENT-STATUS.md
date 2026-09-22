@@ -166,9 +166,35 @@ Verified public-content deployment parity checkpoint:
 
 The earlier apparent stale page state was observed before the final deployment completed. The public HTML source at that checkpoint and generated Pages artifact are aligned. Subsequent documentation-only commits to Master/CURRENT/CHANGELOG do not change that verified public-page baseline.
 
-**Next P0:** crawl all 103 sitemap URLs on `tadabburlife.com` and verify HTTP status, redirect behavior, canonical, soft-404 risk, crawler-visible HTML, and live parity.
+### P0 Live 103-URL Crawl QC — PASS
 
-Final Green Gate still requires live/corpus verification that:
+A GitHub-hosted public-network crawler now verifies the custom domain using:
+
+- `.github/scripts/live_crawl_qc.py`
+- `.github/workflows/live-crawl-qc.yml`
+
+Verified run: **22 September 2026, 08:12 WITA**.
+
+Results:
+
+- live sitemap inventory: **103 / 103**
+- HTTP 200: **103 / 103**
+- failed URLs: **0**
+- redirects among sitemap URLs: **0**
+- canonical issues: **0**
+- `noindex`: **0**
+- soft-404 suspects: **0**
+- robots status: **200**
+- sitemap status: **200**
+- global crawl issues: **none**
+- stale `Master Tadabbur` / legacy GitHub-host URL checks: **no issue detected**
+- Contact live-check confirms `info@tadabburlife.com` is present and the old GitHub-contact wording is absent.
+
+Observed crawl latency from the public runner was approximately **70 ms minimum / 130 ms median / 211 ms p95 / 336 ms maximum** for the 103 sitemap pages. This is an operational observation from one run, not a Core Web Vitals measurement.
+
+**P0 LIVE 103-URL CRAWL QC: 🟢 PASS**
+
+Final Green Gate still requires remaining corpus verification that:
 
 - sitemap contains only intended canonical public URLs,
 - no published landing is missing,
@@ -391,7 +417,9 @@ only after the following Green Gate is completed.
 
 **Repository/source technical-signal check: PASS for 94/94 canonical/hreflang/indexability/title/meta/H1 baseline.**
 
-Still verify live/custom-domain behavior plus:
+**Live custom-domain transport/indexability check: PASS across all 103 sitemap URLs (103× HTTP 200, zero redirects, zero canonical issues, zero noindex, zero soft-404 suspects).**
+
+Still verify content-integrity aspects plus:
 
 - 47 ID landings,
 - 47 EN landings,
@@ -458,7 +486,7 @@ Verify that implemented landing signals match the current SEO registry where app
 
 ### G6 — Corpus-Wide Technical QC
 
-**Repository sitemap inventory: PASS at 103 intended public canonical URLs. Live 103-URL crawl remains pending.**
+**Repository sitemap inventory: PASS at 103 intended public canonical URLs. Live 103-URL crawl: 🟢 PASS.**
 
 Verify:
 
@@ -475,7 +503,7 @@ Verify:
 
 **Deploy parity source → GitHub Pages artifact: 🟢 PASS (22 Sep 2026).**
 
-Now verify the actual custom-domain website:
+Live 103-URL crawl on the actual custom domain is 🟢 PASS for transport/indexability/canonical/soft-404 checks. Remaining reader/regression verification:
 
 - desktop,
 - mobile,
@@ -582,7 +610,7 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**LIVE 103-URL CRAWL QC → REMAINING CORPUS-WIDE NORMALIZATION/QC → LIVE REGRESSION QC → GREEN GATE**
+**SCHEMA NORMALIZATION → INTERNAL-LINK PARITY → KEYWORD-MAP ↔ LANDING SYNC → LIVE READER/REGRESSION QC → GREEN GATE**
 
 The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
@@ -594,9 +622,9 @@ Priority order:
 4. normalize schema,
 5. normalize metadata **technical integrity** across 94 landings without speculative editorial rewrites on Sessions 013–047,
 6. verify keyword-map ↔ landing synchronization,
-7. run the **live 103-URL crawl QC** on the custom domain,
-8. close any remaining schema/internal-link/OG or regression gaps found by live QC,
-9. mark Technical Integrity GREEN only after evidence passes.
+7. **live 103-URL crawl QC — COMPLETE / PASS**, 
+8. close remaining schema/internal-link/keyword-map/OG and reader-regression gaps,
+9. mark Technical Integrity GREEN only after G1–G7 evidence passes.
 
 ---
 
@@ -674,8 +702,8 @@ Recommended handoff instruction:
 **Languages:** ID + EN  
 **Published search targets:** 94  
 **SEO Architecture v1.1:** Fundamentally implemented  
-**Canonical / hreflang baseline:** 94/94 source-level PASS; live crawl pending  
-**Sitemap / robots baseline:** PASS; sitemap inventory = 103 public canonical URLs  
+**Canonical / hreflang baseline:** 94/94 source-level PASS; live sitemap crawl PASS  
+**Sitemap / robots baseline:** PASS; 103/103 live URLs HTTP 200, zero redirect/canonical/noindex/soft-404 issues  
 **Keyword mapping:** 001–047 bilingual mapped  
 **Deep SERP:** 001–012 bilingual validated  
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
@@ -683,8 +711,9 @@ Recommended handoff instruction:
 **Schema:** Implemented; corpus normalization required  
 **Metadata:** Implemented; quality normalization required  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
+**Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** Live 103-URL Crawl QC  
+**Immediate work:** Schema Normalization + Internal-Link Parity + Keyword-Map ↔ Landing Sync  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
