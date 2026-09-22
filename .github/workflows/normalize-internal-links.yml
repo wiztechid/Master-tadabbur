@@ -1,0 +1,47 @@
+name: Normalize 94 Landing Internal Links
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/normalize-internal-links.yml'
+      - '.github/scripts/normalize_internal_links.py'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize-internal-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalize and QC internal links
+        id: normalize
+        run: python3 .github/scripts/normalize_internal_links.py
+
+      - name: Upload internal-link QC report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-internal-link-parity-qc
+          path: qc-internal-links-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit normalized internal links
+        run: |
+          if git diff --quiet -- tadabbur en/tadabbur; then
+            echo "No landing internal-link changes required."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tadabbur en/tadabbur
+          git commit -m "SEO: normalize internal-link parity across 94 landings"
+          git push
