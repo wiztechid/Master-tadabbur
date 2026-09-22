@@ -191,11 +191,12 @@ def write_image(data: dict[str, Any]) -> dict[str, Any]:
         raise RuntimeError("rsvg-convert is not installed")
     if not png_path.exists() or png_path.stat().st_size < 10_000:
         raise RuntimeError(f"{png_path}: PNG generation failed or image too small")
+    size = png_path.stat().st_size
+    svg_path.unlink(missing_ok=True)
     return {
         **data,
-        "svg": str(svg_path),
         "png": str(png_path),
-        "png_bytes": png_path.stat().st_size,
+        "png_bytes": size,
         "og_url": f"https://tadabburlife.com/og/reflection/{lang}/{sid}.png",
     }
 
