@@ -22,6 +22,28 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [Share / Visual] Reflection Card → 94 Branded OG Images — PASS
+- Promoted **Reflection Card** to the single visual source of truth for session sharing.
+- Added automated landscape social derivatives for the active corpus: **47 ID + 47 EN = 94 unique OG images**.
+- Generated assets at `/og/reflection/{id|en}/{session}.png`.
+- Standardized image format/dimensions to **PNG 1200×630** for crawler/social-preview compatibility.
+- Reused the same Reflection Card data rules as the interactive reader: session title, reflection quote, Journey Mission/practical action, language, session number, and TadabburLife green/gold branding.
+- Added `og:image`, `og:image:secure_url`, `og:image:type`, width/height, alt text, `twitter:image`, and Twitter image alt to all 94 landings.
+- Upgraded Twitter/X cards from `summary` to **`summary_large_image`**.
+- Verified all **94 landing pages HTTP 200**, all **94 image URLs HTTP 200**, all **94 files actual PNG 1200×630**, all **94 image URLs unique**, and **0 failures**.
+- Verified generated image-size range at approximately **121 KB–188 KB**.
+- Performed visual sample QC on **ID 001, EN 013, ID 025, EN 047**; hierarchy, crop safety, language/session identity, and brand rendering passed.
+- Added generator/attachment/live-QC automation: `.github/scripts/generate_reflection_og.py`, `.github/scripts/attach_reflection_og.py`, `.github/workflows/generate-reflection-og.yml`, `.github/scripts/live_reflection_og_qc.py`, and `.github/workflows/live-reflection-og-qc.yml`.
+- Updated existing metadata audit/live validators so Reflection Card OG images are now a required baseline.
+- Marked **Reflection Card OG Image Coverage = PASS 94/94 source + live**.
+
+### [Governance] Master SOP v1.3
+- Defined Reflection Card as the canonical share-visual source of truth.
+- Required static pre-rendered OG derivatives because social crawlers cannot depend on browser-side JavaScript rendering.
+- Established the current share-image baseline as one unique **PNG 1200×630** asset per session-language pair.
+- Required OG/Twitter image regeneration + corpus-wide/live QC whenever Reflection Card data or visual language changes materially.
+- Explicitly prohibited creating new religious claims, reflection meaning, or practical actions only for social-card visuals.
+
 ### [SEO / Technical] Metadata Technical Integrity + OG/Share — PASS
 - Audited all **94** Indonesian + English session landings for title, H1, meta description, canonical, language, Open Graph, Twitter/X, and schema synchronization.
 - Initial audit found **50** landings missing Twitter/X summary metadata, **35** missing `og:site_name`, **11** Twitter-title mismatches, **12** Twitter-description mismatches, and **34** objectively truncated meta descriptions.
