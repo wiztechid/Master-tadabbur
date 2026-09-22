@@ -209,28 +209,77 @@ Primary SEO registry:
 
 `seo/keyword-map.json`
 
-Current registry covers **Sessions 001–047** with bilingual search architecture.
+Current registry covers **Sessions 001–047** with bilingual search architecture and is now synchronized to the implemented ID + EN landing corpus.
 
-The map includes, depending on session/version:
+Research fields remain separate from implementation fields.
 
-- locked title,
-- search territory,
-- primary long-tail target,
-- search intent,
-- cluster,
-- canonical URL,
-- reader URL,
-- SEO title,
-- meta description,
-- H1,
-- related sessions,
-- separate ID and EN targeting/evidence.
+### Research layer
+
+The existing SEO research fields continue to store:
+
+- locked title;
+- primary/adjacent long-tail target;
+- search intent;
+- cluster;
+- competition estimate;
+- ID and EN demand evidence.
+
+The research boundary remains unchanged:
+
+- Sessions **001–012**: `deep-live-serp-validated-2026-09-20` in ID + EN;
+- Sessions **013–047**: `serp-directional` in ID + EN.
+
+**No session was silently upgraded from directional evidence to Deep SERP validation during synchronization.**
+
+### Implementation layer
+
+Each of the 47 session records now also contains an `implementation` snapshot for both `id` and `en`, sourced from the actual landing files.
+
+Each language snapshot records:
+
+- canonical URL;
+- interactive-reader URL;
+- implemented `<title>`;
+- meta description;
+- H1;
+- HTML language;
+- related-session targets.
+
+This gives the registry explicit coverage for:
+
+**47 sessions × 2 languages = 94 landing implementations.**
+
+Source synchronization QC:
+
+- sessions checked: **47 / 47**
+- landing implementations checked: **94 / 94**
+- source implementation PASS: **94 / 94**
+- related-session pair parity: **47 / 47**
+- research-boundary issues: **0**
+- post-sync registry issues: **0**
+
+Live custom-domain QC:
+
+- live implementations checked: **94 / 94**
+- HTTP 200: **94 / 94**
+- keyword-map ↔ live landing PASS: **94 / 94**
+- related ID/EN pair parity: **47 / 47**
+- failures: **0**
+
+Reusable controls:
+
+- `.github/scripts/sync_keyword_map.py`
+- `.github/workflows/sync-keyword-map.yml`
+- `.github/scripts/live_keyword_map_qc.py`
+- `.github/workflows/live-keyword-map-qc.yml`
 
 ### Important distinction
 
-**Mapped does not mean Deep-SERP validated.**
+**Mapped and technically synchronized does not mean Deep-SERP validated.**
 
-All published sessions have a search-direction architecture, but evidence depth differs by session.
+The implementation snapshot records what is actually published. It does not create search evidence, upgrade directional targets, or authorize editorial SEO rewrites.
+
+**G5 — Keyword Map ↔ Landing Sync: 🟢 PASS**
 
 ---
 
@@ -418,9 +467,13 @@ Therefore:
 
 **Metadata availability: 🟢**
 
+**Metadata implementation registry: 🟢 synchronized through keyword-map**
+
 **Metadata quality normalization: 🟡**
 
-Do not mass-rewrite metadata based only on stylistic preference. Refinement must remain search-intent/evidence driven.
+Keyword-map synchronization surfaced objective legacy quality defects that are separate from registry drift. Example: the current live English meta description for Session 013 ends mid-word (`...they restrain themselves, ma`). This is now accurately recorded by the map, but still requires a safe metadata-integrity fix.
+
+Do not mass-rewrite Sessions 013–047 based only on stylistic preference. Before Deep SERP validation, limit changes to objective defects such as truncation, malformed metadata, language mismatch, incorrect session references, or inconsistent crawler/share signals.
 
 ---
 
@@ -534,16 +587,26 @@ Completed and verified across **94 / 94** session landings.
 
 Internal-link parity is no longer an active Green-Gate gap.
 
-### G5 — Keyword Map ↔ Landing Sync
+### G5 — Keyword Map ↔ Landing Sync — 🟢 PASS
 
-Verify that implemented landing signals match the current SEO registry where applicable:
+Completed and verified across **47 session records / 94 language implementations**.
 
-- canonical,
-- title,
-- H1,
-- meta,
-- language,
-- related-session mapping.
+- canonical registry ↔ source/live: PASS
+- reader URL registry ↔ source/live: PASS
+- title registry ↔ source/live: PASS
+- H1 registry ↔ source/live: PASS
+- meta-description registry ↔ source/live: PASS
+- HTML language registry ↔ source/live: PASS
+- related-session registry ↔ source/live: PASS
+- related ID/EN pair parity: **47 / 47**
+- live map ↔ landing validation: **94 / 94 PASS**
+- Deep SERP boundary preserved: **12 / 12**
+- directional-only boundary preserved: **35 / 35**
+- research-boundary issues: **0**
+
+The keyword map now records both search-research state and the exact implemented ID/EN landing signals without conflating the two.
+
+Keyword-map synchronization is no longer an active Green-Gate gap.
 
 ### G6 — Corpus-Wide Technical QC
 
@@ -671,7 +734,7 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**KEYWORD-MAP ↔ LANDING SYNC → OG/SHARE + LIVE READER/REGRESSION QC → GREEN GATE**
+**METADATA TECHNICAL INTEGRITY + OG/SHARE QC → LIVE READER/REGRESSION QC → GREEN GATE**
 
 The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
@@ -682,9 +745,9 @@ Priority order:
 3. **internal-link functional parity — COMPLETE / PASS 94/94 source + live**, 
 4. **schema normalization — COMPLETE / PASS 94/94 source + live**,
 5. normalize metadata **technical integrity** only where an objective defect exists; do not perform speculative editorial rewrites on Sessions 013–047,
-6. verify keyword-map ↔ landing synchronization,
+6. **keyword-map ↔ landing synchronization — COMPLETE / PASS 94/94 source + live**,
 7. **live 103-URL crawl QC — COMPLETE / PASS**,
-8. close remaining keyword-map/OG and reader-regression gaps,
+8. close remaining objective metadata/OG-share and reader-regression gaps,
 9. mark Technical Integrity GREEN only after G1–G7 evidence passes.
 
 ---
@@ -765,16 +828,16 @@ Recommended handoff instruction:
 **SEO Architecture v1.1:** Fundamentally implemented  
 **Canonical / hreflang baseline:** 94/94 source-level PASS; live sitemap crawl PASS  
 **Sitemap / robots baseline:** PASS; 103/103 live URLs HTTP 200, zero redirect/canonical/noindex/soft-404 issues  
-**Keyword mapping:** 001–047 bilingual mapped  
+**Keyword mapping:** 🟢 001–047 bilingual mapped + implementation-synced 94/94 source/live  
 **Deep SERP:** 001–012 bilingual validated  
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
 **Internal linking:** 🟢 NORMALIZED + LIVE VERIFIED 94/94; related parity 47/47  
 **Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
-**Metadata:** Implemented; quality normalization required  
+**Metadata:** implementation registry synced; objective quality defects still require normalization  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** Keyword-Map ↔ Landing Sync  
+**Immediate work:** Metadata Technical Integrity + OG/Share QC  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
