@@ -22,6 +22,22 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [SEO / Technical] 94-Landing Internal-Link Parity — PASS
+- Normalized functional navigation across all **94** Indonesian + English session landings.
+- Added a visible reciprocal **ID ↔ EN** counterpart link in each landing breadcrumb.
+- Standardized session navigation to include previous / language-specific Tadabbur hub / next slots where applicable.
+- Preserved existing descriptive previous/next anchor wording when already present.
+- Verified interactive-reader CTA session/language targets across the full corpus.
+- Verified related-session blocks across all landings and found only two historical pair mismatches: Sessions **005** and **006**.
+- Aligned the two English related-session graphs to the more mature Indonesian baseline while using destination English H1 text as link labels.
+- Preserved session article content byte-for-byte: **94 / 94 article blocks unchanged**.
+- Source QC: **94 / 94 structural-link PASS**, **47 / 47 related-session ID/EN pair parity**, **0 pair mismatches**.
+- Live custom-domain QC: **94 / 94 HTTP 200**, **94 / 94 structural-link PASS**, **47 / 47 related-pair parity**, **0 failures**.
+- Live parity passed on the first propagation check.
+- Added reusable automation: `.github/scripts/normalize_internal_links.py`, `.github/workflows/normalize-internal-links.yml`, `.github/scripts/live_internal_links_qc.py`, and `.github/workflows/live-internal-links-qc.yml`.
+- Marked **G4 Internal-Link Parity = PASS**.
+- Moved active Green-Gate priority to **Keyword-Map ↔ Landing Sync**.
+
 ### [SEO / Technical] 94-Landing Schema Normalization — PASS
 - Normalized structured data across all **94** Indonesian + English session landings.
 - Standardized each landing to exactly one valid `Article` JSON-LD object and one valid `BreadcrumbList`.
