@@ -1,6 +1,6 @@
 # TADABBURLIFE — CURRENT STATUS
 
-**Version:** 1.2  
+**Version:** 1.3  
 **Status:** ACTIVE LIVING DOCUMENT  
 **Snapshot:** 22 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
@@ -287,35 +287,58 @@ The implementation snapshot records what is actually published. It does not crea
 
 ### Deep/live bilingual validation completed
 
-**Sessions 001–012 are Deep Live SERP validated bilingually.**
-
-These sessions have gone through the newer Deep SERP / bilingual QC workflow, including work on:
-
-- live SERP evidence,
-- intent,
-- long-tail targeting,
-- ID and EN search territory,
-- title/H1/meta,
-- cannibalization,
-- landing implementation.
+**Sessions 001–016 are Deep Live SERP validated bilingually.**
 
 Current coverage:
 
-**12 / 47 sessions**
+**16 / 47 sessions**
 
 or:
 
-**24 / 94 session-language targets**
+**32 / 94 session-language targets**
 
 at the latest deep bilingual validation level.
 
+### Batch 013–016 — completed 22 September 2026
+
+The second controlled four-session batch completed independent Indonesian + English live-SERP research, full-corpus cannibalization review, implementation, head/schema/map synchronization, and live validation.
+
+Search territories are now explicitly separated:
+
+- **013** — anger restraint + forgiveness; ID anchored to Ali 'Imran 3:134, EN to Quran 3:134; Session 014 retains speech/word-choice intent.
+- **014** — choosing better words / avoiding discord in Al-Isra 17:53; Session 013 retains anger-control intent.
+- **015** — unsupported suspicion → tajassus/fault-finding → backbiting, with assumption-vs-fact and legitimate-verification boundary; Session 005 retains mocking/dignity, Session 011 news-before-sharing, and Session 042 information-before-decision.
+- **016** — nightly/daily muhasabah and self-accountability before sleep; Session 030 retains the separate Al-Hashr 59:18 territory of preparing provision for the Hereafter.
+
+Implementation:
+
+- 8 landing title/H1/meta sets updated from validated intent;
+- 8 concise reader-first direct-answer blocks added;
+- Article/Breadcrumb schema resynchronized;
+- OG/Twitter metadata resynchronized;
+- keyword-map implementation snapshots resynchronized;
+- explicit `search_territory` + `cannibalization_guard` recorded in ID and EN research entries;
+- demand evidence for 013–016 upgraded to `deep-live-serp-validated-2026-09-22`.
+
+Live batch QC:
+
+- pages checked: **8 / 8**
+- HTTP 200: **8 / 8**
+- title/H1/meta ↔ keyword-map: PASS
+- canonical/OG/Article schema sync: PASS
+- exactly one Deep-SERP answer block per landing: PASS
+- evidence/search-territory/cannibalization-guard fields: PASS
+- failures: **0**
+
+Research report:
+
+`seo/deep-serp-013-016-2026-09-22.md`
+
 ### Remaining
 
-**Sessions 013–047**
+**Sessions 017–047** remain directionally mapped and must not be described as Deep Live SERP validated until their own controlled research batch is completed.
 
-already have directional keyword/search mapping but must not be described as having completed the same latest Deep SERP standard until individually validated.
-
-Deep SERP coverage is tracked separately from technical architecture integrity.
+Deep SERP coverage remains separate from the already-passed Technical Green Gate.
 
 ---
 
@@ -769,11 +792,11 @@ Deep SERP coverage is deliberately tracked separately.
 
 Current:
 
-**001–012 → Deep/live bilingual validated**
+**001–016 → Deep/live bilingual validated**
 
-Next planned batch after Green Gate:
+Next controlled batch:
 
-**013–016 bilingual**
+**017–020 bilingual**
 
 Then continue in controlled batches through the active corpus.
 
@@ -795,7 +818,7 @@ DEEP SERP
 → TECHNICAL / LIVE QC  
 → UPDATE KEYWORD MAP / STATUS
 
-This allows technical architecture to become green without falsely claiming Sessions 013–047 have completed individual Deep SERP research.
+This keeps the technical Green Gate separate from research depth and avoids falsely claiming Sessions 017–047 have completed individual Deep SERP research.
 
 ---
 
@@ -855,11 +878,11 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**DEEP LIVE SERP — BATCH 013–016 BILINGUAL**
+**DEEP LIVE SERP — BATCH 017–020 BILINGUAL**
 
 The Technical Green Gate is now **COMPLETE / PASS**.
 
-The active work therefore returns to the separate editorial/search-research track. Sessions 013–016 are the next controlled four-session batch and must be researched independently for Indonesian and English.
+Sessions 013–016 are now complete and live-validated. The active work advances to Sessions 017–020 as the next controlled four-session batch, researched independently for Indonesian and English.
 
 Completed technical baseline:
 
@@ -873,29 +896,37 @@ Completed technical baseline:
 8. live reader/browser regression — PASS 282/282 viewport/session-language checks;
 9. **Technical Integrity Green Gate — PASS**.
 
-Do not treat this technical PASS as Deep SERP validation for Sessions 013–047.
+Do not treat the technical Green Gate as Deep SERP validation for Sessions 017–047; only completed research batches may receive that status.
 
 ---
 
 ## 19. NEXT SEO PHASE
 
-After Green Gate:
-
-### Batch 013–016
+### Batch 017–020
 
 Perform independent ID + EN **Deep Live SERP** as the next four-session research batch.
 
-Deep SERP editorial work is deliberately performed in controlled **4-session batches**. Sessions 001–012 have completed this process; Sessions 013–047 have not yet completed the same validation standard.
+Completed batches:
 
-Then:
+- **001–004**
+- **005–008**
+- **009–012**
+- **013–016**
 
-- implement evidence-backed targets,
-- perform cannibalization QC against existing corpus,
-- live QC,
-- update keyword registry,
-- update CURRENT-STATUS.
+Current Deep SERP coverage: **16 / 47 sessions**.
 
-Continue batch-by-batch toward Session 047.
+For 017–020:
+
+- run independent live SERP ID + EN;
+- classify search intent and identify reader-first weak-SERP opportunity;
+- verify Quran/hadith relevance and Religious Evidence Boundary;
+- run cannibalization QC against all 001–047 search territories;
+- implement evidence-backed title/H1/meta and explanatory support only where justified;
+- preserve Absolute Sacred Lock and meaning-constrained reflection/action;
+- run source + live QC;
+- update keyword registry, CURRENT-STATUS, and CHANGELOG.
+
+Continue in four-session batches toward Session 047.
 
 ---
 
@@ -954,18 +985,18 @@ Recommended handoff instruction:
 **Canonical / hreflang baseline:** 94/94 source-level PASS; live sitemap crawl PASS  
 **Sitemap / robots baseline:** PASS; 103/103 live URLs HTTP 200, zero redirect/canonical/noindex/soft-404 issues  
 **Keyword mapping:** 🟢 001–047 bilingual mapped + implementation-synced 94/94 source/live  
-**Deep SERP:** 001–012 bilingual validated  
-**Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
+**Deep SERP:** 001–016 bilingual validated  
+**Deep SERP coverage:** 16/47 sessions are Deep Live SERP validated
 **Internal linking:** 🟢 NORMALIZED + LIVE VERIFIED 94/94; related parity 47/47  
 **Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
 **Metadata / OG / Share:** 🟢 NORMALIZED + 94/94 BRANDED REFLECTION CARD OG IMAGES LIVE VERIFIED  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** 🟢 PASS  
-**Immediate work:** Deep Live SERP 013–016 bilingual  
-**Next Deep SERP batch:** 013–016 bilingual  
+**Immediate work:** Deep Live SERP 017–020 bilingual  
+**Next Deep SERP batch:** 017–020 bilingual  
 **Long-term scale:** 1,000+ sessions
 
 ---
 
-**END OF CURRENT-STATUS v1.2**
+**END OF CURRENT-STATUS v1.3**
