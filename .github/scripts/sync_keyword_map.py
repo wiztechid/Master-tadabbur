@@ -6,7 +6,7 @@ research fields and adds/refreshes a technical implementation snapshot for
 both Indonesian and English landings:
 canonical, reader, title, meta, H1, lang, related sessions.
 
-For Sessions 013–047, this remains technical synchronization only and does not
+For Sessions 017–047, this remains technical synchronization only and does not
 upgrade demand_evidence or claim Deep SERP validation.
 """
 
@@ -227,10 +227,10 @@ def main() -> int:
             entry["implementation"] = implementation
             map_changes += 1
 
-        # Research/evidence guardrail: do not silently upgrade 013–047.
+        # Research/evidence guardrail: do not silently upgrade 017–047.
         id_ev = (entry.get("seo", {}).get("id", {}) or {}).get("demand_evidence", "")
         en_ev = (entry.get("seo", {}).get("en", {}) or {}).get("demand_evidence", "")
-        if n <= 12:
+        if n <= 16:
             ok = id_ev.startswith("deep-live-serp-validated") and en_ev.startswith("deep-live-serp-validated")
             if ok:
                 deep_ok += 1
@@ -305,8 +305,8 @@ def main() -> int:
             len(rows) == 47
             and not source_failures
             and all(r["related_pair_match"] for r in rows)
-            and deep_ok == 12
-            and directional_ok == 35
+            and deep_ok == 16
+            and directional_ok == 31
             and not research_boundary_issues
             and not final_issues
         ),
@@ -331,8 +331,8 @@ def main() -> int:
         f"- Related-session pair parity: {summary['related_pair_parity_count']} / 47",
         f"- ID sessions with registry drift before safe sync: {summary['top_level_id_sessions_with_drift_before_sync']}",
         f"- Technical registry changes: {summary['technical_map_changes']}",
-        f"- Deep SERP boundary (001–012): {summary['deep_serp_boundary_pass_count']} / 12",
-        f"- Directional-only boundary (013–047): {summary['directional_boundary_pass_count']} / 35",
+        f"- Deep SERP boundary (001–016): {summary['deep_serp_boundary_pass_count']} / 16",
+        f"- Directional-only boundary (017–047): {summary['directional_boundary_pass_count']} / 31",
         f"- Research-boundary issues: {summary['research_boundary_issue_count']}",
         f"- Post-sync registry issues: {summary['post_sync_registry_issue_count']}",
         f"- Overall: {'PASS' if summary['overall_pass'] else 'FAIL'}",
