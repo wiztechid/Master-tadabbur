@@ -1,6 +1,6 @@
 # TADABBURLIFE — MASTER SOP
 
-**Version:** 1.2  
+**Version:** 1.3  
 **Status:** FROZEN GOVERNANCE BASELINE  
 **Scope:** TadabburLife Platform  
 **Long-term scale:** 1,000+ sessions × bilingual/multiple languages
@@ -287,6 +287,36 @@ Sharing merupakan bagian dari product experience TadabburLife.
 
 Share output harus merepresentasikan sesi yang benar, bahasa yang benar, title/copy yang benar, URL publik yang benar, dan visual yang sesuai.
 
+### 10.1 Reflection Card as Share-Visual Source of Truth
+
+**Reflection Card adalah source of truth visual untuk share card dan OG/social preview sesi.**
+
+Interactive Reflection Card dan static OG image harus berasal dari data sesi yang sama, termasuk:
+
+- session number;
+- language;
+- session title;
+- reflection quote;
+- Journey Mission / practical action;
+- TadabburLife visual identity.
+
+Social crawler tidak boleh bergantung pada client-side JavaScript untuk menghasilkan visual. Karena itu OG image harus tersedia sebagai **pre-rendered public static asset**.
+
+Current baseline:
+
+- satu unique image untuk setiap **session × language**;
+- active corpus 47 sessions × ID/EN = **94 OG images**;
+- format baseline **PNG 1200×630**;
+- `og:image` dan `twitter:image` menunjuk image pasangan sesi/bahasa yang benar;
+- Twitter/X menggunakan `summary_large_image`;
+- image URL harus live, HTTP 200, image/png, dan memiliki dimensi yang dinyatakan di metadata.
+
+OG layout boleh menjadi derivative landscape dari Reflection Card agar sesuai social-preview crop, tetapi tidak boleh menciptakan reflection quote, religious claim, atau practical action baru hanya untuk kebutuhan visual.
+
+Jika data atau visual language Reflection Card berubah secara material, static OG assets harus diregenerasi dan menjalani corpus-wide + live share-image QC.
+
+**ONE REFLECTION CARD SOURCE → INTERACTIVE CARD + STATIC OG DERIVATIVE.**
+
 ---
 
 ## 11. WORKING FEATURE PRESERVATION
@@ -497,4 +527,4 @@ Perubahan fundamental harus menaikkan versi dokumen dan dicatat dalam CHANGELOG.
 
 ---
 
-**END OF MASTER-SOP v1.2**
+**END OF MASTER-SOP v1.3**
