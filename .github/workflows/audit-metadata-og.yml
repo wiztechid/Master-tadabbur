@@ -1,0 +1,32 @@
+name: Audit Metadata and OG Share
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/audit-metadata-og.yml'
+      - '.github/scripts/audit_metadata_og.py'
+
+permissions:
+  contents: read
+
+jobs:
+  audit-metadata-og:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Audit metadata and OG/share
+        run: python3 .github/scripts/audit_metadata_og.py
+
+      - name: Upload metadata/OG audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-metadata-og-audit
+          path: qc-metadata-og-report/
+          if-no-files-found: error
+          retention-days: 30
