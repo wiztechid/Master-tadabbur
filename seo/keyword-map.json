@@ -809,10 +809,10 @@
     {
       "session": "013",
       "locked_title": "Marah Boleh Datang, Jangan Biarkan Ia Memimpin",
-      "primary_long_tail": "ayat Al Quran tentang menahan amarah dan mengendalikan diri",
+      "primary_long_tail": "ayat tentang menahan amarah dan memaafkan Ali Imran 3:134",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/013/",
       "reader": "https://tadabburlife.com/?session=13&lang=id",
       "seo_title": "Ayat tentang Menahan Amarah dan Mengendalikan Diri | TadabburLife",
@@ -826,17 +826,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat Al Quran tentang menahan amarah dan mengendalikan diri",
+          "primary_long_tail": "ayat tentang menahan amarah dan memaafkan Ali Imran 3:134",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "adjacent_long_tail": "cara menahan amarah menurut Al Quran",
+          "search_territory": "Menahan amarah, memaafkan, dan mengendalikan respons berdasarkan Ali 'Imran 3:134; Fussilat 41:34 sebagai penguat respons yang lebih baik.",
+          "cannibalization_guard": "Jangan melebar ke search territory menjaga ucapan/komunikasi yang dimiliki Sesi 014."
         },
         "en": {
-          "primary_long_tail": "Quran verse about controlling anger",
-          "adjacent_long_tail": "how to control anger according to Quran",
+          "primary_long_tail": "Quran verse about controlling anger and forgiveness",
+          "adjacent_long_tail": "Quran 3:134 meaning anger forgiveness",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 3:134 as the primary answer for anger restraint plus forgiveness; Quran 41:34 supports choosing a better response.",
+          "cannibalization_guard": "Keep communication/speaking-kindly intent with Session 014; do not turn Session 013 into a general speech page."
         }
       },
       "implementation": {
@@ -875,7 +880,7 @@
     {
       "session": "014",
       "locked_title": "Pilih Kata yang Lebih Baik",
-      "primary_long_tail": "ayat tentang menjaga ucapan memilih kata yang baik",
+      "primary_long_tail": "Al Isra 17:53 menjaga lisan dan memilih kata yang baik",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
@@ -892,17 +897,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang menjaga ucapan memilih kata yang baik",
+          "primary_long_tail": "Al Isra 17:53 menjaga lisan dan memilih kata yang baik",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium",
+          "adjacent_long_tail": "ayat tentang berkata yang baik agar tidak terjadi perselisihan",
+          "search_territory": "Menjaga lisan dan memilih kata yang lebih baik berdasarkan Al-Isra 17:53, terutama saat perbedaan atau konflik.",
+          "cannibalization_guard": "Jangan mengambil territory menahan amarah Sesi 013; Sesi 014 fokus pada kualitas ucapan setelah respons dipilih."
         },
         "en": {
-          "primary_long_tail": "Quran verse about speaking kindly to others",
-          "adjacent_long_tail": "what does Quran say about choosing good words",
+          "primary_long_tail": "Quran 17:53 speak what is best",
+          "adjacent_long_tail": "Quran verse about speaking kindly and avoiding discord",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium",
+          "search_territory": "Quran 17:53 and the instruction to say what is best, with emphasis on speech that reduces needless discord without abandoning truth.",
+          "cannibalization_guard": "Keep anger-control intent with Session 013; Session 014 owns speech/word-choice intent."
         }
       },
       "implementation": {
@@ -941,10 +951,10 @@
     {
       "session": "015",
       "locked_title": "Jangan Bangun Vonis dari Prasangka",
-      "primary_long_tail": "ayat tentang prasangka buruk tajassus dan ghibah",
+      "primary_long_tail": "Al Hujurat 49:12 prasangka buruk tajassus ghibah",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/015/",
       "reader": "https://tadabburlife.com/?session=15&lang=id",
       "seo_title": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12 | TadabburLife",
@@ -958,17 +968,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang prasangka buruk tajassus dan ghibah",
+          "primary_long_tail": "Al Hujurat 49:12 prasangka buruk tajassus ghibah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "adjacent_long_tail": "cara membedakan prasangka dan fakta dalam Islam",
+          "search_territory": "Rantai prasangka tanpa dasar → mencari-cari kesalahan → ghibah dalam Al-Hujurat 49:12, dengan fokus membedakan dugaan, fakta, dan pemeriksaan yang sah.",
+          "cannibalization_guard": "Sesi 005 tetap tentang ejekan/gelar buruk; Sesi 011 dan 042 tetap tentang tabayyun informasi/berita. Sesi 015 fokus pada asumsi terhadap orang, tajassus, dan ghibah."
         },
         "en": {
-          "primary_long_tail": "Quran verse about suspicion spying and backbiting",
-          "adjacent_long_tail": "how to avoid bad suspicion in Islam",
+          "primary_long_tail": "Quran 49:12 suspicion spying and backbiting",
+          "adjacent_long_tail": "difference between suspicion and evidence in Islam",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium",
+          "search_territory": "Quran 49:12 on baseless suspicion, spying/fault-finding, and backbiting, with a practical distinction between assumption, fact, and legitimate verification.",
+          "cannibalization_guard": "Session 005 owns mocking/offensive-name intent; Sessions 011/042 own verifying news/information. Session 015 owns interpersonal suspicion and fault-finding."
         }
       },
       "implementation": {
@@ -1007,7 +1022,7 @@
     {
       "session": "016",
       "locked_title": "Audit Diri Sebelum Hari Berakhir",
-      "primary_long_tail": "tadabbur Al Hashr 18 untuk muhasabah diri sebelum tidur",
+      "primary_long_tail": "muhasabah diri sebelum tidur menurut Islam",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "low-medium",
@@ -1024,17 +1039,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "tadabbur Al Hashr 18 untuk muhasabah diri sebelum tidur",
+          "primary_long_tail": "muhasabah diri sebelum tidur menurut Islam",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "low-medium",
+          "adjacent_long_tail": "Al Hashr 59:18 muhasabah diri",
+          "search_territory": "Muhasabah harian sebelum tidur sebagai praktik self-review yang berakar pada Al-Hashr 59:18 dan diarahkan kepada perbaikan amal.",
+          "cannibalization_guard": "Sesi 030 memakai ayat yang sama tetapi memiliki territory berbeda: mempersiapkan bekal akhirat. Sesi 016 harus tetap pada nightly/daily self-accountability."
         },
         "en": {
-          "primary_long_tail": "Quran verse for daily self reflection and accountability",
-          "adjacent_long_tail": "muhasabah before sleep in Islam",
+          "primary_long_tail": "nightly muhasabah in Islam",
+          "adjacent_long_tail": "Quran 59:18 self accountability",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "low-medium",
+          "search_territory": "Nightly/daily muhasabah and self-accountability before sleep, anchored in Quran 59:18 and oriented toward repentance, repair, and concrete action.",
+          "cannibalization_guard": "Session 030 owns preparing for the Hereafter / what have you prepared for tomorrow. Session 016 owns the nightly self-review practice."
         }
       },
       "implementation": {
