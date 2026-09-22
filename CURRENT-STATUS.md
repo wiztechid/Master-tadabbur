@@ -156,15 +156,15 @@ Current robots architecture allows public crawling while separating owner/intern
 
 ### P0 Deploy Parity / Cache — 22 September 2026
 
-Latest verified deployment chain:
+Verified public-content deployment parity checkpoint:
 
-- `main` head: **`c413b663031913a3661f33a492e303e3cc7490d3`**
+- Public-content checkpoint commit: **`c413b663031913a3661f33a492e303e3cc7490d3`**
 - GitHub Pages workflow: **SUCCESS**
-- Pages artifact head SHA: **same as `main`**
+- Pages artifact head SHA: **same as the verified public-content checkpoint commit**
 - Source ↔ artifact parity: **PASS** for critical public files/structure
 - Final public information-page refinements included in deployed head: removed hero kicker labels and removed redundant ID/EN selector pills; Contact now uses **`info@tadabburlife.com`** instead of GitHub as the user-facing contact route.
 
-The earlier apparent stale page state was observed before the final deployment completed. The repository and generated Pages artifact are now aligned.
+The earlier apparent stale page state was observed before the final deployment completed. The public HTML source at that checkpoint and generated Pages artifact are aligned. Subsequent documentation-only commits to Master/CURRENT/CHANGELOG do not change that verified public-page baseline.
 
 **Next P0:** crawl all 103 sitemap URLs on `tadabburlife.com` and verify HTTP status, redirect behavior, canonical, soft-404 risk, crawler-visible HTML, and live parity.
 
