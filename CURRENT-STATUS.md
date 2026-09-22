@@ -1,11 +1,11 @@
 # TADABBURLIFE — CURRENT STATUS
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** ACTIVE LIVING DOCUMENT  
-**Snapshot:** 20 September 2026  
+**Snapshot:** 22 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
 **Primary Branch:** `main`  
-**Governing SOP:** `mastersoptadabbur.md` v1.1 — FROZEN GOVERNANCE BASELINE
+**Governing SOP:** `mastersoptadabbur.md` v1.2 — FROZEN GOVERNANCE BASELINE
 
 > MASTER-SOP defines how TadabburLife must be developed.  
 > CURRENT-STATUS records where the project actually stands now.  
@@ -17,12 +17,15 @@
 
 TadabburLife is an ongoing bilingual tadabbur platform built as a connected session journey rather than a collection of unrelated SEO articles.
 
-Current published corpus:
+Current public baseline:
 
+- Canonical custom domain: **`https://tadabburlife.com/`**
 - **47 Indonesian sessions**
 - **47 English sessions**
 - **94 published session-language landing targets**
 - Published session range: **001–047**
+- **6 public information/legal pages:** About, Privacy Policy, Cookie Policy, Terms, Disclaimer, Contact
+- Public Contact channel: **`info@tadabburlife.com`**
 - Long-term architecture target: **1,000+ sessions**
 
 Source/work material exists with numbering beyond the published corpus, including material named through 051 in repository data areas. These are **not counted as published sessions** until public session landings are actually released and verified.
@@ -94,6 +97,10 @@ Therefore the current technical status remains:
 
 **🟡 SEO Architecture / Technical Integrity — GREEN GATE IN PROGRESS**
 
+**P0 Deploy Parity / Cache Gate: 🟢 PASS (source → GitHub Pages artifact).**
+
+The remaining P0 priority is **live 103-URL crawl verification on the custom domain**.
+
 This does not mean the architecture needs to be rebuilt. The current priority is normalization and corpus-wide verification.
 
 ---
@@ -122,27 +129,46 @@ Canonical:
 
 Alternates reciprocally reference ID and EN.
 
-**Current audited status: 🟢 PASS**
+**Current audited status: 🟢 PASS — 94/94 session landings verified at repository/source level for canonical + ID/EN/x-default hreflang + index/follow + title + meta description + H1.**
 
-A corpus-wide automated verification remains part of the Green Gate before technical integrity is considered fully green.
+The same published corpus is present in the successful GitHub Pages build artifact. Final custom-domain live crawl/indexability verification remains pending.
 
 ---
 
 ## 6. SITEMAP / ROBOTS / INDEXABILITY
 
-Current sitemap includes:
+Current sitemap contains **103 canonical public URLs**:
 
-- homepage,
+- 1 homepage,
+- 1 Indonesian Tadabbur hub,
+- 1 English Tadabbur hub,
 - 47 Indonesian session landings,
-- 47 English session landings.
+- 47 English session landings,
+- 6 public information/legal pages: About, Privacy Policy, Cookie Policy, Terms, Disclaimer, Contact.
 
 Work/source material beyond the published corpus is not treated as public search inventory.
 
 Current robots architecture allows public crawling while separating owner/internal areas from public discovery.
 
-**Current audited baseline: 🟢 PASS**
+**Current repository/build baseline: 🟢 PASS**
 
-Final Green Gate still requires corpus-wide verification that:
+`robots.txt` allows public crawl, blocks `/owner/`, and points to `https://tadabburlife.com/sitemap.xml`.
+
+### P0 Deploy Parity / Cache — 22 September 2026
+
+Latest verified deployment chain:
+
+- `main` head: **`c413b663031913a3661f33a492e303e3cc7490d3`**
+- GitHub Pages workflow: **SUCCESS**
+- Pages artifact head SHA: **same as `main`**
+- Source ↔ artifact parity: **PASS** for critical public files/structure
+- Final public information-page refinements included in deployed head: removed hero kicker labels and removed redundant ID/EN selector pills; Contact now uses **`info@tadabburlife.com`** instead of GitHub as the user-facing contact route.
+
+The earlier apparent stale page state was observed before the final deployment completed. The repository and generated Pages artifact are now aligned.
+
+**Next P0:** crawl all 103 sitemap URLs on `tadabburlife.com` and verify HTTP status, redirect behavior, canonical, soft-404 risk, crawler-visible HTML, and live parity.
+
+Final Green Gate still requires live/corpus verification that:
 
 - sitemap contains only intended canonical public URLs,
 - no published landing is missing,
@@ -363,7 +389,9 @@ only after the following Green Gate is completed.
 
 ### G1 — 94/94 Landing Integrity
 
-Verify:
+**Repository/source technical-signal check: PASS for 94/94 canonical/hreflang/indexability/title/meta/H1 baseline.**
+
+Still verify live/custom-domain behavior plus:
 
 - 47 ID landings,
 - 47 EN landings,
@@ -430,6 +458,8 @@ Verify that implemented landing signals match the current SEO registry where app
 
 ### G6 — Corpus-Wide Technical QC
 
+**Repository sitemap inventory: PASS at 103 intended public canonical URLs. Live 103-URL crawl remains pending.**
+
 Verify:
 
 - sitemap inventory,
@@ -441,9 +471,11 @@ Verify:
 - duplicate/incorrect URLs,
 - crawler-visible HTML.
 
-### G7 — Live Regression QC
+### G7 — Deploy Parity + Live Regression QC
 
-After deployment, verify the actual public website:
+**Deploy parity source → GitHub Pages artifact: 🟢 PASS (22 Sep 2026).**
+
+Now verify the actual custom-domain website:
 
 - desktop,
 - mobile,
@@ -550,7 +582,7 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**94-LANDING TECHNICAL NORMALIZATION → CORPUS-WIDE QC → LIVE REGRESSION QC → GREEN GATE**
+**LIVE 103-URL CRAWL QC → REMAINING CORPUS-WIDE NORMALIZATION/QC → LIVE REGRESSION QC → GREEN GATE**
 
 The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
@@ -562,8 +594,8 @@ Priority order:
 4. normalize schema,
 5. normalize metadata **technical integrity** across 94 landings without speculative editorial rewrites on Sessions 013–047,
 6. verify keyword-map ↔ landing synchronization,
-7. corpus-wide technical QC,
-8. deploy/live regression QC,
+7. run the **live 103-URL crawl QC** on the custom domain,
+8. close any remaining schema/internal-link/OG or regression gaps found by live QC,
 9. mark Technical Integrity GREEN only after evidence passes.
 
 ---
@@ -637,24 +669,25 @@ Recommended handoff instruction:
 
 ## 22. CURRENT SNAPSHOT
 
-**Master SOP:** v1.1 FROZEN GOVERNANCE BASELINE  
+**Master SOP:** v1.2 FROZEN GOVERNANCE BASELINE  
 **Published sessions:** 001–047  
 **Languages:** ID + EN  
 **Published search targets:** 94  
 **SEO Architecture v1.1:** Fundamentally implemented  
-**Canonical / hreflang baseline:** PASS on audited implementation  
-**Sitemap / robots baseline:** PASS on audited implementation  
+**Canonical / hreflang baseline:** 94/94 source-level PASS; live crawl pending  
+**Sitemap / robots baseline:** PASS; sitemap inventory = 103 public canonical URLs  
 **Keyword mapping:** 001–047 bilingual mapped  
 **Deep SERP:** 001–012 bilingual validated  
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
 **Internal linking:** ID stronger; EN normalization required  
 **Schema:** Implemented; corpus normalization required  
 **Metadata:** Implemented; quality normalization required  
+**Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** 94-Landing Technical Normalization + Corpus-Wide QC  
+**Immediate work:** Live 103-URL Crawl QC  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
 ---
 
-**END OF CURRENT-STATUS v1.0**
+**END OF CURRENT-STATUS v1.1**
