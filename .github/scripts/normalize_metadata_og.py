@@ -31,7 +31,8 @@ JSONLD_RE=re.compile(r'<script\s+type=["\']application/ld\+json["\']\s*>(.*?)</s
 TARGET_META_KEYS={
     "description",
     "og:type","og:site_name","og:locale","og:title","og:description","og:url",
-    "twitter:card","twitter:title","twitter:description"
+    "og:image","og:image:secure_url","og:image:type","og:image:width","og:image:height","og:image:alt",
+    "twitter:card","twitter:title","twitter:description","twitter:image","twitter:image:alt"
 }
 
 def strip_tags(s:str)->str:
@@ -178,6 +179,13 @@ def esc(s:str)->str:
     return html.escape(s,quote=True)
 
 def standard_meta(desc:str,heading:str,can:str,locale:str)->str:
+    m=re.search(r"/tadabbur/(\\d{3})/$",can)
+    if not m:
+        raise RuntimeError(f"Cannot derive OG image from canonical: {can}")
+    sid=m.group(1)
+    lang="en" if "/en/tadabbur/" in can else "id"
+    image=f"https://tadabburlife.com/og/reflection/{lang}/{sid}.png"
+    alt=f"{heading} — TadabburLife Reflection Card"
     return "".join([
         f'<meta name="description" content="{esc(desc)}">',
         '<meta property="og:type" content="article">',
@@ -186,9 +194,17 @@ def standard_meta(desc:str,heading:str,can:str,locale:str)->str:
         f'<meta property="og:title" content="{esc(heading)}">',
         f'<meta property="og:description" content="{esc(desc)}">',
         f'<meta property="og:url" content="{esc(can)}">',
-        '<meta name="twitter:card" content="summary">',
+        f'<meta property="og:image" content="{esc(image)}">',
+        f'<meta property="og:image:secure_url" content="{esc(image)}">',
+        '<meta property="og:image:type" content="image/png">',
+        '<meta property="og:image:width" content="1200">',
+        '<meta property="og:image:height" content="630">',
+        f'<meta property="og:image:alt" content="{esc(alt)}">',
+        '<meta name="twitter:card" content="summary_large_image">',
         f'<meta name="twitter:title" content="{esc(heading)}">',
         f'<meta name="twitter:description" content="{esc(desc)}">',
+        f'<meta name="twitter:image" content="{esc(image)}">',
+        f'<meta name="twitter:image:alt" content="{esc(alt)}">',
     ])
 
 def update_article_schema(text:str,heading:str,desc:str,can:str)->str:
@@ -266,9 +282,17 @@ def qc(path:Path)->dict[str,Any]:
         "og_title":p.meta.get("og:title")==heading,
         "og_description":p.meta.get("og:description")==desc,
         "og_url":p.meta.get("og:url")==can,
-        "twitter_card":p.meta.get("twitter:card")=="summary",
+        "og_image":p.meta.get("og:image")==f"https://tadabburlife.com/og/reflection/{'en' if is_en else 'id'}/{path.parent.name}.png",
+        "og_image_secure":p.meta.get("og:image:secure_url")==p.meta.get("og:image"),
+        "og_image_type":p.meta.get("og:image:type")=="image/png",
+        "og_image_width":p.meta.get("og:image:width")=="1200",
+        "og_image_height":p.meta.get("og:image:height")=="630",
+        "og_image_alt":bool(p.meta.get("og:image:alt")),
+        "twitter_card":p.meta.get("twitter:card")=="summary_large_image",
         "twitter_title":p.meta.get("twitter:title")==heading,
         "twitter_description":p.meta.get("twitter:description")==desc,
+        "twitter_image":p.meta.get("twitter:image")==p.meta.get("og:image"),
+        "twitter_image_alt":bool(p.meta.get("twitter:image:alt")),
         "description_nonempty":bool(desc),
         "description_not_thin":len(desc)>=70,
         "description_not_truncated":not suspicious_truncation(desc,first_p),
