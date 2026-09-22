@@ -1,0 +1,41 @@
+name: Live Metadata and OG Share QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-metadata-og-qc.yml'
+      - '.github/scripts/live_metadata_og_qc.py'
+      - 'seo/keyword-map.json'
+
+permissions:
+  contents: read
+
+jobs:
+  live-metadata-og:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live metadata/OG/share QC
+        id: qc
+        continue-on-error: true
+        run: python3 .github/scripts/live_metadata_og_qc.py
+
+      - name: Upload live metadata/OG report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-metadata-og-qc
+          path: qc-live-metadata-og-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce live metadata/OG QC
+        if: steps.qc.outcome == 'failure'
+        run: |
+          echo "Live metadata/OG/share QC failed. See artifact."
+          exit 1
