@@ -8,6 +8,18 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-22
 
+### [SEO] Deep Live SERP + Cannibalization — Sessions 029–032 — PASS
+- Completed independent Indonesian + English Deep Live SERP research for Sessions **029–032**, advancing coverage to **32 / 47 sessions = 64 / 94 session-language targets**.
+- Session **029** now owns striving for Allah → guidance under Al-Ankabut/Quran 29:69, separated from tawakkul-after-effort (008) and inner-change intent (019).
+- Session **030** now owns deeds sent ahead / provision for tomorrow and the Hereafter under Al-Hashr/Quran 59:18, while Session 016 retains nightly/daily muhasabah practice.
+- Session **031** now owns sin-related despair → repentance and Allah's mercy under Az-Zumar/Quran 39:53.
+- Session **032** now owns burden within capacity + responsibility + prayer under Al-Baqarah/Quran 2:286, with an explicit boundary against telling overwhelmed people to carry everything alone.
+- Added direct-answer blocks and synchronized title/H1/meta for all **8** ID/EN landings.
+- Preserved sacred Quran/hadith source text and the locked reflection/practical-action meaning layer.
+- Updated `seo/keyword-map.json`, added `seo/deep-serp-029-032-2026-09-22.md`, and advanced the live keyword-map QC boundary to **001–032 Deep / 033–047 directional**.
+- Active Deep SERP priority advances to **Sessions 033–036 bilingual**.
+
+
 ### [SEO] Deep Live SERP + Cannibalization — Sessions 017–028 — PASS
 - Completed independent Indonesian + English Deep Live SERP research for Sessions **017–028**, advancing coverage to **28 / 47 sessions = 56 / 94 session-language targets**.
 - Added and validated search territories and cannibalization guards for batches **017–020, 021–024, and 025–028**.
