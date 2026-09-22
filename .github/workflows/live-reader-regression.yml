@@ -1,0 +1,47 @@
+name: Live Reader Regression QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-reader-regression.yml'
+      - '.github/scripts/live_reader_regression.mjs'
+      - 'index.html'
+      - 'data/sessions-*.html'
+
+permissions:
+  contents: read
+
+jobs:
+  live-reader-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install regression dependencies
+        run: |
+          npm install --no-save playwright@1.55.0 pngjs jsqr
+          npx playwright install --with-deps chromium
+
+      - name: Run live browser regression
+        id: qc
+        continue-on-error: true
+        run: node .github/scripts/live_reader_regression.mjs
+
+      - name: Upload regression report and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-reader-regression-qc
+          path: qc-live-reader-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce reader regression QC
+        if: steps.qc.outcome == 'failure'
+        run: |
+          echo "Live Reader / Regression QC failed. See artifact."
+          exit 1
