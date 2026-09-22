@@ -280,7 +280,7 @@
       "canonical": "https://tadabburlife.com/tadabbur/005/",
       "reader": "https://tadabburlife.com/?session=5&lang=id",
       "seo_title": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
-      "meta_description": "Tadabbur Al-Hujurat 49:11–12 tentang larangan mengejek, mencela, dan memanggil orang dengan gelar buruk sebagai bagian dari menjaga kehormatan sesama.",
+      "meta_description": "Al-Hujurat 49:11 melarang mengejek, mencela, dan memanggil orang dengan gelar buruk. Tadabbur tentang menjaga kehormatan sesama dari luka lisan dan label merendahkan.",
       "h1": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
       "related_sessions": [
         "009",
@@ -291,17 +291,21 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat tentang larangan mengejek dan memanggil dengan gelar buruk",
-          "adjacent_long_tail": "menjaga kehormatan orang lain menurut Al Hujurat 11",
+          "adjacent_long_tail": "Al Hujurat 49:11 larangan mengejek mencela gelar buruk",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Al-Hujurat 49:11 on mocking, insulting, offensive labels and protecting another person's honor.",
+          "cannibalization_guard": "Session 015 owns Al-Hujurat 49:12: suspicion, tajassus and backbiting. Session 005 should not target 49:12 as its primary search territory."
         },
         "en": {
-          "primary_long_tail": "Quran verse about mocking people and calling them offensive names",
-          "adjacent_long_tail": "protecting other people's honor in Quran 49 11 12",
+          "primary_long_tail": "Quran 49:11 mocking people and offensive names",
+          "adjacent_long_tail": "Quran verse about mocking people and calling them offensive names",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Quran 49:11 on mocking, insulting and offensive names as violations of human dignity.",
+          "cannibalization_guard": "Session 015 owns Quran 49:12 suspicion, spying and backbiting. Session 005 owns Quran 49:11 mocking/offensive-name intent."
         }
       },
       "implementation": {
@@ -311,7 +315,7 @@
           "canonical": "https://tadabburlife.com/tadabbur/005/",
           "reader": "https://tadabburlife.com/?session=5&lang=id",
           "seo_title": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
-          "meta_description": "Tadabbur Al-Hujurat 49:11–12 tentang larangan mengejek, mencela, dan memanggil orang dengan gelar buruk sebagai bagian dari menjaga kehormatan sesama.",
+          "meta_description": "Al-Hujurat 49:11 melarang mengejek, mencela, dan memanggil orang dengan gelar buruk. Tadabbur tentang menjaga kehormatan sesama dari luka lisan dan label merendahkan.",
           "h1": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
           "html_lang": "id",
           "related_sessions": [
@@ -324,9 +328,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/005/",
           "reader": "https://tadabburlife.com/?session=5&lang=en",
-          "seo_title": "Quran Verse About Mocking People and Offensive Names — Quran 49:11–12",
-          "meta_description": "A Quran reflection on Quran 49:11 about mocking people, insulting others, and calling them offensive names—and why protecting people's honor matters.",
-          "h1": "Quran Verse About Mocking People and Offensive Names — Quran 49:11–12",
+          "seo_title": "Quran 49:11: Mocking People and Offensive Names | TadabburLife",
+          "meta_description": "A Quran reflection on Quran 49:11 about mocking people, insulting others, and calling them offensive names—and why protecting people&#x27;s honor matters.",
+          "h1": "Quran 49:11: Mocking People and Offensive Names",
           "html_lang": "en",
           "related_sessions": [
             "009",
@@ -1242,7 +1246,7 @@
       "canonical": "https://tadabburlife.com/tadabbur/019/",
       "reader": "https://tadabburlife.com/?session=19&lang=id",
       "seo_title": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan | TadabburLife",
-      "meta_description": "Ar-Ra",
+      "meta_description": "Ar-Ra'd 13:11 mengaitkan perubahan keadaan dengan perubahan dalam diri. Pahami maknanya tanpa menjadikannya slogan motivasi atau alasan menyalahkan korban.",
       "h1": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan",
       "related_sessions": [
         "017",
@@ -1277,7 +1281,7 @@
           "canonical": "https://tadabburlife.com/tadabbur/019/",
           "reader": "https://tadabburlife.com/?session=19&lang=id",
           "seo_title": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan | TadabburLife",
-          "meta_description": "Ar-Ra",
+          "meta_description": "Ar-Ra'd 13:11 mengaitkan perubahan keadaan dengan perubahan dalam diri. Pahami maknanya tanpa menjadikannya slogan motivasi atau alasan menyalahkan korban.",
           "h1": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan",
           "html_lang": "id",
           "related_sessions": [
@@ -1291,7 +1295,7 @@
           "canonical": "https://tadabburlife.com/en/tadabbur/019/",
           "reader": "https://tadabburlife.com/?session=19&lang=en",
           "seo_title": "Quran 13:11 Meaning: Change Begins Within",
-          "meta_description": "Quran 13:11 links change in a people",
+          "meta_description": "Quran 13:11 links change in a people's condition with change within themselves. Learn the meaning without turning the verse into a slogan or victim-blaming.",
           "h1": "Quran 13:11 Meaning: Change Begins Within",
           "html_lang": "en",
           "related_sessions": [
@@ -1313,7 +1317,7 @@
       "canonical": "https://tadabburlife.com/tadabbur/020/",
       "reader": "https://tadabburlife.com/?session=20&lang=id",
       "seo_title": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai | TadabburLife",
-      "meta_description": "Al-Ma",
+      "meta_description": "Al-Ma'idah 5:8 memerintahkan tetap adil meski ada kebencian. Pelajari mengapa standar keadilan tidak boleh berubah terhadap kawan maupun lawan.",
       "h1": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai",
       "related_sessions": [
         "021",
@@ -1348,7 +1352,7 @@
           "canonical": "https://tadabburlife.com/tadabbur/020/",
           "reader": "https://tadabburlife.com/?session=20&lang=id",
           "seo_title": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai | TadabburLife",
-          "meta_description": "Al-Ma",
+          "meta_description": "Al-Ma'idah 5:8 memerintahkan tetap adil meski ada kebencian. Pelajari mengapa standar keadilan tidak boleh berubah terhadap kawan maupun lawan.",
           "h1": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai",
           "html_lang": "id",
           "related_sessions": [
@@ -1971,14 +1975,14 @@
     {
       "session": "030",
       "locked_title": "Jangan Hidup Tanpa Menghitung Bekal Esok",
-      "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat dan evaluasi diri",
+      "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat Al Hashr 59:18",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/030/",
       "reader": "https://tadabburlife.com/?session=30&lang=id",
       "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18 | TadabburLife",
-      "meta_description": "Jangan Hidup Tanpa Menghitung Bekal Esok. Muhasabah, takwa, masa depan, tanggung jawab Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+      "meta_description": "Al-Hashr 59:18 mengingatkan setiap jiwa untuk melihat amal yang disiapkan bagi hari esok. Tadabbur tentang takwa, bekal akhirat, tanggung jawab, dan amal nyata.",
       "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
       "related_sessions": [
         "034",
@@ -1988,17 +1992,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat dan evaluasi diri",
+          "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat Al Hashr 59:18",
+          "adjacent_long_tail": "Al Hashr 59:18 bekal akhirat hari esok",
           "intent": "informational-reflection",
           "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Al-Hashr 59:18 on deeds prepared for tomorrow, taqwa and provision for the Hereafter.",
+          "cannibalization_guard": "Session 016 owns nightly muhasabah/self-review before sleep. Session 030 owns preparing provision for the Hereafter."
         },
         "en": {
-          "primary_long_tail": "Quran verse about preparing for the Hereafter",
+          "primary_long_tail": "Quran 59:18 preparing for the Hereafter",
           "adjacent_long_tail": "what have you prepared for tomorrow Quran 59 18",
           "intent": "informational-reflection",
           "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Quran 59:18 on deeds sent ahead, taqwa and preparing for the Hereafter.",
+          "cannibalization_guard": "Session 016 owns nightly muhasabah and self-accountability before sleep. Session 030 owns preparing for the Hereafter."
         }
       },
       "implementation": {
@@ -2008,7 +2017,7 @@
           "canonical": "https://tadabburlife.com/tadabbur/030/",
           "reader": "https://tadabburlife.com/?session=30&lang=id",
           "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18 | TadabburLife",
-          "meta_description": "Jangan Hidup Tanpa Menghitung Bekal Esok. Muhasabah, takwa, masa depan, tanggung jawab Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "meta_description": "Al-Hashr 59:18 mengingatkan setiap jiwa untuk melihat amal yang disiapkan bagi hari esok. Tadabbur tentang takwa, bekal akhirat, tanggung jawab, dan amal nyata.",
           "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
           "html_lang": "id",
           "related_sessions": [
@@ -2021,9 +2030,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/030/",
           "reader": "https://tadabburlife.com/?session=30&lang=en",
-          "seo_title": "Quran verse about preparing for the Hereafter",
+          "seo_title": "Quran 59:18: Preparing for the Hereafter | TadabburLife",
           "meta_description": "Do Not Live Without Accounting for Tomorrow. Ibn Kathir explains that every soul should examine the deeds prepared for the Day of Resurrection.",
-          "h1": "Quran verse about preparing for the Hereafter",
+          "h1": "Quran 59:18: Preparing for the Hereafter",
           "html_lang": "en",
           "related_sessions": [
             "034",
