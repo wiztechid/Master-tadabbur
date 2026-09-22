@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit generated OG assets and metadata
         run: |
-          if git diff --quiet -- og/reflection tadabbur en/tadabbur seo/keyword-map.json; then
+          if [ -z "$(git status --porcelain -- og/reflection tadabbur en/tadabbur seo/keyword-map.json)" ]; then
             echo "Reflection Card OG assets already current."
             exit 0
           fi
