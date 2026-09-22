@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-22",
   "methodology": "Bilingual SERP architecture. Indonesian and English targets are researched as independent search territories, not literal translations. Search demand is treated as directional SERP evidence unless first-party keyword-volume data is available. One primary intent per canonical landing; adjacent intent is used where sessions overlap.",
   "sessions": [
     {
@@ -11,9 +11,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/001/",
       "reader": "https://tadabburlife.com/?session=1&lang=id",
-      "seo_title": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in — Al-Fatihah 5",
-      "meta_description": "Jalan Seorang Hamba. Mengenal Allah → memuji-Nya → menyadari pertanggungjawaban → beribadah dan meminta pertolongan → memohon hidayah.",
-      "h1": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in — Al-Fatihah 5",
+      "seo_title": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in dalam Kehidupan — Al-Fatihah 5",
+      "meta_description": "Tadabbur Al-Fatihah 1:5 tentang makna Iyyaka na",
+      "h1": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in dalam Kehidupan — Al-Fatihah 5",
       "related_sessions": [
         "002",
         "003",
@@ -35,6 +35,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/001/",
+          "reader": "https://tadabburlife.com/?session=1&lang=id",
+          "seo_title": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in dalam Kehidupan — Al-Fatihah 5",
+          "meta_description": "Tadabbur Al-Fatihah 1:5 tentang makna Iyyaka na",
+          "h1": "Makna Iyyaka Na'budu wa Iyyaka Nasta'in dalam Kehidupan — Al-Fatihah 5",
+          "html_lang": "id",
+          "related_sessions": [
+            "002",
+            "003",
+            "012",
+            "013"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/001/",
+          "reader": "https://tadabburlife.com/?session=1&lang=en",
+          "seo_title": "Meaning of Iyyaka Na'budu wa Iyyaka Nasta'in in Daily Life — Quran 1:5",
+          "meta_description": "A Quran reflection on Iyyaka na",
+          "h1": "Meaning of Iyyaka Na'budu wa Iyyaka Nasta'in in Daily Life — Quran 1:5",
+          "html_lang": "en",
+          "related_sessions": [
+            "002",
+            "003",
+            "012",
+            "013"
+          ]
+        }
       }
     },
     {
@@ -46,9 +78,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/002/",
       "reader": "https://tadabburlife.com/?session=2&lang=id",
-      "seo_title": "Ciri Orang Bertakwa dalam Al-Baqarah 1–5",
-      "meta_description": "Kompas Orang Bertakwa. Wahyu, iman kepada yang gaib, salat, infak, kesatuan wahyu, dan keyakinan kepada akhirat.",
-      "h1": "Ciri Orang Bertakwa dalam Al-Baqarah 1–5",
+      "seo_title": "Ciri Orang Bertakwa Menurut Al-Baqarah Ayat 1–5",
+      "meta_description": "Tadabbur Al-Baqarah 1–5 tentang ciri orang bertakwa: beriman kepada yang gaib, mendirikan salat, berinfak, beriman kepada wahyu, dan yakin pada akhirat.",
+      "h1": "Ciri Orang Bertakwa Menurut Al-Baqarah Ayat 1–5",
       "related_sessions": [
         "001",
         "003",
@@ -70,6 +102,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/002/",
+          "reader": "https://tadabburlife.com/?session=2&lang=id",
+          "seo_title": "Ciri Orang Bertakwa Menurut Al-Baqarah Ayat 1–5",
+          "meta_description": "Tadabbur Al-Baqarah 1–5 tentang ciri orang bertakwa: beriman kepada yang gaib, mendirikan salat, berinfak, beriman kepada wahyu, dan yakin pada akhirat.",
+          "h1": "Ciri Orang Bertakwa Menurut Al-Baqarah Ayat 1–5",
+          "html_lang": "id",
+          "related_sessions": [
+            "001",
+            "003",
+            "012",
+            "013"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/002/",
+          "reader": "https://tadabburlife.com/?session=2&lang=en",
+          "seo_title": "Characteristics of the Muttaqin in Quran 2:1–5",
+          "meta_description": "A reflection on Quran 2:1–5 and the characteristics of the muttaqin: belief in the unseen, prayer, giving, revelation, and certainty in the Hereafter.",
+          "h1": "Characteristics of the Muttaqin in Quran 2:1–5",
+          "html_lang": "en",
+          "related_sessions": [
+            "001",
+            "003",
+            "012",
+            "013"
+          ]
+        }
       }
     },
     {
@@ -81,9 +145,9 @@
       "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/003/",
       "reader": "https://tadabburlife.com/?session=3&lang=id",
-      "seo_title": "Tujuan Manusia Diciptakan Menurut Al-Qur'an — Al-Baqarah 21–22",
-      "meta_description": "Untuk Apa Kita Diciptakan?. Dari mengenali Sang Pencipta menuju ibadah, syukur, tauhid, dan ketakwaan.",
-      "h1": "Tujuan Manusia Diciptakan Menurut Al-Qur'an — Al-Baqarah 21–22",
+      "seo_title": "Untuk Apa Manusia Diciptakan Menurut Al-Qur'an? — Al-Baqarah 21–22",
+      "meta_description": "Tadabbur Al-Baqarah 21–22 tentang untuk apa manusia diciptakan: mengenal Sang Pencipta, beribadah kepada Allah, bersyukur, menjaga tauhid, dan bertakwa.",
+      "h1": "Untuk Apa Manusia Diciptakan Menurut Al-Qur'an? — Al-Baqarah 21–22",
       "related_sessions": [
         "002",
         "001",
@@ -105,6 +169,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/003/",
+          "reader": "https://tadabburlife.com/?session=3&lang=id",
+          "seo_title": "Untuk Apa Manusia Diciptakan Menurut Al-Qur'an? — Al-Baqarah 21–22",
+          "meta_description": "Tadabbur Al-Baqarah 21–22 tentang untuk apa manusia diciptakan: mengenal Sang Pencipta, beribadah kepada Allah, bersyukur, menjaga tauhid, dan bertakwa.",
+          "h1": "Untuk Apa Manusia Diciptakan Menurut Al-Qur'an? — Al-Baqarah 21–22",
+          "html_lang": "id",
+          "related_sessions": [
+            "002",
+            "001",
+            "012",
+            "013"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/003/",
+          "reader": "https://tadabburlife.com/?session=3&lang=en",
+          "seo_title": "Why Did Allah Create Us According to the Quran? — Quran 2:21–22",
+          "meta_description": "A Quran reflection on why Allah created us, using Quran 2:21–22 to explore worship, gratitude, tawhid, and taqwa without reducing the subject to one passage.",
+          "h1": "Why Did Allah Create Us According to the Quran? — Quran 2:21–22",
+          "html_lang": "en",
+          "related_sessions": [
+            "002",
+            "001",
+            "012",
+            "013"
+          ]
+        }
       }
     },
     {
@@ -116,9 +212,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/004/",
       "reader": "https://tadabburlife.com/?session=4&lang=id",
-      "seo_title": "Ayat tentang Amanah dan Keadilan dalam Pekerjaan — An-Nisa 58",
-      "meta_description": "Amanah Tidak Berhenti pada Jabatan. Amanah → menempatkan hak pada pemiliknya → adil dalam keputusan → berani adil bahkan terhadap diri sendiri.",
-      "h1": "Ayat tentang Amanah dan Keadilan dalam Pekerjaan — An-Nisa 58",
+      "seo_title": "Ayat tentang Amanah dan Keadilan dalam Jabatan — An-Nisa 4:58",
+      "meta_description": "Tadabbur An-Nisa 4:58 tentang amanah dan keadilan dalam jabatan: menunaikan hak kepada yang berhak dan berlaku adil ketika mengambil keputusan.",
+      "h1": "Ayat tentang Amanah dan Keadilan dalam Jabatan — An-Nisa 4:58",
       "related_sessions": [
         "020",
         "021",
@@ -140,6 +236,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/004/",
+          "reader": "https://tadabburlife.com/?session=4&lang=id",
+          "seo_title": "Ayat tentang Amanah dan Keadilan dalam Jabatan — An-Nisa 4:58",
+          "meta_description": "Tadabbur An-Nisa 4:58 tentang amanah dan keadilan dalam jabatan: menunaikan hak kepada yang berhak dan berlaku adil ketika mengambil keputusan.",
+          "h1": "Ayat tentang Amanah dan Keadilan dalam Jabatan — An-Nisa 4:58",
+          "html_lang": "id",
+          "related_sessions": [
+            "020",
+            "021",
+            "022",
+            "023"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/004/",
+          "reader": "https://tadabburlife.com/?session=4&lang=en",
+          "seo_title": "Quran Verse About Trust and Justice in Leadership — Quran 4:58",
+          "meta_description": "A reflection on Quran 4:58 about trust and justice in leadership: returning trusts to those entitled to them and judging fairly when making decisions.",
+          "h1": "Quran Verse About Trust and Justice in Leadership — Quran 4:58",
+          "html_lang": "en",
+          "related_sessions": [
+            "020",
+            "021",
+            "022",
+            "023"
+          ]
+        }
       }
     },
     {
@@ -151,9 +279,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/005/",
       "reader": "https://tadabburlife.com/?session=5&lang=id",
-      "seo_title": "Menjaga Kehormatan Orang Lain: Prasangka dan Ghibah",
-      "meta_description": "Menjaga Kehormatan Orang Lain. Ejekan → label buruk → prasangka → mencari-cari aib → ghibah. Al-Qur'an memutus rantai kerusakan sosial sejak dari pikiran",
-      "h1": "Menjaga Kehormatan Orang Lain: Prasangka dan Ghibah",
+      "seo_title": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
+      "meta_description": "Tadabbur Al-Hujurat 49:11–12 tentang larangan mengejek, mencela, dan memanggil orang dengan gelar buruk sebagai bagian dari menjaga kehormatan sesama.",
+      "h1": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
       "related_sessions": [
         "009",
         "011",
@@ -175,6 +303,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/005/",
+          "reader": "https://tadabburlife.com/?session=5&lang=id",
+          "seo_title": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
+          "meta_description": "Tadabbur Al-Hujurat 49:11–12 tentang larangan mengejek, mencela, dan memanggil orang dengan gelar buruk sebagai bagian dari menjaga kehormatan sesama.",
+          "h1": "Ayat tentang Larangan Mengejek dan Memanggil dengan Gelar Buruk — Al-Hujurat 49:11",
+          "html_lang": "id",
+          "related_sessions": [
+            "009",
+            "011",
+            "014",
+            "015"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/005/",
+          "reader": "https://tadabburlife.com/?session=5&lang=en",
+          "seo_title": "Quran Verse About Mocking People and Offensive Names — Quran 49:11–12",
+          "meta_description": "A Quran reflection on Quran 49:11 about mocking people, insulting others, and calling them offensive names—and why protecting people",
+          "h1": "Quran Verse About Mocking People and Offensive Names — Quran 49:11–12",
+          "html_lang": "en",
+          "related_sessions": [
+            "009",
+            "011",
+            "014",
+            "015"
+          ]
+        }
       }
     },
     {
@@ -187,7 +347,7 @@
       "canonical": "https://tadabburlife.com/tadabbur/006/",
       "reader": "https://tadabburlife.com/?session=6&lang=id",
       "seo_title": "Ayat Al-Qur'an Saat Hidup Terasa Berat: Sabar dan Salat",
-      "meta_description": "Saat Hidup Terasa Berat. Sabar bukan pasif. Salat bukan pelarian. Keduanya menjaga seorang mukmin tetap berdiri ketika keadaan belum berubah.",
+      "meta_description": "Tadabbur Al-Baqarah 2:45 tentang saat hidup terasa berat: meminta pertolongan melalui sabar dan salat tanpa menganggap sabar sebagai sikap pasif.",
       "h1": "Ayat Al-Qur'an Saat Hidup Terasa Berat: Sabar dan Salat",
       "related_sessions": [
         "007",
@@ -210,6 +370,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium-high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/006/",
+          "reader": "https://tadabburlife.com/?session=6&lang=id",
+          "seo_title": "Ayat Al-Qur'an Saat Hidup Terasa Berat: Sabar dan Salat",
+          "meta_description": "Tadabbur Al-Baqarah 2:45 tentang saat hidup terasa berat: meminta pertolongan melalui sabar dan salat tanpa menganggap sabar sebagai sikap pasif.",
+          "h1": "Ayat Al-Qur'an Saat Hidup Terasa Berat: Sabar dan Salat",
+          "html_lang": "id",
+          "related_sessions": [
+            "007",
+            "008",
+            "018",
+            "029"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/006/",
+          "reader": "https://tadabburlife.com/?session=6&lang=en",
+          "seo_title": "Quran Verse for When Life Feels Hard: Patience and Prayer — Quran 2:45",
+          "meta_description": "A reflection on Quran 2:45 for when life feels hard: seeking Allah",
+          "h1": "Quran Verse for When Life Feels Hard: Patience and Prayer — Quran 2:45",
+          "html_lang": "en",
+          "related_sessions": [
+            "007",
+            "008",
+            "018",
+            "029"
+          ]
+        }
       }
     },
     {
@@ -221,9 +413,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/007/",
       "reader": "https://tadabburlife.com/?session=7&lang=id",
-      "seo_title": "Jangan Putus Asa dari Rahmat Allah: Jalan Taubat",
-      "meta_description": "Jangan Putus Asa untuk Kembali. Kesalahan tidak boleh dianggap ringan, tetapi dosa juga tidak boleh dijadikan alasan untuk menjauh dari Allah.",
-      "h1": "Jangan Putus Asa dari Rahmat Allah: Jalan Taubat",
+      "seo_title": "Cara Kembali kepada Allah Setelah Berbuat Dosa — Jalan Taubat",
+      "meta_description": "Tadabbur tentang cara kembali kepada Allah setelah berbuat dosa: tidak meremehkan kesalahan, tidak menjadikannya alasan untuk menjauh, dan menempuh jalan taubat.",
+      "h1": "Cara Kembali kepada Allah Setelah Berbuat Dosa — Jalan Taubat",
       "related_sessions": [
         "006",
         "008",
@@ -245,6 +437,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/007/",
+          "reader": "https://tadabburlife.com/?session=7&lang=id",
+          "seo_title": "Cara Kembali kepada Allah Setelah Berbuat Dosa — Jalan Taubat",
+          "meta_description": "Tadabbur tentang cara kembali kepada Allah setelah berbuat dosa: tidak meremehkan kesalahan, tidak menjadikannya alasan untuk menjauh, dan menempuh jalan taubat.",
+          "h1": "Cara Kembali kepada Allah Setelah Berbuat Dosa — Jalan Taubat",
+          "html_lang": "id",
+          "related_sessions": [
+            "006",
+            "008",
+            "018",
+            "029"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/007/",
+          "reader": "https://tadabburlife.com/?session=7&lang=en",
+          "seo_title": "How to Return to Allah After Sinning — The Road of Repentance",
+          "meta_description": "A Quran reflection on how to return to Allah after sinning: do not trivialize sin, but do not let it keep you away from Allah; take the road of repentance.",
+          "h1": "How to Return to Allah After Sinning — The Road of Repentance",
+          "html_lang": "en",
+          "related_sessions": [
+            "006",
+            "008",
+            "018",
+            "029"
+          ]
+        }
       }
     },
     {
@@ -256,9 +480,9 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/008/",
       "reader": "https://tadabburlife.com/?session=8&lang=id",
-      "seo_title": "Tawakal Bukan Pasrah Tanpa Usaha — Makna At-Talaq 2–3",
-      "meta_description": "Tawakal Bukan Berdiam Diri. Takwa menjaga cara kita bertindak, ikhtiar menggerakkan langkah, dan tawakal menjaga hati agar tidak menggantungkan hasil",
-      "h1": "Tawakal Bukan Pasrah Tanpa Usaha — Makna At-Talaq 2–3",
+      "seo_title": "Makna Tawakal: Bukan Pasrah Tanpa Usaha — At-Talaq 2–3",
+      "meta_description": "Tadabbur At-Talaq 2–3 tentang makna tawakal: tetap bertakwa dan berikhtiar, lalu menggantungkan hati dan hasil kepada Allah, bukan meninggalkan usaha.",
+      "h1": "Makna Tawakal: Bukan Pasrah Tanpa Usaha — At-Talaq 2–3",
       "related_sessions": [
         "007",
         "006",
@@ -280,6 +504,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/008/",
+          "reader": "https://tadabburlife.com/?session=8&lang=id",
+          "seo_title": "Makna Tawakal: Bukan Pasrah Tanpa Usaha — At-Talaq 2–3",
+          "meta_description": "Tadabbur At-Talaq 2–3 tentang makna tawakal: tetap bertakwa dan berikhtiar, lalu menggantungkan hati dan hasil kepada Allah, bukan meninggalkan usaha.",
+          "h1": "Makna Tawakal: Bukan Pasrah Tanpa Usaha — At-Talaq 2–3",
+          "html_lang": "id",
+          "related_sessions": [
+            "007",
+            "006",
+            "018",
+            "029"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/008/",
+          "reader": "https://tadabburlife.com/?session=8&lang=en",
+          "seo_title": "Does Tawakkul Mean Doing Nothing? Effort and Trust in Allah",
+          "meta_description": "A Quran reflection on tawakkul: trusting Allah does not mean doing nothing. Take lawful means, make sincere effort, and entrust the outcome to Allah.",
+          "h1": "Does Tawakkul Mean Doing Nothing? Effort and Trust in Allah",
+          "html_lang": "en",
+          "related_sessions": [
+            "007",
+            "006",
+            "018",
+            "029"
+          ]
+        }
       }
     },
     {
@@ -291,9 +547,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/009/",
       "reader": "https://tadabburlife.com/?session=9&lang=id",
-      "seo_title": "Cara Bersyukur kepada Allah Bukan Hanya dengan Ucapan",
-      "meta_description": "Syukur Harus Menjadi Tindakan. Syukur bukan sekadar mengucapkan alhamdulillah. Ia dimulai dari mengenali nikmat, mengakui Pemberinya,",
-      "h1": "Cara Bersyukur kepada Allah Bukan Hanya dengan Ucapan",
+      "seo_title": "Cara Bersyukur kepada Allah Melalui Tindakan",
+      "meta_description": "Tadabbur tentang cara bersyukur kepada Allah melalui tindakan: mengenali nikmat, mengakui Pemberinya, lalu menggunakan nikmat dalam ketaatan dan kebaikan.",
+      "h1": "Cara Bersyukur kepada Allah Melalui Tindakan",
       "related_sessions": [
         "011",
         "005",
@@ -315,6 +571,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/009/",
+          "reader": "https://tadabburlife.com/?session=9&lang=id",
+          "seo_title": "Cara Bersyukur kepada Allah Melalui Tindakan",
+          "meta_description": "Tadabbur tentang cara bersyukur kepada Allah melalui tindakan: mengenali nikmat, mengakui Pemberinya, lalu menggunakan nikmat dalam ketaatan dan kebaikan.",
+          "h1": "Cara Bersyukur kepada Allah Melalui Tindakan",
+          "html_lang": "id",
+          "related_sessions": [
+            "011",
+            "005",
+            "014",
+            "015"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/009/",
+          "reader": "https://tadabburlife.com/?session=9&lang=en",
+          "seo_title": "How to Show Gratitude to Allah Through Actions",
+          "meta_description": "A Quran reflection on how to show gratitude to Allah through actions: recognize His blessings, acknowledge their Giver, and use them in obedience and good.",
+          "h1": "How to Show Gratitude to Allah Through Actions",
+          "html_lang": "en",
+          "related_sessions": [
+            "011",
+            "005",
+            "014",
+            "015"
+          ]
+        }
       }
     },
     {
@@ -326,9 +614,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/010/",
       "reader": "https://tadabburlife.com/?session=10&lang=id",
-      "seo_title": "Tadabbur Al-'Asr: Empat Bekal Agar Waktu Tidak Rugi",
-      "meta_description": "Jangan Biarkan Waktu Berlalu Tanpa Arah. Al-'Asr merangkum empat unsur agar hidup tidak habis dalam kerugian: iman, amal saleh,",
-      "h1": "Tadabbur Al-'Asr: Empat Bekal Agar Waktu Tidak Rugi",
+      "seo_title": "Cara Memanfaatkan Waktu Menurut Surat Al-'Asr",
+      "meta_description": "Tadabbur Surat Al-",
+      "h1": "Cara Memanfaatkan Waktu Menurut Surat Al-'Asr",
       "related_sessions": [
         "016",
         "030",
@@ -350,6 +638,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/010/",
+          "reader": "https://tadabburlife.com/?session=10&lang=id",
+          "seo_title": "Cara Memanfaatkan Waktu Menurut Surat Al-'Asr",
+          "meta_description": "Tadabbur Surat Al-",
+          "h1": "Cara Memanfaatkan Waktu Menurut Surat Al-'Asr",
+          "html_lang": "id",
+          "related_sessions": [
+            "016",
+            "030",
+            "034",
+            "039"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/010/",
+          "reader": "https://tadabburlife.com/?session=10&lang=en",
+          "seo_title": "How to Use Time Wisely According to Surah Al-Asr",
+          "meta_description": "A reflection on Surah Al-Asr and using time wisely through four safeguards: faith, good deeds, truth, and patience.",
+          "h1": "How to Use Time Wisely According to Surah Al-Asr",
+          "html_lang": "en",
+          "related_sessions": [
+            "016",
+            "030",
+            "034",
+            "039"
+          ]
+        }
       }
     },
     {
@@ -361,9 +681,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/011/",
       "reader": "https://tadabburlife.com/?session=11&lang=id",
-      "seo_title": "Tabayyun Sebelum Share Berita — Al-Hujurat 49:6",
-      "meta_description": "Jangan Bertindak Sebelum Memeriksa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Tabayyun Sebelum Share Berita — Al-Hujurat 49:6",
+      "seo_title": "Ayat Tabayyun Sebelum Menyebarkan Berita — Al-Hujurat 49:6",
+      "meta_description": "Tadabbur Al-Hujurat 49:6 tentang tabayyun sebelum menyebarkan berita: periksa informasi sebelum percaya, menilai, bertindak, atau membagikannya kepada orang lain.",
+      "h1": "Ayat Tabayyun Sebelum Menyebarkan Berita — Al-Hujurat 49:6",
       "related_sessions": [
         "009",
         "014",
@@ -385,6 +705,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/011/",
+          "reader": "https://tadabburlife.com/?session=11&lang=id",
+          "seo_title": "Ayat Tabayyun Sebelum Menyebarkan Berita — Al-Hujurat 49:6",
+          "meta_description": "Tadabbur Al-Hujurat 49:6 tentang tabayyun sebelum menyebarkan berita: periksa informasi sebelum percaya, menilai, bertindak, atau membagikannya kepada orang lain.",
+          "h1": "Ayat Tabayyun Sebelum Menyebarkan Berita — Al-Hujurat 49:6",
+          "html_lang": "id",
+          "related_sessions": [
+            "009",
+            "014",
+            "015",
+            "005"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/011/",
+          "reader": "https://tadabburlife.com/?session=11&lang=en",
+          "seo_title": "Quran Verse About Verifying News Before Sharing It — Quran 49:6",
+          "meta_description": "A reflection on Quran 49:6 about verifying news before sharing it: investigate information before believing, judging, acting on, or passing it to others.",
+          "h1": "Quran Verse About Verifying News Before Sharing It — Quran 49:6",
+          "html_lang": "en",
+          "related_sessions": [
+            "009",
+            "014",
+            "015",
+            "005"
+          ]
+        }
       }
     },
     {
@@ -396,9 +748,9 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/012/",
       "reader": "https://tadabburlife.com/?session=12&lang=id",
-      "seo_title": "Jangan Remehkan Kebaikan Kecil — Az-Zalzalah 7–8",
-      "meta_description": "Jangan Remehkan Kebaikan Kecil. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Jangan Remehkan Kebaikan Kecil — Az-Zalzalah 7–8",
+      "seo_title": "Ayat tentang Kebaikan Kecil Jangan Diremehkan — Az-Zalzalah 99:7–8",
+      "meta_description": "Tadabbur Az-Zalzalah 99:7–8 tentang kebaikan kecil yang tidak boleh diremehkan: bahkan amal sebesar zarrah tetap berada dalam perhitungan Allah.",
+      "h1": "Ayat tentang Kebaikan Kecil Jangan Diremehkan — Az-Zalzalah 99:7–8",
       "related_sessions": [
         "013",
         "017",
@@ -420,6 +772,38 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/012/",
+          "reader": "https://tadabburlife.com/?session=12&lang=id",
+          "seo_title": "Ayat tentang Kebaikan Kecil Jangan Diremehkan — Az-Zalzalah 99:7–8",
+          "meta_description": "Tadabbur Az-Zalzalah 99:7–8 tentang kebaikan kecil yang tidak boleh diremehkan: bahkan amal sebesar zarrah tetap berada dalam perhitungan Allah.",
+          "h1": "Ayat tentang Kebaikan Kecil Jangan Diremehkan — Az-Zalzalah 99:7–8",
+          "html_lang": "id",
+          "related_sessions": [
+            "013",
+            "017",
+            "019",
+            "003"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/012/",
+          "reader": "https://tadabburlife.com/?session=12&lang=en",
+          "seo_title": "Quran Verse About Even the Smallest Good Deed — Quran 99:7–8",
+          "meta_description": "A reflection on Quran 99:7–8: even the smallest good deed matters, and no deed as small as an atom",
+          "h1": "Quran Verse About Even the Smallest Good Deed — Quran 99:7–8",
+          "html_lang": "en",
+          "related_sessions": [
+            "013",
+            "017",
+            "019",
+            "003"
+          ]
+        }
       }
     },
     {
@@ -431,7 +815,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/013/",
       "reader": "https://tadabburlife.com/?session=13&lang=id",
-      "seo_title": "Ayat tentang Menahan Amarah dan Mengendalikan Diri",
+      "seo_title": "Ayat tentang Menahan Amarah dan Mengendalikan Diri | TadabburLife",
       "meta_description": "Marah Boleh Datang, Jangan Biarkan Ia Memimpin. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Ayat tentang Menahan Amarah dan Mengendalikan Diri",
       "related_sessions": [
@@ -454,6 +838,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/013/",
+          "reader": "https://tadabburlife.com/?session=13&lang=id",
+          "seo_title": "Ayat tentang Menahan Amarah dan Mengendalikan Diri | TadabburLife",
+          "meta_description": "Marah Boleh Datang, Jangan Biarkan Ia Memimpin. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Ayat tentang Menahan Amarah dan Mengendalikan Diri",
+          "html_lang": "id",
+          "related_sessions": [
+            "012",
+            "017",
+            "019",
+            "003"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/013/",
+          "reader": "https://tadabburlife.com/?session=13&lang=en",
+          "seo_title": "Quran verse about controlling anger",
+          "meta_description": "The Qur",
+          "h1": "Quran verse about controlling anger",
+          "html_lang": "en",
+          "related_sessions": [
+            "012",
+            "017",
+            "019",
+            "003"
+          ]
+        }
       }
     },
     {
@@ -465,7 +881,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/014/",
       "reader": "https://tadabburlife.com/?session=14&lang=id",
-      "seo_title": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik",
+      "seo_title": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik | TadabburLife",
       "meta_description": "Pilih Kata yang Lebih Baik. Tidak semua kalimat yang benar harus disampaikan dengan cara yang paling tajam.",
       "h1": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik",
       "related_sessions": [
@@ -488,6 +904,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/014/",
+          "reader": "https://tadabburlife.com/?session=14&lang=id",
+          "seo_title": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik | TadabburLife",
+          "meta_description": "Pilih Kata yang Lebih Baik. Tidak semua kalimat yang benar harus disampaikan dengan cara yang paling tajam.",
+          "h1": "Ayat tentang Menjaga Ucapan dan Memilih Kata yang Lebih Baik",
+          "html_lang": "id",
+          "related_sessions": [
+            "015",
+            "011",
+            "009",
+            "005"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/014/",
+          "reader": "https://tadabburlife.com/?session=14&lang=en",
+          "seo_title": "Quran verse about speaking kindly to others",
+          "meta_description": "Not every true sentence needs to be delivered in the sharpest possible way. The Qur",
+          "h1": "Quran verse about speaking kindly to others",
+          "html_lang": "en",
+          "related_sessions": [
+            "015",
+            "011",
+            "009",
+            "005"
+          ]
+        }
       }
     },
     {
@@ -499,7 +947,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/015/",
       "reader": "https://tadabburlife.com/?session=15&lang=id",
-      "seo_title": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12",
+      "seo_title": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12 | TadabburLife",
       "meta_description": "Jangan Bangun Vonis dari Prasangka. Satu dugaan yang belum terbukti dapat berubah menjadi pencarian kesalahan,",
       "h1": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12",
       "related_sessions": [
@@ -522,6 +970,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/015/",
+          "reader": "https://tadabburlife.com/?session=15&lang=id",
+          "seo_title": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12 | TadabburLife",
+          "meta_description": "Jangan Bangun Vonis dari Prasangka. Satu dugaan yang belum terbukti dapat berubah menjadi pencarian kesalahan,",
+          "h1": "Prasangka Buruk, Tajassus, dan Ghibah — Al-Hujurat 49:12",
+          "html_lang": "id",
+          "related_sessions": [
+            "014",
+            "011",
+            "009",
+            "005"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/015/",
+          "reader": "https://tadabburlife.com/?session=15&lang=en",
+          "seo_title": "Quran verse about suspicion spying and backbiting",
+          "meta_description": "An unproven assumption can grow into searching for faults and then into speaking about another person",
+          "h1": "Quran verse about suspicion spying and backbiting",
+          "html_lang": "en",
+          "related_sessions": [
+            "014",
+            "011",
+            "009",
+            "005"
+          ]
+        }
       }
     },
     {
@@ -533,8 +1013,8 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/016/",
       "reader": "https://tadabburlife.com/?session=16&lang=id",
-      "seo_title": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18",
-      "meta_description": "Audit Diri Sebelum Hari Berakhir. Al-Qur'an tidak hanya meminta kita melihat apa yang sudah terjadi. Ia meminta kita melihat apa yang sedang kita kirim ke",
+      "seo_title": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18 | TadabburLife",
+      "meta_description": "Audit Diri Sebelum Hari Berakhir. Al-Qur",
       "h1": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18",
       "related_sessions": [
         "010",
@@ -556,6 +1036,38 @@
           "demand_evidence": "serp-directional",
           "competition": "low-medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/016/",
+          "reader": "https://tadabburlife.com/?session=16&lang=id",
+          "seo_title": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18 | TadabburLife",
+          "meta_description": "Audit Diri Sebelum Hari Berakhir. Al-Qur",
+          "h1": "Muhasabah Diri Sebelum Tidur — Tadabbur Al-Hashr 59:18",
+          "html_lang": "id",
+          "related_sessions": [
+            "010",
+            "030",
+            "034",
+            "039"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/016/",
+          "reader": "https://tadabburlife.com/?session=16&lang=en",
+          "seo_title": "Quran verse for daily self reflection and accountability",
+          "meta_description": "The Qur",
+          "h1": "Quran verse for daily self reflection and accountability",
+          "html_lang": "en",
+          "related_sessions": [
+            "010",
+            "030",
+            "034",
+            "039"
+          ]
+        }
       }
     },
     {
@@ -567,7 +1079,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/017/",
       "reader": "https://tadabburlife.com/?session=17&lang=id",
-      "seo_title": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
+      "seo_title": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13 | TadabburLife",
       "meta_description": "Berbeda untuk Saling Mengenal, Bukan Saling Merendahkan. Perbedaan bangsa, suku, keluarga, bahasa, dan latar sosial bukan izin untuk membuat tangga",
       "h1": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
       "related_sessions": [
@@ -590,6 +1102,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/017/",
+          "reader": "https://tadabburlife.com/?session=17&lang=id",
+          "seo_title": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13 | TadabburLife",
+          "meta_description": "Berbeda untuk Saling Mengenal, Bukan Saling Merendahkan. Perbedaan bangsa, suku, keluarga, bahasa, dan latar sosial bukan izin untuk membuat tangga",
+          "h1": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
+          "html_lang": "id",
+          "related_sessions": [
+            "019",
+            "013",
+            "012",
+            "003"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/017/",
+          "reader": "https://tadabburlife.com/?session=17&lang=en",
+          "seo_title": "Quran verse about different nations and tribes",
+          "meta_description": "Differences of nation, tribe, family, language, and social background are not permission to build a human hierarchy of worth. The Qur",
+          "h1": "Quran verse about different nations and tribes",
+          "html_lang": "en",
+          "related_sessions": [
+            "019",
+            "013",
+            "012",
+            "003"
+          ]
+        }
       }
     },
     {
@@ -601,8 +1145,8 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/018/",
       "reader": "https://tadabburlife.com/?session=18&lang=id",
-      "seo_title": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
-      "meta_description": "Bersama Kesulitan Ada Kemudahan. Al-Qur'an tidak menjanjikan hidup tanpa kesulitan. Ia mengajarkan cara memandang kesulitan: jangan menganggapnya sebagai",
+      "seo_title": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6 | TadabburLife",
+      "meta_description": "Bersama Kesulitan Ada Kemudahan. Al-Qur",
       "h1": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
       "related_sessions": [
         "008",
@@ -624,6 +1168,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/018/",
+          "reader": "https://tadabburlife.com/?session=18&lang=id",
+          "seo_title": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6 | TadabburLife",
+          "meta_description": "Bersama Kesulitan Ada Kemudahan. Al-Qur",
+          "h1": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
+          "html_lang": "id",
+          "related_sessions": [
+            "008",
+            "007",
+            "029",
+            "006"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/018/",
+          "reader": "https://tadabburlife.com/?session=18&lang=en",
+          "seo_title": "With hardship comes ease meaning Quran 94 5-6",
+          "meta_description": "The Qur",
+          "h1": "With hardship comes ease meaning Quran 94 5-6",
+          "html_lang": "en",
+          "related_sessions": [
+            "008",
+            "007",
+            "029",
+            "006"
+          ]
+        }
       }
     },
     {
@@ -635,8 +1211,8 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/019/",
       "reader": "https://tadabburlife.com/?session=19&lang=id",
-      "seo_title": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
-      "meta_description": "Perubahan Dimulai dari Apa yang Ada dalam Diri. Ada keadaan yang berada di luar kendali kita. Namun Al-Qur'an juga menolak sikap pasif yang terus menunggu",
+      "seo_title": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11 | TadabburLife",
+      "meta_description": "Perubahan Dimulai dari Apa yang Ada dalam Diri. Ada keadaan yang berada di luar kendali kita. Namun Al-Qur",
       "h1": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
       "related_sessions": [
         "017",
@@ -658,6 +1234,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/019/",
+          "reader": "https://tadabburlife.com/?session=19&lang=id",
+          "seo_title": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11 | TadabburLife",
+          "meta_description": "Perubahan Dimulai dari Apa yang Ada dalam Diri. Ada keadaan yang berada di luar kendali kita. Namun Al-Qur",
+          "h1": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
+          "html_lang": "id",
+          "related_sessions": [
+            "017",
+            "013",
+            "012",
+            "003"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/019/",
+          "reader": "https://tadabburlife.com/?session=19&lang=en",
+          "seo_title": "Allah does not change a people until they change themselves meaning",
+          "meta_description": "Some circumstances truly lie outside our control. Yet the Qur",
+          "h1": "Allah does not change a people until they change themselves meaning",
+          "html_lang": "en",
+          "related_sessions": [
+            "017",
+            "013",
+            "012",
+            "003"
+          ]
+        }
       }
     },
     {
@@ -669,7 +1277,7 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/020/",
       "reader": "https://tadabburlife.com/?session=20&lang=id",
-      "seo_title": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
+      "seo_title": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8 | TadabburLife",
       "meta_description": "Tetap Adil Bahkan kepada yang Tidak Kita Sukai. Keadilan paling mudah ketika kita menyukai orang yang sedang dinilai.",
       "h1": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
       "related_sessions": [
@@ -692,6 +1300,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/020/",
+          "reader": "https://tadabburlife.com/?session=20&lang=id",
+          "seo_title": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8 | TadabburLife",
+          "meta_description": "Tetap Adil Bahkan kepada yang Tidak Kita Sukai. Keadilan paling mudah ketika kita menyukai orang yang sedang dinilai.",
+          "h1": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
+          "html_lang": "id",
+          "related_sessions": [
+            "021",
+            "022",
+            "023",
+            "024"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/020/",
+          "reader": "https://tadabburlife.com/?session=20&lang=en",
+          "seo_title": "Quran verse about being just to people you dislike",
+          "meta_description": "Justice is easiest when we like the person being judged. The harder test comes when there is hurt, conflict, disagreement, or dislike. The Qur",
+          "h1": "Quran verse about being just to people you dislike",
+          "html_lang": "en",
+          "related_sessions": [
+            "021",
+            "022",
+            "023",
+            "024"
+          ]
+        }
       }
     },
     {
@@ -703,7 +1343,7 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/021/",
       "reader": "https://tadabburlife.com/?session=21&lang=id",
-      "seo_title": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
+      "seo_title": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3 | TadabburLife",
       "meta_description": "Jangan Kurangi Hak Orang Lain. Kecurangan tidak selalu hadir dalam bentuk pencurian yang terang-terangan. Ia dapat muncul ketika seseorang menuntut haknya",
       "h1": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
       "related_sessions": [
@@ -726,6 +1366,38 @@
           "demand_evidence": "serp-directional",
           "competition": "low-medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/021/",
+          "reader": "https://tadabburlife.com/?session=21&lang=id",
+          "seo_title": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3 | TadabburLife",
+          "meta_description": "Jangan Kurangi Hak Orang Lain. Kecurangan tidak selalu hadir dalam bentuk pencurian yang terang-terangan. Ia dapat muncul ketika seseorang menuntut haknya",
+          "h1": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
+          "html_lang": "id",
+          "related_sessions": [
+            "020",
+            "022",
+            "023",
+            "024"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/021/",
+          "reader": "https://tadabburlife.com/?session=21&lang=en",
+          "seo_title": "Quran verse about not depriving people of their rights",
+          "meta_description": "Dishonesty does not always appear as obvious theft. It can appear when a person demands his own rights in full, yet reduces the measure, quality, time, inform",
+          "h1": "Quran verse about not depriving people of their rights",
+          "html_lang": "en",
+          "related_sessions": [
+            "020",
+            "022",
+            "023",
+            "024"
+          ]
+        }
       }
     },
     {
@@ -737,7 +1409,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/022/",
       "reader": "https://tadabburlife.com/?session=22&lang=id",
-      "seo_title": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
+      "seo_title": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188 | TadabburLife",
       "meta_description": "Jangan Menang dengan Cara yang Batil. Tidak semua kemenangan di atas kertas berarti benar di sisi Allah. Seseorang dapat memiliki argumen yang lebih rapi,",
       "h1": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
       "related_sessions": [
@@ -760,6 +1432,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/022/",
+          "reader": "https://tadabburlife.com/?session=22&lang=id",
+          "seo_title": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188 | TadabburLife",
+          "meta_description": "Jangan Menang dengan Cara yang Batil. Tidak semua kemenangan di atas kertas berarti benar di sisi Allah. Seseorang dapat memiliki argumen yang lebih rapi,",
+          "h1": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
+          "html_lang": "id",
+          "related_sessions": [
+            "021",
+            "023",
+            "020",
+            "024"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/022/",
+          "reader": "https://tadabburlife.com/?session=22&lang=en",
+          "seo_title": "Quran verse about consuming wealth unjustly",
+          "meta_description": "Not every victory on paper is right before Allah. A person may have a more polished argument, stronger access, or a formal decision in his favor—yet if he kno",
+          "h1": "Quran verse about consuming wealth unjustly",
+          "html_lang": "en",
+          "related_sessions": [
+            "021",
+            "023",
+            "020",
+            "024"
+          ]
+        }
       }
     },
     {
@@ -771,7 +1475,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/023/",
       "reader": "https://tadabburlife.com/?session=23&lang=id",
-      "seo_title": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
+      "seo_title": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58 | TadabburLife",
       "meta_description": "Amanah Harus Kembali kepada yang Berhak. Amanah bukan hanya barang titipan. Ia juga menyentuh tanggung jawab, kewenangan, informasi, pekerjaan,",
       "h1": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
       "related_sessions": [
@@ -794,6 +1498,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/023/",
+          "reader": "https://tadabburlife.com/?session=23&lang=id",
+          "seo_title": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58 | TadabburLife",
+          "meta_description": "Amanah Harus Kembali kepada yang Berhak. Amanah bukan hanya barang titipan. Ia juga menyentuh tanggung jawab, kewenangan, informasi, pekerjaan,",
+          "h1": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
+          "html_lang": "id",
+          "related_sessions": [
+            "022",
+            "024",
+            "021",
+            "025"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/023/",
+          "reader": "https://tadabburlife.com/?session=23&lang=en",
+          "seo_title": "Quran verse about returning trusts to their owners",
+          "meta_description": "A trust is not limited to property left in our care. It also reaches responsibility, authority, information, work, and rights entrusted to us. The Qur",
+          "h1": "Quran verse about returning trusts to their owners",
+          "html_lang": "en",
+          "related_sessions": [
+            "022",
+            "024",
+            "021",
+            "025"
+          ]
+        }
       }
     },
     {
@@ -805,7 +1541,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/024/",
       "reader": "https://tadabburlife.com/?session=24&lang=id",
-      "seo_title": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
+      "seo_title": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1 | TadabburLife",
       "meta_description": "Jangan Ringankan Janji yang Sudah Diikat. Kepercayaan tidak berhenti pada niat baik. Ketika sebuah janji, akad, atau komitmen telah kita ikat secara sah,",
       "h1": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
       "related_sessions": [
@@ -828,6 +1564,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/024/",
+          "reader": "https://tadabburlife.com/?session=24&lang=id",
+          "seo_title": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1 | TadabburLife",
+          "meta_description": "Jangan Ringankan Janji yang Sudah Diikat. Kepercayaan tidak berhenti pada niat baik. Ketika sebuah janji, akad, atau komitmen telah kita ikat secara sah,",
+          "h1": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
+          "html_lang": "id",
+          "related_sessions": [
+            "023",
+            "025",
+            "022",
+            "026"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/024/",
+          "reader": "https://tadabburlife.com/?session=24&lang=en",
+          "seo_title": "Quran verse about fulfilling contracts and promises",
+          "meta_description": "Trust does not end with good intentions. Once a lawful promise, covenant, or commitment has been bound, the Qur",
+          "h1": "Quran verse about fulfilling contracts and promises",
+          "html_lang": "en",
+          "related_sessions": [
+            "023",
+            "025",
+            "022",
+            "026"
+          ]
+        }
       }
     },
     {
@@ -839,7 +1607,7 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/025/",
       "reader": "https://tadabburlife.com/?session=25&lang=id",
-      "seo_title": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
+      "seo_title": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29 | TadabburLife",
       "meta_description": "Jangan Ambil Hak Tanpa Kerelaan. Muamalah, kerelaan, harta, hak. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
       "related_sessions": [
@@ -862,6 +1630,38 @@
           "demand_evidence": "serp-directional",
           "competition": "low-medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/025/",
+          "reader": "https://tadabburlife.com/?session=25&lang=id",
+          "seo_title": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29 | TadabburLife",
+          "meta_description": "Jangan Ambil Hak Tanpa Kerelaan. Muamalah, kerelaan, harta, hak. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Kerelaan dalam Jual Beli Menurut Al-Qur'an — An-Nisa 4:29",
+          "html_lang": "id",
+          "related_sessions": [
+            "024",
+            "026",
+            "023",
+            "022"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/025/",
+          "reader": "https://tadabburlife.com/?session=25&lang=en",
+          "seo_title": "Quran verse about trade by mutual consent",
+          "meta_description": "Transactions, consent, wealth, rights.",
+          "h1": "Quran verse about trade by mutual consent",
+          "html_lang": "en",
+          "related_sessions": [
+            "024",
+            "026",
+            "023",
+            "022"
+          ]
+        }
       }
     },
     {
@@ -873,7 +1673,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/026/",
       "reader": "https://tadabburlife.com/?session=26&lang=id",
-      "seo_title": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
+      "seo_title": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan | TadabburLife",
       "meta_description": "Harta yang Ditanam untuk Kebaikan. Infak, kedermawanan, pahala, niat. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
       "related_sessions": [
@@ -896,6 +1696,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/026/",
+          "reader": "https://tadabburlife.com/?session=26&lang=id",
+          "seo_title": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan | TadabburLife",
+          "meta_description": "Harta yang Ditanam untuk Kebaikan. Infak, kedermawanan, pahala, niat. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Tadabbur Al-Baqarah 261: Infak yang Dilipatgandakan",
+          "html_lang": "id",
+          "related_sessions": [
+            "025",
+            "024",
+            "023",
+            "022"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/026/",
+          "reader": "https://tadabburlife.com/?session=26&lang=en",
+          "seo_title": "Quran 2 261 meaning charity seven hundred grains",
+          "meta_description": "Giving, generosity, reward, intention.",
+          "h1": "Quran 2 261 meaning charity seven hundred grains",
+          "html_lang": "en",
+          "related_sessions": [
+            "025",
+            "024",
+            "023",
+            "022"
+          ]
+        }
       }
     },
     {
@@ -907,7 +1739,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/027/",
       "reader": "https://tadabburlife.com/?session=27&lang=id",
-      "seo_title": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
+      "seo_title": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18 | TadabburLife",
       "meta_description": "Jangan Berjalan dengan Kesombongan. Tawaduk, kesombongan, adab sosial. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
       "related_sessions": [
@@ -930,6 +1762,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/027/",
+          "reader": "https://tadabburlife.com/?session=27&lang=id",
+          "seo_title": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18 | TadabburLife",
+          "meta_description": "Jangan Berjalan dengan Kesombongan. Tawaduk, kesombongan, adab sosial. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Ayat tentang Kesombongan dan Rendah Hati — Luqman 31:18",
+          "html_lang": "id",
+          "related_sessions": [
+            "028",
+            "015",
+            "014",
+            "011"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/027/",
+          "reader": "https://tadabburlife.com/?session=27&lang=en",
+          "seo_title": "Quran verse about walking with arrogance",
+          "meta_description": "Humility, arrogance, social manners.",
+          "h1": "Quran verse about walking with arrogance",
+          "html_lang": "en",
+          "related_sessions": [
+            "028",
+            "015",
+            "014",
+            "011"
+          ]
+        }
       }
     },
     {
@@ -941,7 +1805,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/028/",
       "reader": "https://tadabburlife.com/?session=28&lang=id",
-      "seo_title": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
+      "seo_title": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10 | TadabburLife",
       "meta_description": "Damaikan, Jangan Hanya Menonton Konflik. Persaudaraan, islah, konflik, takwa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
       "related_sessions": [
@@ -964,6 +1828,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/028/",
+          "reader": "https://tadabburlife.com/?session=28&lang=id",
+          "seo_title": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10 | TadabburLife",
+          "meta_description": "Damaikan, Jangan Hanya Menonton Konflik. Persaudaraan, islah, konflik, takwa. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Ayat tentang Mendamaikan Konflik Sesama Muslim — Al-Hujurat 49:10",
+          "html_lang": "id",
+          "related_sessions": [
+            "027",
+            "015",
+            "014",
+            "043"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/028/",
+          "reader": "https://tadabburlife.com/?session=28&lang=en",
+          "seo_title": "Quran verse about reconciling between believers",
+          "meta_description": "Brotherhood, reconciliation, conflict, taqwa.",
+          "h1": "Quran verse about reconciling between believers",
+          "html_lang": "en",
+          "related_sessions": [
+            "027",
+            "015",
+            "014",
+            "043"
+          ]
+        }
       }
     },
     {
@@ -975,7 +1871,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/029/",
       "reader": "https://tadabburlife.com/?session=29&lang=id",
-      "seo_title": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
+      "seo_title": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69 | TadabburLife",
       "meta_description": "Petunjuk Ditemukan dalam Kesungguhan. Kesungguhan, hidayah, ikhtiar, ihsan. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
       "related_sessions": [
@@ -998,6 +1894,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/029/",
+          "reader": "https://tadabburlife.com/?session=29&lang=id",
+          "seo_title": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69 | TadabburLife",
+          "meta_description": "Petunjuk Ditemukan dalam Kesungguhan. Kesungguhan, hidayah, ikhtiar, ihsan. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
+          "html_lang": "id",
+          "related_sessions": [
+            "031",
+            "032",
+            "018",
+            "008"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/029/",
+          "reader": "https://tadabburlife.com/?session=29&lang=en",
+          "seo_title": "Quran 29 69 meaning those who strive for Us",
+          "meta_description": "Striving, guidance, effort, excellence.",
+          "h1": "Quran 29 69 meaning those who strive for Us",
+          "html_lang": "en",
+          "related_sessions": [
+            "031",
+            "032",
+            "018",
+            "008"
+          ]
+        }
       }
     },
     {
@@ -1009,7 +1937,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/030/",
       "reader": "https://tadabburlife.com/?session=30&lang=id",
-      "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
+      "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18 | TadabburLife",
       "meta_description": "Jangan Hidup Tanpa Menghitung Bekal Esok. Muhasabah, takwa, masa depan, tanggung jawab Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
       "related_sessions": [
@@ -1032,6 +1960,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/030/",
+          "reader": "https://tadabburlife.com/?session=30&lang=id",
+          "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18 | TadabburLife",
+          "meta_description": "Jangan Hidup Tanpa Menghitung Bekal Esok. Muhasabah, takwa, masa depan, tanggung jawab Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
+          "html_lang": "id",
+          "related_sessions": [
+            "034",
+            "039",
+            "040",
+            "016"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/030/",
+          "reader": "https://tadabburlife.com/?session=30&lang=en",
+          "seo_title": "Quran verse about preparing for the Hereafter",
+          "meta_description": "Self-accounting, taqwa, future, responsibility",
+          "h1": "Quran verse about preparing for the Hereafter",
+          "html_lang": "en",
+          "related_sessions": [
+            "034",
+            "039",
+            "040",
+            "016"
+          ]
+        }
       }
     },
     {
@@ -1043,7 +2003,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/031/",
       "reader": "https://tadabburlife.com/?session=31&lang=id",
-      "seo_title": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
+      "seo_title": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali | TadabburLife",
       "meta_description": "Jangan Berputus Asa dari Rahmat Allah. Harapan, taubat, rahmat, kembali kepada Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
       "related_sessions": [
@@ -1066,6 +2026,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/031/",
+          "reader": "https://tadabburlife.com/?session=31&lang=id",
+          "seo_title": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali | TadabburLife",
+          "meta_description": "Jangan Berputus Asa dari Rahmat Allah. Harapan, taubat, rahmat, kembali kepada Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
+          "html_lang": "id",
+          "related_sessions": [
+            "032",
+            "029",
+            "018",
+            "008"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/031/",
+          "reader": "https://tadabburlife.com/?session=31&lang=en",
+          "seo_title": "Quran verse for someone who thinks their sins are too many",
+          "meta_description": "Hope, repentance, mercy, returning to Allah",
+          "h1": "Quran verse for someone who thinks their sins are too many",
+          "html_lang": "en",
+          "related_sessions": [
+            "032",
+            "029",
+            "018",
+            "008"
+          ]
+        }
       }
     },
     {
@@ -1077,7 +2069,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/032/",
       "reader": "https://tadabburlife.com/?session=32&lang=id",
-      "seo_title": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
+      "seo_title": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286 | TadabburLife",
       "meta_description": "Beban, Doa, dan Batas Kemampuan. Kemampuan, tanggung jawab, doa, pertolongan Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
       "h1": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
       "related_sessions": [
@@ -1100,6 +2092,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/032/",
+          "reader": "https://tadabburlife.com/?session=32&lang=id",
+          "seo_title": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286 | TadabburLife",
+          "meta_description": "Beban, Doa, dan Batas Kemampuan. Kemampuan, tanggung jawab, doa, pertolongan Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
+          "h1": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
+          "html_lang": "id",
+          "related_sessions": [
+            "031",
+            "029",
+            "018",
+            "008"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/032/",
+          "reader": "https://tadabburlife.com/?session=32&lang=en",
+          "seo_title": "Allah does not burden a soul beyond what it can bear meaning",
+          "meta_description": "Capacity, responsibility, prayer, Allah",
+          "h1": "Allah does not burden a soul beyond what it can bear meaning",
+          "html_lang": "en",
+          "related_sessions": [
+            "031",
+            "029",
+            "018",
+            "008"
+          ]
+        }
       }
     },
     {
@@ -1111,8 +2135,8 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/033/",
       "reader": "https://tadabburlife.com/?session=33&lang=id",
-      "seo_title": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
-      "meta_description": "Kerja Sama Juga Harus Memiliki Arah Moral. Tidak semua kekompakan adalah kebaikan. Al-Qur'an memberi ukuran yang lebih dalam: kerja sama dinilai bukan",
+      "seo_title": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2 | TadabburLife",
+      "meta_description": "Kerja Sama Juga Harus Memiliki Arah Moral. Tidak semua kekompakan adalah kebaikan. Al-Qur",
       "h1": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
       "related_sessions": [
         "035",
@@ -1134,6 +2158,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/033/",
+          "reader": "https://tadabburlife.com/?session=33&lang=id",
+          "seo_title": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2 | TadabburLife",
+          "meta_description": "Kerja Sama Juga Harus Memiliki Arah Moral. Tidak semua kekompakan adalah kebaikan. Al-Qur",
+          "h1": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
+          "html_lang": "id",
+          "related_sessions": [
+            "035",
+            "036",
+            "037",
+            "026"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/033/",
+          "reader": "https://tadabburlife.com/?session=33&lang=en",
+          "seo_title": "Quran verse about cooperating in goodness not sin",
+          "meta_description": "Not every form of solidarity is good. The Qur",
+          "h1": "Quran verse about cooperating in goodness not sin",
+          "html_lang": "en",
+          "related_sessions": [
+            "035",
+            "036",
+            "037",
+            "026"
+          ]
+        }
       }
     },
     {
@@ -1145,8 +2201,8 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/034/",
       "reader": "https://tadabburlife.com/?session=34&lang=id",
-      "seo_title": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
-      "meta_description": "Dunia di Tangan, Akhirat Tetap Menjadi Arah. Al-Qur'an tidak mengajarkan meninggalkan dunia, tetapi menolak menjadikan dunia sebagai tujuan terakhir.",
+      "seo_title": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77 | TadabburLife",
+      "meta_description": "Dunia di Tangan, Akhirat Tetap Menjadi Arah. Al-Qur",
       "h1": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
       "related_sessions": [
         "030",
@@ -1168,6 +2224,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/034/",
+          "reader": "https://tadabburlife.com/?session=34&lang=id",
+          "seo_title": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77 | TadabburLife",
+          "meta_description": "Dunia di Tangan, Akhirat Tetap Menjadi Arah. Al-Qur",
+          "h1": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
+          "html_lang": "id",
+          "related_sessions": [
+            "030",
+            "039",
+            "040",
+            "044"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/034/",
+          "reader": "https://tadabburlife.com/?session=34&lang=en",
+          "seo_title": "How to balance dunya and akhirah Quran 28 77",
+          "meta_description": "The Qur",
+          "h1": "How to balance dunya and akhirah Quran 28 77",
+          "html_lang": "en",
+          "related_sessions": [
+            "030",
+            "039",
+            "040",
+            "044"
+          ]
+        }
       }
     },
     {
@@ -1179,8 +2267,8 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/035/",
       "reader": "https://tadabburlife.com/?session=35&lang=id",
-      "seo_title": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
-      "meta_description": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh. Ada tingkat minimum yang tidak boleh ditawar: keadilan. Namun Al-Qur'an tidak berhenti pada batas minimum",
+      "seo_title": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90 | TadabburLife",
+      "meta_description": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh. Ada tingkat minimum yang tidak boleh ditawar: keadilan. Namun Al-Qur",
       "h1": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
       "related_sessions": [
         "036",
@@ -1202,6 +2290,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/035/",
+          "reader": "https://tadabburlife.com/?session=35&lang=id",
+          "seo_title": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90 | TadabburLife",
+          "meta_description": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh. Ada tingkat minimum yang tidak boleh ditawar: keadilan. Namun Al-Qur",
+          "h1": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
+          "html_lang": "id",
+          "related_sessions": [
+            "036",
+            "033",
+            "037",
+            "041"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/035/",
+          "reader": "https://tadabburlife.com/?session=35&lang=en",
+          "seo_title": "Quran verse about justice and excellence ihsan",
+          "meta_description": "There is a minimum that cannot be negotiated away: justice. Yet the Qur",
+          "h1": "Quran verse about justice and excellence ihsan",
+          "html_lang": "en",
+          "related_sessions": [
+            "036",
+            "033",
+            "037",
+            "041"
+          ]
+        }
       }
     },
     {
@@ -1213,8 +2333,8 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/036/",
       "reader": "https://tadabburlife.com/?session=36&lang=id",
-      "seo_title": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
-      "meta_description": "Jangan Biarkan Harta Hilang Tanpa Arah. Al-Qur'an menempatkan pemberian hak dan larangan pemborosan dalam satu rangkaian: harta bukan sekadar sesuatu yang",
+      "seo_title": "Ayat tentang Boros dan Menggunakan Harta dengan Benar | TadabburLife",
+      "meta_description": "Jangan Biarkan Harta Hilang Tanpa Arah. Al-Qur",
       "h1": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
       "related_sessions": [
         "035",
@@ -1236,6 +2356,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/036/",
+          "reader": "https://tadabburlife.com/?session=36&lang=id",
+          "seo_title": "Ayat tentang Boros dan Menggunakan Harta dengan Benar | TadabburLife",
+          "meta_description": "Jangan Biarkan Harta Hilang Tanpa Arah. Al-Qur",
+          "h1": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
+          "html_lang": "id",
+          "related_sessions": [
+            "035",
+            "037",
+            "033",
+            "041"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/036/",
+          "reader": "https://tadabburlife.com/?session=36&lang=en",
+          "seo_title": "Quran verse about wasteful spending",
+          "meta_description": "The Qur",
+          "h1": "Quran verse about wasteful spending",
+          "html_lang": "en",
+          "related_sessions": [
+            "035",
+            "037",
+            "033",
+            "041"
+          ]
+        }
       }
     },
     {
@@ -1247,7 +2399,7 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/037/",
       "reader": "https://tadabburlife.com/?session=37&lang=id",
-      "seo_title": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
+      "seo_title": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38 | TadabburLife",
       "meta_description": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah. Keputusan bersama yang sehat membutuhkan lebih dari satu suara.",
       "h1": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
       "related_sessions": [
@@ -1270,6 +2422,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/037/",
+          "reader": "https://tadabburlife.com/?session=37&lang=id",
+          "seo_title": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38 | TadabburLife",
+          "meta_description": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah. Keputusan bersama yang sehat membutuhkan lebih dari satu suara.",
+          "h1": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
+          "html_lang": "id",
+          "related_sessions": [
+            "036",
+            "035",
+            "033",
+            "041"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/037/",
+          "reader": "https://tadabburlife.com/?session=37&lang=en",
+          "seo_title": "Quran verse about consultation in decision making",
+          "meta_description": "Healthy shared decisions need more than one voice. The Qur",
+          "h1": "Quran verse about consultation in decision making",
+          "html_lang": "en",
+          "related_sessions": [
+            "036",
+            "035",
+            "033",
+            "041"
+          ]
+        }
       }
     },
     {
@@ -1281,8 +2465,8 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/038/",
       "reader": "https://tadabburlife.com/?session=38&lang=id",
-      "seo_title": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
-      "meta_description": "Kebaikan Tidak Cukup Menjadi Simbol. Al-Qur'an membongkar kecenderungan manusia menyempitkan agama menjadi tanda lahiriah.",
+      "seo_title": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177 | TadabburLife",
+      "meta_description": "Kebaikan Tidak Cukup Menjadi Simbol. Al-Qur",
       "h1": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
       "related_sessions": [
         "042",
@@ -1304,6 +2488,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/038/",
+          "reader": "https://tadabburlife.com/?session=38&lang=id",
+          "seo_title": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177 | TadabburLife",
+          "meta_description": "Kebaikan Tidak Cukup Menjadi Simbol. Al-Qur",
+          "h1": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
+          "html_lang": "id",
+          "related_sessions": [
+            "042",
+            "019",
+            "017",
+            "013"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/038/",
+          "reader": "https://tadabburlife.com/?session=38&lang=en",
+          "seo_title": "Quran 2 177 meaning righteousness is not turning faces",
+          "meta_description": "The Qur",
+          "h1": "Quran 2 177 meaning righteousness is not turning faces",
+          "html_lang": "en",
+          "related_sessions": [
+            "042",
+            "019",
+            "017",
+            "013"
+          ]
+        }
       }
     },
     {
@@ -1315,7 +2531,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/039/",
       "reader": "https://tadabburlife.com/?session=39&lang=id",
-      "seo_title": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
+      "seo_title": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5 | TadabburLife",
       "meta_description": "Amal yang Benar Membutuhkan Niat yang Lurus. Setelah Sesi 038 mengingatkan bahwa kebaikan tidak cukup menjadi simbol,",
       "h1": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
       "related_sessions": [
@@ -1338,6 +2554,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/039/",
+          "reader": "https://tadabburlife.com/?session=39&lang=id",
+          "seo_title": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5 | TadabburLife",
+          "meta_description": "Amal yang Benar Membutuhkan Niat yang Lurus. Setelah Sesi 038 mengingatkan bahwa kebaikan tidak cukup menjadi simbol,",
+          "h1": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
+          "html_lang": "id",
+          "related_sessions": [
+            "040",
+            "034",
+            "044",
+            "030"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/039/",
+          "reader": "https://tadabburlife.com/?session=39&lang=en",
+          "seo_title": "Quran verse about sincerity in worship",
+          "meta_description": "After Session 038 showed that righteousness cannot be reduced to symbols, Al-Bayyinah 98:5 takes us to the inward center of action: worship is directed sincer",
+          "h1": "Quran verse about sincerity in worship",
+          "html_lang": "en",
+          "related_sessions": [
+            "040",
+            "034",
+            "044",
+            "030"
+          ]
+        }
       }
     },
     {
@@ -1349,8 +2597,8 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/040/",
       "reader": "https://tadabburlife.com/?session=40&lang=id",
-      "seo_title": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
-      "meta_description": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah. Surah Al-Ma'un mempertemukan pengingkaran Hari Pembalasan,",
+      "seo_title": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah | TadabburLife",
+      "meta_description": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah. Surah Al-Ma",
       "h1": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
       "related_sessions": [
         "039",
@@ -1372,6 +2620,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/040/",
+          "reader": "https://tadabburlife.com/?session=40&lang=id",
+          "seo_title": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah | TadabburLife",
+          "meta_description": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah. Surah Al-Ma",
+          "h1": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
+          "html_lang": "id",
+          "related_sessions": [
+            "039",
+            "044",
+            "034",
+            "030"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/040/",
+          "reader": "https://tadabburlife.com/?session=40&lang=en",
+          "seo_title": "Surah Al Maun meaning prayer and caring for the poor",
+          "meta_description": "Al-Ma",
+          "h1": "Surah Al Maun meaning prayer and caring for the poor",
+          "html_lang": "en",
+          "related_sessions": [
+            "039",
+            "044",
+            "034",
+            "030"
+          ]
+        }
       }
     },
     {
@@ -1383,8 +2663,8 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/041/",
       "reader": "https://tadabburlife.com/?session=41&lang=id",
-      "seo_title": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
-      "meta_description": "Yang Indah Belum Tentu yang Paling Bertahan. Harta dan keluarga adalah nikmat yang nyata, tetapi Al-Qur'an mengingatkan bahwa keduanya termasuk perhiasan",
+      "seo_title": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46 | TadabburLife",
+      "meta_description": "Yang Indah Belum Tentu yang Paling Bertahan. Harta dan keluarga adalah nikmat yang nyata, tetapi Al-Qur",
       "h1": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
       "related_sessions": [
         "037",
@@ -1406,6 +2686,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/041/",
+          "reader": "https://tadabburlife.com/?session=41&lang=id",
+          "seo_title": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46 | TadabburLife",
+          "meta_description": "Yang Indah Belum Tentu yang Paling Bertahan. Harta dan keluarga adalah nikmat yang nyata, tetapi Al-Qur",
+          "h1": "Harta, Anak, dan Amal yang Kekal — Al-Kahf 18:46",
+          "html_lang": "id",
+          "related_sessions": [
+            "037",
+            "036",
+            "035",
+            "033"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/041/",
+          "reader": "https://tadabburlife.com/?session=41&lang=en",
+          "seo_title": "Wealth and children are adornment Quran 18 46 meaning",
+          "meta_description": "Wealth and family are real blessings, yet the Qur",
+          "h1": "Wealth and children are adornment Quran 18 46 meaning",
+          "html_lang": "en",
+          "related_sessions": [
+            "037",
+            "036",
+            "035",
+            "033"
+          ]
+        }
       }
     },
     {
@@ -1417,7 +2729,7 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/042/",
       "reader": "https://tadabburlife.com/?session=42&lang=id",
-      "seo_title": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
+      "seo_title": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6 | TadabburLife",
       "meta_description": "Jangan Bertindak Sebelum Informasi Diperiksa. Sesudah perjalanan tadabbur menata niat, amanah, musyawarah, dan tanggung jawab sosial,",
       "h1": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
       "related_sessions": [
@@ -1440,6 +2752,38 @@
           "demand_evidence": "serp-directional",
           "competition": "low-medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/042/",
+          "reader": "https://tadabburlife.com/?session=42&lang=id",
+          "seo_title": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6 | TadabburLife",
+          "meta_description": "Jangan Bertindak Sebelum Informasi Diperiksa. Sesudah perjalanan tadabbur menata niat, amanah, musyawarah, dan tanggung jawab sosial,",
+          "h1": "Tabayyun Sebelum Mengambil Keputusan — Al-Hujurat 49:6",
+          "html_lang": "id",
+          "related_sessions": [
+            "038",
+            "019",
+            "017",
+            "013"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/042/",
+          "reader": "https://tadabburlife.com/?session=42&lang=en",
+          "seo_title": "Quran verse about verifying information before making a decision",
+          "meta_description": "After the journey has explored intention, trust, consultation, and social responsibility, Al-Hujurat 49:6 teaches a foundational discipline: information that",
+          "h1": "Quran verse about verifying information before making a decision",
+          "html_lang": "en",
+          "related_sessions": [
+            "038",
+            "019",
+            "017",
+            "013"
+          ]
+        }
       }
     },
     {
@@ -1451,7 +2795,7 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/043/",
       "reader": "https://tadabburlife.com/?session=43&lang=id",
-      "seo_title": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
+      "seo_title": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19 | TadabburLife",
       "meta_description": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia. Nasihat Luqman tidak berhenti pada keyakinan dan ibadah. Ia turun sampai ke bahasa tubuh,",
       "h1": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
       "related_sessions": [
@@ -1474,6 +2818,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/043/",
+          "reader": "https://tadabburlife.com/?session=43&lang=id",
+          "seo_title": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19 | TadabburLife",
+          "meta_description": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia. Nasihat Luqman tidak berhenti pada keyakinan dan ibadah. Ia turun sampai ke bahasa tubuh,",
+          "h1": "Rendah Hati dalam Cara Berjalan dan Berbicara — Luqman 31:18–19",
+          "html_lang": "id",
+          "related_sessions": [
+            "028",
+            "027",
+            "015",
+            "014"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/043/",
+          "reader": "https://tadabburlife.com/?session=43&lang=en",
+          "seo_title": "Quran verse about humility in walking and speaking",
+          "meta_description": "Luqman",
+          "h1": "Quran verse about humility in walking and speaking",
+          "html_lang": "en",
+          "related_sessions": [
+            "028",
+            "027",
+            "015",
+            "014"
+          ]
+        }
       }
     },
     {
@@ -1485,7 +2861,7 @@
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/044/",
       "reader": "https://tadabburlife.com/?session=44&lang=id",
-      "seo_title": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
+      "seo_title": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia | TadabburLife",
       "meta_description": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan. Surah yang sangat pendek ini menyusun ukuran keselamatan manusia secara padat: iman, amal saleh,",
       "h1": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
       "related_sessions": [
@@ -1508,6 +2884,38 @@
           "demand_evidence": "serp-directional",
           "competition": "high"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/044/",
+          "reader": "https://tadabburlife.com/?session=44&lang=id",
+          "seo_title": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia | TadabburLife",
+          "meta_description": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan. Surah yang sangat pendek ini menyusun ukuran keselamatan manusia secara padat: iman, amal saleh,",
+          "h1": "Makna Surat Al-'Asr: Agar Hidup Tidak Sia-sia",
+          "html_lang": "id",
+          "related_sessions": [
+            "040",
+            "039",
+            "034",
+            "030"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/044/",
+          "reader": "https://tadabburlife.com/?session=44&lang=en",
+          "seo_title": "Surah Al Asr meaning how not to waste your life",
+          "meta_description": "This very short surah gives a dense measure of human salvation: faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience. Time keeps mo",
+          "h1": "Surah Al Asr meaning how not to waste your life",
+          "html_lang": "en",
+          "related_sessions": [
+            "040",
+            "039",
+            "034",
+            "030"
+          ]
+        }
       }
     },
     {
@@ -1521,7 +2929,7 @@
       "reader": "https://tadabburlife.com/?session=45&lang=id",
       "seo_title": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
       "meta_description": "Tadabbur Ad-Duha 93:3–5 tentang masa sunyi, doa yang terasa tertunda, dan cara menjaga husnuzan kepada Allah tanpa membuat janji hasil yang tidak disebut nash.",
-      "h1": "Saat Doa Belum Terjawab: Tadabbur Ad-Duha 93:3–5",
+      "h1": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
       "related_sessions": [
         "018",
         "031",
@@ -1542,6 +2950,38 @@
           "demand_evidence": "serp-directional",
           "competition": "medium"
         }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/045/",
+          "reader": "https://tadabburlife.com/?session=45&lang=id",
+          "seo_title": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
+          "meta_description": "Tadabbur Ad-Duha 93:3–5 tentang masa sunyi, doa yang terasa tertunda, dan cara menjaga husnuzan kepada Allah tanpa membuat janji hasil yang tidak disebut nash.",
+          "h1": "Saat Doa Belum Terjawab, Apakah Allah Meninggalkan Kita? — Ad-Duha 3–5",
+          "html_lang": "id",
+          "related_sessions": [
+            "018",
+            "031",
+            "032",
+            "007"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/045/",
+          "reader": "https://tadabburlife.com/?session=45&lang=en",
+          "seo_title": "What does Islam say when you feel Allah has abandoned you",
+          "meta_description": "A quiet season and a delayed answer do not automatically mean that Allah has abandoned a servant. Ad-Duha teaches the heart to read pauses through faith rathe",
+          "h1": "What does Islam say when you feel Allah has abandoned you",
+          "html_lang": "en",
+          "related_sessions": [
+            "018",
+            "031",
+            "032",
+            "007"
+          ]
+        }
       }
     },
     {
@@ -1555,7 +2995,7 @@
       "reader": "https://tadabburlife.com/?session=46&lang=id",
       "seo_title": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
       "meta_description": "Tadabbur Ash-Sharh 94:7–8 tentang ritme setelah menyelesaikan urusan: bersungguh-sungguh pada amal berikutnya dan mengarahkan harap hanya kepada Allah.",
-      "h1": "Setelah Selesai Satu Urusan — Tadabbur Ash-Sharh 94:7–8",
+      "h1": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
       "related_sessions": [
         "018",
         "044",
@@ -1575,6 +3015,38 @@
           "intent": "informational-reflection",
           "demand_evidence": "serp-directional",
           "competition": "low-medium"
+        }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/046/",
+          "reader": "https://tadabburlife.com/?session=46&lang=id",
+          "seo_title": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
+          "meta_description": "Tadabbur Ash-Sharh 94:7–8 tentang ritme setelah menyelesaikan urusan: bersungguh-sungguh pada amal berikutnya dan mengarahkan harap hanya kepada Allah.",
+          "h1": "Setelah Selesai Satu Urusan, Apa Selanjutnya? — Ash-Sharh 7–8",
+          "html_lang": "id",
+          "related_sessions": [
+            "018",
+            "044",
+            "010",
+            "039"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/046/",
+          "reader": "https://tadabburlife.com/?session=46&lang=en",
+          "seo_title": "Quran 94 7 8 meaning when you finish a task",
+          "meta_description": "The Qur",
+          "h1": "Quran 94 7 8 meaning when you finish a task",
+          "html_lang": "en",
+          "related_sessions": [
+            "018",
+            "044",
+            "010",
+            "039"
+          ]
         }
       }
     },
@@ -1609,6 +3081,38 @@
           "intent": "informational-reflection",
           "demand_evidence": "serp-directional",
           "competition": "low-medium"
+        }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-09-22",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/047/",
+          "reader": "https://tadabburlife.com/?session=47&lang=id",
+          "seo_title": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
+          "meta_description": "Tadabbur At-Tawbah 9:105 tentang amal, integritas kerja, pengawasan Allah, dan pertanggungjawaban yang melampaui penilaian manusia.",
+          "h1": "Bekerja Sungguh-Sungguh Meski Tidak Diawasi — At-Tawbah 9:105",
+          "html_lang": "id",
+          "related_sessions": [
+            "004",
+            "023",
+            "039",
+            "035"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/047/",
+          "reader": "https://tadabburlife.com/?session=47&lang=en",
+          "seo_title": "Quran verse about working sincerely when no one is watching",
+          "meta_description": "At-Tawbah 9:105 commands action and reminds us that deeds are seen by Allah and will be accounted for. Integrity cannot depend on whether people are watching.",
+          "h1": "Quran verse about working sincerely when no one is watching",
+          "html_lang": "en",
+          "related_sessions": [
+            "004",
+            "023",
+            "039",
+            "035"
+          ]
         }
       }
     }
@@ -1657,5 +3161,11 @@
         "012 owns smallest-good-deed / atom-weight accountability intent anchored to Az-Zalzalah 99:7-8."
       ]
     }
+  },
+  "implementation_sync": {
+    "status": "source-synced",
+    "synced_on": "2026-09-22",
+    "scope": "47 sessions x ID+EN = 94 landing implementations",
+    "note": "Technical implementation snapshot only. It does not upgrade Deep SERP evidence or change keyword/search-intent research status."
   }
 }
