@@ -209,7 +209,7 @@ def main() -> int:
     for n, s in enumerate(sessions, 1):
         id_ev = (s.get("seo", {}).get("id", {}) or {}).get("demand_evidence", "")
         en_ev = (s.get("seo", {}).get("en", {}) or {}).get("demand_evidence", "")
-        if n <= 16:
+        if n <= 20:
             if id_ev.startswith("deep-live-serp-validated") and en_ev.startswith("deep-live-serp-validated"):
                 deep_ok += 1
             else:
