@@ -2517,15 +2517,15 @@
     {
       "session": "037",
       "locked_title": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah",
-      "primary_long_tail": "ayat tentang musyawarah dalam mengambil keputusan bersama",
+      "primary_long_tail": "Asy Syura 42:38 musyawarah dalam mengambil keputusan",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/037/",
       "reader": "https://tadabburlife.com/?session=37&lang=id",
-      "seo_title": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38 | TadabburLife",
-      "meta_description": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah. Keputusan bersama yang sehat membutuhkan lebih dari satu suara.",
-      "h1": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
+      "seo_title": "Asy-Syura 42:38: Musyawarah dalam Mengambil Keputusan | TadabburLife",
+      "meta_description": "Asy-Syura 42:38 menyebut urusan orang beriman diputuskan melalui musyawarah. Pahami makna syura, ruang perbedaan pendapat, tanggung jawab pemimpin, dan batas musyawarah.",
+      "h1": "Asy-Syura 42:38: Musyawarah dalam Mengambil Keputusan",
       "related_sessions": [
         "036",
         "035",
@@ -2534,28 +2534,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang musyawarah dalam mengambil keputusan bersama",
+          "primary_long_tail": "Asy Syura 42:38 musyawarah dalam mengambil keputusan",
+          "adjacent_long_tail": "wa amruhum syura bainahum makna musyawarah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Asy-Syura 42:38 on shura/consultation as a believer's way of managing shared affairs, including honest advice, differing views, leadership responsibility, and limits of consultation.",
+          "cannibalization_guard": "Session 033 owns the moral direction of cooperation: help in righteousness, not sin. Session 042 owns verifying information before acting. Session 037 owns the consultation process for shared decisions after relevant information is brought into the room."
         },
         "en": {
-          "primary_long_tail": "Quran verse about consultation in decision making",
-          "adjacent_long_tail": "shura consultation in Islam Quran 42 38",
+          "primary_long_tail": "Quran 42:38 consultation in decision making",
+          "adjacent_long_tail": "shura consultation Quran 42 38 meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Quran 42:38 on shura/consultation in shared affairs: relevant knowledge, honest advice, differing views, and responsibility after consultation.",
+          "cannibalization_guard": "Session 033 owns the moral limits of cooperation; Session 042 owns information verification before action. Session 037 owns consultation as the collective decision-making process."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/037/",
           "reader": "https://tadabburlife.com/?session=37&lang=id",
-          "seo_title": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38 | TadabburLife",
-          "meta_description": "Musyawarah Bukan Sekadar Mendengar, tetapi Membuka Ruang Amanah. Keputusan bersama yang sehat membutuhkan lebih dari satu suara.",
-          "h1": "Musyawarah dalam Mengambil Keputusan — Asy-Syura 42:38",
+          "seo_title": "Asy-Syura 42:38: Musyawarah dalam Mengambil Keputusan | TadabburLife",
+          "meta_description": "Asy-Syura 42:38 menyebut urusan orang beriman diputuskan melalui musyawarah. Pahami makna syura, ruang perbedaan pendapat, tanggung jawab pemimpin, dan batas musyawarah.",
+          "h1": "Asy-Syura 42:38: Musyawarah dalam Mengambil Keputusan",
           "html_lang": "id",
           "related_sessions": [
             "036",
@@ -2567,9 +2572,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/037/",
           "reader": "https://tadabburlife.com/?session=37&lang=en",
-          "seo_title": "Quran verse about consultation in decision making",
-          "meta_description": "Consultation Is More Than Listening; It Opens a Space for Trust. Healthy shared decisions need more than one voice.",
-          "h1": "Quran verse about consultation in decision making",
+          "seo_title": "Quran 42:38: Consultation in Decision-Making | TadabburLife",
+          "meta_description": "Quran 42:38 describes believers as conducting their affairs through consultation. Explore shura, honest advice, shared decisions, leadership responsibility, and its limits.",
+          "h1": "Quran 42:38: Consultation in Decision-Making",
           "html_lang": "en",
           "related_sessions": [
             "036",
@@ -2583,15 +2588,15 @@
     {
       "session": "038",
       "locked_title": "Kebaikan Tidak Cukup Menjadi Simbol",
-      "primary_long_tail": "makna kebaikan sejati Al Baqarah 177 bukan sekadar simbol",
+      "primary_long_tail": "Al Baqarah 2:177 makna kebaikan sejati",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/038/",
       "reader": "https://tadabburlife.com/?session=38&lang=id",
-      "seo_title": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177 | TadabburLife",
-      "meta_description": "Kebaikan Tidak Cukup Menjadi Simbol. Al-Qur'an membongkar kecenderungan manusia menyempitkan agama menjadi tanda lahiriah.",
-      "h1": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
+      "seo_title": "Al-Baqarah 2:177: Apa Makna Kebaikan Sejati? | TadabburLife",
+      "meta_description": "Al-Baqarah 2:177 menjelaskan bahwa kebajikan bukan sekadar simbol lahiriah. Al-birr mencakup iman, ibadah, kepedulian sosial, menepati janji, dan sabar.",
+      "h1": "Al-Baqarah 2:177: Apa Makna Kebaikan Sejati?",
       "related_sessions": [
         "042",
         "019",
@@ -2600,28 +2605,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "makna kebaikan sejati Al Baqarah 177 bukan sekadar simbol",
+          "primary_long_tail": "Al Baqarah 2:177 makna kebaikan sejati",
+          "adjacent_long_tail": "kebajikan bukan menghadapkan wajah timur barat Al Baqarah 177",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Al-Baqarah 2:177 on al-birr as integrated righteousness: faith, worship, giving, fulfillment of promises, and patience rather than reducing religion to one outward symbol.",
+          "cannibalization_guard": "Session 024 owns fulfillment of contracts; Session 026 owns charity/multiplied reward; Session 039 owns sincere devotion/ikhlas; Session 040 owns Al-Ma'un's ritual-social critique. Session 038 owns the integrated definition of al-birr itself."
         },
         "en": {
-          "primary_long_tail": "Quran 2 177 meaning righteousness is not turning faces",
-          "adjacent_long_tail": "what is true righteousness in Islam Quran 2 177",
+          "primary_long_tail": "Quran 2:177 true righteousness meaning",
+          "adjacent_long_tail": "righteousness is not turning faces east west Quran 2 177",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 2:177 on true righteousness/al-birr as an integrated life of faith, worship, giving, promise-keeping, and patience.",
+          "cannibalization_guard": "Session 024 owns contracts; Session 026 owns charity multiplication; Session 039 owns sincerity in worship; Session 040 owns Al-Ma'un's social fruit of worship. Session 038 owns the integrated definition of righteousness."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/038/",
           "reader": "https://tadabburlife.com/?session=38&lang=id",
-          "seo_title": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177 | TadabburLife",
-          "meta_description": "Kebaikan Tidak Cukup Menjadi Simbol. Al-Qur'an membongkar kecenderungan manusia menyempitkan agama menjadi tanda lahiriah.",
-          "h1": "Makna Kebaikan Sejati dalam Al-Baqarah 2:177",
+          "seo_title": "Al-Baqarah 2:177: Apa Makna Kebaikan Sejati? | TadabburLife",
+          "meta_description": "Al-Baqarah 2:177 menjelaskan bahwa kebajikan bukan sekadar simbol lahiriah. Al-birr mencakup iman, ibadah, kepedulian sosial, menepati janji, dan sabar.",
+          "h1": "Al-Baqarah 2:177: Apa Makna Kebaikan Sejati?",
           "html_lang": "id",
           "related_sessions": [
             "042",
@@ -2633,9 +2643,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/038/",
           "reader": "https://tadabburlife.com/?session=38&lang=en",
-          "seo_title": "Quran 2 177 meaning righteousness is not turning faces",
-          "meta_description": "Righteousness Cannot Be Reduced to Symbols. The Qur'an dismantles the tendency to reduce religion to outward markers. Al-birr is presented as an integrated life of faith, worship, social care, commitment, and steadfastness.",
-          "h1": "Quran 2 177 meaning righteousness is not turning faces",
+          "seo_title": "Quran 2:177: What Is True Righteousness? | TadabburLife",
+          "meta_description": "Quran 2:177 explains that righteousness is more than outward symbols. Al-birr integrates faith, worship, giving, keeping promises, and patience under pressure.",
+          "h1": "Quran 2:177: What Is True Righteousness?",
           "html_lang": "en",
           "related_sessions": [
             "042",
@@ -2649,15 +2659,15 @@
     {
       "session": "039",
       "locked_title": "Amal yang Benar Membutuhkan Niat yang Lurus",
-      "primary_long_tail": "ayat tentang ikhlas dalam beramal Al Bayyinah 5",
+      "primary_long_tail": "Al Bayyinah 98:5 ikhlas beribadah kepada Allah",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/039/",
       "reader": "https://tadabburlife.com/?session=39&lang=id",
-      "seo_title": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5 | TadabburLife",
-      "meta_description": "Amal yang Benar Membutuhkan Niat yang Lurus. Setelah Sesi 038 mengingatkan bahwa kebaikan tidak cukup menjadi simbol,",
-      "h1": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
+      "seo_title": "Al-Bayyinah 98:5: Ikhlas Beribadah kepada Allah | TadabburLife",
+      "meta_description": "Al-Bayyinah 98:5 memerintahkan manusia beribadah kepada Allah dengan memurnikan ketaatan kepada-Nya, bersikap hanif, mendirikan salat, dan menunaikan zakat.",
+      "h1": "Al-Bayyinah 98:5: Ikhlas Beribadah kepada Allah",
       "related_sessions": [
         "040",
         "034",
@@ -2666,28 +2676,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang ikhlas dalam beramal Al Bayyinah 5",
+          "primary_long_tail": "Al Bayyinah 98:5 ikhlas beribadah kepada Allah",
+          "adjacent_long_tail": "mukhlisina lahud dina makna Al Bayyinah 5",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Al-Bayyinah 98:5 on sincere devotion to Allah, hanif orientation, prayer and zakah; sincerity as the inward direction of worship that remains joined to correct outward action.",
+          "cannibalization_guard": "Session 038 owns the broad integrated definition of righteousness. Session 040 owns Al-Ma'un's critique of heedless/showy prayer and neglect of vulnerable people. Session 039 owns ikhlas/sincere devotion to Allah as the inward orientation of worship."
         },
         "en": {
-          "primary_long_tail": "Quran verse about sincerity in worship",
-          "adjacent_long_tail": "how to make intention sincere for Allah",
+          "primary_long_tail": "Quran 98:5 sincere devotion to Allah meaning",
+          "adjacent_long_tail": "worship Allah sincere to Him in religion Quran 98 5",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Quran 98:5 on sincere devotion to Allah, upright faith, prayer and zakah, joining inward intention to real obedience.",
+          "cannibalization_guard": "Session 038 owns integrated righteousness; Session 040 owns Al-Ma'un's ritual-social warning. Session 039 owns sincere devotion/ikhlas in worship."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/039/",
           "reader": "https://tadabburlife.com/?session=39&lang=id",
-          "seo_title": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5 | TadabburLife",
-          "meta_description": "Amal yang Benar Membutuhkan Niat yang Lurus. Setelah Sesi 038 mengingatkan bahwa kebaikan tidak cukup menjadi simbol,",
-          "h1": "Ayat tentang Ikhlas dalam Beramal — Al-Bayyinah 98:5",
+          "seo_title": "Al-Bayyinah 98:5: Ikhlas Beribadah kepada Allah | TadabburLife",
+          "meta_description": "Al-Bayyinah 98:5 memerintahkan manusia beribadah kepada Allah dengan memurnikan ketaatan kepada-Nya, bersikap hanif, mendirikan salat, dan menunaikan zakat.",
+          "h1": "Al-Bayyinah 98:5: Ikhlas Beribadah kepada Allah",
           "html_lang": "id",
           "related_sessions": [
             "040",
@@ -2699,9 +2714,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/039/",
           "reader": "https://tadabburlife.com/?session=39&lang=en",
-          "seo_title": "Quran verse about sincerity in worship",
-          "meta_description": "Right Action Needs a Sincere Intention. After Session 038 showed that righteousness cannot be reduced to symbols, Al-Bayyinah 98:5 takes us to the inward center of action: worship is directed sincerely to Allah and then embodied in real obedience.",
-          "h1": "Quran verse about sincerity in worship",
+          "seo_title": "Quran 98:5: Sincere Devotion to Allah in Worship | TadabburLife",
+          "meta_description": "Quran 98:5 commands worship with sincere devotion to Allah, upright faith, prayer, and zakah. Explore what sincerity means and why good intention does not replace right action.",
+          "h1": "Quran 98:5: Sincere Devotion to Allah in Worship",
           "html_lang": "en",
           "related_sessions": [
             "040",
@@ -2715,15 +2730,15 @@
     {
       "session": "040",
       "locked_title": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah",
-      "primary_long_tail": "tadabbur Al Maun tentang ibadah dan kepedulian sosial",
+      "primary_long_tail": "Surat Al Maun makna ibadah dan kepedulian sosial",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/040/",
       "reader": "https://tadabburlife.com/?session=40&lang=id",
-      "seo_title": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah | TadabburLife",
-      "meta_description": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah. Surah Al-Ma'un mempertemukan pengingkaran Hari Pembalasan,",
-      "h1": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
+      "seo_title": "Surat Al-Ma'un: Salat, Riya, Yatim, Miskin, dan Kepedulian | TadabburLife",
+      "meta_description": "Surat Al-Ma'un menghubungkan pengingkaran Hari Pembalasan, pengabaian yatim dan miskin, kelalaian salat, riya, serta menahan bantuan kecil. Pahami hubungan ibadah dan kepedulian sosial.",
+      "h1": "Surat Al-Ma'un: Salat, Riya, Yatim, Miskin, dan Kepedulian",
       "related_sessions": [
         "039",
         "044",
@@ -2732,28 +2747,33 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "tadabbur Al Maun tentang ibadah dan kepedulian sosial",
+          "primary_long_tail": "Surat Al Maun makna ibadah dan kepedulian sosial",
+          "adjacent_long_tail": "Al Maun yatim miskin lalai salat riya bantuan kecil makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Surah Al-Ma'un as a whole: denial of Judgment, mistreatment of orphans, neglect of the poor, heedless/showy prayer, and withholding small useful help; ritual sincerity joined to social compassion.",
+          "cannibalization_guard": "Session 038 owns the integrated definition of al-birr across faith and deeds. Session 039 owns sincerity/ikhlas in worship. Session 040 owns the Surah Al-Ma'un pattern linking prayer, riya, vulnerable people, and small acts of help."
         },
         "en": {
-          "primary_long_tail": "Surah Al Maun meaning prayer and caring for the poor",
-          "adjacent_long_tail": "what Surah Al Maun teaches about social responsibility",
+          "primary_long_tail": "Surah Al Maun meaning prayer caring for poor",
+          "adjacent_long_tail": "Surah Al Maun orphans poor showing off prayer small kindnesses",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "competition": "high",
+          "search_territory": "Surah Al-Ma'un on the connection between final accountability, treatment of orphans and the poor, heedless/showy prayer, and withholding small acts of help.",
+          "cannibalization_guard": "Session 038 owns true righteousness broadly; Session 039 owns sincere devotion in worship. Session 040 owns Al-Ma'un's specific ritual-social warning."
         }
       },
       "implementation": {
         "synced_from": "source-landings",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/040/",
           "reader": "https://tadabburlife.com/?session=40&lang=id",
-          "seo_title": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah | TadabburLife",
-          "meta_description": "Ibadah Tidak Boleh Membuat Kita Buta terhadap yang Lemah. Surah Al-Ma'un mempertemukan pengingkaran Hari Pembalasan,",
-          "h1": "Tadabbur Al-Ma'un: Ibadah dan Kepedulian kepada yang Lemah",
+          "seo_title": "Surat Al-Ma'un: Salat, Riya, Yatim, Miskin, dan Kepedulian | TadabburLife",
+          "meta_description": "Surat Al-Ma'un menghubungkan pengingkaran Hari Pembalasan, pengabaian yatim dan miskin, kelalaian salat, riya, serta menahan bantuan kecil. Pahami hubungan ibadah dan kepedulian sosial.",
+          "h1": "Surat Al-Ma'un: Salat, Riya, Yatim, Miskin, dan Kepedulian",
           "html_lang": "id",
           "related_sessions": [
             "039",
@@ -2765,9 +2785,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/040/",
           "reader": "https://tadabburlife.com/?session=40&lang=en",
-          "seo_title": "Surah Al Maun meaning prayer and caring for the poor",
-          "meta_description": "Worship Must Not Make Us Blind to the Vulnerable. Al-Ma'un brings together denial of Judgment, mistreatment of the orphan and poor, negligence in prayer, showing off, and withholding small acts of help.",
-          "h1": "Surah Al Maun meaning prayer and caring for the poor",
+          "seo_title": "Surah Al-Ma'un: Prayer, Showing Off, Orphans, and the Poor | TadabburLife",
+          "meta_description": "Surah Al-Ma'un connects denial of Judgment with neglect of orphans and the poor, heedless prayer, showing off, and withholding small acts of help. Explore worship and social responsibility.",
+          "h1": "Surah Al-Ma'un: Prayer, Showing Off, Orphans, and the Poor",
           "html_lang": "en",
           "related_sessions": [
             "039",
@@ -3246,7 +3266,7 @@
     }
   ],
   "version": "2.0-bilingual-serp",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "cannibalization_controls": [
     "One primary search intent per language per canonical landing.",
     "English targets are independently selected and must not be literal translations by default.",
@@ -3299,12 +3319,12 @@
     "last_deep_serp_audit": "seo/deep-serp-021-024-2026-09-22.md"
   },
   "deep_serp_boundary": {
-    "deep_through": "036",
-    "directional_from": "037",
-    "deep_sessions": 36,
-    "directional_sessions": 11,
-    "session_language_targets_deep": 72,
-    "last_completed_batch": "033-036",
-    "validated_on": "2026-09-22"
+    "deep_through": "040",
+    "directional_from": "041",
+    "deep_sessions": 40,
+    "directional_sessions": 7,
+    "session_language_targets_deep": 80,
+    "last_completed_batch": "037-040",
+    "validated_on": "2026-09-23"
   }
 }
