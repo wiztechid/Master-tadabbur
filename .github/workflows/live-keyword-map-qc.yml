@@ -1,0 +1,41 @@
+name: Live Keyword Map Landing QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-keyword-map-qc.yml'
+      - '.github/scripts/live_keyword_map_qc.py'
+      - 'seo/keyword-map.json'
+
+permissions:
+  contents: read
+
+jobs:
+  live-keyword-map:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live keyword-map QC
+        id: qc
+        continue-on-error: true
+        run: python3 .github/scripts/live_keyword_map_qc.py
+
+      - name: Upload live keyword-map QC report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-keyword-map-qc
+          path: qc-live-keyword-map-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce live keyword-map QC
+        if: steps.qc.outcome == 'failure'
+        run: |
+          echo "Live keyword-map QC failed. See artifact."
+          exit 1
