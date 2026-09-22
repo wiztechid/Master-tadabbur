@@ -1,0 +1,52 @@
+name: Normalize Metadata and OG Share
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/normalize-metadata-og.yml'
+      - '.github/scripts/normalize_metadata_og.py'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize-metadata-og:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalize and QC metadata/OG
+        id: normalize
+        run: python3 .github/scripts/normalize_metadata_og.py
+
+      - name: Resync keyword-map implementation snapshot
+        run: python3 .github/scripts/sync_keyword_map.py
+
+      - name: Upload metadata normalization report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-metadata-og-normalization-qc
+          path: |
+            qc-metadata-normalization-report/
+            qc-keyword-map-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit normalized metadata and keyword map
+        run: |
+          if git diff --quiet -- tadabbur en/tadabbur seo/keyword-map.json; then
+            echo "No metadata changes required."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tadabbur en/tadabbur seo/keyword-map.json
+          git commit -m "SEO: normalize metadata and OG share integrity across 94 landings"
+          git push
