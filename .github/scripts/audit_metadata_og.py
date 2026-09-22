@@ -112,9 +112,17 @@ def audit(path:Path)->dict[str,Any]:
       "og:title":p.meta.get("og:title",""),
       "og:description":p.meta.get("og:description",""),
       "og:url":p.meta.get("og:url",""),
+      "og:image":p.meta.get("og:image",""),
+      "og:image:secure_url":p.meta.get("og:image:secure_url",""),
+      "og:image:type":p.meta.get("og:image:type",""),
+      "og:image:width":p.meta.get("og:image:width",""),
+      "og:image:height":p.meta.get("og:image:height",""),
+      "og:image:alt":p.meta.get("og:image:alt",""),
       "twitter:card":p.meta.get("twitter:card",""),
       "twitter:title":p.meta.get("twitter:title",""),
       "twitter:description":p.meta.get("twitter:description",""),
+      "twitter:image":p.meta.get("twitter:image",""),
+      "twitter:image:alt":p.meta.get("twitter:image:alt",""),
     }
     for k,v in required.items():
         if not v:
@@ -127,7 +135,16 @@ def audit(path:Path)->dict[str,Any]:
     if p.meta.get("og:url") and p.meta.get("og:url")!=can: issues.append("og_url")
     if p.meta.get("og:title") and p.meta.get("og:title")!=heading: issues.append("og_title_h1")
     if p.meta.get("og:description") and p.meta.get("og:description")!=desc: issues.append("og_description_meta")
-    if p.meta.get("twitter:card") and p.meta.get("twitter:card")!="summary": issues.append("twitter_card")
+    expected_image=f"https://tadabburlife.com/og/reflection/{'en' if is_en else 'id'}/{path.parent.name}.png"
+    if p.meta.get("og:image")!=expected_image: issues.append("og_image")
+    if p.meta.get("og:image:secure_url")!=expected_image: issues.append("og_image_secure")
+    if p.meta.get("og:image:type")!="image/png": issues.append("og_image_type")
+    if p.meta.get("og:image:width")!="1200": issues.append("og_image_width")
+    if p.meta.get("og:image:height")!="630": issues.append("og_image_height")
+    if not p.meta.get("og:image:alt"): issues.append("og_image_alt")
+    if p.meta.get("twitter:card")!="summary_large_image": issues.append("twitter_card")
+    if p.meta.get("twitter:image")!=expected_image: issues.append("twitter_image")
+    if not p.meta.get("twitter:image:alt"): issues.append("twitter_image_alt")
     if p.meta.get("twitter:title") and p.meta.get("twitter:title")!=heading: issues.append("twitter_title_h1")
     if p.meta.get("twitter:description") and p.meta.get("twitter:description")!=desc: issues.append("twitter_description_meta")
 
