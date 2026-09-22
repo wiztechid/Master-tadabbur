@@ -1,5 +1,7 @@
 name: Live Keyword Map Landing QC
 
+# Research boundary: Deep 001-016; directional 017-047
+
 on:
   workflow_dispatch:
   push:
