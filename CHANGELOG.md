@@ -25,7 +25,8 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Updated keyword-map validators so the research boundary is now **001–016 Deep validated / 017–047 directional**.
 - Added research record `seo/deep-serp-013-016-2026-09-22.md`.
 - Added targeted live validator `.github/scripts/live_deep_serp_013_016_qc.py` and workflow `.github/workflows/live-deep-serp-013-016-qc.yml`.
-- Final live batch QC: **8 / 8 HTTP 200, 8 / 8 PASS, 0 failures** for title/H1/meta ↔ map, canonical, OG, Article schema, answer-block presence, evidence status, search territory, and cannibalization guard.
+- Final targeted live batch QC: **8 / 8 HTTP 200, 8 / 8 PASS, 0 failures** for title/H1/meta ↔ map, canonical, OG, Article schema, answer-block presence, evidence status, search territory, and cannibalization guard.
+- Full post-batch registry QC also passed: **94 / 94 source implementation PASS**, **94 / 94 live map↔landing PASS**, **47 / 47 related parity**, **16 Deep / 31 directional**, and **0 research-boundary issues**.
 - Active Deep SERP priority advances to **Sessions 017–020 bilingual**.
 
 ### [Domain / SEO] TadabburLife Custom-Domain Baseline
