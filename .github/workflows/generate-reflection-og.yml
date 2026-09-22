@@ -1,0 +1,66 @@
+name: Generate Reflection Card OG Images
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-reflection-og.yml'
+      - '.github/scripts/generate_reflection_og.py'
+      - '.github/scripts/attach_reflection_og.py'
+      - '.github/scripts/normalize_metadata_og.py'
+      - 'data/sessions-*.html'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-og:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install SVG renderer
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y librsvg2-bin fonts-dejavu-core
+
+      - name: Generate 94 Reflection Card OG images
+        run: python3 .github/scripts/generate_reflection_og.py
+
+      - name: Attach OG images to 94 landings
+        run: python3 .github/scripts/attach_reflection_og.py
+
+      - name: Normalize and verify metadata baseline
+        run: python3 .github/scripts/normalize_metadata_og.py
+
+      - name: Resync keyword-map implementation snapshot
+        run: python3 .github/scripts/sync_keyword_map.py
+
+      - name: Upload OG generation QC
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-reflection-og-generation-qc
+          path: |
+            qc-og-reflection-report/
+            qc-metadata-normalization-report/
+            qc-keyword-map-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit generated OG assets and metadata
+        run: |
+          if git diff --quiet -- og/reflection tadabbur en/tadabbur seo/keyword-map.json; then
+            echo "Reflection Card OG assets already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add og/reflection tadabbur en/tadabbur seo/keyword-map.json
+          git commit -m "Share: publish 94 Reflection Card OG images"
+          git push
