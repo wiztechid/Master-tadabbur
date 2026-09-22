@@ -1,0 +1,40 @@
+name: Live 94-Landing Schema QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-schema-qc.yml'
+      - '.github/scripts/live_schema_qc.py'
+
+permissions:
+  contents: read
+
+jobs:
+  live-schema:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live schema QC
+        id: schema
+        continue-on-error: true
+        run: python3 .github/scripts/live_schema_qc.py
+
+      - name: Upload live schema QC report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-schema-qc
+          path: qc-live-schema-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce live schema QC
+        if: steps.schema.outcome == 'failure'
+        run: |
+          echo "Live schema QC failed. See tadabburlife-live-schema-qc artifact."
+          exit 1
