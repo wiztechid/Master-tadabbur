@@ -23,11 +23,11 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
 ### [Technical / P0] Deploy Parity & Cache Verification
-- Verified final `main` head `c413b663031913a3661f33a492e303e3cc7490d3` completed a successful GitHub Pages deployment.
-- Verified the generated `github-pages` artifact was built from the same head SHA as `main`.
+- Verified public-content checkpoint `c413b663031913a3661f33a492e303e3cc7490d3` completed a successful GitHub Pages deployment.
+- Verified the generated `github-pages` artifact was built from the same SHA as that public-content checkpoint.
 - Verified source ↔ deployment-artifact parity for critical public files/structure.
 - Classified the earlier stale visual state as pre-final-deployment timing rather than a source/build mismatch.
-- Marked **P0 Deploy Parity / Cache = PASS** for source → GitHub Pages artifact.
+- Marked **P0 Deploy Parity / Cache = PASS** for public HTML source → GitHub Pages artifact. Subsequent documentation-only commits do not alter that public-page parity checkpoint.
 - Kept the overall Technical Green Gate open pending **live 103-URL custom-domain crawl QC** and remaining live regression checks.
 
 ### [Governance] Master SOP v1.2
