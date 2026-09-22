@@ -2233,15 +2233,15 @@
     {
       "session": "033",
       "locked_title": "Kerja Sama Juga Harus Memiliki Arah Moral",
-      "primary_long_tail": "ayat tentang kerja sama dalam kebaikan bukan dalam dosa",
+      "primary_long_tail": "Al Maidah 5:2 tolong menolong dalam kebaikan bukan dosa",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/033/",
       "reader": "https://tadabburlife.com/?session=33&lang=id",
-      "seo_title": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2 | TadabburLife",
-      "meta_description": "Kerja Sama Juga Harus Memiliki Arah Moral. Tidak semua kekompakan adalah kebaikan.",
-      "h1": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
+      "seo_title": "Al-Ma'idah 5:2: Tolong-Menolong dalam Kebaikan, Bukan Dosa | TadabburLife",
+      "meta_description": "Al-Ma'idah 5:2 memerintahkan tolong-menolong dalam kebajikan dan takwa serta melarang kerja sama dalam dosa dan pelanggaran. Pahami batas loyalitas dan solidaritas.",
+      "h1": "Al-Ma'idah 5:2: Tolong-Menolong dalam Kebaikan, Bukan Dosa",
       "related_sessions": [
         "035",
         "036",
@@ -2250,17 +2250,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang kerja sama dalam kebaikan bukan dalam dosa",
+          "primary_long_tail": "Al Maidah 5:2 tolong menolong dalam kebaikan bukan dosa",
+          "adjacent_long_tail": "ayat tentang kerja sama dalam kebajikan dan takwa",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Al-Ma'idah 5:2 on cooperation in righteousness and piety, with an explicit prohibition on cooperation in sin and aggression.",
+          "cannibalization_guard": "Session 037 owns consultation/shura in collective decisions. Session 033 owns the moral direction and limits of cooperation itself: help in birr/taqwa, not sin/aggression."
         },
         "en": {
-          "primary_long_tail": "Quran verse about cooperating in goodness not sin",
+          "primary_long_tail": "Quran 5:2 cooperate in righteousness not sin",
           "adjacent_long_tail": "cooperate in righteousness Quran 5 2 meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Quran 5:2 on cooperation in righteousness and piety versus cooperation in sin and aggression.",
+          "cannibalization_guard": "Session 037 owns consultation in decision-making. Session 033 owns the moral limits of cooperation and solidarity."
         }
       },
       "implementation": {
@@ -2269,9 +2274,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/033/",
           "reader": "https://tadabburlife.com/?session=33&lang=id",
-          "seo_title": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2 | TadabburLife",
-          "meta_description": "Kerja Sama Juga Harus Memiliki Arah Moral. Tidak semua kekompakan adalah kebaikan.",
-          "h1": "Kerja Sama dalam Kebaikan, Bukan dalam Dosa — Al-Ma'idah 5:2",
+          "seo_title": "Al-Ma'idah 5:2: Tolong-Menolong dalam Kebaikan, Bukan Dosa | TadabburLife",
+          "meta_description": "Al-Ma'idah 5:2 memerintahkan tolong-menolong dalam kebajikan dan takwa serta melarang kerja sama dalam dosa dan pelanggaran. Pahami batas loyalitas dan solidaritas.",
+          "h1": "Al-Ma'idah 5:2: Tolong-Menolong dalam Kebaikan, Bukan Dosa",
           "html_lang": "id",
           "related_sessions": [
             "035",
@@ -2283,9 +2288,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/033/",
           "reader": "https://tadabburlife.com/?session=33&lang=en",
-          "seo_title": "Quran verse about cooperating in goodness not sin",
-          "meta_description": "Cooperation Also Needs a Moral Direction. Not every form of solidarity is good.",
-          "h1": "Quran verse about cooperating in goodness not sin",
+          "seo_title": "Quran 5:2: Cooperate in Righteousness, Not Sin | TadabburLife",
+          "meta_description": "Quran 5:2 commands cooperation in righteousness and piety, and forbids cooperation in sin and aggression. Explore the moral limits of loyalty and solidarity.",
+          "h1": "Quran 5:2: Cooperate in Righteousness, Not Sin",
           "html_lang": "en",
           "related_sessions": [
             "035",
@@ -2299,15 +2304,15 @@
     {
       "session": "034",
       "locked_title": "Dunia di Tangan, Akhirat Tetap Menjadi Arah",
-      "primary_long_tail": "ayat tentang keseimbangan dunia dan akhirat Al Qasas 77",
+      "primary_long_tail": "Al Qasas 28:77 keseimbangan dunia akhirat",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/034/",
       "reader": "https://tadabburlife.com/?session=34&lang=id",
-      "seo_title": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77 | TadabburLife",
-      "meta_description": "Dunia di Tangan, Akhirat Tetap Menjadi Arah. Al-Qur'an tidak mengajarkan meninggalkan dunia, tetapi menolak menjadikan dunia sebagai tujuan terakhir.",
-      "h1": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
+      "seo_title": "Al-Qasas 28:77: Akhirat Tujuan, Dunia Jangan Dilupakan | TadabburLife",
+      "meta_description": "Al-Qasas 28:77 memerintahkan mencari akhirat dengan nikmat Allah tanpa melupakan bagian dunia. Pahami keseimbangan dunia-akhirat sebagai tertib tujuan, ihsan, dan larangan merusak.",
+      "h1": "Al-Qasas 28:77: Akhirat Tujuan, Dunia Jangan Dilupakan",
       "related_sessions": [
         "030",
         "039",
@@ -2316,17 +2321,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang keseimbangan dunia dan akhirat Al Qasas 77",
+          "primary_long_tail": "Al Qasas 28:77 keseimbangan dunia akhirat",
+          "adjacent_long_tail": "jangan lupakan bagian dunia Al Qasas 28 77 makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Al-Qasas 28:77 on seeking the Hereafter with what Allah has given, not forgetting one's lawful worldly share, doing ihsan, and avoiding corruption.",
+          "cannibalization_guard": "Session 030 owns what deeds are sent ahead for tomorrow/the Hereafter. Session 041 owns wealth and children versus lasting good deeds. Session 034 owns dunya-akhirah orientation and the use of worldly blessings as a means."
         },
         "en": {
-          "primary_long_tail": "how to balance dunya and akhirah Quran 28 77",
-          "adjacent_long_tail": "Quran verse about balance between world and hereafter",
+          "primary_long_tail": "Quran 28:77 balance dunya and akhirah",
+          "adjacent_long_tail": "seek the Hereafter without forgetting your share of the world Quran 28 77",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 28:77 on seeking the Hereafter without forgetting one's lawful share of the world, with ihsan and a prohibition on corruption.",
+          "cannibalization_guard": "Session 030 owns provision sent ahead for the Hereafter; Session 041 owns lasting deeds versus worldly adornment. Session 034 owns dunya-akhirah orientation."
         }
       },
       "implementation": {
@@ -2335,9 +2345,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/034/",
           "reader": "https://tadabburlife.com/?session=34&lang=id",
-          "seo_title": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77 | TadabburLife",
-          "meta_description": "Dunia di Tangan, Akhirat Tetap Menjadi Arah. Al-Qur'an tidak mengajarkan meninggalkan dunia, tetapi menolak menjadikan dunia sebagai tujuan terakhir.",
-          "h1": "Keseimbangan Dunia dan Akhirat — Tadabbur Al-Qasas 28:77",
+          "seo_title": "Al-Qasas 28:77: Akhirat Tujuan, Dunia Jangan Dilupakan | TadabburLife",
+          "meta_description": "Al-Qasas 28:77 memerintahkan mencari akhirat dengan nikmat Allah tanpa melupakan bagian dunia. Pahami keseimbangan dunia-akhirat sebagai tertib tujuan, ihsan, dan larangan merusak.",
+          "h1": "Al-Qasas 28:77: Akhirat Tujuan, Dunia Jangan Dilupakan",
           "html_lang": "id",
           "related_sessions": [
             "030",
@@ -2349,9 +2359,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/034/",
           "reader": "https://tadabburlife.com/?session=34&lang=en",
-          "seo_title": "How to balance dunya and akhirah Quran 28 77",
-          "meta_description": "The World in Your Hand, the Hereafter as Your Direction. The Qur'an does not teach us to abandon the world, but it refuses to make the world our final destination.",
-          "h1": "How to balance dunya and akhirah Quran 28 77",
+          "seo_title": "Quran 28:77: Seek the Hereafter Without Forgetting the World | TadabburLife",
+          "meta_description": "Quran 28:77 says to seek the Hereafter with what Allah has given you without forgetting your share of the world. Explore balance, ihsan, responsibility, and avoiding corruption.",
+          "h1": "Quran 28:77: Seek the Hereafter Without Forgetting the World",
           "html_lang": "en",
           "related_sessions": [
             "030",
@@ -2365,15 +2375,15 @@
     {
       "session": "035",
       "locked_title": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh",
-      "primary_long_tail": "ayat tentang adil dan ihsan dalam kehidupan sehari hari",
+      "primary_long_tail": "An Nahl 16:90 adil dan ihsan makna",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/035/",
       "reader": "https://tadabburlife.com/?session=35&lang=id",
-      "seo_title": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90 | TadabburLife",
-      "meta_description": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh. Ada tingkat minimum yang tidak boleh ditawar: keadilan. Namun Al-Qur'an tidak berhenti pada batas minimum itu.",
-      "h1": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
+      "seo_title": "An-Nahl 16:90: Allah Memerintahkan Adil dan Ihsan | TadabburLife",
+      "meta_description": "An-Nahl 16:90 memerintahkan keadilan dan ihsan, memberi kepada kerabat, serta melarang kekejian, kemungkaran, dan baghy. Pahami beda adil dan ihsan dalam kehidupan sehari-hari.",
+      "h1": "An-Nahl 16:90: Allah Memerintahkan Adil dan Ihsan",
       "related_sessions": [
         "036",
         "033",
@@ -2382,17 +2392,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang adil dan ihsan dalam kehidupan sehari hari",
+          "primary_long_tail": "An Nahl 16:90 adil dan ihsan makna",
+          "adjacent_long_tail": "ayat Allah memerintahkan adil dan ihsan",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "An-Nahl 16:90 as a broad ethical command: justice, ihsan, giving relatives their due, and prohibitions on fahsha, munkar and baghy.",
+          "cannibalization_guard": "Session 020 owns justice specifically under hatred/dislike (Al-Ma'idah 5:8). Session 004 owns trust + justice in office/authority (An-Nisa 4:58/135). Session 035 owns the general justice-plus-ihsan ethic under An-Nahl 16:90."
         },
         "en": {
-          "primary_long_tail": "Quran verse about justice and excellence ihsan",
-          "adjacent_long_tail": "Allah commands justice and ihsan Quran 16 90 meaning",
+          "primary_long_tail": "Quran 16:90 justice and ihsan meaning",
+          "adjacent_long_tail": "Allah commands justice and ihsan Quran 16 90",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 16:90 on the broad ethical pairing of justice and ihsan, along with giving relatives their due and avoiding transgression.",
+          "cannibalization_guard": "Session 020 owns justice toward disliked people; Session 004 owns trust/justice in authority. Session 035 owns general justice + ihsan."
         }
       },
       "implementation": {
@@ -2401,9 +2416,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/035/",
           "reader": "https://tadabburlife.com/?session=35&lang=id",
-          "seo_title": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90 | TadabburLife",
-          "meta_description": "Adil Itu Wajib, Ihsan Membawa Kita Lebih Jauh. Ada tingkat minimum yang tidak boleh ditawar: keadilan. Namun Al-Qur'an tidak berhenti pada batas minimum itu.",
-          "h1": "Adil dan Ihsan dalam Kehidupan Sehari-hari — An-Nahl 16:90",
+          "seo_title": "An-Nahl 16:90: Allah Memerintahkan Adil dan Ihsan | TadabburLife",
+          "meta_description": "An-Nahl 16:90 memerintahkan keadilan dan ihsan, memberi kepada kerabat, serta melarang kekejian, kemungkaran, dan baghy. Pahami beda adil dan ihsan dalam kehidupan sehari-hari.",
+          "h1": "An-Nahl 16:90: Allah Memerintahkan Adil dan Ihsan",
           "html_lang": "id",
           "related_sessions": [
             "036",
@@ -2415,9 +2430,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/035/",
           "reader": "https://tadabburlife.com/?session=35&lang=en",
-          "seo_title": "Quran verse about justice and excellence ihsan",
-          "meta_description": "Justice Is Required; Excellence Takes Us Further. There is a minimum that cannot be negotiated away: justice. Yet the Qur'an does not stop at that minimum.",
-          "h1": "Quran verse about justice and excellence ihsan",
+          "seo_title": "Quran 16:90: Allah Commands Justice and Ihsan | TadabburLife",
+          "meta_description": "Quran 16:90 commands justice and ihsan, giving to relatives, and forbids immorality, wrongdoing, and transgression. Explore the difference between justice and ihsan.",
+          "h1": "Quran 16:90: Allah Commands Justice and Ihsan",
           "html_lang": "en",
           "related_sessions": [
             "036",
@@ -2431,15 +2446,15 @@
     {
       "session": "036",
       "locked_title": "Jangan Biarkan Harta Hilang Tanpa Arah",
-      "primary_long_tail": "ayat tentang boros dan cara menggunakan harta dengan benar",
+      "primary_long_tail": "Al Isra 17:26 27 tabdzir boros makna",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/036/",
       "reader": "https://tadabburlife.com/?session=36&lang=id",
-      "seo_title": "Ayat tentang Boros dan Menggunakan Harta dengan Benar | TadabburLife",
-      "meta_description": "Jangan Biarkan Harta Hilang Tanpa Arah. Al-Qur'an menempatkan pemberian hak dan larangan pemborosan dalam satu rangkaian: harta bukan sekadar sesuatu yang kita miliki, tetapi amanah yang harus diarahkan secara benar.",
-      "h1": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
+      "seo_title": "Al-Isra 17:26–27: Larangan Boros dan Makna Tabdzir | TadabburLife",
+      "meta_description": "Al-Isra 17:26–27 memerintahkan memberi hak kerabat, orang miskin, dan musafir lalu melarang tabdzir. Pahami arti boros, pemborosan, dan penggunaan harta yang bertanggung jawab.",
+      "h1": "Al-Isra 17:26–27: Larangan Boros dan Makna Tabdzir",
       "related_sessions": [
         "035",
         "037",
@@ -2448,17 +2463,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang boros dan cara menggunakan harta dengan benar",
+          "primary_long_tail": "Al Isra 17:26 27 tabdzir boros makna",
+          "adjacent_long_tail": "ayat tentang boros saudara setan Al Isra 27",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Al-Isra 17:26-27 on giving due rights and prohibiting tabdhir/wasteful spending, with emphasis on moral direction of wealth rather than generic frugality.",
+          "cannibalization_guard": "Session 026 owns charity and multiplied reward; Session 034 owns dunya-akhirah orientation; Session 041 owns wealth/children versus lasting deeds. Session 036 owns tabdhir, wasteful spending, and responsible direction of wealth."
         },
         "en": {
-          "primary_long_tail": "Quran verse about wasteful spending",
-          "adjacent_long_tail": "how to avoid extravagance in Islam Quran",
+          "primary_long_tail": "Quran 17:26-27 wasteful spending tabdhir meaning",
+          "adjacent_long_tail": "wasteful are brothers of devils Quran 17 27 meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 17:26-27 on due rights, tabdhir/squandering, and responsible moral direction of wealth.",
+          "cannibalization_guard": "Session 026 owns charity; Session 034 owns dunya-akhirah balance/orientation; Session 041 owns lasting deeds versus wealth. Session 036 owns tabdhir/wasteful spending."
         }
       },
       "implementation": {
@@ -2467,9 +2487,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/036/",
           "reader": "https://tadabburlife.com/?session=36&lang=id",
-          "seo_title": "Ayat tentang Boros dan Menggunakan Harta dengan Benar | TadabburLife",
-          "meta_description": "Jangan Biarkan Harta Hilang Tanpa Arah. Al-Qur'an menempatkan pemberian hak dan larangan pemborosan dalam satu rangkaian: harta bukan sekadar sesuatu yang kita miliki, tetapi amanah yang harus diarahkan secara benar.",
-          "h1": "Ayat tentang Boros dan Menggunakan Harta dengan Benar",
+          "seo_title": "Al-Isra 17:26–27: Larangan Boros dan Makna Tabdzir | TadabburLife",
+          "meta_description": "Al-Isra 17:26–27 memerintahkan memberi hak kerabat, orang miskin, dan musafir lalu melarang tabdzir. Pahami arti boros, pemborosan, dan penggunaan harta yang bertanggung jawab.",
+          "h1": "Al-Isra 17:26–27: Larangan Boros dan Makna Tabdzir",
           "html_lang": "id",
           "related_sessions": [
             "035",
@@ -2481,9 +2501,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/036/",
           "reader": "https://tadabburlife.com/?session=36&lang=en",
-          "seo_title": "Quran verse about wasteful spending",
-          "meta_description": "The Qur'an places the giving of rights beside the prohibition of waste: wealth is not merely something we possess, but a trust that needs moral direction.",
-          "h1": "Quran verse about wasteful spending",
+          "seo_title": "Quran 17:26–27: Wasteful Spending and Tabdhir | TadabburLife",
+          "meta_description": "Quran 17:26–27 commands giving due rights, then forbids tabdhir or wasteful spending. Explore what squandering means and how wealth can be used responsibly.",
+          "h1": "Quran 17:26–27: Wasteful Spending and Tabdhir",
           "html_lang": "en",
           "related_sessions": [
             "035",
@@ -3279,12 +3299,12 @@
     "last_deep_serp_audit": "seo/deep-serp-021-024-2026-09-22.md"
   },
   "deep_serp_boundary": {
-    "deep_through": "032",
-    "directional_from": "033",
-    "deep_sessions": 32,
-    "directional_sessions": 15,
-    "session_language_targets_deep": 64,
-    "last_completed_batch": "029-032",
+    "deep_through": "036",
+    "directional_from": "037",
+    "deep_sessions": 36,
+    "directional_sessions": 11,
+    "session_language_targets_deep": 72,
+    "last_completed_batch": "033-036",
     "validated_on": "2026-09-22"
   }
 }
