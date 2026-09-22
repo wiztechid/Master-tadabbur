@@ -22,6 +22,22 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [Technical / P0] Live 103-URL Crawl QC — PASS
+- Added permanent public-network crawler at `.github/scripts/live_crawl_qc.py`.
+- Added GitHub Actions workflow `.github/workflows/live-crawl-qc.yml` so the custom-domain crawl is repeatable and auditable.
+- Verified the live sitemap contains **103 / 103** intended public URLs.
+- Verified **103 / 103** sitemap URLs return HTTP **200**.
+- Verified **0** sitemap-URL redirects.
+- Verified **0** canonical mismatches/missing canonicals.
+- Verified **0** `noindex` pages in the sitemap inventory.
+- Verified **0** soft-404 suspects.
+- Verified live `robots.txt` and `sitemap.xml` both return HTTP 200 and robots points to the custom-domain sitemap while blocking `/owner/`.
+- Verified no stale `Master Tadabbur` branding or legacy `wiztechid.github.io/Master-tadabbur` URL issue was detected by the crawl checks.
+- Verified Contact live output contains **`info@tadabburlife.com`** and no longer uses the old GitHub repository contact wording.
+- Recorded public-run response-time observation of approximately **70 ms min / 130 ms median / 211 ms p95 / 336 ms max** across the 103 sitemap pages; this is not a Core Web Vitals measurement.
+- Marked **P0 Live 103-URL Crawl QC = PASS**.
+- Technical Green Gate remains open for remaining schema normalization, internal-link parity, keyword-map ↔ landing synchronization, and reader/live regression checks.
+
 ### [Technical / P0] Deploy Parity & Cache Verification
 - Verified public-content checkpoint `c413b663031913a3661f33a492e303e3cc7490d3` completed a successful GitHub Pages deployment.
 - Verified the generated `github-pages` artifact was built from the same SHA as that public-content checkpoint.
