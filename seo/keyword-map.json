@@ -3277,5 +3277,14 @@
     "note": "Technical implementation snapshot only. Deep Live SERP evidence is recorded per session.",
     "last_deep_serp_batch": "021-024",
     "last_deep_serp_audit": "seo/deep-serp-021-024-2026-09-22.md"
+  },
+  "deep_serp_boundary": {
+    "deep_through": "032",
+    "directional_from": "033",
+    "deep_sessions": 32,
+    "directional_sessions": 15,
+    "session_language_targets_deep": 64,
+    "last_completed_batch": "029-032",
+    "validated_on": "2026-09-22"
   }
 }
