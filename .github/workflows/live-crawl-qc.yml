@@ -1,0 +1,41 @@
+name: Live 103-URL Crawl QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-crawl-qc.yml'
+      - '.github/scripts/live_crawl_qc.py'
+      - 'sitemap.xml'
+
+permissions:
+  contents: read
+
+jobs:
+  live-crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live crawl QC
+        id: crawl
+        continue-on-error: true
+        run: python3 .github/scripts/live_crawl_qc.py
+
+      - name: Upload crawl report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-crawl-qc
+          path: qc-live-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce QC result
+        if: steps.crawl.outcome == 'failure'
+        run: |
+          echo "Live crawl QC failed. See tadabburlife-live-crawl-qc artifact."
+          exit 1
