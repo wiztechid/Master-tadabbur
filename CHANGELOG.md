@@ -22,6 +22,30 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [Reader / Regression] Live Reader Browser QC — PASS
+- Added Chromium/Playwright browser regression at `.github/scripts/live_reader_regression.mjs` and `.github/workflows/live-reader-regression.yml`.
+- Exercised the complete active reader corpus at **three viewports**: desktop, tablet, and mobile.
+- Verified **94 / 94** session-language states on desktop, **94 / 94** on tablet, and **94 / 94** on mobile = **282 / 282** corpus viewport checks.
+- Verified no tested horizontal-overflow regression and no browser console/page errors in the tested profiles.
+- Fixed reader URL-state drift so session navigation and language switching synchronize the browser query/hash; refresh now preserves the current session/language.
+- Journey/Mission views now clear stale session query state.
+- Replaced the previous pseudo-random QR-like canvas with a standards-compliant QR encoder.
+- Verified the generated ID and EN Reflection Card QR canvases by decoding them back to the exact interactive-reader deep links.
+- Changed Reflection Card share filenames from legacy `master-tadabbur-...` to `tadabburlife-...`.
+- Aligned Reflection Card share text to the canonical public session landing while preserving the QR as a direct interactive-reader deep link.
+- Verified completion/read progress persistence, Journey Mission persistence, Focus Mode persistence, Previous/Next behavior, ID↔EN switching, and refresh behavior.
+- Verified **8 / 8** representative public landing CTAs (Sessions 001, 013, 025, 047 × ID/EN) correctly enter the intended interactive reader state.
+- Captured and visually reviewed representative desktop/tablet/mobile reader screenshots plus a Reflection Card screenshot.
+- Marked **G7 Live Reader / Regression = PASS**.
+
+### [SEO / Technical] Technical Green Gate — PASS
+- Reconciled the accumulated evidence for G1–G7 and closed the TadabburLife technical-integrity Green Gate.
+- G1 is explicitly scoped as **regression-integrity against the locked repository/content baseline**, not an independent theological re-verification of every religious source.
+- G6 corpus-wide technical QC is closed using the 103-URL live crawl, 94-landing canonical/hreflang/indexability checks, internal-link parity, and static share/image validation.
+- Current result: **SEO Architecture / Technical Integrity = PASS**.
+- Deep SERP remains a separate research track; this technical PASS does **not** upgrade Sessions 013–047 from directional mapping to Deep SERP validation.
+- Active priority now moves to **Deep Live SERP Batch 013–016 bilingual**.
+
 ### [Share / Visual] Reflection Card → 94 Branded OG Images — PASS
 - Promoted **Reflection Card** to the single visual source of truth for session sharing.
 - Added automated landscape social derivatives for the active corpus: **47 ID + 47 EN = 94 unique OG images**.
