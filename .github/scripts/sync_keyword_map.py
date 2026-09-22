@@ -19,6 +19,7 @@ import sys
 from datetime import date
 from pathlib import Path
 from typing import Any
+from html.parser import HTMLParser
 
 MAP_PATH = Path("seo/keyword-map.json")
 REPORT_DIR = Path("qc-keyword-map-report")
@@ -36,26 +37,52 @@ def first(pattern: str, text: str) -> str:
 def strip_tags(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", value))).strip()
 
+class HeadSignalParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.canonical = ""
+        self.meta_description = ""
+        self.html_lang = ""
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        d = {k.lower(): (v or "") for k, v in attrs}
+        t = tag.lower()
+        if t == "html" and not self.html_lang:
+            self.html_lang = d.get("lang", "")
+        elif t == "link" and not self.canonical:
+            rel = {x.strip().lower() for x in d.get("rel", "").split()}
+            if "canonical" in rel:
+                self.canonical = d.get("href", "")
+        elif t == "meta" and not self.meta_description:
+            if d.get("name", "").lower() == "description":
+                self.meta_description = d.get("content", "")
+
+
+def head_signals(text: str) -> HeadSignalParser:
+    p = HeadSignalParser()
+    p.feed(text)
+    return p
+
+
 def canonical(text: str) -> str:
-    return (
-        first(r'<link\b[^>]*\brel=["\']canonical["\'][^>]*\bhref=["\']([^"\']+)', text)
-        or first(r'<link\b[^>]*\bhref=["\']([^"\']+)["\'][^>]*\brel=["\']canonical["\']', text)
-    )
+    return head_signals(text).canonical
+
 
 def meta_description(text: str) -> str:
-    return (
-        first(r'<meta\b[^>]*\bname=["\']description["\'][^>]*\bcontent=["\']([^"\']*)', text)
-        or first(r'<meta\b[^>]*\bcontent=["\']([^"\']*)["\'][^>]*\bname=["\']description["\']', text)
-    )
+    return head_signals(text).meta_description
+
 
 def page_title(text: str) -> str:
     return strip_tags(first(r"<title\b[^>]*>(.*?)</title>", text))
 
+
 def h1(text: str) -> str:
     return strip_tags(first(r"<h1\b[^>]*>(.*?)</h1>", text))
 
+
 def html_lang(text: str) -> str:
-    return first(r'<html\b[^>]*\blang=["\']([^"\']+)["\']', text)
+    return head_signals(text).html_lang
+
 
 def links(block: str) -> list[str]:
     out = []
