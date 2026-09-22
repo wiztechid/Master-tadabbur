@@ -1,0 +1,40 @@
+name: Live 94-Landing Internal-Link QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-internal-links-qc.yml'
+      - '.github/scripts/live_internal_links_qc.py'
+
+permissions:
+  contents: read
+
+jobs:
+  live-internal-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run live internal-link parity QC
+        id: links
+        continue-on-error: true
+        run: python3 .github/scripts/live_internal_links_qc.py
+
+      - name: Upload live internal-link QC report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-internal-link-parity-qc
+          path: qc-live-internal-links-report/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce live internal-link QC
+        if: steps.links.outcome == 'failure'
+        run: |
+          echo "Live internal-link parity QC failed. See artifact."
+          exit 1
