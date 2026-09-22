@@ -1,6 +1,6 @@
 # TADABBURLIFE — MASTER SOP
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** FROZEN GOVERNANCE BASELINE  
 **Scope:** TadabburLife Platform  
 **Long-term scale:** 1,000+ sessions × bilingual/multiple languages
@@ -364,6 +364,31 @@ Untuk perubahan global pada shared template, generator, routing, metadata engine
 
 ---
 
+### 13.8 Deploy Parity / Cache QC
+
+Untuk setiap perubahan material pada website publik, verifikasi deployment sebagai tiga lapis yang berbeda:
+
+1. **Repository source** — branch/commit yang memang dimaksudkan untuk dipublikasikan.
+2. **Build/deployment artifact** — file yang benar-benar dibangun oleh GitHub Pages atau deployment pipeline.
+3. **Live custom domain** — respons yang benar-benar diterima pembaca/crawler setelah propagation dan cache.
+
+Build atau workflow berstatus sukses **tidak otomatis membuktikan** bahwa live site telah menyajikan versi yang sama.
+
+Minimum deploy-parity check:
+
+- catat/cek head SHA yang dideploy;
+- pastikan artifact berasal dari SHA yang sama dengan source yang dituju;
+- bandingkan file/sinyal kritis antara source dan artifact;
+- cek live custom domain setelah deployment selesai;
+- bedakan source defect, build defect, dan stale browser/edge cache;
+- jangan mengubah source yang sudah benar hanya untuk mengejar cache lama yang belum terpropagasi.
+
+Untuk perubahan global, deployment verification harus diikuti live crawl/regression QC sesuai luas scope. Untuk perubahan pada seluruh search inventory, corpus-wide URL verification lebih kuat daripada sampling.
+
+**SOURCE CORRECT ≠ ARTIFACT VERIFIED ≠ LIVE VERIFIED. Ketiganya harus dibedakan.**
+
+---
+
 ## 14. REPOSITORY WORKFLOW
 
 ### BEFORE WORK
@@ -376,7 +401,7 @@ MAKE CHANGE → SACRED SOURCE CHECK → EXPLANATORY CONTENT QC → SEO QC → RE
 
 ### AFTER DEPLOY
 
-LIVE QC → READER QC → RELIGIOUS-INTEGRITY QC → SEO / TECHNICAL QC → UPDATE CURRENT-STATUS → RECORD SIGNIFICANT DECISION IN CHANGELOG
+DEPLOY PARITY / CACHE QC → LIVE QC → READER QC → RELIGIOUS-INTEGRITY QC → SEO / TECHNICAL QC → UPDATE CURRENT-STATUS → RECORD SIGNIFICANT DECISION IN CHANGELOG
 
 ---
 
@@ -387,6 +412,7 @@ Pekerjaan belum dianggap selesai hanya karena code selesai, commit berhasil, bui
 **DONE berarti:**
 
 IMPLEMENTED  
++ DEPLOY PARITY VERIFIED WHEN RELEVANT  
 + LIVE VERIFIED  
 + SACRED SOURCE INTEGRITY VERIFIED  
 + EXPLANATORY CONTENT VERIFIED  
@@ -471,4 +497,4 @@ Perubahan fundamental harus menaikkan versi dokumen dan dicatat dalam CHANGELOG.
 
 ---
 
-**END OF MASTER-SOP v1.1**
+**END OF MASTER-SOP v1.2**
