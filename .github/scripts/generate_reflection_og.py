@@ -133,12 +133,12 @@ def render_svg(data: dict[str, Any]) -> str:
 
     quote_lines = fit_lines(q, q_chars, q_lines)
     title_lines = fit_lines(data["title"], 46, 2)
-    task_lines = fit_lines(data["task"], 66, 3)
+    task_lines = fit_lines(data["task"], 72, 2)
 
     quote_y = 170
     title_y = min(410, quote_y + len(quote_lines)*q_lh + 30)
     task_box_y = min(470, title_y + len(title_lines)*34 + 28)
-    task_text_y = task_box_y + 61
+    task_text_y = task_box_y + 55
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <defs>
@@ -162,14 +162,14 @@ def render_svg(data: dict[str, Any]) -> str:
     {tspans(title_lines,70,title_y,34)}
   </text>
 
-  <rect x="70" y="{task_box_y}" width="1060" height="112" rx="20" fill="#ffffff" fill-opacity=".09"/>
-  <text x="94" y="{task_box_y+36}" fill="#f2d87e" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="800">{xml(try_label)}</text>
+  <rect x="70" y="{task_box_y}" width="1060" height="92" rx="20" fill="#ffffff" fill-opacity=".09"/>
+  <text x="94" y="{task_box_y+30}" fill="#f2d87e" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="800">{xml(try_label)}</text>
   <text x="94" y="{task_text_y}" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="500">
     {tspans(task_lines,94,task_text_y,28)}
   </text>
 
-  <text x="70" y="580" fill="#f2d87e" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700">TadabburLife • {xml(brand)}</text>
-  <text x="1128" y="580" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="500" text-anchor="end">tadabburlife.com</text>
+  <text x="70" y="588" fill="#f2d87e" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700">TadabburLife • {xml(brand)}</text>
+  <text x="1128" y="588" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="500" text-anchor="end">tadabburlife.com</text>
 </svg>'''
 
 def write_image(data: dict[str, Any]) -> dict[str, Any]:
