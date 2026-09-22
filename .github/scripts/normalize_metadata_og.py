@@ -179,7 +179,7 @@ def esc(s:str)->str:
     return html.escape(s,quote=True)
 
 def standard_meta(desc:str,heading:str,can:str,locale:str)->str:
-    m=re.search(r"/tadabbur/(\\d{3})/$",can)
+    m=re.search(r"/tadabbur/(\d{3})/$",can)
     if not m:
         raise RuntimeError(f"Cannot derive OG image from canonical: {can}")
     sid=m.group(1)
