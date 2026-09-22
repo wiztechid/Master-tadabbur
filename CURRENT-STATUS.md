@@ -5,7 +5,7 @@
 **Snapshot:** 22 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
 **Primary Branch:** `main`  
-**Governing SOP:** `mastersoptadabbur.md` v1.2 — FROZEN GOVERNANCE BASELINE
+**Governing SOP:** `mastersoptadabbur.md` v1.3 — FROZEN GOVERNANCE BASELINE
 
 > MASTER-SOP defines how TadabburLife must be developed.  
 > CURRENT-STATUS records where the project actually stands now.  
@@ -531,25 +531,63 @@ SEO normalization must preserve the **Absolute Sacred Lock** and the meaning con
 
 ## 14. SHARE / OG BASELINE
 
-The static head-level share metadata is now normalized across all 94 session landings.
+Reflection Card is now the **single visual source of truth** for session sharing.
 
-Verified live behavior at the metadata layer:
+A static social derivative is pre-rendered for every active session-language pair:
 
-- correct active-session canonical URL;
-- correct language-specific locale;
-- `og:title` matches the current landing H1;
-- `og:description` matches the current meta description;
-- `og:url` matches canonical;
-- `og:site_name` = TadabburLife;
-- Twitter/X summary metadata matches the same session and language;
-- schema headline/description remain synchronized;
-- keyword-map implementation snapshot matches the deployed metadata.
+- **47 Indonesian Reflection Card OG images**
+- **47 English Reflection Card OG images**
+- total **94 / 94 unique branded OG images**
+- format: **PNG**
+- dimensions: **1200×630**
+- public path pattern: `/og/reflection/{id|en}/{session}.png`
 
-**Head-level OG/Share Integrity: 🟢 PASS 94/94 source + live**
+The static OG derivative uses the same Reflection Card data rules as the interactive reader:
 
-The remaining share-related Green-Gate work is **interactive reader/share regression behavior** rather than missing or inconsistent static metadata.
+- session number;
+- language;
+- session H2/title;
+- reflection quote;
+- Journey Mission / practical action;
+- TadabburLife green/gold visual identity.
 
-No `og:image` is currently published; text-summary cards are the active baseline.
+Verified metadata behavior on all 94 landing pages:
+
+- `og:image` points to the correct session-language Reflection Card image;
+- `og:image:secure_url` matches `og:image`;
+- `og:image:type = image/png`;
+- `og:image:width = 1200`;
+- `og:image:height = 630`;
+- `og:image:alt` is present;
+- `twitter:card = summary_large_image`;
+- `twitter:image` matches the same Reflection Card image;
+- `twitter:image:alt` is present;
+- title/description/URL/locale/site-name remain synchronized.
+
+Live public-network image QC:
+
+- landing metadata checked: **94 / 94**
+- landing HTTP 200: **94 / 94**
+- image HTTP 200: **94 / 94**
+- actual PNG dimensions 1200×630: **94 / 94**
+- unique image URLs: **94 / 94**
+- image size range: **121,225–187,990 bytes**
+- failures: **0**
+- live pass: **94 / 94**
+
+Visual sample QC was also performed on ID 001, EN 013, ID 025, and EN 047; text hierarchy, crop safety, language, session identity, and TadabburLife branding rendered correctly.
+
+Reusable controls:
+
+- `.github/scripts/generate_reflection_og.py`
+- `.github/scripts/attach_reflection_og.py`
+- `.github/workflows/generate-reflection-og.yml`
+- `.github/scripts/live_reflection_og_qc.py`
+- `.github/workflows/live-reflection-og-qc.yml`
+
+**Reflection Card OG Image Coverage: 🟢 PASS 94/94 source + live**
+
+The remaining share-related Green-Gate work is limited to **interactive reader/share action regression**, not static share metadata or image availability.
 
 ---
 
@@ -596,7 +634,7 @@ Completed and live-verified across **94 / 94** session landings.
 
 The Deep-SERP boundary remains intact: Sessions 013–047 received only objective technical repairs, not speculative search-intent or keyword optimization.
 
-`og:image` is not part of the current text-summary-card baseline and is not a blocker for this technical gate.
+`og:image` is now part of the required baseline: **94/94 unique Reflection Card-derived PNGs are live and verified at 1200×630**, with Twitter/X upgraded to `summary_large_image`.
 
 ### G3 — Schema Normalization — 🟢 PASS
 
@@ -668,7 +706,7 @@ Verify:
 
 Live 103-URL crawl on the actual custom domain is 🟢 PASS for transport/indexability/canonical/soft-404 checks.
 
-Static metadata + OG/share integrity is also 🟢 PASS across 94/94 session landings.
+Static metadata + OG/share integrity is also 🟢 PASS across 94/94 session landings, including **94/94 live Reflection Card-derived OG images**.
 
 Remaining reader/regression verification:
 
@@ -865,7 +903,7 @@ Recommended handoff instruction:
 
 ## 22. CURRENT SNAPSHOT
 
-**Master SOP:** v1.2 FROZEN GOVERNANCE BASELINE  
+**Master SOP:** v1.3 FROZEN GOVERNANCE BASELINE  
 **Published sessions:** 001–047  
 **Languages:** ID + EN  
 **Published search targets:** 94  
@@ -877,7 +915,7 @@ Recommended handoff instruction:
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
 **Internal linking:** 🟢 NORMALIZED + LIVE VERIFIED 94/94; related parity 47/47  
 **Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
-**Metadata / OG / Share:** 🟢 TECHNICALLY NORMALIZED + LIVE VERIFIED 94/94  
+**Metadata / OG / Share:** 🟢 NORMALIZED + 94/94 BRANDED REFLECTION CARD OG IMAGES LIVE VERIFIED  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** IN PROGRESS  
