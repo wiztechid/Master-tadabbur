@@ -1,6 +1,6 @@
 # TADABBURLIFE — CURRENT STATUS
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** ACTIVE LIVING DOCUMENT  
 **Snapshot:** 22 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
@@ -599,23 +599,28 @@ Technical SEO architecture becomes:
 
 only after the following Green Gate is completed.
 
-### G1 — 94/94 Landing Integrity
+### G1 — 94/94 Landing Integrity — 🟢 PASS
 
-**Repository/source technical-signal check: PASS for 94/94 canonical/hreflang/indexability/title/meta/H1 baseline.**
+Verified technical/public integrity across the complete active landing corpus:
 
-**Live custom-domain transport/indexability check: PASS across all 103 sitemap URLs (103× HTTP 200, zero redirects, zero canonical issues, zero noindex, zero soft-404 suspects).**
+- 47 Indonesian landings: PASS;
+- 47 English landings: PASS;
+- self-canonical baseline: PASS 94/94;
+- reciprocal hreflang ID/EN + x-default baseline: PASS 94/94;
+- indexability/title/meta/H1 baseline: PASS 94/94;
+- live public availability: PASS;
+- no broken public landing detected.
 
-Still verify content-integrity aspects plus:
+Regression-integrity evidence for the locked session content:
 
-- 47 ID landings,
-- 47 EN landings,
-- correct canonical,
-- reciprocal hreflang,
-- x-default,
-- indexability,
-- no broken public landing,
-- Sacred Source Integrity,
-- meaning-constrained reflection/action integrity.
+- schema normalization changed only head JSON-LD and preserved **94/94 bodies byte-for-byte**;
+- internal-link normalization preserved **94/94 article blocks byte-for-byte**;
+- metadata/OG normalization preserved **94/94 bodies byte-for-byte**;
+- subsequent runtime fixes changed only `index.html` reader behavior and did not edit session source/data content.
+
+Therefore the technical program did not alter the Absolute Sacred Lock or meaning-constrained reflection/action layer.
+
+**Scope note:** this G1 PASS proves preservation against the locked repository baseline during the technical normalization program. It is **not** a claim that every Qur'an/hadith/tafsir item was independently re-verified from external religious sources in this Green Gate.
 
 ### G2 — Metadata / Signal Integrity — 🟢 PASS
 
@@ -685,44 +690,76 @@ The keyword map now records both search-research state and the exact implemented
 
 Keyword-map synchronization is no longer an active Green-Gate gap.
 
-### G6 — Corpus-Wide Technical QC
+### G6 — Corpus-Wide Technical QC — 🟢 PASS
 
-**Repository sitemap inventory: PASS at 103 intended public canonical URLs. Live 103-URL crawl: 🟢 PASS.**
+Corpus-wide technical evidence is complete for the active public inventory:
 
-Verify:
+- sitemap inventory: **103 intended canonical public URLs**;
+- live HTTP 200: **103 / 103**;
+- sitemap duplicates: **0**;
+- sitemap non-canonical host/scheme issues: **0**;
+- redirects among sitemap URLs: **0**;
+- canonical issues: **0**;
+- `noindex` URLs in sitemap: **0**;
+- soft-404 suspects: **0**;
+- missing public pages detected: **0**;
+- crawler-visible HTML baseline: PASS;
+- `robots.txt`: PASS and points to the custom-domain sitemap while blocking `/owner/`;
+- session hreflang/canonical baseline: PASS 94/94;
+- internal-link/session graph targets: PASS;
+- related-session ID/EN parity: **47 / 47**;
+- static OG/share + image mapping: PASS 94/94.
 
-- sitemap inventory,
-- canonical uniqueness,
-- hreflang pairing,
-- broken links,
-- unintended indexability,
-- missing pages,
-- duplicate/incorrect URLs,
-- crawler-visible HTML.
+No active corpus-wide technical defect remains from this gate.
 
-### G7 — Deploy Parity + Live Regression QC
+### G7 — Deploy Parity + Live Regression QC — 🟢 PASS
 
-**Deploy parity source → GitHub Pages artifact: 🟢 PASS (22 Sep 2026).**
+**Deploy parity source → GitHub Pages artifact: PASS.**
 
-Live 103-URL crawl on the actual custom domain is 🟢 PASS for transport/indexability/canonical/soft-404 checks.
+Live crawl, static metadata, and OG/share layers were already green. Browser-level regression has now also passed on the actual custom domain.
 
-Static metadata + OG/share integrity is also 🟢 PASS across 94/94 session landings, including **94/94 live Reflection Card-derived OG images**.
+Defects found and corrected before final browser PASS:
 
-Remaining reader/regression verification:
+1. **Reader URL-state drift** — session navigation/language switching did not keep the browser URL synchronized, so refresh could return to an older session/language. Reader state now updates the query/hash and Journey/Mission clears stale session parameters.
+2. **Non-standard pseudo-QR** — the old canvas pattern looked like a QR but was not standards encoded. Reflection Card now uses a standards-compliant QR encoder, and the QC suite decodes the generated canvas back to the expected reader URL.
+3. **Legacy share filename** — Reflection Card share files used `master-tadabbur-...`; filenames now use `tadabburlife-...`.
+4. **Share destination alignment** — Reflection Card share text now points to the canonical public session landing while the QR continues to open the direct interactive-reader deep link.
 
-- desktop rendering;
-- mobile/tablet rendering;
-- interactive-reader CTA behavior;
-- navigation interactions;
-- language behavior;
-- interactive share action/context;
-- session progression;
-- progress/read state where applicable;
-- no material regression.
+Live Chromium regression evidence:
 
-Only after G1–G7 pass should this document record:
+- Desktop corpus checks: **94 / 94 PASS**
+- Tablet corpus checks: **94 / 94 PASS**
+- Mobile corpus checks: **94 / 94 PASS**
+- Total session-language-viewport checks: **282 / 282 PASS**
+- horizontal-overflow regression across the corpus/three viewports: **0 failures**
+- browser console/page errors in tested profiles: **0**
+- direct session deep-link + refresh persistence: PASS
+- ID ↔ EN language switch + refresh persistence: PASS
+- Previous / Next + URL state + refresh: PASS
+- completion/read progress persistence: PASS
+- Journey Mission persistence: PASS
+- Focus Mode persistence: PASS
+- Reflection Card open/render: PASS
+- standards QR decode ID: PASS
+- standards QR decode EN: PASS
+- branded share-file payload ID/EN: PASS
+- representative landing CTA → interactive reader: **8 / 8 PASS**
+- representative visual screenshots reviewed for desktop/tablet/mobile and Reflection Card: PASS
+
+Reusable browser regression control:
+
+- `.github/scripts/live_reader_regression.mjs`
+- `.github/workflows/live-reader-regression.yml`
+
+**G7 — LIVE READER / REGRESSION: 🟢 PASS**
+
+### GREEN GATE RESULT
+
+All G1–G7 technical-integrity gates are now closed.
 
 **🟢 SEO ARCHITECTURE / TECHNICAL INTEGRITY — PASS**
+
+This Green Gate remains separate from the unfinished Deep SERP research track. Sessions 013–047 have not thereby become Deep SERP validated.
 
 ---
 
@@ -786,11 +823,13 @@ Growth toward 1,000+ sessions creates overlapping primary search territories.
 
 Different generations of landing templates create inconsistent metadata, schema, or internal links.
 
-**Current concern:** schema, internal-link, metadata, and static OG/share drift are normalized; remaining risk is interactive reader/regression behavior.
+**Current concern:** no active shared-template drift defect after schema, internal-link, metadata, OG/share, and live reader regression normalization.
 
 ### R5 — Share Regression
 
-SEO/template changes break share cards, language, or session context.
+SEO/template changes break share cards, language, session context, QR, or public share destination.
+
+**Current control:** 94/94 Reflection Card OG image QC + live browser regression + standards QR decode test.
 
 ### R6 — Scale Debt
 
@@ -816,21 +855,25 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**LIVE READER/REGRESSION QC → GREEN GATE**
+**DEEP LIVE SERP — BATCH 013–016 BILINGUAL**
 
-The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
+The Technical Green Gate is now **COMPLETE / PASS**.
 
-Priority order:
+The active work therefore returns to the separate editorial/search-research track. Sessions 013–016 are the next controlled four-session batch and must be researched independently for Indonesian and English.
 
-1. preserve Absolute Sacred Lock and meaning-constrained reflection/action,
-2. audit/normalize 94 landing technical structure,
-3. **internal-link functional parity — COMPLETE / PASS 94/94 source + live**, 
-4. **schema normalization — COMPLETE / PASS 94/94 source + live**,
-5. **metadata technical integrity + static OG/share — COMPLETE / PASS 94/94 source + live**,
-6. **keyword-map ↔ landing synchronization — COMPLETE / PASS 94/94 source + live**,
-7. **live 103-URL crawl QC — COMPLETE / PASS**,
-8. close remaining **interactive reader/regression** gaps,
-9. mark Technical Integrity GREEN only after G1–G7 evidence passes.
+Completed technical baseline:
+
+1. Absolute Sacred Lock / locked-content regression preservation — PASS;
+2. 94-landing technical structure — PASS;
+3. internal-link functional parity — PASS 94/94 source + live;
+4. schema normalization — PASS 94/94 source + live;
+5. metadata + Reflection Card OG/share integrity — PASS 94/94 source + live;
+6. keyword-map ↔ landing synchronization — PASS 94/94 source + live;
+7. live 103-URL crawl — PASS;
+8. live reader/browser regression — PASS 282/282 viewport/session-language checks;
+9. **Technical Integrity Green Gate — PASS**.
+
+Do not treat this technical PASS as Deep SERP validation for Sessions 013–047.
 
 ---
 
@@ -918,11 +961,11 @@ Recommended handoff instruction:
 **Metadata / OG / Share:** 🟢 NORMALIZED + 94/94 BRANDED REFLECTION CARD OG IMAGES LIVE VERIFIED  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
-**Technical Green Gate:** IN PROGRESS  
-**Immediate work:** Live Reader / Regression QC  
+**Technical Green Gate:** 🟢 PASS  
+**Immediate work:** Deep Live SERP 013–016 bilingual  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
 ---
 
-**END OF CURRENT-STATUS v1.1**
+**END OF CURRENT-STATUS v1.2**
