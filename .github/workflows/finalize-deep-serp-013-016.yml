@@ -1,0 +1,43 @@
+name: Finalize Deep SERP 013-016
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/finalize-deep-serp-013-016.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalize Article and Breadcrumb schema
+        run: python3 .github/scripts/normalize_schema.py
+
+      - name: Normalize metadata and OG share signals
+        run: python3 .github/scripts/normalize_metadata_og.py
+
+      - name: Resync keyword-map implementation snapshots
+        run: python3 .github/scripts/sync_keyword_map.py
+
+      - name: Commit normalized batch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add             tadabbur/013/index.html en/tadabbur/013/index.html             tadabbur/014/index.html en/tadabbur/014/index.html             tadabbur/015/index.html en/tadabbur/015/index.html             tadabbur/016/index.html en/tadabbur/016/index.html             seo/keyword-map.json
+          if git diff --cached --quiet; then
+            echo "Deep SERP batch already normalized."
+            exit 0
+          fi
+          git commit -m "SEO: finalize Deep SERP 013-016 bilingual signals"
+          git pull --rebase origin main
+          git push
