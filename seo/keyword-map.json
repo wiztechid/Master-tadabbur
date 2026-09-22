@@ -3235,6 +3235,8 @@
     "status": "source-synced",
     "synced_on": "2026-09-22",
     "scope": "47 sessions x ID+EN = 94 landing implementations",
-    "note": "Technical implementation snapshot only. It does not upgrade Deep SERP evidence or change keyword/search-intent research status."
+    "note": "Technical implementation snapshot only. Deep Live SERP evidence is recorded per session.",
+    "last_deep_serp_batch": "021-024",
+    "last_deep_serp_audit": "seo/deep-serp-021-024-2026-09-22.md"
   }
 }
