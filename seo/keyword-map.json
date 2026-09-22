@@ -1381,15 +1381,15 @@
     {
       "session": "021",
       "locked_title": "Jangan Kurangi Hak Orang Lain",
-      "primary_long_tail": "ayat tentang tidak mengurangi hak orang lain dalam pekerjaan",
+      "primary_long_tail": "Al Mutaffifin 83 1 3 mengurangi hak orang lain",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/021/",
       "reader": "https://tadabburlife.com/?session=21&lang=id",
-      "seo_title": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3 | TadabburLife",
-      "meta_description": "Jangan Kurangi Hak Orang Lain. Kecurangan tidak selalu hadir dalam bentuk pencurian yang terang-terangan.",
-      "h1": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
+      "seo_title": "Al-Mutaffifin 83:1–3: Jangan Kurangi Hak Orang Lain | TadabburLife",
+      "meta_description": "Al-Mutaffifin 83:1–3 mengecam orang yang meminta haknya penuh tetapi mengurangi saat memberi. Pahami takaran, timbangan, dan pelajarannya bagi hak orang lain.",
+      "h1": "Al-Mutaffifin 83:1–3: Jangan Kurangi Hak Orang Lain",
       "related_sessions": [
         "020",
         "022",
@@ -1398,17 +1398,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang tidak mengurangi hak orang lain dalam pekerjaan",
+          "primary_long_tail": "Al Mutaffifin 83 1 3 mengurangi hak orang lain",
+          "adjacent_long_tail": "ayat tentang curang takaran timbangan dan hak orang lain",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium",
+          "search_territory": "Al-Mutaffifin 83:1-3 on demanding full measure while giving others less, with the direct context of weights/measures and a bounded practical analogy to fulfilling other people's rights.",
+          "cannibalization_guard": "Session 020 owns justice under dislike. Session 022 owns unjust acquisition of wealth and bribery/legal manipulation. Session 025 owns trade by mutual consent. Session 021 owns double standards in giving people less than their due."
         },
         "en": {
-          "primary_long_tail": "Quran verse about not depriving people of their rights",
-          "adjacent_long_tail": "Islamic teaching on giving people their due",
+          "primary_long_tail": "Quran 83:1-3 give people less than their due",
+          "adjacent_long_tail": "Quran verse about dishonest weights and measures meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Quran 83:1-3 on taking full measure while giving less, dishonest weights/measures, and the bounded moral lesson of giving people what is due.",
+          "cannibalization_guard": "Session 022 owns unjust wealth/bribery; Session 025 owns mutual-consent trade. Session 021 owns the give-less-than-due/double-standard pattern."
         }
       },
       "implementation": {
@@ -1417,9 +1422,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/021/",
           "reader": "https://tadabburlife.com/?session=21&lang=id",
-          "seo_title": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3 | TadabburLife",
-          "meta_description": "Jangan Kurangi Hak Orang Lain. Kecurangan tidak selalu hadir dalam bentuk pencurian yang terang-terangan.",
-          "h1": "Jangan Kurangi Hak Orang Lain dalam Pekerjaan — Al-Mutaffifin 1–3",
+          "seo_title": "Al-Mutaffifin 83:1–3: Jangan Kurangi Hak Orang Lain | TadabburLife",
+          "meta_description": "Al-Mutaffifin 83:1–3 mengecam orang yang meminta haknya penuh tetapi mengurangi saat memberi. Pahami takaran, timbangan, dan pelajarannya bagi hak orang lain.",
+          "h1": "Al-Mutaffifin 83:1–3: Jangan Kurangi Hak Orang Lain",
           "html_lang": "id",
           "related_sessions": [
             "020",
@@ -1431,9 +1436,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/021/",
           "reader": "https://tadabburlife.com/?session=21&lang=en",
-          "seo_title": "Quran verse about not depriving people of their rights",
-          "meta_description": "Do Not Give People Less Than Their Due. Dishonesty does not always appear as obvious theft.",
-          "h1": "Quran verse about not depriving people of their rights",
+          "seo_title": "Quran 83:1–3: Do Not Give People Less Than Their Due | TadabburLife",
+          "meta_description": "Quran 83:1–3 condemns demanding full measure while giving others less. Explore the verse’s meaning for weights, measures, and the broader duty to give people their due.",
+          "h1": "Quran 83:1–3: Do Not Give People Less Than Their Due",
           "html_lang": "en",
           "related_sessions": [
             "020",
@@ -1447,15 +1452,15 @@
     {
       "session": "022",
       "locked_title": "Jangan Menang dengan Cara yang Batil",
-      "primary_long_tail": "ayat tentang mengambil harta orang lain dengan cara batil",
+      "primary_long_tail": "Al Baqarah 2:188 harta batil suap hakim",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/022/",
       "reader": "https://tadabburlife.com/?session=22&lang=id",
-      "seo_title": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188 | TadabburLife",
-      "meta_description": "Jangan Menang dengan Cara yang Batil. Tidak semua kemenangan di atas kertas berarti benar di sisi Allah. Seseorang dapat memiliki argumen yang lebih rapi,",
-      "h1": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
+      "seo_title": "Al-Baqarah 2:188: Harta Batil, Suap, dan Hak Orang Lain | TadabburLife",
+      "meta_description": "Al-Baqarah 2:188 melarang mengambil harta secara batil dan memakai suap atau proses di hadapan penguasa untuk mengambil hak orang lain secara sengaja.",
+      "h1": "Al-Baqarah 2:188: Harta Batil, Suap, dan Hak Orang Lain",
       "related_sessions": [
         "021",
         "023",
@@ -1464,17 +1469,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang mengambil harta orang lain dengan cara batil",
+          "primary_long_tail": "Al Baqarah 2:188 harta batil suap hakim",
+          "adjacent_long_tail": "ayat tentang mengambil harta orang lain dengan cara batil",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Al-Baqarah 2:188 on consuming wealth unjustly and knowingly using money, bribery, authorities or adjudication to obtain what belongs to others.",
+          "cannibalization_guard": "Session 021 owns shortchanging/giving less than due. Session 025 owns mutual consent in trade. Session 022 owns knowingly wrongful acquisition of wealth, bribery and misuse of formal process."
         },
         "en": {
-          "primary_long_tail": "Quran verse about consuming wealth unjustly",
-          "adjacent_long_tail": "taking people's money unlawfully in Islam",
+          "primary_long_tail": "Quran 2:188 unjust wealth bribery judges meaning",
+          "adjacent_long_tail": "Quran verse about consuming wealth unjustly",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 2:188 on unjust wealth, bribery/authorities, and knowingly wrongful claims despite favorable formal outcomes.",
+          "cannibalization_guard": "Session 021 owns dishonest measure; Session 025 owns trade by mutual consent. Session 022 owns unjust wealth plus bribery/legal-authority manipulation."
         }
       },
       "implementation": {
@@ -1483,9 +1493,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/022/",
           "reader": "https://tadabburlife.com/?session=22&lang=id",
-          "seo_title": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188 | TadabburLife",
-          "meta_description": "Jangan Menang dengan Cara yang Batil. Tidak semua kemenangan di atas kertas berarti benar di sisi Allah. Seseorang dapat memiliki argumen yang lebih rapi,",
-          "h1": "Jangan Ambil Harta dengan Cara Batil — Al-Baqarah 2:188",
+          "seo_title": "Al-Baqarah 2:188: Harta Batil, Suap, dan Hak Orang Lain | TadabburLife",
+          "meta_description": "Al-Baqarah 2:188 melarang mengambil harta secara batil dan memakai suap atau proses di hadapan penguasa untuk mengambil hak orang lain secara sengaja.",
+          "h1": "Al-Baqarah 2:188: Harta Batil, Suap, dan Hak Orang Lain",
           "html_lang": "id",
           "related_sessions": [
             "021",
@@ -1497,9 +1507,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/022/",
           "reader": "https://tadabburlife.com/?session=22&lang=en",
-          "seo_title": "Quran verse about consuming wealth unjustly",
-          "meta_description": "Do Not Win by Wrongful Means. Not every victory on paper is right before Allah.",
-          "h1": "Quran verse about consuming wealth unjustly",
+          "seo_title": "Quran 2:188: Unjust Wealth, Bribery, and Wrongful Claims | TadabburLife",
+          "meta_description": "Quran 2:188 forbids consuming wealth unjustly and using bribery or legal authority to take what belongs to others while knowing the claim is wrong.",
+          "h1": "Quran 2:188: Unjust Wealth, Bribery, and Wrongful Claims",
           "html_lang": "en",
           "related_sessions": [
             "021",
@@ -1513,34 +1523,39 @@
     {
       "session": "023",
       "locked_title": "Amanah Harus Kembali kepada yang Berhak",
-      "primary_long_tail": "ayat tentang amanah harus diberikan kepada yang berhak",
+      "primary_long_tail": "An Nisa 4:58 amanah kepada yang berhak",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/023/",
       "reader": "https://tadabburlife.com/?session=23&lang=id",
-      "seo_title": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58 | TadabburLife",
-      "meta_description": "Amanah Harus Kembali kepada yang Berhak. Amanah bukan hanya barang titipan. Ia juga menyentuh tanggung jawab, kewenangan, informasi, pekerjaan,",
-      "h1": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
+      "seo_title": "An-Nisa 4:58: Amanah Harus Diberikan kepada yang Berhak | TadabburLife",
+      "meta_description": "An-Nisa 4:58 memerintahkan amanah diberikan kepada yang berhak dan keputusan dibuat dengan adil. Pahami amanah sebagai hak, titipan, tanggung jawab, dan kewenangan.",
+      "h1": "An-Nisa 4:58: Amanah Harus Diberikan kepada yang Berhak",
       "related_sessions": [
         "022",
         "024",
         "021",
-        "025"
+        "004"
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang amanah harus diberikan kepada yang berhak",
+          "primary_long_tail": "An Nisa 4:58 amanah kepada yang berhak",
+          "adjacent_long_tail": "amanah harus diberikan kepada yang berhak An Nisa 58",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "An-Nisa 4:58 with primary emphasis on delivering entrusted rights, duties and property to the people entitled to them.",
+          "cannibalization_guard": "Session 004 uses the same verse but owns amanah + justice in office/leadership and decision-making, reinforced by An-Nisa 4:135. Session 023 owns returning/delivering trusts to rightful recipients."
         },
         "en": {
-          "primary_long_tail": "Quran verse about returning trusts to their owners",
+          "primary_long_tail": "Quran 4:58 return trusts to those entitled to them",
           "adjacent_long_tail": "render trusts to whom they are due meaning Quran 4 58",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 4:58 with primary emphasis on returning entrusted rights, duties and property to those entitled to them.",
+          "cannibalization_guard": "Session 004 owns trust and justice in office/authority and adds Quran 4:135. Session 023 owns the return-of-trusts/rightful-recipient intent."
         }
       },
       "implementation": {
@@ -1549,29 +1564,29 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/023/",
           "reader": "https://tadabburlife.com/?session=23&lang=id",
-          "seo_title": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58 | TadabburLife",
-          "meta_description": "Amanah Harus Kembali kepada yang Berhak. Amanah bukan hanya barang titipan. Ia juga menyentuh tanggung jawab, kewenangan, informasi, pekerjaan,",
-          "h1": "Amanah Harus Diberikan kepada yang Berhak — An-Nisa 4:58",
+          "seo_title": "An-Nisa 4:58: Amanah Harus Diberikan kepada yang Berhak | TadabburLife",
+          "meta_description": "An-Nisa 4:58 memerintahkan amanah diberikan kepada yang berhak dan keputusan dibuat dengan adil. Pahami amanah sebagai hak, titipan, tanggung jawab, dan kewenangan.",
+          "h1": "An-Nisa 4:58: Amanah Harus Diberikan kepada yang Berhak",
           "html_lang": "id",
           "related_sessions": [
             "022",
             "024",
             "021",
-            "025"
+            "004"
           ]
         },
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/023/",
           "reader": "https://tadabburlife.com/?session=23&lang=en",
-          "seo_title": "Quran verse about returning trusts to their owners",
-          "meta_description": "Trusts Must Be Returned to Those Entitled to Them. A trust is not limited to property left in our care. It also reaches responsibility, authority, information, work, and rights entrusted to us.",
-          "h1": "Quran verse about returning trusts to their owners",
+          "seo_title": "Quran 4:58: Return Trusts to Those Entitled to Them | TadabburLife",
+          "meta_description": "Quran 4:58 commands trusts to be returned to those entitled to them and judgments to be made justly. Explore trust as rights, duties, property, information, and authority.",
+          "h1": "Quran 4:58: Return Trusts to Those Entitled to Them",
           "html_lang": "en",
           "related_sessions": [
             "022",
             "024",
             "021",
-            "025"
+            "004"
           ]
         }
       }
@@ -1579,15 +1594,15 @@
     {
       "session": "024",
       "locked_title": "Jangan Ringankan Janji yang Sudah Diikat",
-      "primary_long_tail": "ayat Al Quran tentang menepati janji akad dan komitmen",
+      "primary_long_tail": "Al Maidah 5:1 menepati janji akad dan komitmen",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/024/",
       "reader": "https://tadabburlife.com/?session=24&lang=id",
-      "seo_title": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1 | TadabburLife",
-      "meta_description": "Jangan Ringankan Janji yang Sudah Diikat. Kepercayaan tidak berhenti pada niat baik. Ketika sebuah janji, akad, atau komitmen telah kita ikat secara sah,",
-      "h1": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
+      "seo_title": "Al-Ma'idah 5:1: Menepati Janji, Akad, dan Komitmen | TadabburLife",
+      "meta_description": "Al-Ma'idah 5:1 memerintahkan orang beriman memenuhi akad dan kewajiban yang sah. Pahami bedanya janji, komitmen, dan akad yang harus ditunaikan dengan benar.",
+      "h1": "Al-Ma'idah 5:1: Menepati Janji, Akad, dan Komitmen",
       "related_sessions": [
         "023",
         "025",
@@ -1596,17 +1611,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat Al Quran tentang menepati janji akad dan komitmen",
+          "primary_long_tail": "Al Maidah 5:1 menepati janji akad dan komitmen",
+          "adjacent_long_tail": "penuhilah akad akad Al Maidah 5 ayat 1 makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Al-Ma'idah 5:1 on honoring lawful covenants, contracts, promises and bound obligations after they are made.",
+          "cannibalization_guard": "Session 023 owns entrusted rights/amanah; Session 025 owns mutual consent in trade. Session 024 owns fulfillment of lawful contracts, promises and commitments."
         },
         "en": {
-          "primary_long_tail": "Quran verse about fulfilling contracts and promises",
+          "primary_long_tail": "Quran 5:1 fulfill contracts promises commitments",
           "adjacent_long_tail": "fulfill your contracts Quran 5 1 meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 5:1 on fulfilling lawful contracts, obligations, promises and commitments once bound.",
+          "cannibalization_guard": "Session 023 owns trusts; Session 025 owns mutual-consent trade. Session 024 owns fulfillment of bound agreements and obligations."
         }
       },
       "implementation": {
@@ -1615,9 +1635,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/024/",
           "reader": "https://tadabburlife.com/?session=24&lang=id",
-          "seo_title": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1 | TadabburLife",
-          "meta_description": "Jangan Ringankan Janji yang Sudah Diikat. Kepercayaan tidak berhenti pada niat baik. Ketika sebuah janji, akad, atau komitmen telah kita ikat secara sah,",
-          "h1": "Menepati Janji, Akad, dan Komitmen — Al-Ma'idah 5:1",
+          "seo_title": "Al-Ma'idah 5:1: Menepati Janji, Akad, dan Komitmen | TadabburLife",
+          "meta_description": "Al-Ma'idah 5:1 memerintahkan orang beriman memenuhi akad dan kewajiban yang sah. Pahami bedanya janji, komitmen, dan akad yang harus ditunaikan dengan benar.",
+          "h1": "Al-Ma'idah 5:1: Menepati Janji, Akad, dan Komitmen",
           "html_lang": "id",
           "related_sessions": [
             "023",
@@ -1629,9 +1649,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/024/",
           "reader": "https://tadabburlife.com/?session=24&lang=en",
-          "seo_title": "Quran verse about fulfilling contracts and promises",
-          "meta_description": "Do Not Take Bound Commitments Lightly. Trust does not end with good intentions.",
-          "h1": "Quran verse about fulfilling contracts and promises",
+          "seo_title": "Quran 5:1: Fulfill Contracts, Promises, and Commitments | TadabburLife",
+          "meta_description": "Quran 5:1 commands believers to fulfill lawful contracts and obligations. Explore what it means to honor promises, agreements, and commitments once they are bound.",
+          "h1": "Quran 5:1: Fulfill Contracts, Promises, and Commitments",
           "html_lang": "en",
           "related_sessions": [
             "023",
