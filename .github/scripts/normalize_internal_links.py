@@ -69,6 +69,45 @@ def find_nav_anchor(text: str, target_href: str) -> str | None:
             return f'<a href="{href}">{inner}</a>'
     return None
 
+
+def page_h1(path: Path) -> str:
+    text = path.read_text(encoding="utf-8")
+    m = re.search(r"<h1\\b[^>]*>(.*?)</h1>", text, re.I | re.S)
+    return strip_tags(m.group(1)) if m else ""
+
+
+def sync_en_related_to_id(n: int) -> dict[str, Any]:
+    """Align EN related-session targets to ID while using target EN H1 as anchor text."""
+    id_path = ID_PATHS[n - 1]
+    en_path = EN_PATHS[n - 1]
+    id_text = id_path.read_text(encoding="utf-8")
+    en_text = en_path.read_text(encoding="utf-8")
+    original_article = article_block(en_text)
+
+    targets = related_targets(id_text)
+    current = related_targets(en_text)
+    if targets == current:
+        return {"session": n, "changed": False, "targets": targets}
+
+    if not targets:
+        raise RuntimeError(f"{id_path}: cannot sync empty ID related targets")
+
+    items = []
+    for target in targets:
+        target_path = EN_PATHS[target - 1]
+        label = page_h1(target_path) or f"Session {target:03d}"
+        items.append(f'<li><a href="../{target:03d}/">{html.escape(label, quote=False)}</a></li>')
+
+    replacement = '<aside class="related"><h3>Related Sessions</h3><ul>' + "".join(items) + '</ul></aside>'
+    updated, count = RELATED_RE.subn(replacement, en_text, count=1)
+    if count != 1:
+        raise RuntimeError(f"{en_path}: expected exactly one related block")
+    if article_block(updated) != original_article:
+        raise RuntimeError(f"{en_path}: ARTICLE CHANGED during related sync")
+
+    en_path.write_text(updated, encoding="utf-8")
+    return {"session": n, "changed": True, "targets": targets}
+
 def normalize_one(path: Path, n: int, is_en: bool) -> dict[str, Any]:
     original = path.read_text(encoding="utf-8")
     original_article = article_block(original)
@@ -217,6 +256,8 @@ def main() -> int:
         normalization.append(normalize_one(ID_PATHS[n-1], n, False))
         normalization.append(normalize_one(EN_PATHS[n-1], n, True))
 
+    related_sync = [sync_en_related_to_id(n) for n in range(1, 48)]
+
     qc = []
     pair_issues = []
     for n in range(1, 48):
@@ -240,6 +281,7 @@ def main() -> int:
         "page_fail_count": len(failures),
         "related_pair_parity_count": 47 - len(pair_issues),
         "related_pair_mismatch_count": len(pair_issues),
+        "related_en_blocks_changed": sum(1 for x in related_sync if x["changed"]),
         "overall_pass": len(qc) == 94 and not failures and not pair_issues
             and all(x["article_unchanged"] for x in normalization),
     }
@@ -247,6 +289,7 @@ def main() -> int:
     payload = {
         "summary": summary,
         "normalization": normalization,
+        "related_sync": related_sync,
         "qc": qc,
         "related_pair_issues": pair_issues,
     }
@@ -261,6 +304,7 @@ def main() -> int:
         f"- Article content unchanged: {summary['article_unchanged_count']} / 94",
         f"- Page structural link PASS: {summary['page_pass_count']} / 94",
         f"- Related-session ID/EN target parity: {summary['related_pair_parity_count']} / 47 pairs",
+        f"- EN related blocks aligned to ID baseline: {summary['related_en_blocks_changed']}",
         f"- Pair mismatches: {summary['related_pair_mismatch_count']}",
         f"- Overall: {'PASS' if summary['overall_pass'] else 'FAIL'}",
         "",
