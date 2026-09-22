@@ -1949,15 +1949,15 @@
     {
       "session": "029",
       "locked_title": "Petunjuk Ditemukan dalam Kesungguhan",
-      "primary_long_tail": "ayat tentang kesungguhan ikhtiar dan petunjuk Allah",
+      "primary_long_tail": "Al Ankabut 29:69 kesungguhan dan petunjuk Allah",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/029/",
       "reader": "https://tadabburlife.com/?session=29&lang=id",
-      "seo_title": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69 | TadabburLife",
-      "meta_description": "Petunjuk Ditemukan dalam Kesungguhan. Kesungguhan, hidayah, ikhtiar, ihsan. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
+      "seo_title": "Al-Ankabut 29:69: Kesungguhan dan Petunjuk Allah | TadabburLife",
+      "meta_description": "Al-Ankabut 29:69 menjanjikan petunjuk kepada orang yang bersungguh-sungguh di jalan Allah. Pahami hubungan ikhtiar, hidayah, ihsan, dan batasnya dari ambisi duniawi.",
+      "h1": "Al-Ankabut 29:69: Kesungguhan dan Petunjuk Allah",
       "related_sessions": [
         "031",
         "032",
@@ -1966,17 +1966,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang kesungguhan ikhtiar dan petunjuk Allah",
+          "primary_long_tail": "Al Ankabut 29:69 kesungguhan dan petunjuk Allah",
+          "adjacent_long_tail": "ayat tentang bersungguh sungguh di jalan Allah mendapat petunjuk",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Al-Ankabut 29:69 on striving for Allah, being guided to His paths, and the boundary that guidance is not a guarantee of every worldly target.",
+          "cannibalization_guard": "Session 008 owns tawakkul versus passivity after effort; Session 019 owns inner change before external change. Session 029 owns striving for Allah that is met with guidance toward paths of good."
         },
         "en": {
-          "primary_long_tail": "Quran 29 69 meaning those who strive for Us",
-          "adjacent_long_tail": "Quran verse about striving and guidance",
+          "primary_long_tail": "Quran 29:69 those who strive for Allah are guided",
+          "adjacent_long_tail": "Quran 29 69 meaning those who strive for Us",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Quran 29:69 on striving for Allah and being guided to His paths, without turning the verse into a guarantee of worldly success.",
+          "cannibalization_guard": "Session 008 owns tawakkul after effort; Session 019 owns change within. Session 029 owns striving-for-Allah → guidance."
         }
       },
       "implementation": {
@@ -1985,9 +1990,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/029/",
           "reader": "https://tadabburlife.com/?session=29&lang=id",
-          "seo_title": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69 | TadabburLife",
-          "meta_description": "Petunjuk Ditemukan dalam Kesungguhan. Kesungguhan, hidayah, ikhtiar, ihsan. Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Kesungguhan, Ikhtiar, dan Petunjuk Allah — Al-Ankabut 29:69",
+          "seo_title": "Al-Ankabut 29:69: Kesungguhan dan Petunjuk Allah | TadabburLife",
+          "meta_description": "Al-Ankabut 29:69 menjanjikan petunjuk kepada orang yang bersungguh-sungguh di jalan Allah. Pahami hubungan ikhtiar, hidayah, ihsan, dan batasnya dari ambisi duniawi.",
+          "h1": "Al-Ankabut 29:69: Kesungguhan dan Petunjuk Allah",
           "html_lang": "id",
           "related_sessions": [
             "031",
@@ -1999,9 +2004,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/029/",
           "reader": "https://tadabburlife.com/?session=29&lang=en",
-          "seo_title": "Quran 29 69 meaning those who strive for Us",
-          "meta_description": "Guidance Is Met with Striving. Ibn Kathir explains that those who strive in obedience are guided toward paths of good. Sound effort meets Allah's help and guidance.",
-          "h1": "Quran 29 69 meaning those who strive for Us",
+          "seo_title": "Quran 29:69: Those Who Strive for Allah Are Guided | TadabburLife",
+          "meta_description": "Quran 29:69 promises guidance to those who strive for Allah and says He is with the doers of good. Explore striving, guidance, effort, and the limit against worldly-success slogans.",
+          "h1": "Quran 29:69: Those Who Strive for Allah Are Guided",
           "html_lang": "en",
           "related_sessions": [
             "031",
@@ -2015,15 +2020,15 @@
     {
       "session": "030",
       "locked_title": "Jangan Hidup Tanpa Menghitung Bekal Esok",
-      "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat Al Hashr 59:18",
+      "primary_long_tail": "Al Hashr 59:18 apa yang disiapkan untuk hari esok akhirat",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/030/",
       "reader": "https://tadabburlife.com/?session=30&lang=id",
-      "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18 | TadabburLife",
-      "meta_description": "Al-Hashr 59:18 mengingatkan setiap jiwa untuk melihat amal yang disiapkan bagi hari esok. Tadabbur tentang takwa, bekal akhirat, tanggung jawab, dan amal nyata.",
-      "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
+      "seo_title": "Al-Hashr 59:18: Apa yang Kita Siapkan untuk Hari Esok? | TadabburLife",
+      "meta_description": "Al-Hashr 59:18 memerintahkan setiap jiwa melihat apa yang telah disiapkan untuk hari esok. Pahami takwa, bekal akhirat, amal yang dikirim ke depan, dan tanggung jawab.",
+      "h1": "Al-Hashr 59:18: Apa yang Kita Siapkan untuk Hari Esok?",
       "related_sessions": [
         "034",
         "039",
@@ -2032,22 +2037,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang mempersiapkan bekal akhirat Al Hashr 59:18",
-          "adjacent_long_tail": "Al Hashr 59:18 bekal akhirat hari esok",
+          "primary_long_tail": "Al Hashr 59:18 apa yang disiapkan untuk hari esok akhirat",
+          "adjacent_long_tail": "ayat tentang mempersiapkan bekal akhirat Al Hashr 59 18",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium",
-          "search_territory": "Al-Hashr 59:18 on deeds prepared for tomorrow, taqwa and provision for the Hereafter.",
-          "cannibalization_guard": "Session 016 owns nightly muhasabah/self-review before sleep. Session 030 owns preparing provision for the Hereafter."
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Al-Hashr 59:18 on examining what deeds one has sent ahead for tomorrow/the Hereafter, with taqwa and accountability.",
+          "cannibalization_guard": "Session 016 uses the same verse but owns the practical habit of nightly/daily muhasabah before sleep. Session 030 owns provision for tomorrow/the Hereafter and what one has sent ahead."
         },
         "en": {
-          "primary_long_tail": "Quran 59:18 preparing for the Hereafter",
-          "adjacent_long_tail": "what have you prepared for tomorrow Quran 59 18",
+          "primary_long_tail": "Quran 59:18 what have you sent ahead for tomorrow",
+          "adjacent_long_tail": "Quran 59 18 preparing for the Hereafter meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium",
-          "search_territory": "Quran 59:18 on deeds sent ahead, taqwa and preparing for the Hereafter.",
-          "cannibalization_guard": "Session 016 owns nightly muhasabah and self-accountability before sleep. Session 030 owns preparing for the Hereafter."
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 59:18 on what each soul has sent ahead for tomorrow, taqwa, final accountability and provision for the Hereafter.",
+          "cannibalization_guard": "Session 016 owns nightly self-accounting practice. Session 030 owns deeds sent ahead / provision for tomorrow and the Hereafter."
         }
       },
       "implementation": {
@@ -2056,9 +2061,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/030/",
           "reader": "https://tadabburlife.com/?session=30&lang=id",
-          "seo_title": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18 | TadabburLife",
-          "meta_description": "Al-Hashr 59:18 mengingatkan setiap jiwa untuk melihat amal yang disiapkan bagi hari esok. Tadabbur tentang takwa, bekal akhirat, tanggung jawab, dan amal nyata.",
-          "h1": "Ayat tentang Mempersiapkan Bekal Akhirat — Al-Hashr 59:18",
+          "seo_title": "Al-Hashr 59:18: Apa yang Kita Siapkan untuk Hari Esok? | TadabburLife",
+          "meta_description": "Al-Hashr 59:18 memerintahkan setiap jiwa melihat apa yang telah disiapkan untuk hari esok. Pahami takwa, bekal akhirat, amal yang dikirim ke depan, dan tanggung jawab.",
+          "h1": "Al-Hashr 59:18: Apa yang Kita Siapkan untuk Hari Esok?",
           "html_lang": "id",
           "related_sessions": [
             "034",
@@ -2070,9 +2075,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/030/",
           "reader": "https://tadabburlife.com/?session=30&lang=en",
-          "seo_title": "Quran 59:18: Preparing for the Hereafter | TadabburLife",
-          "meta_description": "Do Not Live Without Accounting for Tomorrow. Ibn Kathir explains that every soul should examine the deeds prepared for the Day of Resurrection.",
-          "h1": "Quran 59:18: Preparing for the Hereafter",
+          "seo_title": "Quran 59:18: What Have You Sent Ahead for Tomorrow? | TadabburLife",
+          "meta_description": "Quran 59:18 tells every soul to consider what it has sent ahead for tomorrow. Explore taqwa, deeds prepared for the Hereafter, accountability, and purposeful action.",
+          "h1": "Quran 59:18: What Have You Sent Ahead for Tomorrow?",
           "html_lang": "en",
           "related_sessions": [
             "034",
@@ -2086,15 +2091,15 @@
     {
       "session": "031",
       "locked_title": "Jangan Berputus Asa dari Rahmat Allah",
-      "primary_long_tail": "ayat untuk orang yang merasa banyak dosa dan ingin kembali kepada Allah",
+      "primary_long_tail": "Az Zumar 39:53 dosa banyak jangan putus asa rahmat Allah",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/031/",
       "reader": "https://tadabburlife.com/?session=31&lang=id",
-      "seo_title": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali | TadabburLife",
-      "meta_description": "Jangan Berputus Asa dari Rahmat Allah. Harapan, taubat, rahmat, kembali kepada Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
+      "seo_title": "Az-Zumar 39:53: Jangan Putus Asa meski Dosa Terasa Banyak | TadabburLife",
+      "meta_description": "Az-Zumar 39:53 melarang berputus asa dari rahmat Allah meski dosa terasa banyak. Pahami keluasan ampunan, taubat, kembali kepada Allah, dan kewajiban memulihkan hak orang lain.",
+      "h1": "Az-Zumar 39:53: Jangan Putus Asa meski Dosa Terasa Banyak",
       "related_sessions": [
         "032",
         "029",
@@ -2103,17 +2108,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat untuk orang yang merasa banyak dosa dan ingin kembali kepada Allah",
+          "primary_long_tail": "Az Zumar 39:53 dosa banyak jangan putus asa rahmat Allah",
+          "adjacent_long_tail": "ayat untuk orang yang merasa banyak dosa dan ingin kembali kepada Allah",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Az-Zumar 39:53 for people who feel overwhelmed by their sins: do not despair of Allah's mercy, return in repentance, and restore human rights where relevant.",
+          "cannibalization_guard": "Session 018 owns hope within hardship; Session 045 owns feeling abandoned when answers are delayed. Session 031 owns guilt from sin, despair of mercy, repentance and return to Allah."
         },
         "en": {
-          "primary_long_tail": "Quran verse for someone who thinks their sins are too many",
-          "adjacent_long_tail": "do not despair of Allah's mercy meaning Quran 39 53",
+          "primary_long_tail": "Quran 39:53 sins too many do not despair Allah mercy",
+          "adjacent_long_tail": "Quran verse for someone who thinks their sins are too many",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 39:53 on not despairing of Allah's mercy after sin, repentance, return, and restoring others' rights when necessary.",
+          "cannibalization_guard": "Session 018 owns hardship/ease; Session 045 owns feeling abandoned by Allah. Session 031 owns sin-related despair and repentance."
         }
       },
       "implementation": {
@@ -2122,9 +2132,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/031/",
           "reader": "https://tadabburlife.com/?session=31&lang=id",
-          "seo_title": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali | TadabburLife",
-          "meta_description": "Jangan Berputus Asa dari Rahmat Allah. Harapan, taubat, rahmat, kembali kepada Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Ayat untuk Orang yang Merasa Banyak Dosa dan Ingin Kembali",
+          "seo_title": "Az-Zumar 39:53: Jangan Putus Asa meski Dosa Terasa Banyak | TadabburLife",
+          "meta_description": "Az-Zumar 39:53 melarang berputus asa dari rahmat Allah meski dosa terasa banyak. Pahami keluasan ampunan, taubat, kembali kepada Allah, dan kewajiban memulihkan hak orang lain.",
+          "h1": "Az-Zumar 39:53: Jangan Putus Asa meski Dosa Terasa Banyak",
           "html_lang": "id",
           "related_sessions": [
             "032",
@@ -2136,9 +2146,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/031/",
           "reader": "https://tadabburlife.com/?session=31&lang=en",
-          "seo_title": "Quran verse for someone who thinks their sins are too many",
-          "meta_description": "Do Not Despair of Allah's Mercy. Ibn Kathir presents this as a call to sinners to return and repent. Vast forgiveness does not trivialize sin; it prevents guilt from becoming despair.",
-          "h1": "Quran verse for someone who thinks their sins are too many",
+          "seo_title": "Quran 39:53: Do Not Despair When Your Sins Feel Too Many | TadabburLife",
+          "meta_description": "Quran 39:53 tells those who have sinned against themselves not to despair of Allah’s mercy. Explore repentance, forgiveness, returning to Allah, and restoring people’s rights.",
+          "h1": "Quran 39:53: Do Not Despair When Your Sins Feel Too Many",
           "html_lang": "en",
           "related_sessions": [
             "032",
@@ -2152,15 +2162,15 @@
     {
       "session": "032",
       "locked_title": "Beban, Doa, dan Batas Kemampuan",
-      "primary_long_tail": "makna Allah tidak membebani seseorang di luar kemampuannya",
+      "primary_long_tail": "Al Baqarah 2:286 Allah tidak membebani di luar kemampuan makna",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/032/",
       "reader": "https://tadabburlife.com/?session=32&lang=id",
-      "seo_title": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286 | TadabburLife",
-      "meta_description": "Beban, Doa, dan Batas Kemampuan. Kemampuan, tanggung jawab, doa, pertolongan Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-      "h1": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
+      "seo_title": "Al-Baqarah 2:286: Allah Tidak Membebani di Luar Kemampuan | TadabburLife",
+      "meta_description": "Al-Baqarah 2:286 menyatakan Allah tidak membebani jiwa di luar kapasitasnya, lalu mengaitkan tanggung jawab dengan perbuatan dan mengajarkan doa memohon ampun, rahmat, dan pertolongan.",
+      "h1": "Al-Baqarah 2:286: Allah Tidak Membebani di Luar Kemampuan",
       "related_sessions": [
         "031",
         "029",
@@ -2169,17 +2179,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "makna Allah tidak membebani seseorang di luar kemampuannya",
+          "primary_long_tail": "Al Baqarah 2:286 Allah tidak membebani di luar kemampuan makna",
+          "adjacent_long_tail": "makna Allah tidak membebani seseorang di luar kemampuannya",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Al-Baqarah 2:286 on burden/taklif within capacity, responsibility for deeds, and prayer for pardon, mercy, relief and help.",
+          "cannibalization_guard": "Session 006 owns patience and prayer when life feels hard; Session 018 owns hardship-with-ease. Session 032 owns capacity, responsibility, prayer, and the boundary against telling overwhelmed people to carry everything alone."
         },
         "en": {
-          "primary_long_tail": "Allah does not burden a soul beyond what it can bear meaning",
-          "adjacent_long_tail": "Quran 2 286 meaning burden beyond capacity",
+          "primary_long_tail": "Quran 2:286 Allah does not burden a soul beyond its capacity meaning",
+          "adjacent_long_tail": "Allah does not burden a soul beyond what it can bear meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 2:286 on burden within capacity, responsibility for deeds, and prayer for forgiveness, mercy, relief and help.",
+          "cannibalization_guard": "Session 006 owns patience/prayer in difficulty; Session 018 owns hardship/ease. Session 032 owns capacity + responsibility + prayer and rejects the 'handle everything alone' misuse."
         }
       },
       "implementation": {
@@ -2188,9 +2203,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/032/",
           "reader": "https://tadabburlife.com/?session=32&lang=id",
-          "seo_title": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286 | TadabburLife",
-          "meta_description": "Beban, Doa, dan Batas Kemampuan. Kemampuan, tanggung jawab, doa, pertolongan Allah Pelajari ayat, tafsir, muhasabah, dan amal praktisnya.",
-          "h1": "Allah Tidak Membebani di Luar Kemampuan — Al-Baqarah 2:286",
+          "seo_title": "Al-Baqarah 2:286: Allah Tidak Membebani di Luar Kemampuan | TadabburLife",
+          "meta_description": "Al-Baqarah 2:286 menyatakan Allah tidak membebani jiwa di luar kapasitasnya, lalu mengaitkan tanggung jawab dengan perbuatan dan mengajarkan doa memohon ampun, rahmat, dan pertolongan.",
+          "h1": "Al-Baqarah 2:286: Allah Tidak Membebani di Luar Kemampuan",
           "html_lang": "id",
           "related_sessions": [
             "031",
@@ -2202,9 +2217,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/032/",
           "reader": "https://tadabburlife.com/?session=32&lang=en",
-          "seo_title": "Allah does not burden a soul beyond what it can bear meaning",
-          "meta_description": "Burden, Prayer, and the Limits of Capacity. Ibn Kathir explains that Allah does not burden a person beyond capacity. This displays mercy in revealed obligation while affirming responsibility for deeds.",
-          "h1": "Allah does not burden a soul beyond what it can bear meaning",
+          "seo_title": "Quran 2:286: Allah Does Not Burden a Soul Beyond Its Capacity | TadabburLife",
+          "meta_description": "Quran 2:286 says Allah does not burden a soul beyond its capacity, then links responsibility to deeds and teaches prayers for pardon, mercy, relief, and help.",
+          "h1": "Quran 2:286: Allah Does Not Burden a Soul Beyond Its Capacity",
           "html_lang": "en",
           "related_sessions": [
             "031",
