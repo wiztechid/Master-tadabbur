@@ -320,19 +320,51 @@ English must achieve functional/search-navigation parity with Indonesian where a
 
 ## 11. STRUCTURED DATA STATUS
 
-Article structured data is present in the landing architecture.
+Schema normalization is now complete across all 94 session landings.
 
-More mature Indonesian pages can include richer Article properties and BreadcrumbList schema.
+Normalized schema baseline on every ID + EN landing:
 
-English pages and some later-generation landings use a more minimal schema implementation.
+- exactly one valid `Article` JSON-LD object;
+- exactly one valid `BreadcrumbList`;
+- `headline` synchronized to the landing H1;
+- `description` synchronized to the landing meta description;
+- `inLanguage` = `id-ID` for Indonesian and `en` for English;
+- `url` = canonical landing URL;
+- `mainEntityOfPage` normalized as a `WebPage` object with canonical `@id`;
+- `author` = Person / Suiza Ixan Saputro;
+- `publisher` = Organization / TadabburLife;
+- `isPartOf` = WebSite / TadabburLife;
+- breadcrumb home + current-page URL/name synchronized to the actual landing.
 
-Therefore:
+Normalization safety controls:
 
-**Structured-data foundation: IMPLEMENTED**
+- only JSON-LD inside `<head>` was rewritten;
+- **94 / 94 page bodies remained byte-for-byte unchanged**;
+- existing `alternativeHeadline` / `keywords` were preserved where already present;
+- JSON-LD parse errors after normalization: **0**.
 
-**Corpus-wide schema normalization: INCOMPLETE**
+Repository/source QC:
 
-Green Gate requires consistent valid structured data across all 94 landings, while allowing language-appropriate content.
+- session files checked: **94 / 94**
+- exactly one Article schema: **94 / 94**
+- exactly one BreadcrumbList: **94 / 94**
+- QC PASS: **94 / 94**
+
+Live custom-domain QC after successful Pages deployment:
+
+- live URLs checked: **94 / 94**
+- HTTP 200: **94 / 94**
+- normalized schema PASS: **94 / 94**
+- failures: **0**
+
+Reusable controls now exist at:
+
+- `.github/scripts/normalize_schema.py`
+- `.github/workflows/normalize-schema.yml`
+- `.github/scripts/live_schema_qc.py`
+- `.github/workflows/live-schema-qc.yml`
+
+**G3 — Schema Normalization: 🟢 PASS**
 
 ---
 
@@ -447,18 +479,17 @@ Before Deep SERP validation, work on 013–047 is limited to safe technical inte
 
 Metadata/content refinement must remain driven by SERP evidence, session relevance, reader value, and the Religious Evidence Boundary.
 
-### G3 — Schema Normalization
+### G3 — Schema Normalization — 🟢 PASS
 
-Normalize and validate structured data across the active corpus.
+Completed and verified across **94 / 94** ID + EN session landings.
 
-Target foundation:
+- Article schema: **94 / 94 PASS**
+- BreadcrumbList: **94 / 94 PASS**
+- JSON-LD parse errors: **0**
+- body/content unchanged during schema-only rewrite: **94 / 94**
+- live custom-domain schema validation: **94 / 94 PASS**
 
-- Article,
-- correct mainEntityOfPage,
-- language,
-- site relationship,
-- breadcrumb where architecture calls for it,
-- consistent valid output.
+Schema normalization is no longer an active Green-Gate gap.
 
 ### G4 — Internal-Link Parity
 
@@ -610,7 +641,7 @@ Search opportunity or keyword demand causes explanatory content to overstate, in
 
 ### Active Priority
 
-**SCHEMA NORMALIZATION → INTERNAL-LINK PARITY → KEYWORD-MAP ↔ LANDING SYNC → LIVE READER/REGRESSION QC → GREEN GATE**
+**INTERNAL-LINK PARITY → KEYWORD-MAP ↔ LANDING SYNC → OG/SHARE + LIVE READER/REGRESSION QC → GREEN GATE**
 
 The Green Gate is a **technical-integrity gate**, not a substitute for unfinished Deep SERP research. Technical normalization may standardize canonical/hreflang/indexability, schema foundation, breadcrumb/navigation, reader CTA, internal-link architecture, OG/share integrity, crawler-visible HTML, sitemap consistency, and bilingual functional parity. It must not manufacture SEO editorial evidence for Sessions 013–047.
 
@@ -618,12 +649,12 @@ Priority order:
 
 1. preserve Absolute Sacred Lock and meaning-constrained reflection/action,
 2. audit/normalize 94 landing technical structure,
-3. close EN internal-link parity gap,
-4. normalize schema,
-5. normalize metadata **technical integrity** across 94 landings without speculative editorial rewrites on Sessions 013–047,
+3. close **EN/internal-link functional parity** gap,
+4. **schema normalization — COMPLETE / PASS 94/94 source + live**,
+5. normalize metadata **technical integrity** only where an objective defect exists; do not perform speculative editorial rewrites on Sessions 013–047,
 6. verify keyword-map ↔ landing synchronization,
-7. **live 103-URL crawl QC — COMPLETE / PASS**, 
-8. close remaining schema/internal-link/keyword-map/OG and reader-regression gaps,
+7. **live 103-URL crawl QC — COMPLETE / PASS**,
+8. close remaining internal-link/keyword-map/OG and reader-regression gaps,
 9. mark Technical Integrity GREEN only after G1–G7 evidence passes.
 
 ---
@@ -708,12 +739,12 @@ Recommended handoff instruction:
 **Deep SERP:** 001–012 bilingual validated  
 **Deep SERP coverage:** 12/47 sessions are Deep Live SERP validated
 **Internal linking:** ID stronger; EN normalization required  
-**Schema:** Implemented; corpus normalization required  
+**Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
 **Metadata:** Implemented; quality normalization required  
 **Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
 **Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
 **Technical Green Gate:** IN PROGRESS  
-**Immediate work:** Schema Normalization + Internal-Link Parity + Keyword-Map ↔ Landing Sync  
+**Immediate work:** Internal-Link Parity → Keyword-Map ↔ Landing Sync  
 **Next Deep SERP batch:** 013–016 bilingual  
 **Long-term scale:** 1,000+ sessions
 
