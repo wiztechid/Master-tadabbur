@@ -22,6 +22,21 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Replaced the user-facing GitHub contact route with **`info@tadabburlife.com`** on the Contact page.
 - Kept canonical, indexability, metadata, and structured-page signals intact during the visual update.
 
+### [SEO / Technical] Keyword-Map ↔ 94 Landing Sync — PASS
+- Upgraded `seo/keyword-map.json` from an ID-heavy implementation registry into a bilingual research + implementation registry covering **47 sessions × 2 languages = 94 landing implementations**.
+- Added per-language `implementation.id` and `implementation.en` snapshots sourced from the actual landing files.
+- Each implementation snapshot now records canonical URL, reader URL, implemented title, meta description, H1, HTML language, and related-session targets.
+- Preserved all existing keyword/search-intent research fields rather than generating new editorial SEO targets.
+- Preserved the research boundary exactly: Sessions **001–012** remain Deep Live SERP validated in ID + EN; Sessions **013–047** remain `serp-directional` in ID + EN.
+- Did **not** silently upgrade directional sessions to Deep SERP validation.
+- Hardened HTML attribute parsing after detecting that a simple regex could truncate meta descriptions containing apostrophes such as `Qur'an`; reran synchronization and verified complete strings.
+- Source QC verified **94 / 94 implementation snapshots PASS**, **47 / 47 related-session pair parity**, **0 research-boundary issues**, and **0 post-sync registry issues**.
+- Live custom-domain QC verified **94 / 94 HTTP 200** and **94 / 94 keyword-map ↔ live landing PASS**, with **0 failures**.
+- Added reusable automation: `.github/scripts/sync_keyword_map.py`, `.github/workflows/sync-keyword-map.yml`, `.github/scripts/live_keyword_map_qc.py`, and `.github/workflows/live-keyword-map-qc.yml`.
+- Marked **G5 Keyword Map ↔ Landing Sync = PASS**.
+- Synchronization exposed a separate metadata-quality issue rather than a registry mismatch: the current English meta description for Session 013 ends mid-word. This is deferred to the next **Metadata Technical Integrity + OG/Share QC** gate.
+- Moved active Green-Gate priority to **Metadata Technical Integrity + OG/Share QC**.
+
 ### [SEO / Technical] 94-Landing Internal-Link Parity — PASS
 - Normalized functional navigation across all **94** Indonesian + English session landings.
 - Added a visible reciprocal **ID ↔ EN** counterpart link in each landing breadcrumb.
