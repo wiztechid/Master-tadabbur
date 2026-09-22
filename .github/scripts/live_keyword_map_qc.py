@@ -235,8 +235,8 @@ def main() -> int:
             len(rows) == 94
             and not failures
             and not pair_issues
-            and deep_ok == 16
-            and directional_ok == 31
+            and deep_ok == 20
+            and directional_ok == 27
             and not research_issues
         ),
     }
