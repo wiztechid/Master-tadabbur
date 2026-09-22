@@ -1096,12 +1096,12 @@
       "primary_long_tail": "ayat tentang perbedaan suku bangsa untuk saling mengenal",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/017/",
       "reader": "https://tadabburlife.com/?session=17&lang=id",
-      "seo_title": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13 | TadabburLife",
-      "meta_description": "Berbeda untuk Saling Mengenal, Bukan Saling Merendahkan. Perbedaan bangsa, suku, keluarga, bahasa, dan latar sosial bukan izin untuk membuat tangga kemuliaan buatan manusia.",
-      "h1": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
+      "seo_title": "Al-Hujurat 49:13: Perbedaan Suku dan Bangsa untuk Saling Mengenal | TadabburLife",
+      "meta_description": "Al-Hujurat 49:13 menjelaskan manusia dijadikan berbangsa dan bersuku agar saling mengenal. Kemuliaan tidak ditentukan asal-usul, tetapi takwa.",
+      "h1": "Al-Hujurat 49:13: Perbedaan Suku dan Bangsa untuk Saling Mengenal",
       "related_sessions": [
         "019",
         "013",
@@ -1111,16 +1111,21 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat tentang perbedaan suku bangsa untuk saling mengenal",
+          "adjacent_long_tail": "Al Hujurat 49:13 berbangsa dan bersuku agar saling mengenal",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium-high",
+          "search_territory": "Al-Hujurat 49:13 on why humanity is made into nations and tribes: ta'aruf/saling mengenal, rejection of ancestry-based superiority, and taqwa as the measure before Allah.",
+          "cannibalization_guard": "Session 003 owns the broad purpose of human creation; Sessions 005/015 own mockery, suspicion, tajassus, and backbiting. Session 017 owns group identity, nations/tribes, ta'aruf, and ancestry-based hierarchy."
         },
         "en": {
-          "primary_long_tail": "Quran verse about different nations and tribes",
+          "primary_long_tail": "Quran 49:13 nations and tribes to know one another",
           "adjacent_long_tail": "why Allah created different nations and tribes",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 49:13 on nations and tribes, knowing one another, ancestry and human worth, with taqwa as the measure before Allah.",
+          "cannibalization_guard": "Session 003 owns the broad purpose-of-creation intent; Sessions 005/015 own interpersonal dignity violations. Session 017 owns nations/tribes, mutual recognition, and ancestry-based superiority."
         }
       },
       "implementation": {
@@ -1129,9 +1134,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/017/",
           "reader": "https://tadabburlife.com/?session=17&lang=id",
-          "seo_title": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13 | TadabburLife",
-          "meta_description": "Berbeda untuk Saling Mengenal, Bukan Saling Merendahkan. Perbedaan bangsa, suku, keluarga, bahasa, dan latar sosial bukan izin untuk membuat tangga kemuliaan buatan manusia.",
-          "h1": "Perbedaan Suku dan Bangsa untuk Saling Mengenal — Al-Hujurat 13",
+          "seo_title": "Al-Hujurat 49:13: Perbedaan Suku dan Bangsa untuk Saling Mengenal | TadabburLife",
+          "meta_description": "Al-Hujurat 49:13 menjelaskan manusia dijadikan berbangsa dan bersuku agar saling mengenal. Kemuliaan tidak ditentukan asal-usul, tetapi takwa.",
+          "h1": "Al-Hujurat 49:13: Perbedaan Suku dan Bangsa untuk Saling Mengenal",
           "html_lang": "id",
           "related_sessions": [
             "019",
@@ -1143,9 +1148,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/017/",
           "reader": "https://tadabburlife.com/?session=17&lang=en",
-          "seo_title": "Quran verse about different nations and tribes",
-          "meta_description": "Different So We May Know One Another, Not Look Down on One Another. Differences of nation, tribe, family, language, and social background are not permission to build a human hierarchy of worth.",
-          "h1": "Quran verse about different nations and tribes",
+          "seo_title": "Quran 49:13: Nations and Tribes to Know One Another",
+          "meta_description": "Quran 49:13 says people were made into nations and tribes to know one another. Human worth is not ranked by ancestry; nobility before Allah is tied to taqwa.",
+          "h1": "Quran 49:13: Nations and Tribes to Know One Another",
           "html_lang": "en",
           "related_sessions": [
             "019",
@@ -1162,12 +1167,12 @@
       "primary_long_tail": "tadabbur Asy Syarh 5 6 bersama kesulitan ada kemudahan",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/018/",
       "reader": "https://tadabburlife.com/?session=18&lang=id",
-      "seo_title": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6 | TadabburLife",
-      "meta_description": "Bersama Kesulitan Ada Kemudahan. Al-Qur'an tidak menjanjikan hidup tanpa kesulitan.",
-      "h1": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
+      "seo_title": "Asy-Syarh 94:5–6: Bersama Kesulitan Ada Kemudahan | TadabburLife",
+      "meta_description": "Apa arti bersama kesulitan ada kemudahan dalam Asy-Syarh 94:5–6? Pahami makna ma‘a, pengulangan ayat, harapan, ikhtiar, dan batas penerapannya.",
+      "h1": "Asy-Syarh 94:5–6: Bersama Kesulitan Ada Kemudahan",
       "related_sessions": [
         "008",
         "007",
@@ -1177,16 +1182,21 @@
       "seo": {
         "id": {
           "primary_long_tail": "tadabbur Asy Syarh 5 6 bersama kesulitan ada kemudahan",
+          "adjacent_long_tail": "apa arti bersama kesulitan ada kemudahan Asy Syarh 94 5 6",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Meaning of Asy-Syarh 94:5-6: ease with hardship, the repeated assurance, hope that does not erase pain, and effort that continues through difficulty.",
+          "cannibalization_guard": "Session 006 owns what to do when life feels heavy through patience and prayer (Al-Baqarah 2:45). Session 018 owns the meaning of Asy-Syarh 94:5-6 and the hardship-with-ease promise."
         },
         "en": {
           "primary_long_tail": "with hardship comes ease meaning Quran 94 5-6",
           "adjacent_long_tail": "meaning of surely with hardship comes ease",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Meaning of Quran 94:5-6 / 'with hardship comes ease': repetition, 'with' hardship, realistic hope, and continued effort.",
+          "cannibalization_guard": "Session 006 owns Quran guidance for when life feels hard through patience and prayer. Session 018 owns Quran 94:5-6 and the meaning of 'with hardship comes ease'."
         }
       },
       "implementation": {
@@ -1195,9 +1205,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/018/",
           "reader": "https://tadabburlife.com/?session=18&lang=id",
-          "seo_title": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6 | TadabburLife",
-          "meta_description": "Bersama Kesulitan Ada Kemudahan. Al-Qur'an tidak menjanjikan hidup tanpa kesulitan.",
-          "h1": "Bersama Kesulitan Ada Kemudahan — Tadabbur Asy-Syarh 5–6",
+          "seo_title": "Asy-Syarh 94:5–6: Bersama Kesulitan Ada Kemudahan | TadabburLife",
+          "meta_description": "Apa arti bersama kesulitan ada kemudahan dalam Asy-Syarh 94:5–6? Pahami makna ma‘a, pengulangan ayat, harapan, ikhtiar, dan batas penerapannya.",
+          "h1": "Asy-Syarh 94:5–6: Bersama Kesulitan Ada Kemudahan",
           "html_lang": "id",
           "related_sessions": [
             "008",
@@ -1209,9 +1219,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/018/",
           "reader": "https://tadabburlife.com/?session=18&lang=en",
-          "seo_title": "With hardship comes ease meaning Quran 94 5-6",
-          "meta_description": "With Hardship Comes Ease. The Qur'an does not promise a life without hardship.",
-          "h1": "With hardship comes ease meaning Quran 94 5-6",
+          "seo_title": "With Hardship Comes Ease: Quran 94:5–6 Meaning",
+          "meta_description": "What does “with hardship comes ease” mean in Quran 94:5–6? Explore the repeated promise, the meaning of “with,” and why hope does not mean passivity.",
+          "h1": "With Hardship Comes Ease: Quran 94:5–6 Meaning",
           "html_lang": "en",
           "related_sessions": [
             "008",
@@ -1228,12 +1238,12 @@
       "primary_long_tail": "ayat tentang mengubah diri sebelum mengubah keadaan",
       "intent": "informational-reflection",
       "cluster": "iman-akhlak-kehidupan",
-      "serp_competition_estimate": "low-medium",
+      "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/019/",
       "reader": "https://tadabburlife.com/?session=19&lang=id",
-      "seo_title": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11 | TadabburLife",
-      "meta_description": "Perubahan Dimulai dari Apa yang Ada dalam Diri. Ada keadaan yang berada di luar kendali kita.",
-      "h1": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
+      "seo_title": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan | TadabburLife",
+      "meta_description": "Ar-Ra",
+      "h1": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan",
       "related_sessions": [
         "017",
         "013",
@@ -1243,16 +1253,21 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat tentang mengubah diri sebelum mengubah keadaan",
+          "adjacent_long_tail": "Ar Rad 13:11 Allah tidak mengubah keadaan suatu kaum makna",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium",
+          "search_territory": "Ar-Ra'd 13:11 on inner change and responsibility before expecting external change, while preserving Allah's decree and avoiding victim-blaming.",
+          "cannibalization_guard": "Session 008 owns tawakkul versus passivity after making effort. Sessions 016/030 own self-review and Hereafter accounting. Session 019 owns change within oneself/people as related to changing condition in Ar-Ra'd 13:11."
         },
         "en": {
-          "primary_long_tail": "Allah does not change a people until they change themselves meaning",
-          "adjacent_long_tail": "Quran verse about changing yourself first",
+          "primary_long_tail": "Quran 13:11 meaning change themselves",
+          "adjacent_long_tail": "Allah does not change a people until they change themselves meaning",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "high"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "high",
+          "search_territory": "Quran 13:11 meaning: change within a people, human responsibility, Allah's decree, and the boundary against simplistic motivational or victim-blaming readings.",
+          "cannibalization_guard": "Session 008 owns tawakkul and effort; Sessions 016/030 own nightly/Hereafter self-accounting. Session 019 owns Quran 13:11 and inner change tied to a people's condition."
         }
       },
       "implementation": {
@@ -1261,9 +1276,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/019/",
           "reader": "https://tadabburlife.com/?session=19&lang=id",
-          "seo_title": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11 | TadabburLife",
-          "meta_description": "Perubahan Dimulai dari Apa yang Ada dalam Diri. Ada keadaan yang berada di luar kendali kita.",
-          "h1": "Mengubah Diri Sebelum Mengubah Keadaan — Ar-Ra'd 13:11",
+          "seo_title": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan | TadabburLife",
+          "meta_description": "Ar-Ra",
+          "h1": "Ar-Ra'd 13:11: Mengubah Diri Sebelum Mengubah Keadaan",
           "html_lang": "id",
           "related_sessions": [
             "017",
@@ -1275,9 +1290,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/019/",
           "reader": "https://tadabburlife.com/?session=19&lang=en",
-          "seo_title": "Allah does not change a people until they change themselves meaning",
-          "meta_description": "Change Begins with What Is Within. Some circumstances truly lie outside our control.",
-          "h1": "Allah does not change a people until they change themselves meaning",
+          "seo_title": "Quran 13:11 Meaning: Change Begins Within",
+          "meta_description": "Quran 13:11 links change in a people",
+          "h1": "Quran 13:11 Meaning: Change Begins Within",
           "html_lang": "en",
           "related_sessions": [
             "017",
@@ -1297,9 +1312,9 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/020/",
       "reader": "https://tadabburlife.com/?session=20&lang=id",
-      "seo_title": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8 | TadabburLife",
-      "meta_description": "Tetap Adil Bahkan kepada yang Tidak Kita Sukai. Keadilan paling mudah ketika kita menyukai orang yang sedang dinilai.",
-      "h1": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
+      "seo_title": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai | TadabburLife",
+      "meta_description": "Al-Ma",
+      "h1": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai",
       "related_sessions": [
         "021",
         "022",
@@ -1309,16 +1324,21 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat tentang tetap adil kepada orang yang tidak disukai",
+          "adjacent_long_tail": "Al Maidah 5:8 kebencian jangan membuat tidak adil",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "low-medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "low-medium",
+          "search_territory": "Al-Ma'idah 5:8 on maintaining justice when hatred, rivalry, or dislike creates pressure to change the standard.",
+          "cannibalization_guard": "Session 004 owns amanah and justice in office/decision-making (An-Nisa 4:58); Session 035 owns justice plus ihsan as a general ethic (An-Nahl 16:90). Session 020 owns justice specifically toward disliked people/opponents under Al-Ma'idah 5:8."
         },
         "en": {
-          "primary_long_tail": "Quran verse about being just to people you dislike",
-          "adjacent_long_tail": "justice toward enemies in Islam Quran",
+          "primary_long_tail": "Quran 5:8 be just even toward people you dislike",
+          "adjacent_long_tail": "justice toward enemies in Islam Quran 5 8",
           "intent": "informational-reflection",
-          "demand_evidence": "serp-directional",
-          "competition": "medium"
+          "demand_evidence": "deep-live-serp-validated-2026-09-22",
+          "competition": "medium",
+          "search_territory": "Quran 5:8 on justice under hatred or dislike: the same standard for friend and opponent without erasing wrongdoing or consequences.",
+          "cannibalization_guard": "Session 004 owns trust/justice in leadership and Session 035 owns justice-and-ihsan generally. Session 020 owns justice when hatred or dislike pressures judgment."
         }
       },
       "implementation": {
@@ -1327,9 +1347,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/020/",
           "reader": "https://tadabburlife.com/?session=20&lang=id",
-          "seo_title": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8 | TadabburLife",
-          "meta_description": "Tetap Adil Bahkan kepada yang Tidak Kita Sukai. Keadilan paling mudah ketika kita menyukai orang yang sedang dinilai.",
-          "h1": "Tetap Adil kepada Orang yang Tidak Disukai — Al-Ma'idah 5:8",
+          "seo_title": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai | TadabburLife",
+          "meta_description": "Al-Ma",
+          "h1": "Al-Ma'idah 5:8: Tetap Adil kepada Orang yang Tidak Disukai",
           "html_lang": "id",
           "related_sessions": [
             "021",
@@ -1341,9 +1361,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/020/",
           "reader": "https://tadabburlife.com/?session=20&lang=en",
-          "seo_title": "Quran verse about being just to people you dislike",
-          "meta_description": "Remain Just Even toward Those You Dislike. Justice is easiest when we like the person being judged. The harder test comes when there is hurt, conflict, disagreement, or dislike.",
-          "h1": "Quran verse about being just to people you dislike",
+          "seo_title": "Quran 5:8: Be Just Even Toward People You Dislike",
+          "meta_description": "Quran 5:8 commands justice even toward people we dislike. Learn why hatred must not change the standard applied to friends, opponents, or rivals.",
+          "h1": "Quran 5:8: Be Just Even Toward People You Dislike",
           "html_lang": "en",
           "related_sessions": [
             "021",
@@ -3138,7 +3158,7 @@
     }
   ],
   "version": "2.0-bilingual-serp",
-  "updated": "2026-09-20",
+  "updated": "2026-09-22",
   "cannibalization_controls": [
     "One primary search intent per language per canonical landing.",
     "English targets are independently selected and must not be literal translations by default.",
