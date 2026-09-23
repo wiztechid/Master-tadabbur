@@ -38,9 +38,11 @@ def strip_tags(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
 def attr_value(tag: str, name: str) -> str:
-    m = re.search(rf'\\b{re.escape(name)}\\s*=\\s*(["\\'])(.*?)\\1', tag, re.I | re.S)
-    return html.unescape(m.group(2)) if m else ""
-
+    m = re.search(rf'\\b{re.escape(name)}\\s*=\\s*"([^"]*)"', tag, re.I | re.S)
+    if m:
+        return html.unescape(m.group(1))
+    m = re.search(rf"\\b{re.escape(name)}\\s*=\\s*'([^']*)'", tag, re.I | re.S)
+    return html.unescape(m.group(1)) if m else ""
 def meta_description(text: str) -> str:
     # Quote-aware attribute parsing: apostrophes inside a double-quoted
     # description (Ar-Ra'd, Al-Ma'un, people's) must not truncate the value.
