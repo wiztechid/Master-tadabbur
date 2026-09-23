@@ -122,6 +122,22 @@ for (const profile of profiles) {
     const statTotal = (await page.locator('#stat-total').textContent())?.trim() || '';
     const statSessions = (await page.locator('#stat-sessions').textContent())?.trim() || '';
     const docLang = await page.locator('html').getAttribute('lang');
+    const topState = async () => page.locator('.top').evaluate(el => {
+      const s = getComputedStyle(el);
+      return {
+        showClass: el.classList.contains('show'),
+        opacity: Number(s.opacity),
+        visibility: s.visibility,
+        pointerEvents: s.pointerEvents,
+      };
+    });
+    const topAtStart = await topState();
+    await page.evaluate(() => window.scrollTo(0, 500));
+    await page.waitForTimeout(300);
+    const topAfter400 = await topState();
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.waitForTimeout(300);
+    const topAfterReturn = await topState();
     const metrics = await page.evaluate(() => {
       const bar = document.querySelector('#quran-progress-bar');
       const track = bar?.parentElement;
@@ -150,6 +166,9 @@ for (const profile of profiles) {
       totalAyat: statTotal.replace(/[.,]/g, '') === String(expected.total),
       sessions: statSessions === String(expected.sessions),
       htmlLang: docLang === (profile.lang === 'en' ? 'en' : 'id'),
+      topHiddenAtStart: !topAtStart.showClass && topAtStart.opacity === 0 && topAtStart.visibility === 'hidden' && topAtStart.pointerEvents === 'none',
+      topVisibleAfter400: topAfter400.showClass && topAfter400.opacity > 0.95 && topAfter400.visibility === 'visible' && topAfter400.pointerEvents === 'auto',
+      topHiddenAfterReturn: !topAfterReturn.showClass && topAfterReturn.opacity === 0 && topAfterReturn.visibility === 'hidden' && topAfterReturn.pointerEvents === 'none',
       noHorizontalOverflow: metrics.scrollWidth <= metrics.clientWidth + 1,
       progressBarRatio: Math.abs(actualRatio - expectedRatio) < 0.002,
       heroVisible: metrics.heroWidth > 0,
@@ -157,7 +176,7 @@ for (const profile of profiles) {
       noConsoleErrors: consoleErrors.length === 0,
       noPageErrors: pageErrors.length === 0,
     };
-    row.metrics = { ...metrics, expectedRatio, actualRatio };
+    row.metrics = { ...metrics, expectedRatio, actualRatio, topAtStart, topAfter400, topAfterReturn };
     row.actualText = actualText;
     row.pass = Object.values(row.checks).every(Boolean);
 
@@ -188,9 +207,9 @@ const md = [
   `Cross-reference occurrences: ${crossReferenceOccurrences}`,
   `Total historical reference occurrences represented: ${ownedAyatOccurrences + crossReferenceOccurrences}`,
   '',
-  '| Profile | HTTP | Progress | Stats | Overflow | Bar | Errors | Result |',
-  '|---|---:|---:|---:|---:|---:|---:|---:|',
-  ...report.profiles.map(r => `| ${r.name} | ${r.checks.http200?'PASS':'FAIL'} | ${r.checks.progressText?'PASS':'FAIL'} | ${r.checks.discussedAyat&&r.checks.totalAyat&&r.checks.sessions?'PASS':'FAIL'} | ${r.checks.noHorizontalOverflow?'PASS':'FAIL'} | ${r.checks.progressBarRatio?'PASS':'FAIL'} | ${r.checks.noConsoleErrors&&r.checks.noPageErrors?'PASS':'FAIL'} | ${r.pass?'PASS':'FAIL'} |`),
+  '| Profile | HTTP | Progress | Stats | ↑ Scroll | Overflow | Bar | Errors | Result |',
+  '|---|---:|---:|---:|---:|---:|---:|---:|---:|',
+  ...report.profiles.map(r => `| ${r.name} | ${r.checks.http200?'PASS':'FAIL'} | ${r.checks.progressText?'PASS':'FAIL'} | ${r.checks.discussedAyat&&r.checks.totalAyat&&r.checks.sessions?'PASS':'FAIL'} | ${r.checks.topHiddenAtStart&&r.checks.topVisibleAfter400&&r.checks.topHiddenAfterReturn?'PASS':'FAIL'} | ${r.checks.noHorizontalOverflow?'PASS':'FAIL'} | ${r.checks.progressBarRatio?'PASS':'FAIL'} | ${r.checks.noConsoleErrors&&r.checks.noPageErrors?'PASS':'FAIL'} | ${r.pass?'PASS':'FAIL'} |`),
   '',
   `**Overall: ${report.overallPass ? 'PASS' : 'FAIL'}**`,
   ''
