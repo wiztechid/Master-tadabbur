@@ -8,6 +8,37 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-23
 
+### [Release] Post-Dedup Technical Re-Sync + Final Release Gate v1.0 — 🟢 GREEN
+- Completed the aggregate website-side release checkpoint after ayat-ownership deduplication and post-dedup Deep SERP revalidation.
+- Final Release Gate v1.0 tested commit **`7fabca8c13942c9ad08dc614a16a2d169a406721`** and returned **16 / 16 PASS, 0 blockers**.
+- Final live crawl: **103 / 103 HTTP 200**, 0 redirects, 0 canonical issues, 0 noindex, 0 soft-404 suspects, and no global robots/sitemap issues.
+- Canonical + hreflang: **94 / 94 landing PASS**, **47 / 47 reciprocal ID/EN pairs**.
+- Keyword map: **94 / 94 source/live implementation PASS**, **47 / 47 Deep**, **0 directional-only**, **0 final sync drift**.
+- Metadata/OG: **94 / 94 source PASS + 94 / 94 live PASS**.
+- Reflection Card OG: **94 / 94 unique images**, all live HTTP 200 and **1200×630**.
+- Article + BreadcrumbList schema: **94 / 94 live PASS**.
+- Internal-link parity: **94 / 94 PASS**, related ID/EN parity **47 / 47**.
+- Post-dedup targeted SEO regression: **12 / 12 PASS** for Sessions 004, 007, 011, 016, 043, 044 ID+EN.
+- Reader regression: **282 / 282 desktop/tablet/mobile corpus checks PASS** plus behavioral regression PASS.
+- Homepage Qur'an-progress regression: **5 / 5 responsive profiles PASS**, retaining **75 / 6,236 unique owned ayat = 1.2%** and **47 sessions**.
+- Added persistent aggregate evidence at **`.github/qc-state/final-release-v1/`** and release record **`seo/final-release-gate-v1-2026-09-23.md`**.
+- Website-side release baseline is now ready to proceed to **Google Search Console indexing verification** and **AdSense account-side/production setup**. This does not itself guarantee index inclusion or AdSense approval.
+
+### [Technical Integrity] Schema apostrophe parser defect — FIXED
+- Final Release Gate caught **8 Article schema descriptions** that were truncated when meta descriptions contained apostrophes such as **Ar-Ra'd, Al-Ma'idah, Al-Ma'un, Al-'Asr,** and English **people's**.
+- Root cause was a legacy regex that treated both quote characters as attribute terminators.
+- Replaced schema meta-description extraction with Python **HTMLParser** in the normalizer and live validator.
+- Re-normalized exactly the affected 8 landing schemas; their Article descriptions now exactly match the full meta descriptions.
+- Schema normalization verified **94 / 94 page bodies unchanged**, preserving the sacred/content layer.
+- Hardened schema-normalization bot pushes with rebase-before-push and automatic triggering when session landing files change.
+
+### [Technical Integrity] Release automation hardening
+- Updated keyword-map sync from the obsolete **16 Deep / 31 directional** boundary to the current **47 Deep / 0 directional** baseline.
+- Keyword-map sync now automatically runs when ID/EN session landings change and final re-sync reported **0 technical map drift**.
+- Added dedicated live canonical/hreflang reciprocity validator for all **94** session landings.
+- Added aggregate Final Release Gate v1.0 orchestrator covering source inventory, keyword-map, metadata/OG, ayat ownership, Qur'an progress, 103-URL crawl, hreflang, schema, internal links, post-dedup SERP, browser regression, and homepage progress.
+- Corrected the release inventory expectation to the canonical legal routes **`/privacy/`** and **`/cookies/`**.
+
 ### [SEO] Post-Dedup Deep Live SERP Revalidation — Sessions 004, 007, 011, 016, 043, 044 — PASS
 - Revalidated **6 sessions × ID/EN = 12 landing targets** after the ayat-ownership deduplication remap.
 - Restored the published corpus to **47 / 47 Deep Live SERP aligned sessions = 94 / 94 session-language targets**.
