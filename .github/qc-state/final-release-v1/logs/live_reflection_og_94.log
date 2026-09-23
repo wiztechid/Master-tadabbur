@@ -1,0 +1,13 @@
+Attempt 1/6: {"landing_count": 94, "page_http_200": 94, "image_http_200": 94, "png_1200x630": 94, "unique_image_urls": 94, "pass_count": 94, "fail_count": 0, "min_image_bytes": 121225, "max_image_bytes": 187990, "overall_pass": true}
+{
+  "landing_count": 94,
+  "page_http_200": 94,
+  "image_http_200": 94,
+  "png_1200x630": 94,
+  "unique_image_urls": 94,
+  "pass_count": 94,
+  "fail_count": 0,
+  "min_image_bytes": 121225,
+  "max_image_bytes": 187990,
+  "overall_pass": true
+}

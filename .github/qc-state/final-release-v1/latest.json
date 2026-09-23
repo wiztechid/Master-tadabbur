@@ -1,0 +1,329 @@
+{
+  "gate": "TadabburLife Final Release Gate v1.0",
+  "tested_commit": "9420c58514f05ff7397bad41153c8856fee97bfd",
+  "generated_at_utc": "2026-09-23T08:06:33.996954+00:00",
+  "duration_seconds": 25.41,
+  "checks_total": 16,
+  "checks_pass": 14,
+  "checks_fail": 2,
+  "overall_pass": false,
+  "release_status": "BLOCKED",
+  "checks": [
+    {
+      "name": "source_public_inventory",
+      "expected_urls": 103,
+      "actual_urls": 103,
+      "issues": [
+        "sitemap_missing:['https://tadabburlife.com/cookie-policy/', 'https://tadabburlife.com/privacy-policy/']",
+        "sitemap_extra:['https://tadabburlife.com/cookies/', 'https://tadabburlife.com/privacy/']",
+        "missing_public_file:privacy-policy/index.html",
+        "missing_public_file:cookie-policy/index.html"
+      ],
+      "pass": false
+    },
+    {
+      "name": "keyword_map_source_sync",
+      "command": [
+        "python3",
+        ".github/scripts/sync_keyword_map.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.63,
+      "report": "qc-keyword-map-report/keyword-map-sync-report.json",
+      "report_summary": {
+        "sessions_expected": 47,
+        "sessions_checked": 47,
+        "landing_implementations_checked": 94,
+        "source_implementation_pass_count": 94,
+        "source_failure_count": 0,
+        "related_pair_parity_count": 47,
+        "top_level_id_sessions_with_drift_before_sync": 0,
+        "technical_map_changes": 0,
+        "deep_serp_boundary_pass_count": 47,
+        "directional_boundary_pass_count": 0,
+        "research_boundary_issue_count": 0,
+        "post_sync_registry_issue_count": 0,
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "keyword_map_no_drift_after_sync",
+      "path": "seo/keyword-map.json",
+      "exit_code": 0,
+      "pass": true,
+      "diff_log": null
+    },
+    {
+      "name": "source_metadata_og_94",
+      "report": "qc-metadata-og-report/metadata-og-audit.json",
+      "report_summary": {
+        "files_checked": 94,
+        "pass_count": 94,
+        "fail_count": 0,
+        "issue_counts": {},
+        "og_image_count": 94,
+        "overall_pass": true
+      },
+      "pass": true,
+      "command_exit_code": 0,
+      "duration_seconds": 0.15
+    },
+    {
+      "name": "ayat_ownership_source",
+      "command": [
+        "python3",
+        ".github/scripts/ayat_ownership_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.08,
+      "report": null,
+      "report_summary": {},
+      "pass": true
+    },
+    {
+      "name": "quran_progress_source",
+      "command": [
+        "python3",
+        ".github/scripts/quran_progress_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.03,
+      "report": null,
+      "report_summary": {},
+      "pass": true
+    },
+    {
+      "name": "live_103_url_crawl",
+      "command": [
+        "python3",
+        ".github/scripts/live_crawl_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 1.94,
+      "report": "qc-live-report/live-crawl-report.json",
+      "report_summary": {
+        "generated_at_utc": "2026-09-23T08:06:11.406549+00:00",
+        "duration_seconds": 1.8,
+        "base": "https://tadabburlife.com",
+        "robots_url": "https://tadabburlife.com/robots.txt",
+        "sitemap_url": "https://tadabburlife.com/sitemap.xml",
+        "expected_sitemap_urls": 103,
+        "actual_sitemap_urls": 103,
+        "robots_status": 200,
+        "sitemap_status": 200,
+        "global_issues": [],
+        "url_count": 103,
+        "pass_count": 103,
+        "fail_count": 0,
+        "status_counts": {
+          "200": 103
+        },
+        "redirect_count": 0,
+        "soft404_suspect_count": 0,
+        "canonical_issue_count": 0,
+        "noindex_count": 0,
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_hreflang_94",
+      "command": [
+        "python3",
+        ".github/scripts/live_hreflang_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.54,
+      "report": "qc-live-hreflang-report/live-hreflang-report.json",
+      "report_summary": {
+        "sitemap_status": 200,
+        "sitemap_urls": 103,
+        "landings_checked": 94,
+        "http_200": 94,
+        "canonical_pass": 94,
+        "hreflang_pass": 94,
+        "reciprocal_pairs_pass": 47,
+        "fail_count": 0,
+        "global_issues": [],
+        "pair_issues": [],
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_keyword_map_94",
+      "command": [
+        "python3",
+        ".github/scripts/live_keyword_map_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.52,
+      "report": "qc-live-keyword-map-report/live-keyword-map-report.json",
+      "report_summary": {
+        "sessions_checked": 47,
+        "live_implementations_checked": 94,
+        "http_200_count": 94,
+        "map_live_pass_count": 94,
+        "map_live_fail_count": 0,
+        "related_pair_parity_count": 47,
+        "related_pair_mismatch_count": 0,
+        "deep_serp_boundary_pass_count": 47,
+        "directional_boundary_pass_count": 0,
+        "research_boundary_issue_count": 0,
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_metadata_og_94",
+      "command": [
+        "python3",
+        ".github/scripts/live_metadata_og_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.52,
+      "report": "qc-live-metadata-og-report/live-metadata-og-report.json",
+      "report_summary": {
+        "live_checked": 94,
+        "http_200_count": 94,
+        "pass_count": 94,
+        "fail_count": 0,
+        "og_image_count": 94,
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_reflection_og_94",
+      "command": [
+        "python3",
+        ".github/scripts/live_reflection_og_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.93,
+      "report": "qc-live-reflection-og-report/live-reflection-og-report.json",
+      "report_summary": {
+        "landing_count": 94,
+        "page_http_200": 94,
+        "image_http_200": 94,
+        "png_1200x630": 94,
+        "unique_image_urls": 94,
+        "pass_count": 94,
+        "fail_count": 0,
+        "min_image_bytes": 121225,
+        "max_image_bytes": 187990,
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_schema_94",
+      "command": [
+        "python3",
+        ".github/scripts/live_schema_qc.py"
+      ],
+      "exit_code": 1,
+      "duration_seconds": 0.43,
+      "report": "qc-live-schema-report/live-schema-report.json",
+      "report_summary": {
+        "urls_expected": 94,
+        "urls_checked": 94,
+        "http_200_count": 94,
+        "pass_count": 86,
+        "fail_count": 8,
+        "overall_pass": false
+      },
+      "pass": false
+    },
+    {
+      "name": "live_internal_links_94",
+      "command": [
+        "python3",
+        ".github/scripts/live_internal_links_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.44,
+      "report": "qc-live-internal-links-report/live-internal-link-parity-report.json",
+      "report_summary": {
+        "urls_expected": 94,
+        "urls_checked": 94,
+        "http_200_count": 94,
+        "page_pass_count": 94,
+        "page_fail_count": 0,
+        "related_pair_parity_count": 47,
+        "related_pair_mismatch_count": 0,
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_post_dedup_serp_12",
+      "command": [
+        "python3",
+        ".github/scripts/live_post_dedup_serp_qc.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.51,
+      "report": ".github/qc-state/post-dedup-serp/latest.json",
+      "report_summary": {
+        "generated_at": "2026-09-23T08:06:15Z",
+        "propagated": true,
+        "propagation_attempts": 1,
+        "pages_checked": 12,
+        "http_200": 12,
+        "pass_count": 12,
+        "fail_count": 0,
+        "owner_guard_issues": [],
+        "overall_pass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_reader_regression",
+      "command": [
+        "node",
+        ".github/scripts/live_reader_regression.mjs"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 8.46,
+      "report": "qc-live-reader-report/live-reader-regression-report.json",
+      "report_summary": {
+        "corpusViewportChecks": 282,
+        "expected": 282,
+        "behaviorPass": true,
+        "overallPass": true
+      },
+      "pass": true
+    },
+    {
+      "name": "live_homepage_progress",
+      "command": [
+        "node",
+        ".github/scripts/live_homepage_progress_qc.mjs"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 10.16,
+      "report": ".github/qc-state/homepage-live/latest.json",
+      "report_summary": {
+        "overall_pass": true,
+        "propagated": true,
+        "profiles": 5,
+        "expected": {
+          "discussed": 75,
+          "total": 6236,
+          "sessions": 47,
+          "pct": 1.2026940346375883,
+          "idText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an",
+          "enText": "75 of 6,236 verses • 1.2% Qur’an coverage",
+          "schemaVersion": 2,
+          "countMode": "unique_owned_ayat",
+          "ownedAyatOccurrences": 75,
+          "crossReferenceOccurrences": 11,
+          "totalReferenceOccurrences": 86
+        }
+      },
+      "pass": true
+    }
+  ]
+}

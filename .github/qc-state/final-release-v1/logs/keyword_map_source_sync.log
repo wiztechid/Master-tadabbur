@@ -1,0 +1,15 @@
+{
+  "sessions_expected": 47,
+  "sessions_checked": 47,
+  "landing_implementations_checked": 94,
+  "source_implementation_pass_count": 94,
+  "source_failure_count": 0,
+  "related_pair_parity_count": 47,
+  "top_level_id_sessions_with_drift_before_sync": 0,
+  "technical_map_changes": 0,
+  "deep_serp_boundary_pass_count": 47,
+  "directional_boundary_pass_count": 0,
+  "research_boundary_issue_count": 0,
+  "post_sync_registry_issue_count": 0,
+  "overall_pass": true
+}

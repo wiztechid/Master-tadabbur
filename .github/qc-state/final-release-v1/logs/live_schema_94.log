@@ -1,0 +1,102 @@
+[01/94] PASS https://tadabburlife.com/tadabbur/004/
+[02/94] PASS https://tadabburlife.com/tadabbur/001/
+[03/94] PASS https://tadabburlife.com/tadabbur/002/
+[04/94] PASS https://tadabburlife.com/tadabbur/013/
+[05/94] PASS https://tadabburlife.com/tadabbur/003/
+[06/94] PASS https://tadabburlife.com/tadabbur/012/
+[07/94] PASS https://tadabburlife.com/tadabbur/006/
+[08/94] PASS https://tadabburlife.com/tadabbur/014/
+[09/94] PASS https://tadabburlife.com/tadabbur/008/
+[10/94] PASS https://tadabburlife.com/tadabbur/010/
+[11/94] PASS https://tadabburlife.com/tadabbur/016/
+[12/94] PASS https://tadabburlife.com/tadabbur/015/
+[13/94] PASS https://tadabburlife.com/tadabbur/009/
+[14/94] PASS https://tadabburlife.com/tadabbur/005/
+[15/94] PASS https://tadabburlife.com/tadabbur/011/
+[16/94] PASS https://tadabburlife.com/tadabbur/007/
+[17/94] PASS https://tadabburlife.com/tadabbur/017/
+[18/94] PASS https://tadabburlife.com/tadabbur/018/
+[19/94] FAIL https://tadabburlife.com/tadabbur/019/ :: article_description
+[20/94] FAIL https://tadabburlife.com/tadabbur/020/ :: article_description
+[21/94] PASS https://tadabburlife.com/tadabbur/021/
+[22/94] PASS https://tadabburlife.com/tadabbur/025/
+[23/94] FAIL https://tadabburlife.com/tadabbur/024/ :: article_description
+[24/94] PASS https://tadabburlife.com/tadabbur/023/
+[25/94] PASS https://tadabburlife.com/tadabbur/022/
+[26/94] PASS https://tadabburlife.com/tadabbur/026/
+[27/94] PASS https://tadabburlife.com/tadabbur/027/
+[28/94] PASS https://tadabburlife.com/tadabbur/030/
+[29/94] PASS https://tadabburlife.com/tadabbur/029/
+[30/94] PASS https://tadabburlife.com/tadabbur/031/
+[31/94] PASS https://tadabburlife.com/tadabbur/028/
+[32/94] FAIL https://tadabburlife.com/tadabbur/033/ :: article_description
+[33/94] PASS https://tadabburlife.com/tadabbur/032/
+[34/94] PASS https://tadabburlife.com/tadabbur/034/
+[35/94] PASS https://tadabburlife.com/tadabbur/036/
+[36/94] PASS https://tadabburlife.com/tadabbur/035/
+[37/94] FAIL https://tadabburlife.com/tadabbur/040/ :: article_description
+[38/94] PASS https://tadabburlife.com/tadabbur/038/
+[39/94] PASS https://tadabburlife.com/tadabbur/041/
+[40/94] PASS https://tadabburlife.com/tadabbur/039/
+[41/94] PASS https://tadabburlife.com/tadabbur/037/
+[42/94] PASS https://tadabburlife.com/tadabbur/043/
+[43/94] PASS https://tadabburlife.com/tadabbur/042/
+[44/94] FAIL https://tadabburlife.com/tadabbur/044/ :: article_description
+[45/94] PASS https://tadabburlife.com/tadabbur/045/
+[46/94] PASS https://tadabburlife.com/tadabbur/046/
+[47/94] PASS https://tadabburlife.com/en/tadabbur/008/
+[48/94] PASS https://tadabburlife.com/en/tadabbur/001/
+[49/94] PASS https://tadabburlife.com/tadabbur/047/
+[50/94] PASS https://tadabburlife.com/en/tadabbur/002/
+[51/94] PASS https://tadabburlife.com/en/tadabbur/003/
+[52/94] PASS https://tadabburlife.com/en/tadabbur/009/
+[53/94] PASS https://tadabburlife.com/en/tadabbur/007/
+[54/94] PASS https://tadabburlife.com/en/tadabbur/004/
+[55/94] PASS https://tadabburlife.com/en/tadabbur/005/
+[56/94] PASS https://tadabburlife.com/en/tadabbur/006/
+[57/94] PASS https://tadabburlife.com/en/tadabbur/010/
+[58/94] PASS https://tadabburlife.com/en/tadabbur/011/
+[59/94] PASS https://tadabburlife.com/en/tadabbur/012/
+[60/94] PASS https://tadabburlife.com/en/tadabbur/016/
+[61/94] PASS https://tadabburlife.com/en/tadabbur/015/
+[62/94] PASS https://tadabburlife.com/en/tadabbur/014/
+[63/94] PASS https://tadabburlife.com/en/tadabbur/013/
+[64/94] PASS https://tadabburlife.com/en/tadabbur/017/
+[65/94] PASS https://tadabburlife.com/en/tadabbur/018/
+[66/94] FAIL https://tadabburlife.com/en/tadabbur/019/ :: article_description
+[67/94] PASS https://tadabburlife.com/en/tadabbur/020/
+[68/94] PASS https://tadabburlife.com/en/tadabbur/021/
+[69/94] PASS https://tadabburlife.com/en/tadabbur/023/
+[70/94] PASS https://tadabburlife.com/en/tadabbur/022/
+[71/94] PASS https://tadabburlife.com/en/tadabbur/024/
+[72/94] PASS https://tadabburlife.com/en/tadabbur/025/
+[73/94] PASS https://tadabburlife.com/en/tadabbur/026/
+[74/94] PASS https://tadabburlife.com/en/tadabbur/027/
+[75/94] PASS https://tadabburlife.com/en/tadabbur/028/
+[76/94] PASS https://tadabburlife.com/en/tadabbur/030/
+[77/94] PASS https://tadabburlife.com/en/tadabbur/031/
+[78/94] PASS https://tadabburlife.com/en/tadabbur/029/
+[79/94] PASS https://tadabburlife.com/en/tadabbur/032/
+[80/94] PASS https://tadabburlife.com/en/tadabbur/034/
+[81/94] PASS https://tadabburlife.com/en/tadabbur/033/
+[82/94] PASS https://tadabburlife.com/en/tadabbur/035/
+[83/94] PASS https://tadabburlife.com/en/tadabbur/038/
+[84/94] PASS https://tadabburlife.com/en/tadabbur/036/
+[85/94] PASS https://tadabburlife.com/en/tadabbur/041/
+[86/94] FAIL https://tadabburlife.com/en/tadabbur/040/ :: article_description
+[87/94] PASS https://tadabburlife.com/en/tadabbur/037/
+[88/94] PASS https://tadabburlife.com/en/tadabbur/044/
+[89/94] PASS https://tadabburlife.com/en/tadabbur/039/
+[90/94] PASS https://tadabburlife.com/en/tadabbur/043/
+[91/94] PASS https://tadabburlife.com/en/tadabbur/046/
+[92/94] PASS https://tadabburlife.com/en/tadabbur/047/
+[93/94] PASS https://tadabburlife.com/en/tadabbur/045/
+[94/94] PASS https://tadabburlife.com/en/tadabbur/042/
+{
+  "urls_expected": 94,
+  "urls_checked": 94,
+  "http_200_count": 94,
+  "pass_count": 86,
+  "fail_count": 8,
+  "overall_pass": false
+}
