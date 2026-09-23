@@ -1,0 +1,32 @@
+name: Qur'an Progress Integrity QC
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'data/quran-progress.json'
+      - 'data/sessions-*.html'
+      - '.github/scripts/quran_progress_qc.py'
+      - '.github/workflows/quran-progress-qc.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/quran-progress.json'
+      - 'data/sessions-*.html'
+      - '.github/scripts/quran_progress_qc.py'
+      - '.github/workflows/quran-progress-qc.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  quran-progress-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Qur'an progress data
+        run: python3 .github/scripts/quran_progress_qc.py
