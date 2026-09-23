@@ -209,12 +209,12 @@
       "primary_long_tail": "An Nisa 4:135 keadilan meski terhadap diri sendiri",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/004/",
       "reader": "https://tadabburlife.com/?session=4&lang=id",
-      "seo_title": "Keadilan dalam Jabatan meski Melawan Kepentingan Sendiri — An-Nisa 4:135",
-      "meta_description": "Tadabbur An-Nisa 4:135 tentang menegakkan keadilan meski keputusan menyentuh diri sendiri, keluarga, pihak kaya atau miskin, dan kepentingan pribadi.",
-      "h1": "Keadilan dalam Jabatan meski Melawan Kepentingan Sendiri — An-Nisa 4:135",
+      "seo_title": "An-Nisa 4:135: Tetap Adil meski terhadap Diri Sendiri",
+      "meta_description": "Tadabbur An-Nisa 4:135 tentang berdiri teguh dalam keadilan meski terhadap diri sendiri, orang tua, kerabat, kaya atau miskin, tanpa mengikuti kepentingan pribadi.",
+      "h1": "An-Nisa 4:135: Tetap Adil meski terhadap Diri Sendiri",
       "related_sessions": [
         "020",
         "021",
@@ -226,19 +226,19 @@
           "primary_long_tail": "An Nisa 4:135 keadilan meski terhadap diri sendiri",
           "adjacent_long_tail": "ayat tentang adil walau merugikan kepentingan sendiri",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "medium",
-          "search_territory": "An-Nisa 4:135 on standing firmly for justice even against oneself, relatives, wealth, poverty, or personal interest.",
-          "cannibalization_guard": "Session 023 owns An-Nisa 4:58 on returning trusts to rightful recipients. Session 004 no longer repeats 4:58 and owns only 4:135."
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "An-Nisa 4:135 on standing firmly for justice even against oneself, parents or relatives, rich or poor, without following personal inclination.",
+          "cannibalization_guard": "Session 023 exclusively owns An-Nisa 4:58 on returning trusts to rightful recipients. Session 004 owns An-Nisa 4:135 on justice even against self-interest and only cross-references 4:58."
         },
         "en": {
           "primary_long_tail": "Quran 4:135 justice even against yourself",
           "adjacent_long_tail": "stand firmly for justice against self interest Quran 4 135",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "medium",
-          "search_territory": "Quran 4:135 on standing firmly for justice even against oneself, relatives, wealth, poverty, or personal interest.",
-          "cannibalization_guard": "Session 023 owns Quran 4:58 on returning trusts. Session 004 no longer repeats Quran 4:58 and owns only Quran 4:135."
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Quran 4:135 on standing firmly for justice even against oneself, parents or relatives, rich or poor, without following personal inclination.",
+          "cannibalization_guard": "Session 023 exclusively owns Quran 4:58 on returning trusts to rightful recipients. Session 004 owns Quran 4:135 on justice even against self-interest and only cross-references 4:58."
         }
       },
       "implementation": {
@@ -247,9 +247,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/004/",
           "reader": "https://tadabburlife.com/?session=4&lang=id",
-          "seo_title": "Keadilan dalam Jabatan meski Melawan Kepentingan Sendiri — An-Nisa 4:135",
-          "meta_description": "Tadabbur An-Nisa 4:135 tentang menegakkan keadilan meski keputusan menyentuh diri sendiri, keluarga, pihak kaya atau miskin, dan kepentingan pribadi.",
-          "h1": "Keadilan dalam Jabatan meski Melawan Kepentingan Sendiri — An-Nisa 4:135",
+          "seo_title": "An-Nisa 4:135: Tetap Adil meski terhadap Diri Sendiri",
+          "meta_description": "Tadabbur An-Nisa 4:135 tentang berdiri teguh dalam keadilan meski terhadap diri sendiri, orang tua, kerabat, kaya atau miskin, tanpa mengikuti kepentingan pribadi.",
+          "h1": "An-Nisa 4:135: Tetap Adil meski terhadap Diri Sendiri",
           "html_lang": "id",
           "related_sessions": [
             "020",
@@ -261,9 +261,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/004/",
           "reader": "https://tadabburlife.com/?session=4&lang=en",
-          "seo_title": "Justice in Leadership Even Against Self-Interest — Quran 4:135",
-          "meta_description": "A reflection on Quran 4:135 about standing firmly for justice even when decisions touch ourselves, relatives, wealth, poverty, or personal interests.",
-          "h1": "Justice in Leadership Even Against Self-Interest — Quran 4:135",
+          "seo_title": "Quran 4:135: Stand Firm for Justice Even Against Yourself",
+          "meta_description": "A reflection on Quran 4:135 about standing firm for justice even against yourself, parents or relatives, whether rich or poor, without following self-interest.",
+          "h1": "Quran 4:135: Stand Firm for Justice Even Against Yourself",
           "html_lang": "en",
           "related_sessions": [
             "020",
@@ -458,7 +458,7 @@
       "primary_long_tail": "taubat nasuha menurut At Tahrim 66:8",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/007/",
       "reader": "https://tadabburlife.com/?session=7&lang=id",
       "seo_title": "Taubat Nasuha: Kembali kepada Allah dengan Sungguh-Sungguh — At-Tahrim 66:8",
@@ -475,19 +475,19 @@
           "primary_long_tail": "taubat nasuha menurut At Tahrim 66:8",
           "adjacent_long_tail": "cara bertaubat sungguh sungguh kepada Allah",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "medium",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium-high",
           "search_territory": "At-Tahrim 66:8 on sincere repentance (taubat nasuha), returning to Allah earnestly and correcting direction.",
-          "cannibalization_guard": "Session 031 owns Az-Zumar 39:53 on despair after sin and Allah's mercy. Session 007 no longer repeats 39:53."
+          "cannibalization_guard": "Session 007 owns At-Tahrim 66:8 on taubat nasuha / sincere repentance and earnest return. Session 031 exclusively owns Az-Zumar 39:53 on despair after sin and Allah's mercy."
         },
         "en": {
           "primary_long_tail": "sincere repentance Quran 66:8 meaning",
           "adjacent_long_tail": "how to return to Allah with sincere repentance",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "medium",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium-high",
           "search_territory": "Quran 66:8 on sincere repentance: returning to Allah earnestly and correcting direction.",
-          "cannibalization_guard": "Session 031 owns Quran 39:53 on despair after sin and Allah's mercy. Session 007 no longer repeats Quran 39:53."
+          "cannibalization_guard": "Session 007 owns Quran 66:8 on sincere repentance and earnest return. Session 031 exclusively owns Quran 39:53 on despair after sin and Allah's mercy."
         }
       },
       "implementation": {
@@ -694,14 +694,18 @@
           "adjacent_long_tail": "empat bekal agar waktu tidak sia sia dalam Al Asr",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Surat Al-'Asr 103:1–3 on the Qur'anic framework for using time wisely through faith, good deeds, truth and patience.",
+          "cannibalization_guard": "Session 010 exclusively owns Al-'Asr 103:1–3 and its verse/tafsir framework. Session 044 is a no-ayat practical time-audit companion focused on finding time leakage."
         },
         "en": {
           "primary_long_tail": "how to use time wisely according to Surah Al Asr",
           "adjacent_long_tail": "four lessons from Surah Al Asr about using time wisely",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Surah Al-Asr 103:1–3 on the Qur'anic framework for using time wisely through faith, good deeds, truth and patience.",
+          "cannibalization_guard": "Session 010 exclusively owns Quran 103:1–3 and its verse/tafsir framework. Session 044 is a no-ayat practical time-audit companion focused on finding time leakage."
         }
       },
       "implementation": {
@@ -745,12 +749,12 @@
       "primary_long_tail": "Al Isra 17:36 jangan mengikuti sesuatu tanpa pengetahuan",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
-      "serp_competition_estimate": "medium",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/011/",
       "reader": "https://tadabburlife.com/?session=11&lang=id",
-      "seo_title": "Jangan Mengikuti Informasi Tanpa Pengetahuan — Al-Isra 17:36",
-      "meta_description": "Tadabbur Al-Isra 17:36 tentang tidak mengikuti sesuatu tanpa pengetahuan dan tanggung jawab pendengaran, penglihatan, serta hati.",
-      "h1": "Jangan Mengikuti Informasi Tanpa Pengetahuan — Al-Isra 17:36",
+      "seo_title": "Al-Isra 17:36: Jangan Ikuti Apa yang Tidak Kamu Ketahui",
+      "meta_description": "Tadabbur Al-Isra 17:36 tentang tidak mengikuti atau menyatakan sesuatu tanpa pengetahuan serta tanggung jawab pendengaran, penglihatan, dan hati.",
+      "h1": "Al-Isra 17:36: Jangan Ikuti Apa yang Tidak Kamu Ketahui",
       "related_sessions": [
         "009",
         "014",
@@ -762,19 +766,19 @@
           "primary_long_tail": "Al Isra 17:36 jangan mengikuti sesuatu tanpa pengetahuan",
           "adjacent_long_tail": "ayat tentang tanggung jawab informasi pendengaran penglihatan hati",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "medium",
-          "search_territory": "Al-Isra 17:36 on not following what one does not know and the accountability of hearing, sight and heart.",
-          "cannibalization_guard": "Session 042 owns Al-Hujurat 49:6 tabayyun and verification of incoming reports. Session 011 no longer repeats 49:6."
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Al-Isra 17:36 on epistemic restraint: do not follow or assert what you do not know, with accountability of hearing, sight and heart.",
+          "cannibalization_guard": "Session 011 owns Al-Isra 17:36 on not following what is unknown. Session 042 exclusively owns Al-Hujurat 49:6 on tabayyun and verification of incoming reports before action."
         },
         "en": {
           "primary_long_tail": "Quran 17:36 do not follow what you do not know",
           "adjacent_long_tail": "Quran verse accountability hearing sight heart information",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "medium",
-          "search_territory": "Quran 17:36 on not following what one does not know and the accountability of hearing, sight and heart.",
-          "cannibalization_guard": "Session 042 owns Quran 49:6 verification of reports. Session 011 no longer repeats Quran 49:6."
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium-high",
+          "search_territory": "Quran 17:36 on epistemic restraint: do not follow what you do not know, with accountability of hearing, sight and heart.",
+          "cannibalization_guard": "Session 011 owns Quran 17:36 on not following what is unknown. Session 042 exclusively owns Quran 49:6 on verifying incoming reports before action."
         }
       },
       "implementation": {
@@ -783,9 +787,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/011/",
           "reader": "https://tadabburlife.com/?session=11&lang=id",
-          "seo_title": "Jangan Mengikuti Informasi Tanpa Pengetahuan — Al-Isra 17:36",
-          "meta_description": "Tadabbur Al-Isra 17:36 tentang tidak mengikuti sesuatu tanpa pengetahuan dan tanggung jawab pendengaran, penglihatan, serta hati.",
-          "h1": "Jangan Mengikuti Informasi Tanpa Pengetahuan — Al-Isra 17:36",
+          "seo_title": "Al-Isra 17:36: Jangan Ikuti Apa yang Tidak Kamu Ketahui",
+          "meta_description": "Tadabbur Al-Isra 17:36 tentang tidak mengikuti atau menyatakan sesuatu tanpa pengetahuan serta tanggung jawab pendengaran, penglihatan, dan hati.",
+          "h1": "Al-Isra 17:36: Jangan Ikuti Apa yang Tidak Kamu Ketahui",
           "html_lang": "id",
           "related_sessions": [
             "009",
@@ -797,9 +801,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/011/",
           "reader": "https://tadabburlife.com/?session=11&lang=en",
-          "seo_title": "Do Not Follow What You Do Not Know — Quran 17:36",
+          "seo_title": "Quran 17:36: Do Not Follow What You Do Not Know",
           "meta_description": "A reflection on Quran 17:36 about not following what we do not know and the accountability of hearing, sight, and the heart.",
-          "h1": "Do Not Follow What You Do Not Know — Quran 17:36",
+          "h1": "Quran 17:36: Do Not Follow What You Do Not Know",
           "html_lang": "en",
           "related_sessions": [
             "009",
@@ -1124,19 +1128,19 @@
         "id": {
           "primary_long_tail": "muhasabah diri sebelum tidur menurut Islam",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
           "competition": "low-medium",
           "adjacent_long_tail": "cara muhasabah malam singkat sebelum tidur",
-          "search_territory": "Practical nightly muhasabah/self-review routine: gratitude, repair or repentance, and one concrete next step.",
+          "search_territory": "Practical nightly muhasabah before sleep: a brief self-review of gratitude, repair or repentance, and one concrete next step; no primary ayat ownership.",
           "cannibalization_guard": "Session 030 exclusively owns Al-Hashr 59:18 and its verse/tafsir discussion. Session 016 is a practice companion and must link to 030 without repeating the verse."
         },
         "en": {
           "primary_long_tail": "nightly muhasabah self accountability before sleep",
           "adjacent_long_tail": "simple nightly self review Islam",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
           "competition": "low-medium",
-          "search_territory": "Practical nightly muhasabah/self-review routine: gratitude, repair or repentance, and one concrete next step.",
+          "search_territory": "Practical nightly muhasabah before sleep: a brief self-review of gratitude, repair or repentance, and one concrete next step; no primary ayat ownership.",
           "cannibalization_guard": "Session 030 exclusively owns Quran 59:18 and its verse/tafsir discussion. Session 016 is a practice companion and must link to 030 without repeating the verse."
         }
       },
@@ -1635,7 +1639,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "An-Nisa 4:58 with primary emphasis on delivering entrusted rights, duties and property to the people entitled to them.",
-          "cannibalization_guard": "Session 004 uses the same verse but owns amanah + justice in office/leadership and decision-making, reinforced by An-Nisa 4:135. Session 023 owns returning/delivering trusts to rightful recipients."
+          "cannibalization_guard": "Session 023 exclusively owns An-Nisa 4:58 on delivering trusts, rights, duties or property to rightful recipients. Session 004 now owns only An-Nisa 4:135 on justice against self-interest and cross-references 4:58."
         },
         "en": {
           "primary_long_tail": "Quran 4:58 return trusts to those entitled to them",
@@ -1644,7 +1648,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Quran 4:58 with primary emphasis on returning entrusted rights, duties and property to those entitled to them.",
-          "cannibalization_guard": "Session 004 owns trust and justice in office/authority and adds Quran 4:135. Session 023 owns the return-of-trusts/rightful-recipient intent."
+          "cannibalization_guard": "Session 023 exclusively owns Quran 4:58 on returning trusts to rightful recipients. Session 004 now owns only Quran 4:135 on justice against self-interest and cross-references 4:58."
         }
       },
       "implementation": {
@@ -1919,7 +1923,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Luqman 31:18 on arrogance toward other people: turning one's face away in contempt, walking arrogantly and belittling others.",
-          "cannibalization_guard": "Session 043 also uses Luqman 31:18 but extends to 31:19 and owns the positive practice of humility in walking and speaking/voice. Session 027 owns arrogance, contempt and belittling others."
+          "cannibalization_guard": "Session 027 exclusively owns Luqman 31:18 on arrogance, contempt and turning away from people. Session 043 owns only Luqman 31:19 on measured walking and lowering the voice."
         },
         "en": {
           "primary_long_tail": "Quran 31:18 turn away from people in arrogance",
@@ -1928,7 +1932,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Quran 31:18 on arrogance and contempt toward people, including turning away from them and walking arrogantly.",
-          "cannibalization_guard": "Session 043 owns humility in walking and speaking from Quran 31:18–19. Session 027 owns arrogance/contempt in Quran 31:18."
+          "cannibalization_guard": "Session 027 exclusively owns Quran 31:18 on arrogance and contempt. Session 043 owns only Quran 31:19 on measured walking and lowering the voice."
         }
       },
       "implementation": {
@@ -2132,7 +2136,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Al-Hashr 59:18 on examining what deeds one has sent ahead for tomorrow/the Hereafter, with taqwa and accountability.",
-          "cannibalization_guard": "Session 016 uses the same verse but owns the practical habit of nightly/daily muhasabah before sleep. Session 030 owns provision for tomorrow/the Hereafter and what one has sent ahead."
+          "cannibalization_guard": "Session 030 exclusively owns Al-Hashr 59:18 on deeds sent ahead / provision for tomorrow and the Hereafter. Session 016 is a no-ayat companion for nightly muhasabah practice and links to 030."
         },
         "en": {
           "primary_long_tail": "Quran 59:18 what have you sent ahead for tomorrow",
@@ -2141,7 +2145,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Quran 59:18 on what each soul has sent ahead for tomorrow, taqwa, final accountability and provision for the Hereafter.",
-          "cannibalization_guard": "Session 016 owns nightly self-accounting practice. Session 030 owns deeds sent ahead / provision for tomorrow and the Hereafter."
+          "cannibalization_guard": "Session 030 exclusively owns Quran 59:18 on deeds sent ahead / provision for tomorrow and the Hereafter. Session 016 is a no-ayat companion for nightly self-review practice and links to 030."
         }
       },
       "implementation": {
@@ -2204,7 +2208,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Az-Zumar 39:53 for people who feel overwhelmed by their sins: do not despair of Allah's mercy, return in repentance, and restore human rights where relevant.",
-          "cannibalization_guard": "Session 018 owns hope within hardship; Session 045 owns feeling abandoned when answers are delayed. Session 031 owns guilt from sin, despair of mercy, repentance and return to Allah."
+          "cannibalization_guard": "Session 031 owns Az-Zumar 39:53 on sin-related despair and Allah's mercy. Session 007 owns At-Tahrim 66:8 on taubat nasuha / sincere repentance; it no longer repeats 39:53."
         },
         "en": {
           "primary_long_tail": "Quran 39:53 sins too many do not despair Allah mercy",
@@ -2213,7 +2217,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "high",
           "search_territory": "Quran 39:53 on not despairing of Allah's mercy after sin, repentance, return, and restoring others' rights when necessary.",
-          "cannibalization_guard": "Session 018 owns hardship/ease; Session 045 owns feeling abandoned by Allah. Session 031 owns sin-related despair and repentance."
+          "cannibalization_guard": "Session 031 owns Quran 39:53 on sin-related despair and Allah's mercy. Session 007 owns Quran 66:8 on sincere repentance and no longer repeats 39:53."
         }
       },
       "implementation": {
@@ -2988,7 +2992,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-23",
           "competition": "high",
           "search_territory": "Al-Hujurat 49:6 on tabayyun: verifying consequential reports before acting so people are not harmed through ignorance and regret.",
-          "cannibalization_guard": "Session 037 owns consultation/shura as the collective decision process. Session 042 owns verification of incoming information before it becomes a basis for judgment or action."
+          "cannibalization_guard": "Session 042 owns Al-Hujurat 49:6 on tabayyun and verification of consequential reports before acting. Session 011 owns Al-Isra 17:36 on not following or asserting what is unknown."
         },
         "en": {
           "primary_long_tail": "Quran 49:6 verify information before acting",
@@ -2997,7 +3001,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-23",
           "competition": "high",
           "search_territory": "Quran 49:6 on verifying consequential information before action to avoid harming people through ignorance.",
-          "cannibalization_guard": "Session 037 owns consultation in decision-making. Session 042 owns verification before information becomes action."
+          "cannibalization_guard": "Session 042 owns Quran 49:6 on verifying consequential reports before acting. Session 011 owns Quran 17:36 on not following what is unknown."
         }
       },
       "implementation": {
@@ -3058,18 +3062,18 @@
           "primary_long_tail": "Luqman 31:19 rendah hati berjalan rendahkan suara",
           "adjacent_long_tail": "waqsid fi masyika waghdud min sawtik makna",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
           "competition": "high",
-          "search_territory": "Luqman 31:19 on humility expressed through measured walking and a restrained voice.",
+          "search_territory": "Luqman 31:19 on humility expressed through measured walking and lowering the voice; arrogance in 31:18 remains with Session 027.",
           "cannibalization_guard": "Session 027 exclusively owns Luqman 31:18 on arrogance and contempt. Session 043 owns only 31:19 and links to 027 for 31:18."
         },
         "en": {
           "primary_long_tail": "Quran 31:19 humility walking lower your voice meaning",
           "adjacent_long_tail": "be modest in your bearing subdue your voice Quran 31 19",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
           "competition": "high",
-          "search_territory": "Quran 31:19 on humility expressed through measured walking and a restrained voice.",
+          "search_territory": "Quran 31:19 on humility expressed through measured walking and lowering the voice; arrogance in 31:18 remains with Session 027.",
           "cannibalization_guard": "Session 027 exclusively owns Quran 31:18 on arrogance and contempt. Session 043 owns only 31:19 and links to 027 for 31:18."
         }
       },
@@ -3124,12 +3128,12 @@
       "primary_long_tail": "cara audit waktu harian agar tidak habis sia sia",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
-      "serp_competition_estimate": "high",
+      "serp_competition_estimate": "medium-high",
       "canonical": "https://tadabburlife.com/tadabbur/044/",
       "reader": "https://tadabburlife.com/?session=44&lang=id",
-      "seo_title": "Audit Waktu Harian: Mengarahkan Kesibukan Menjadi Amal Bernilai",
-      "meta_description": "Checkpoint praktis untuk mengaudit waktu yang mudah bocor dan mengarahkannya kembali pada amal yang bernilai. Pembahasan Al-'Asr 103:1–3 dirujuk ke Sesi 010.",
-      "h1": "Audit Waktu Harian: Mengarahkan Kesibukan Menjadi Amal Bernilai",
+      "seo_title": "Audit Waktu Harian: Temukan Waktu yang Bocor",
+      "meta_description": "Checkpoint praktis untuk melihat ke mana waktu harian habis, menemukan bagian yang mudah bocor, lalu mengarahkannya kembali pada amal yang bernilai. Tafsir Al-'Asr tetap di Sesi 010.",
+      "h1": "Audit Waktu Harian: Temukan Waktu yang Bocor",
       "related_sessions": [
         "040",
         "039",
@@ -3138,22 +3142,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "cara audit waktu harian agar tidak habis sia sia",
+          "primary_long_tail": "cara audit waktu harian menemukan waktu yang bocor",
           "adjacent_long_tail": "cara mengevaluasi penggunaan waktu setiap hari",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
-          "competition": "high",
-          "search_territory": "A practical time-audit checkpoint for identifying time leakage and redirecting part of the day toward worthwhile deeds.",
-          "cannibalization_guard": "Session 010 exclusively owns Al-'Asr 103:1-3 and its verse/tafsir framework. Session 044 is a practice companion and must not repeat the surah."
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
+          "competition": "medium",
+          "search_territory": "A practical daily time-audit checkpoint: identify where time leaks away and redirect part of it toward worthwhile deeds; no primary ayat ownership.",
+          "cannibalization_guard": "Session 010 exclusively owns Al-'Asr 103:1–3, its meaning and tafsir. Session 044 targets the separate practical intent of auditing daily time leakage and links back to Session 010."
         },
         "en": {
-          "primary_long_tail": "daily time audit how to stop wasting time",
-          "adjacent_long_tail": "practical time audit routine for meaningful priorities",
+          "primary_long_tail": "daily time audit find wasted hours",
+          "adjacent_long_tail": "how to audit your time and stop wasting it",
           "intent": "informational-reflection",
-          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "demand_evidence": "deep-live-serp-revalidated-2026-09-23",
           "competition": "high",
-          "search_territory": "A practical time-audit checkpoint for identifying time leakage and redirecting part of the day toward worthwhile deeds.",
-          "cannibalization_guard": "Session 010 exclusively owns Quran 103:1-3 and its verse/tafsir framework. Session 044 is a practice companion and must not repeat the surah."
+          "search_territory": "A practical daily time-audit checkpoint: identify where time leaks away and redirect part of it toward worthwhile deeds; no primary ayat ownership.",
+          "cannibalization_guard": "Session 010 exclusively owns Quran 103:1–3, its meaning and tafsir. Session 044 targets the separate practical intent of a daily time audit and links back to Session 010."
         }
       },
       "implementation": {
@@ -3162,9 +3166,9 @@
         "id": {
           "canonical": "https://tadabburlife.com/tadabbur/044/",
           "reader": "https://tadabburlife.com/?session=44&lang=id",
-          "seo_title": "Audit Waktu Harian: Mengarahkan Kesibukan Menjadi Amal Bernilai",
-          "meta_description": "Checkpoint praktis untuk mengaudit waktu yang mudah bocor dan mengarahkannya kembali pada amal yang bernilai. Pembahasan Al-'Asr 103:1–3 dirujuk ke Sesi 010.",
-          "h1": "Audit Waktu Harian: Mengarahkan Kesibukan Menjadi Amal Bernilai",
+          "seo_title": "Audit Waktu Harian: Temukan Waktu yang Bocor",
+          "meta_description": "Checkpoint praktis untuk melihat ke mana waktu harian habis, menemukan bagian yang mudah bocor, lalu mengarahkannya kembali pada amal yang bernilai. Tafsir Al-'Asr tetap di Sesi 010.",
+          "h1": "Audit Waktu Harian: Temukan Waktu yang Bocor",
           "html_lang": "id",
           "related_sessions": [
             "040",
@@ -3176,9 +3180,9 @@
         "en": {
           "canonical": "https://tadabburlife.com/en/tadabbur/044/",
           "reader": "https://tadabburlife.com/?session=44&lang=en",
-          "seo_title": "Daily Time Audit: Directing Busyness Toward What Matters",
-          "meta_description": "A practical checkpoint for auditing time that easily leaks away and redirecting it toward worthwhile deeds. The Quran 103:1–3 discussion is linked to Session 010.",
-          "h1": "Daily Time Audit: Directing Busyness Toward What Matters",
+          "seo_title": "Daily Time Audit: Find Where Your Time Leaks Away",
+          "meta_description": "A practical daily time-audit checkpoint to see where your hours go, identify time leaks, and redirect part of the day toward worthwhile deeds. Quran 103:1–3 remains in Session 010.",
+          "h1": "Daily Time Audit: Find Where Your Time Leaks Away",
           "html_lang": "en",
           "related_sessions": [
             "040",
