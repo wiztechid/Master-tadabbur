@@ -7,6 +7,12 @@ on:
     paths:
       - '.github/workflows/normalize-schema.yml'
       - '.github/scripts/normalize_schema.py'
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+
+concurrency:
+  group: normalize-schema-main
+  cancel-in-progress: true
 
 permissions:
   contents: write
