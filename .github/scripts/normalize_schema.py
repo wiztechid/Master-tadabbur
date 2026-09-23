@@ -37,12 +37,17 @@ def strip_tags(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
-def meta_description(text: str) -> str:
-    return (
-        first(r'<meta\b[^>]*\bname=["\']description["\'][^>]*\bcontent=["\']([^"\']*)', text)
-        or first(r'<meta\b[^>]*\bcontent=["\']([^"\']*)["\'][^>]*\bname=["\']description["\']', text)
-    )
+def attr_value(tag: str, name: str) -> str:
+    m = re.search(rf'\\b{re.escape(name)}\\s*=\\s*(["\\'])(.*?)\\1', tag, re.I | re.S)
+    return html.unescape(m.group(2)) if m else ""
 
+def meta_description(text: str) -> str:
+    # Quote-aware attribute parsing: apostrophes inside a double-quoted
+    # description (Ar-Ra'd, Al-Ma'un, people's) must not truncate the value.
+    for tag in re.findall(r'<meta\\b[^>]*>', text, re.I | re.S):
+        if attr_value(tag, "name").lower() == "description":
+            return attr_value(tag, "content")
+    return ""
 def canonical(text: str) -> str:
     return (
         first(r'<link\b[^>]*\brel=["\']canonical["\'][^>]*\bhref=["\']([^"\']+)', text)
