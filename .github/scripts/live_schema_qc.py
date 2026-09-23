@@ -32,8 +32,17 @@ def first(pattern,text):
     return html.unescape(m.group(1).strip()) if m else ""
 
 def strip_tags(s):
-    return re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",s))).strip()
+    return re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",s))).strip()
 
+def attr_value(tag,name):
+    m=re.search(rf'\\b{re.escape(name)}\\s*=\\s*(["\\'])(.*?)\\1',tag,re.I|re.S)
+    return html.unescape(m.group(2)) if m else ""
+
+def meta_description(text):
+    for tag in re.findall(r'<meta\\b[^>]*>',text,re.I|re.S):
+        if attr_value(tag,"name").lower()=="description":
+            return attr_value(tag,"content")
+    return ""
 def fetch(url):
     last=""
     for attempt in range(3):
@@ -65,7 +74,7 @@ def inspect(url):
     if final!=url: issues.append("final_url_mismatch")
 
     can=first(r'<link\b[^>]*\brel=["\']canonical["\'][^>]*\bhref=["\']([^"\']+)',text) or first(r'<link\b[^>]*\bhref=["\']([^"\']+)["\'][^>]*\brel=["\']canonical["\']',text)
-    desc=first(r'<meta\b[^>]*\bname=["\']description["\'][^>]*\bcontent=["\']([^"\']*)',text) or first(r'<meta\b[^>]*\bcontent=["\']([^"\']*)["\'][^>]*\bname=["\']description["\']',text)
+    desc=meta_description(text)
     h1=strip_tags(first(r"<h1\b[^>]*>(.*?)</h1>",text))
     lang="en" if "/en/tadabbur/" in url else "id-ID"
 
