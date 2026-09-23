@@ -1,11 +1,11 @@
 # TADABBURLIFE — CURRENT STATUS
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Status:** ACTIVE LIVING DOCUMENT  
 **Snapshot:** 23 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
 **Primary Branch:** `main`  
-**Governing SOP:** `mastersoptadabbur.md` v1.3 — FROZEN GOVERNANCE BASELINE
+**Governing SOP:** `mastersoptadabbur.md` v1.4 — FROZEN GOVERNANCE BASELINE
 
 > MASTER-SOP defines how TadabburLife must be developed.  
 > CURRENT-STATUS records where the project actually stands now.  
@@ -30,7 +30,7 @@ Current public baseline:
 
 Source/work material exists with numbering beyond the published corpus, including material named through 051 in repository data areas. These are **not counted as published sessions** until public session landings are actually released and verified.
 
-Published sessions follow Master SOP v1.1 content integrity: Quran/hadith source material is protected by the **Absolute Sacred Lock**; explanatory/supporting content may be SEO-adaptive when relevant and evidence-based; reflection, key takeaway, Journey Mission, and practical action remain **meaning-constrained**.
+Published sessions follow Master SOP v1.4 governance and content integrity: Quran/hadith source material is protected by the **Absolute Sacred Lock**; explanatory/supporting content may be SEO-adaptive when relevant and evidence-based; reflection, key takeaway, Journey Mission, and practical action remain **meaning-constrained**.
 
 ---
 
@@ -46,16 +46,38 @@ Published sessions follow Master SOP v1.1 content integrity: Quran/hadith source
 ### Homepage Qur'an coverage progress — 23 September 2026
 
 - Homepage primary progress now measures **unique Qur'an ayat discussed / 6,236 ayat**, not published sessions / an estimated 1,000-session target.
-- Current published corpus resolves to **75 unique ayat discussed** across **47 sessions** = **1.2% Qur'an coverage**.
-- There are **86 ayat mentions** across the session references, but repeated ayat are counted only once in the coverage numerator.
+- Current published corpus resolves to **75 uniquely owned ayat** across **47 sessions** = **1.2% Qur'an coverage**.
+- After the 23 September deduplication pass, primary ownership references are **75 / 75 unique**: repeated ayat are no longer counted or rendered as a second primary discussion.
 - Final Indonesian hero copy: **`75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an`**.
 - Final English hero copy: **`75 of 6,236 verses • 1.2% Qur’an coverage`**.
 - Supporting dashboard stats are **Ayat dibahas / Total ayat / Sesi**; session count remains visible but is no longer the primary progress denominator.
-- Single progress-data source: **`data/quran-progress.json`**, with `countMode=unique_ayat`.
+- Primary progress source: **`data/quran-progress.json`**, with `countMode=unique_owned_ayat`; explicit ayat → owner registry: **`data/ayat-ownership.json`**.
 - Homepage runtime derives the bar width, localized hero copy, ayat count, denominator, and session count from the progress dataset.
 - Source-integrity guard: **`.github/scripts/quran_progress_qc.py`** + **`.github/workflows/quran-progress-qc.yml`**.
 - Reader regression is also triggered when `data/quran-progress.json` changes.
-- Future publication rule: every newly published session must register its normalized Qur'an references in `data/quran-progress.json`; duplicate references do not increase the unique-ayat numerator.
+
+### Ayat Deduplication & Ownership — 23 September 2026
+
+- Governance rule: **ONE AYAT → ONE PRIMARY OWNER SESSION**.
+- Full Sessions 001–047 audit found **8 conflict groups / 11 repeated ayat** in the historical corpus.
+- All 8 conflict groups are resolved in reader source + ID/EN public landings.
+- Current registry: **75 unique owned ayat, 0 duplicate primary owners**.
+- Companion/practical-checkpoint sessions with no new ayat ownership: **016** (links to owner S030 for Al-Hashr 59:18) and **044** (links to owner S010 for Al-'Asr 103:1–3).
+- Ownership transfers/narrowing:
+  - S004 → An-Nisa 4:135; S023 owns An-Nisa 4:58.
+  - S005 → Al-Hujurat 49:11; S015 owns Al-Hujurat 49:12.
+  - S006 → Al-Baqarah 2:153; S018 owns Ash-Sharh 94:5–6.
+  - S007 → At-Tahrim 66:8; S031 owns Az-Zumar 39:53.
+  - S011 → Al-Isra 17:36; S042 owns Al-Hujurat 49:6.
+  - S027 owns Luqman 31:18; S043 → Luqman 31:19.
+  - S030 owns Al-Hashr 59:18; S016 is companion only.
+  - S010 owns Al-'Asr 103:1–3; S044 is companion only.
+- Every non-owner conflict now carries an explicit **ayat cross-reference → owner session** and does not repeat the owner's verse/tafsir block.
+- Anti-duplicate controls: **`.github/scripts/ayat_ownership_qc.py`** + **`.github/workflows/ayat-ownership-qc.yml`**.
+- Governance baseline updated to **Master SOP v1.4 — Ayat Ownership & Deduplication Lock**.
+- Audit record: **`seo/ayat-ownership-audit-001-047-2026-09-23.md`**.
+
+- Future publication rule: every newly published session must pass **Ayat Ownership Preflight**. An ayat/range already owned by another session cannot be reused as a primary ayat; it must become a cross-reference or companion flow.
 
 
 ## 2. SOURCE OF TRUTH
@@ -310,19 +332,19 @@ The implementation snapshot records what is actually published. It does not crea
 
 ## 8. DEEP SERP STATUS
 
-### Deep/live bilingual validation completed
+### Deep/live bilingual validation status
 
-**Sessions 001–047 are Deep Live SERP validated bilingually.**
+The historical Deep Live SERP program reached Sessions **001–047** before the ayat-ownership correction.
 
-Current coverage:
+After the 23 September 2026 deduplication remap, **six sessions changed materially enough to require a post-dedup SERP refresh**: **004, 007, 011, 016, 043, 044**.
 
-**47 / 47 sessions**
+Current implementation-aligned status:
 
-or:
+- **41 / 47 sessions** remain aligned to their latest Deep Live SERP validation;
+- **6 / 47 sessions** are **dedup-remap pending live-SERP revalidation**;
+- technical ayat ownership / anti-duplicate integrity is independent and currently PASS at source level.
 
-**94 / 94 session-language targets**
-
-at the latest deep bilingual validation level.
+This is not a regression to directional-only mapping; it is a controlled revalidation requirement caused by changing the page's ayat ownership or companion role.
 
 ### Batch 013–016 — completed 22 September 2026
 
@@ -356,7 +378,7 @@ Live batch QC:
 - failures: **0**
 - full keyword-map source recheck: **94 / 94 PASS**
 - full keyword-map live recheck: **94 / 94 HTTP 200 + map/live PASS**
-- research boundary: **47 Deep / 0 directional**, issues **0**
+- pre-dedup research boundary was **47 Deep / 0 directional**; post-dedup implementation alignment now requires refresh for Sessions **004, 007, 011, 016, 043, 044**
 
 Research report:
 
@@ -364,7 +386,7 @@ Research report:
 
 ### Remaining
 
-**No directional-only sessions remain. All Sessions 001–047 are Deep Live SERP validated in ID + EN.**
+**No legacy directional-only sessions remain, but Sessions 004, 007, 011, 016, 043, and 044 require post-dedup live-SERP revalidation before their Deep status is considered current again.**
 
 Deep SERP coverage remains separate from the already-passed Technical Green Gate.
 
