@@ -11,6 +11,7 @@ import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from html.parser import HTMLParser
 
 BASE="https://tadabburlife.com"
 TIMEOUT=20
@@ -32,19 +33,24 @@ def first(pattern,text):
     return html.unescape(m.group(1).strip()) if m else ""
 
 def strip_tags(s):
-    return re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",s))).strip()
+    return re.sub(r"\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",s))).strip()
 
-def attr_value(tag,name):
-    m=re.search(rf'\\b{re.escape(name)}\\s*=\\s*"([^"]*)"',tag,re.I|re.S)
-    if m:
-        return html.unescape(m.group(1))
-    m=re.search(rf"\\b{re.escape(name)}\\s*=\\s*'([^']*)'",tag,re.I|re.S)
-    return html.unescape(m.group(1)) if m else ""
+class MetaDescriptionParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.description=""
+
+    def handle_starttag(self,tag,attrs):
+        if tag.lower()!="meta" or self.description:
+            return
+        d={k.lower():(v or "") for k,v in attrs}
+        if d.get("name","").lower()=="description":
+            self.description=d.get("content","")
+
 def meta_description(text):
-    for tag in re.findall(r'<meta\\b[^>]*>',text,re.I|re.S):
-        if attr_value(tag,"name").lower()=="description":
-            return attr_value(tag,"content")
-    return ""
+    p=MetaDescriptionParser()
+    p.feed(text)
+    return p.description
 def fetch(url):
     last=""
     for attempt in range(3):
