@@ -52,18 +52,19 @@ A Domain property covers protocol and subdomain variants and is verified through
 
 ## Sitemap submission
 
-In Search Console → **Sitemaps**, submit:
+Search Console submission is now complete.
 
-`sitemap.xml`
+Recorded result:
 
-Expected website-side inventory: **103 URLs**.
+- Sitemap: `https://tadabburlife.com/sitemap.xml`
+- Submitted: **23 Sep 2026**
+- Last read: **23 Sep 2026**
+- Status: **Success**
+- Discovered pages: **103**
+- Discovered videos: **0**
+- Fetch/parse error shown by GSC: **none**
 
-The Search Console result to record is:
-
-- submission status;
-- last read;
-- discovered pages;
-- any fetch/parse error.
+The **103 discovered pages exactly match the website-side 103-URL canonical sitemap inventory**.
 
 Do not infer indexed-page count from “discovered pages”; use Page indexing / URL Inspection for index status.
 
@@ -125,8 +126,8 @@ This observation is **not equivalent to Search Console data** and must not be us
 ### Search Console account-side evidence required
 
 - [x] Domain property `tadabburlife.com` confirmed/verified via Cloudflare DNS
-- [ ] sitemap.xml submitted or existing submission confirmed
-- [ ] Sitemap status / discovered pages recorded
+- [x] sitemap.xml submitted or existing submission confirmed
+- [x] Sitemap status / discovered pages recorded
 - [ ] Page Indexing indexed / not-indexed counts recorded
 - [ ] Priority URL Inspection sample completed
 - [ ] Google-selected canonical checked on representative ID/EN landing
@@ -136,4 +137,6 @@ This observation is **not equivalent to Search Console data** and must not be us
 
 ## Next action
 
-Property ownership is now verified. Keep the Google verification TXT record in DNS. The next account-side step, when proceeding, is to submit `sitemap.xml` in Search Console and record its status/discovered-page count. Once actual GSC data is available, classify any non-indexed URLs by reason and fix only confirmed issues rather than changing the already-green technical architecture preemptively.
+Property ownership is verified and the root sitemap has now been submitted successfully in Search Console. GSC reported **Status: Success**, **Last read: 23 Sep 2026**, and **103 discovered pages**, matching the website-side canonical sitemap inventory exactly.
+
+The next account-side step is representative URL Inspection, beginning with the homepage and then ID/EN hubs plus selected session landings. Use actual GSC index status and Google-selected canonical before diagnosing any indexing issue.
