@@ -34,6 +34,15 @@ Published sessions follow Master SOP v1.1 content integrity: Quran/hadith source
 
 ---
 
+
+### Monetization / AdSense baseline — 23 September 2026
+
+- Final website/content AdSense readiness: **GO TO SUBMIT**, with account-side setup still required.
+- Approved ad-placement blueprint: `seo/ad-placement-template.md`.
+- Launch rule: reader-first manual placements; session S1 after Fakta Nash/Pelajaran/Batas, optional S2 after application section, HOME-01 after first substantial homepage block, HUB-01 after 6–8 session entries.
+- Sacred-source blocks, legal/trust pages, navigation/completion controls, and interactive overlays remain ad-free.
+- Auto Ads aggressive formats remain OFF initially pending mobile reader QC.
+
 ## 2. SOURCE OF TRUTH
 
 Project governance currently uses:
