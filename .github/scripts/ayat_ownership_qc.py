@@ -62,6 +62,9 @@ def main() -> int:
         issues.append(f"session_inventory_mismatch:missing={sorted(expected_ids-ids)}:extra={sorted(ids-expected_ids)}")
 
     derived: dict[str, int] = {}
+    session_map = {int(s["id"]): s for s in sessions}
+
+    # Pass 1: build the full primary-owner map before validating cross-references.
     for s in sessions:
         sid = int(s["id"])
         mode = s.get("mode", "owner")
@@ -88,6 +91,11 @@ def main() -> int:
                 else:
                     derived[a] = sid
 
+    # Pass 2: every cross-reference must point to the already-established owner,
+    # and both reader + public landing must carry an explicit owner link.
+    for s in sessions:
+        sid = int(s["id"])
+        cross = s.get("crossReferences", [])
         id_article = article(source, sid, "id")
         en_article = article(source, sid, "en")
         if not id_article or not en_article:
@@ -97,14 +105,22 @@ def main() -> int:
         for x in cross:
             ref = str(x.get("ayat", ""))
             owner = int(x.get("ownerSession", 0))
+            if owner == sid:
+                issues.append(f"crossref_points_to_self:{sid}:{ref}")
+            if owner not in session_map:
+                issues.append(f"crossref_owner_missing_session:{sid}:{ref}:owner={owner}")
             try:
                 ayat = expand_ref(ref)
             except ValueError as exc:
                 issues.append(str(exc))
                 continue
+
             for a in ayat:
-                if derived.get(a) is not None and derived.get(a) != owner:
-                    issues.append(f"crossref_wrong_owner:{sid}:{a}:declared={owner}:actual={derived.get(a)}")
+                actual = derived.get(a)
+                if actual is None:
+                    issues.append(f"crossref_unowned_ayat:{sid}:{a}:declared={owner}")
+                elif actual != owner:
+                    issues.append(f"crossref_wrong_owner:{sid}:{a}:declared={owner}:actual={actual}")
 
             for lang, art in (("id", id_article), ("en", en_article)):
                 marker = rf'data-owner-session="{owner}"'
