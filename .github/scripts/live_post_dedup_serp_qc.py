@@ -10,7 +10,7 @@ OUT.mkdir(parents=True,exist_ok=True)
 MAP=Path("seo/keyword-map.json")
 UA="Mozilla/5.0 (compatible; TadabburLifePostDedupSERPQC/1.0; +https://tadabburlife.com/)"
 SESSIONS=("004","007","011","016","043","044")
-EVIDENCE="deep-live-serp-revalidated-2026-09-23"
+EVIDENCE="deep-live-serp-validated-2026-09-23-post-dedup"
 ANSWER='data-seo-answer="post-dedup-live-serp-2026-09-23"'
 
 class Parser(HTMLParser):
