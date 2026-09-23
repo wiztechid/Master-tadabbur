@@ -130,7 +130,11 @@ This observation is **not equivalent to Search Console data** and must not be us
 - [x] Sitemap status / discovered pages recorded
 - [ ] Page Indexing indexed / not-indexed counts recorded
 - [ ] Priority URL Inspection sample completed
-  - [x] Homepage `https://tadabburlife.com/` — **URL is on Google / Page indexed / HTTPS PASS**
+  - [x] Homepage `https://tadabburlife.com/` — **URL is on Google / Page indexed / canonical clean / HTTPS PASS**
+  - [x] ID hub `https://tadabburlife.com/tadabbur/` — **URL is on Google / Page indexed / HTTPS PASS**
+  - [x] EN hub `https://tadabburlife.com/en/tadabbur/` — **URL is on Google / Page indexed / canonical clean**
+  - [x] ID Session 004 `https://tadabburlife.com/tadabbur/004/` — **Not indexed: Discovered – currently not indexed; no crawl yet**
+  - [x] EN Session 044 `https://tadabburlife.com/en/tadabbur/044/` — **URL is on Google / Page indexed / canonical clean**
 - [ ] Google-selected canonical checked on representative ID/EN landing
 - [ ] 7-day indexing snapshot
 - [ ] 14-day indexing snapshot
@@ -162,3 +166,65 @@ Search Console inspection for `https://tadabburlife.com/` returned a **clean ind
 
 Interpretation: the homepage is indexed and Google agrees with the site's canonical URL. No request indexing action is needed for the homepage.
 
+
+
+## Representative URL Inspection results — 23 September 2026
+
+### ID hub — `https://tadabburlife.com/tadabbur/`
+
+- **URL is on Google**
+- **Page indexing: Indexed**
+- **HTTPS: PASS**
+- Detailed crawl/canonical fields were not captured in the submitted screenshot.
+
+### EN hub — `https://tadabburlife.com/en/tadabbur/`
+
+- **URL is on Google**
+- **Page indexing: Indexed**
+- Referring sitemap: `https://tadabburlife.com/sitemap.xml`
+- Last crawl: **23 Sep 2026, 07:04:01**
+- Crawled as: **Googlebot Smartphone**
+- Crawl allowed: **Yes**
+- Page fetch: **Successful**
+- Indexing allowed: **Yes**
+- User-declared canonical: `https://tadabburlife.com/en/tadabbur/`
+- Google-selected canonical: **Inspected URL**
+
+### ID Session 004 — `https://tadabburlife.com/tadabbur/004/`
+
+- **URL is not on Google**
+- Status: **Discovered – currently not indexed**
+- Referring sitemap: `https://tadabburlife.com/sitemap.xml`
+- Referring pages shown:
+  - `https://tadabburlife.com/en/tadabbur/004/`
+  - `https://tadabburlife.com/tadabbur/`
+- Last crawl: **N/A**
+- Crawl allowed: **N/A**
+- Page fetch: **N/A**
+- Indexing allowed: **N/A**
+- User-declared canonical: **N/A**
+- Google-selected canonical: **N/A**
+
+Interpretation: Google has discovered the URL but has not crawled it yet. This is not evidence of a technical block. The next action is **Test Live URL**; if the live test is indexable, request indexing once for this priority sample.
+
+### EN Session 044 — `https://tadabburlife.com/en/tadabbur/044/`
+
+- **URL is on Google**
+- **Page indexing: Indexed**
+- Referring sitemap: `https://tadabburlife.com/sitemap.xml`
+- Referring page: `https://tadabburlife.com/en/tadabbur/`
+- Last crawl: **23 Sep 2026, 16:20:03**
+- Crawled as: **Googlebot Smartphone**
+- Crawl allowed: **Yes**
+- Page fetch: **Successful**
+- Indexing allowed: **Yes**
+- User-declared canonical: `https://tadabburlife.com/en/tadabbur/044/`
+- Google-selected canonical: **Inspected URL**
+
+### Representative sample summary
+
+- Indexed samples: **4 / 5**
+- Not indexed samples: **1 / 5**
+- Confirmed canonical mismatch: **0**
+- Confirmed technical crawl/index block: **0**
+- Priority follow-up: **ID Session 004 live test → request indexing if live test passes**
