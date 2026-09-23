@@ -93,8 +93,8 @@ def source_inventory_check() -> dict[str, Any]:
     expected |= {f"{BASE}/en/tadabbur/{n:03d}/" for n in range(1,48)}
     expected |= {
         f"{BASE}/about/",
-        f"{BASE}/privacy-policy/",
-        f"{BASE}/cookie-policy/",
+        f"{BASE}/privacy/",
+        f"{BASE}/cookies/",
         f"{BASE}/terms/",
         f"{BASE}/disclaimer/",
         f"{BASE}/contact/",
@@ -124,7 +124,7 @@ def source_inventory_check() -> dict[str, Any]:
 
     for p in (
         "index.html","tadabbur/index.html","en/tadabbur/index.html",
-        "about/index.html","privacy-policy/index.html","cookie-policy/index.html",
+        "about/index.html","privacy/index.html","cookies/index.html",
         "terms/index.html","disclaimer/index.html","contact/index.html",
         "robots.txt","sitemap.xml","CNAME",
     ):
