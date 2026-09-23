@@ -35,9 +35,11 @@ def strip_tags(s):
     return re.sub(r"\\s+"," ",html.unescape(re.sub(r"<[^>]+>"," ",s))).strip()
 
 def attr_value(tag,name):
-    m=re.search(rf'\\b{re.escape(name)}\\s*=\\s*(["\\'])(.*?)\\1',tag,re.I|re.S)
-    return html.unescape(m.group(2)) if m else ""
-
+    m=re.search(rf'\\b{re.escape(name)}\\s*=\\s*"([^"]*)"',tag,re.I|re.S)
+    if m:
+        return html.unescape(m.group(1))
+    m=re.search(rf"\\b{re.escape(name)}\\s*=\\s*'([^']*)'",tag,re.I|re.S)
+    return html.unescape(m.group(1)) if m else ""
 def meta_description(text):
     for tag in re.findall(r'<meta\\b[^>]*>',text,re.I|re.S):
         if attr_value(tag,"name").lower()=="description":
