@@ -124,7 +124,7 @@ This observation is **not equivalent to Search Console data** and must not be us
 
 ### Search Console account-side evidence required
 
-- [ ] Domain property `tadabburlife.com` confirmed/verified
+- [x] Domain property `tadabburlife.com` confirmed/verified via Cloudflare DNS
 - [ ] sitemap.xml submitted or existing submission confirmed
 - [ ] Sitemap status / discovered pages recorded
 - [ ] Page Indexing indexed / not-indexed counts recorded
@@ -136,4 +136,4 @@ This observation is **not equivalent to Search Console data** and must not be us
 
 ## Next action
 
-Connect/read the Search Console property and fill the account-side evidence above. Once actual GSC data is available, classify any non-indexed URLs by reason and fix only confirmed issues rather than changing the already-green technical architecture preemptively.
+Property ownership is now verified. Keep the Google verification TXT record in DNS. The next account-side step, when proceeding, is to submit `sitemap.xml` in Search Console and record its status/discovered-page count. Once actual GSC data is available, classify any non-indexed URLs by reason and fix only confirmed issues rather than changing the already-green technical architecture preemptively.
