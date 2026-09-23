@@ -8,17 +8,40 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-23
 
+### [Corpus / Governance] Ayat Deduplication & Ownership Audit 001–047 — PASS
+- Completed a full ayat-ownership audit across Sessions **001–047**, Indonesian + English.
+- Historical corpus contained **8 conflict groups / 11 repeated ayat** where the same verse had become a primary anchor in more than one session.
+- Adopted the permanent rule **ONE AYAT → ONE PRIMARY OWNER SESSION**.
+- Resolved ownership as follows:
+  - **An-Nisa 4:58 → S023**; S004 now owns An-Nisa 4:135.
+  - **Al-Hujurat 49:12 → S015**; S005 now owns Al-Hujurat 49:11.
+  - **Ash-Sharh 94:5–6 → S018**; S006 now owns Al-Baqarah 2:153.
+  - **Az-Zumar 39:53 → S031**; S007 now owns At-Tahrim 66:8.
+  - **Al-'Asr 103:1–3 → S010**; S044 is now a practical companion/checkpoint.
+  - **Al-Hujurat 49:6 → S042**; S011 now owns Al-Isra 17:36.
+  - **Al-Hashr 59:18 → S030**; S016 is now a nightly-muhasabah practical companion.
+  - **Luqman 31:18 → S027**; S043 now owns Luqman 31:19.
+- Removed repeated owner verse/tafsir blocks from the non-owner sessions and added explicit owner cross-reference cards in both ID and EN reader source + affected public landings.
+- Added reciprocal related links from owner landings where missing: **S031 ↔ S007, S010 ↔ S044, S042 ↔ S011**.
+- Added **`data/ayat-ownership.json`** as the explicit ayat → owner registry.
+- Upgraded **`data/quran-progress.json`** to schema v2 / `unique_owned_ayat`; current corpus is **75 unique owned ayat, 0 duplicate primary owners**.
+- Added CI guard **`.github/scripts/ayat_ownership_qc.py`** + **`.github/workflows/ayat-ownership-qc.yml`**.
+- Updated **Master SOP to v1.4** with the **Ayat Ownership & Deduplication Lock**, mandatory Ayat Ownership Preflight for Session 048+, partial-range overlap rules, companion-session rules, and ownership-migration requirements.
+- Added audit record **`seo/ayat-ownership-audit-001-047-2026-09-23.md`**.
+- Source-level QC after patch: **75 unique owned ayat, 0 duplicate owners, 0 duplicate Arabic verse segments**, all eight cross-reference relationships present in ID + EN source and public landings.
+- Sessions **004, 007, 011, 016, 043, 044** changed materially enough to require a post-dedup live-SERP refresh before their previous Deep status is considered current.
+
 ### [Homepage / Data] Qur'an Coverage Progress — IMPLEMENTED
 - Replaced the homepage's primary progress denominator from the editorial target of approximately 1,000 sessions to **Qur'an ayat discussed / 6,236 ayat**.
-- Current published Sessions 001–047 map to **86 ayat mentions** and **75 unique ayat discussed**; repeated verses are counted once, producing **1.2% Qur'an coverage**.
+- Current published Sessions 001–047 now resolve to **75 uniquely owned ayat** after the ownership cleanup, producing **1.2% Qur'an coverage**.
 - Final ID hero copy: **`75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an`**.
 - Final EN hero copy: **`75 of 6,236 verses • 1.2% Qur’an coverage`**.
 - Retained **47 sessions** as a supporting statistic rather than the main progress denominator.
-- Added **`data/quran-progress.json`** as the normalized progress source of truth with `countMode=unique_ayat`.
+- Added **`data/quran-progress.json`** as the normalized progress source of truth; after deduplication it uses `countMode=unique_owned_ayat`.
 - Updated homepage runtime so progress bar, localized copy, discussed-ayat count, denominator, and session count are derived from the dataset.
 - Added **`.github/scripts/quran_progress_qc.py`** and **`.github/workflows/quran-progress-qc.yml`** to guard dataset/session-count/static-fallback integrity.
 - Updated Live Reader Regression triggers so changes to `data/quran-progress.json` also run browser regression.
-- Preserved all published session substance; this change is limited to homepage UX/progress metadata and technical integrity.
+- The initial homepage-only progress change was followed by the corpus-wide ownership cleanup recorded below.
 
 ## 2026-09-22
 
