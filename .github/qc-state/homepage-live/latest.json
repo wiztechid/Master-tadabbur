@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T07:22:21.345Z",
+  "generatedAt": "2026-09-23T07:36:42.672Z",
   "url": "https://tadabburlife.com/",
   "expected": {
     "discussed": 75,
@@ -32,6 +32,9 @@
         "totalAyat": true,
         "sessions": true,
         "htmlLang": true,
+        "topHiddenAtStart": true,
+        "topVisibleAfter400": true,
+        "topHiddenAfterReturn": true,
         "noHorizontalOverflow": true,
         "progressBarRatio": true,
         "heroVisible": true,
@@ -50,7 +53,25 @@
         "heroWidth": 948,
         "statsWidth": 902,
         "expectedRatio": 0.012026940346375883,
-        "actualRatio": 0.012023246102449888
+        "actualRatio": 0.012023246102449888,
+        "topAtStart": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        },
+        "topAfter400": {
+          "showClass": true,
+          "opacity": 1,
+          "visibility": "visible",
+          "pointerEvents": "auto"
+        },
+        "topAfterReturn": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        }
       },
       "actualText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an"
     },
@@ -69,6 +90,9 @@
         "totalAyat": true,
         "sessions": true,
         "htmlLang": true,
+        "topHiddenAtStart": true,
+        "topVisibleAfter400": true,
+        "topHiddenAfterReturn": true,
         "noHorizontalOverflow": true,
         "progressBarRatio": true,
         "heroVisible": true,
@@ -87,7 +111,25 @@
         "heroWidth": 948,
         "statsWidth": 902,
         "expectedRatio": 0.012026940346375883,
-        "actualRatio": 0.012023246102449888
+        "actualRatio": 0.012023246102449888,
+        "topAtStart": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        },
+        "topAfter400": {
+          "showClass": true,
+          "opacity": 1,
+          "visibility": "visible",
+          "pointerEvents": "auto"
+        },
+        "topAfterReturn": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        }
       },
       "actualText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an"
     },
@@ -106,6 +148,9 @@
         "totalAyat": true,
         "sessions": true,
         "htmlLang": true,
+        "topHiddenAtStart": true,
+        "topVisibleAfter400": true,
+        "topHiddenAfterReturn": true,
         "noHorizontalOverflow": true,
         "progressBarRatio": true,
         "heroVisible": true,
@@ -124,7 +169,25 @@
         "heroWidth": 370,
         "statsWidth": 324,
         "expectedRatio": 0.012026940346375883,
-        "actualRatio": 0.01201171875
+        "actualRatio": 0.01201171875,
+        "topAtStart": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        },
+        "topAfter400": {
+          "showClass": true,
+          "opacity": 1,
+          "visibility": "visible",
+          "pointerEvents": "auto"
+        },
+        "topAfterReturn": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        }
       },
       "actualText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an"
     },
@@ -143,6 +206,9 @@
         "totalAyat": true,
         "sessions": true,
         "htmlLang": true,
+        "topHiddenAtStart": true,
+        "topVisibleAfter400": true,
+        "topHiddenAfterReturn": true,
         "noHorizontalOverflow": true,
         "progressBarRatio": true,
         "heroVisible": true,
@@ -161,7 +227,25 @@
         "heroWidth": 948,
         "statsWidth": 902,
         "expectedRatio": 0.012026940346375883,
-        "actualRatio": 0.012023246102449888
+        "actualRatio": 0.012023246102449888,
+        "topAtStart": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        },
+        "topAfter400": {
+          "showClass": true,
+          "opacity": 1,
+          "visibility": "visible",
+          "pointerEvents": "auto"
+        },
+        "topAfterReturn": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        }
       },
       "actualText": "75 of 6,236 verses • 1.2% Qur’an coverage"
     },
@@ -180,6 +264,9 @@
         "totalAyat": true,
         "sessions": true,
         "htmlLang": true,
+        "topHiddenAtStart": true,
+        "topVisibleAfter400": true,
+        "topHiddenAfterReturn": true,
         "noHorizontalOverflow": true,
         "progressBarRatio": true,
         "heroVisible": true,
@@ -198,7 +285,25 @@
         "heroWidth": 370,
         "statsWidth": 324,
         "expectedRatio": 0.012026940346375883,
-        "actualRatio": 0.01201171875
+        "actualRatio": 0.01201171875,
+        "topAtStart": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        },
+        "topAfter400": {
+          "showClass": true,
+          "opacity": 1,
+          "visibility": "visible",
+          "pointerEvents": "auto"
+        },
+        "topAfterReturn": {
+          "showClass": false,
+          "opacity": 0,
+          "visibility": "hidden",
+          "pointerEvents": "none"
+        }
       },
       "actualText": "75 of 6,236 verses • 1.2% Qur’an coverage"
     }
