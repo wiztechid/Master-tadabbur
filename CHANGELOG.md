@@ -8,6 +8,15 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-23
 
+### [Homepage / Live QC] Qur'an Progress Propagation & Visual Regression — PASS
+- Verified the custom domain after deployment; the new Qur'an-coverage homepage state propagated successfully on the **first live check**.
+- Verified **HTTP 200**, localized progress copy, **75 / 6,236** ayat coverage, **1.2%**, and supporting **47 sessions**.
+- Browser QC passed **5 / 5 profiles**: desktop ID, tablet ID, mobile ID, desktop EN, and mobile EN.
+- Verified no horizontal overflow, no console/page errors, and a rendered progress-bar ratio matching the calculated **1.2027%** coverage.
+- Visually reviewed representative live screenshots for desktop ID, mobile ID, and mobile EN; no clipping or broken responsive layout was found.
+- Added persistent browser QC: **`.github/scripts/live_homepage_progress_qc.mjs`** + **`.github/workflows/live-homepage-progress-qc.yml`**, with latest evidence under **`.github/qc-state/homepage-live/`**.
+- Aligned the live QC report with ayat-ownership schema v2: **75 owned unique ayat + 11 cross-reference occurrences = 86 historical reference occurrences represented**.
+
 ### [Corpus / Governance] Ayat Deduplication & Ownership Audit 001–047 — PASS
 - Completed a full ayat-ownership audit across Sessions **001–047**, Indonesian + English.
 - Historical corpus contained **8 conflict groups / 11 repeated ayat** where the same verse had become a primary anchor in more than one session.
