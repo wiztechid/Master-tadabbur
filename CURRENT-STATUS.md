@@ -69,7 +69,8 @@ Published sessions follow Master SOP v1.4 governance and content integrity: Qura
 - Visual screenshots were reviewed for desktop ID, mobile ID, and mobile EN; hero, toolbar, three-stat layout, bilingual copy, list flow, and footer remained readable without clipping.
 - Live-QC source/report: **`.github/scripts/live_homepage_progress_qc.mjs`**, **`.github/workflows/live-homepage-progress-qc.yml`**, and **`.github/qc-state/homepage-live/`**.
 - QC report is aligned to ayat-ownership schema v2: **75 owned unique ayat + 11 cross-reference occurrences = 86 historical reference occurrences represented**.
-- Non-blocking visual polish candidate: the floating back-to-top control is available from initial load; hiding it until the user scrolls would reduce unnecessary overlay on small screens.
+- Floating back-to-top control polish is now **implemented and live-verified**: hidden below 400 px scroll, fades in at ≥400 px, and hides again after returning above the threshold.
+- Back-to-top behavior passed live browser QC on desktop/tablet/mobile in both tested languages with no overflow, console errors, or page errors.
 
 ### Ayat Deduplication & Ownership — 23 September 2026
 
