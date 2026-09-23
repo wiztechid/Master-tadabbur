@@ -8,6 +8,13 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-23
 
+### [Homepage / UX] Back-to-Top Scroll Polish — PASS
+- Changed the floating ↑ control to remain hidden while `scrollY < 400` and fade in once the reader reaches `scrollY >= 400`.
+- Added fade/translate transition, disabled pointer interaction while hidden, and respected `prefers-reduced-motion`.
+- Added accessible button labeling and retained smooth-scroll return to the page top.
+- Extended live homepage browser QC to verify hidden-at-top → visible-after-400 → hidden-after-return behavior.
+- Latest live browser QC passed all tested desktop/tablet/mobile ID/EN profiles with no overflow or browser errors.
+
 ### [Homepage / Live QC] Qur'an Progress Propagation & Visual Regression — PASS
 - Verified the custom domain after deployment; the new Qur'an-coverage homepage state propagated successfully on the **first live check**.
 - Verified **HTTP 200**, localized progress copy, **75 / 6,236** ayat coverage, **1.2%**, and supporting **47 sessions**.
