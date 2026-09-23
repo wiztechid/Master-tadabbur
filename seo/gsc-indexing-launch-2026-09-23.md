@@ -130,6 +130,7 @@ This observation is **not equivalent to Search Console data** and must not be us
 - [x] Sitemap status / discovered pages recorded
 - [ ] Page Indexing indexed / not-indexed counts recorded
 - [ ] Priority URL Inspection sample completed
+  - [x] Homepage `https://tadabburlife.com/` — **URL is on Google / Page indexed / HTTPS PASS**
 - [ ] Google-selected canonical checked on representative ID/EN landing
 - [ ] 7-day indexing snapshot
 - [ ] 14-day indexing snapshot
@@ -140,3 +141,14 @@ This observation is **not equivalent to Search Console data** and must not be us
 Property ownership is verified and the root sitemap has now been submitted successfully in Search Console. GSC reported **Status: Success**, **Last read: 23 Sep 2026**, and **103 discovered pages**, matching the website-side canonical sitemap inventory exactly.
 
 The next account-side step is representative URL Inspection, beginning with the homepage and then ID/EN hubs plus selected session landings. Use actual GSC index status and Google-selected canonical before diagnosing any indexing issue.
+
+
+## Homepage URL Inspection result — 23 September 2026
+
+Search Console inspection for `https://tadabburlife.com/` returned:
+
+- **URL is on Google**
+- **Page indexing: Indexed**
+- **HTTPS: Page served over HTTPS**
+
+No manual indexing request was made because the homepage is already indexed. Detailed crawl/canonical fields remain to be captured from the expanded **Page indexing** panel before deciding whether a live test or recrawl request is useful.
