@@ -1,0 +1,123 @@
+{
+  "summary": {
+    "generated_at": "2026-09-23T07:49:02Z",
+    "propagated": true,
+    "propagation_attempts": 1,
+    "pages_checked": 12,
+    "http_200": 12,
+    "pass_count": 12,
+    "fail_count": 0,
+    "owner_guard_issues": [],
+    "overall_pass": true
+  },
+  "rows": [
+    {
+      "session": "004",
+      "lang": "id",
+      "url": "https://tadabburlife.com/tadabbur/004/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "004",
+      "lang": "en",
+      "url": "https://tadabburlife.com/en/tadabbur/004/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "007",
+      "lang": "id",
+      "url": "https://tadabburlife.com/tadabbur/007/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "007",
+      "lang": "en",
+      "url": "https://tadabburlife.com/en/tadabbur/007/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "011",
+      "lang": "id",
+      "url": "https://tadabburlife.com/tadabbur/011/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "011",
+      "lang": "en",
+      "url": "https://tadabburlife.com/en/tadabbur/011/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "016",
+      "lang": "id",
+      "url": "https://tadabburlife.com/tadabbur/016/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "016",
+      "lang": "en",
+      "url": "https://tadabburlife.com/en/tadabbur/016/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "043",
+      "lang": "id",
+      "url": "https://tadabburlife.com/tadabbur/043/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "043",
+      "lang": "en",
+      "url": "https://tadabburlife.com/en/tadabbur/043/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "044",
+      "lang": "id",
+      "url": "https://tadabburlife.com/tadabbur/044/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    },
+    {
+      "session": "044",
+      "lang": "en",
+      "url": "https://tadabburlife.com/en/tadabbur/044/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "error": ""
+    }
+  ]
+}
