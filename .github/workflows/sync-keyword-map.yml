@@ -7,6 +7,12 @@ on:
     paths:
       - '.github/workflows/sync-keyword-map.yml'
       - '.github/scripts/sync_keyword_map.py'
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+
+concurrency:
+  group: sync-keyword-map-main
+  cancel-in-progress: true
 
 permissions:
   contents: write
