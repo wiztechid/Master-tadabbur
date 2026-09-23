@@ -350,61 +350,65 @@ The implementation snapshot records what is actually published. It does not crea
 
 ### Deep/live bilingual validation status
 
-The historical Deep Live SERP program reached Sessions **001–047** before the ayat-ownership correction.
+**Sessions 001–047 are currently aligned to Deep Live SERP validation in ID + EN.**
 
-After the 23 September 2026 deduplication remap, **six sessions changed materially enough to require a post-dedup SERP refresh**: **004, 007, 011, 016, 043, 044**.
+The 23 September 2026 ayat-ownership correction temporarily required six sessions to be revalidated because their owned ayat or companion role changed materially: **004, 007, 011, 016, 043, 044**.
+
+That post-dedup revalidation is now complete.
 
 Current implementation-aligned status:
 
-- **41 / 47 sessions** remain aligned to their latest Deep Live SERP validation;
-- **6 / 47 sessions** are **dedup-remap pending live-SERP revalidation**;
-- technical ayat ownership / anti-duplicate integrity is independent and currently PASS at source level.
+- **47 / 47 sessions** Deep Live SERP aligned;
+- **94 / 94 session-language targets** covered by the current Deep evidence boundary;
+- **0** dedup-remap sessions pending;
+- ayat ownership and SEO territory are explicitly separated where a page is a no-ayat companion.
 
-This is not a regression to directional-only mapping; it is a controlled revalidation requirement caused by changing the page's ayat ownership or companion role.
+### Post-Dedup Revalidation — 23 September 2026
 
-### Batch 013–016 — completed 22 September 2026
+Revalidated Sessions **004, 007, 011, 016, 043, 044** independently in Indonesian and English.
 
-The second controlled four-session batch completed independent Indonesian + English live-SERP research, full-corpus cannibalization review, implementation, head/schema/map synchronization, and live validation.
+Key territory decisions:
 
-Search territories are now explicitly separated:
+- **004** owns **An-Nisa / Quran 4:135** on justice even against oneself, relatives, wealth/poverty, and personal inclination. **023** exclusively owns 4:58 on returning trusts.
+- **007** owns **At-Tahrim / Quran 66:8** on taubat nasuha / sincere repentance. **031** exclusively owns Az-Zumar 39:53 on sin-related despair and Allah's mercy.
+- **011** owns **Al-Isra / Quran 17:36** on not following or asserting what is unknown and accountability of hearing/sight/heart. **042** exclusively owns Al-Hujurat 49:6 on tabayyun / verification of incoming reports.
+- **016** remains a **no-ayat nightly-muhasabah companion**; **030** exclusively owns Al-Hashr 59:18 and its tafsir.
+- **043** owns **Luqman / Quran 31:19** on measured walking and lowering the voice. **027** exclusively owns 31:18 on arrogance/contempt.
+- **044** remains a **no-ayat daily time-audit companion**; **010** exclusively owns Al-'Asr 103:1–3 and its meaning/tafsir.
 
-- **013** — anger restraint + forgiveness; ID anchored to Ali 'Imran 3:134, EN to Quran 3:134; Session 014 retains speech/word-choice intent.
-- **014** — choosing better words / avoiding discord in Al-Isra 17:53; Session 013 retains anger-control intent.
-- **015** — unsupported suspicion → tajassus/fault-finding → backbiting, with assumption-vs-fact and legitimate-verification boundary; Session 005 retains mocking/dignity, Session 011 news-before-sharing, and Session 042 information-before-decision.
-- **016** — nightly/daily muhasabah and self-accountability before sleep; Session 030 retains the separate Al-Hashr 59:18 territory of preparing provision for the Hereafter.
+Implementation changes:
 
-Implementation:
+- title/H1/meta sharpened where live intent supported clearer post-dedup positioning: **004, 011, 044**;
+- all 12 ID/EN landing targets now contain exactly one post-dedup SERP answer block;
+- stale schema keywords tied to former duplicate ayat/themes were removed or retargeted;
+- owner and companion cannibalization guards were refreshed in both directions;
+- demand evidence for the six sessions is now **`deep-live-serp-validated-2026-09-23-post-dedup`**.
 
-- 8 landing title/H1/meta sets updated from validated intent;
-- 8 concise reader-first direct-answer blocks added;
-- Article/Breadcrumb schema resynchronized;
-- OG/Twitter metadata resynchronized;
-- keyword-map implementation snapshots resynchronized;
-- explicit `search_territory` + `cannibalization_guard` recorded in ID and EN research entries;
-- demand evidence for 013–016 upgraded to `deep-live-serp-validated-2026-09-22`.
+Targeted live QC:
 
-Live batch QC:
-
-- pages checked: **8 / 8**
-- HTTP 200: **8 / 8**
-- title/H1/meta ↔ keyword-map: PASS
-- canonical/OG/Article schema sync: PASS
-- exactly one Deep-SERP answer block per landing: PASS
-- evidence/search-territory/cannibalization-guard fields: PASS
-- failures: **0**
-- full keyword-map source recheck: **94 / 94 PASS**
-- full keyword-map live recheck: **94 / 94 HTTP 200 + map/live PASS**
-- pre-dedup research boundary was **47 Deep / 0 directional**; post-dedup implementation alignment now requires refresh for Sessions **004, 007, 011, 016, 043, 044**
+- pages checked: **12 / 12**;
+- HTTP 200: **12 / 12**;
+- title/H1/meta ↔ keyword map: **PASS**;
+- canonical/OG/Article schema sync: **PASS**;
+- answer-block marker: **12 / 12 PASS**;
+- evidence/search territory/cannibalization guard: **PASS**;
+- owner-side guard issues: **0**;
+- propagation: **PASS on first attempt**;
+- overall: **PASS**.
 
 Research report:
 
-`seo/deep-serp-013-016-2026-09-22.md`
+`seo/post-dedup-deep-serp-004-007-011-016-043-044-2026-09-23.md`
+
+Live QC state:
+
+`.github/qc-state/post-dedup-serp/latest.json`
 
 ### Remaining
 
-**No legacy directional-only sessions remain, but Sessions 004, 007, 011, 016, 043, and 044 require post-dedup live-SERP revalidation before their Deep status is considered current again.**
+**No Deep SERP revalidation remains for the published Sessions 001–047 corpus.**
 
-Deep SERP coverage remains separate from the already-passed Technical Green Gate.
+The next project phase is the post-dedup technical re-sync / Final Release Gate before indexing and monetization operations.
 
 ---
 
