@@ -6,6 +6,20 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ---
 
+## 2026-09-23
+
+### [Homepage / Data] Qur'an Coverage Progress — IMPLEMENTED
+- Replaced the homepage's primary progress denominator from the editorial target of approximately 1,000 sessions to **Qur'an ayat discussed / 6,236 ayat**.
+- Current published Sessions 001–047 map to **86 ayat mentions** and **75 unique ayat discussed**; repeated verses are counted once, producing **1.2% Qur'an coverage**.
+- Final ID hero copy: **`75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an`**.
+- Final EN hero copy: **`75 of 6,236 verses • 1.2% Qur’an coverage`**.
+- Retained **47 sessions** as a supporting statistic rather than the main progress denominator.
+- Added **`data/quran-progress.json`** as the normalized progress source of truth with `countMode=unique_ayat`.
+- Updated homepage runtime so progress bar, localized copy, discussed-ayat count, denominator, and session count are derived from the dataset.
+- Added **`.github/scripts/quran_progress_qc.py`** and **`.github/workflows/quran-progress-qc.yml`** to guard dataset/session-count/static-fallback integrity.
+- Updated Live Reader Regression triggers so changes to `data/quran-progress.json` also run browser regression.
+- Preserved all published session substance; this change is limited to homepage UX/progress metadata and technical integrity.
+
 ## 2026-09-22
 
 ### [SEO] Deep Live SERP + Cannibalization — Sessions 037–040 — PASS
