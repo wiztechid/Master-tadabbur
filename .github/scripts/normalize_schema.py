@@ -12,6 +12,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from html.parser import HTMLParser
 from typing import Any
 
 ROOT = Path(".")
@@ -37,19 +38,22 @@ def strip_tags(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
-def attr_value(tag: str, name: str) -> str:
-    m = re.search(rf'\\b{re.escape(name)}\\s*=\\s*"([^"]*)"', tag, re.I | re.S)
-    if m:
-        return html.unescape(m.group(1))
-    m = re.search(rf"\\b{re.escape(name)}\\s*=\\s*'([^']*)'", tag, re.I | re.S)
-    return html.unescape(m.group(1)) if m else ""
+class MetaDescriptionParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.description = ""
+
+    def handle_starttag(self, tag: str, attrs) -> None:
+        if tag.lower() != "meta" or self.description:
+            return
+        d = {k.lower(): (v or "") for k, v in attrs}
+        if d.get("name", "").lower() == "description":
+            self.description = d.get("content", "")
+
 def meta_description(text: str) -> str:
-    # Quote-aware attribute parsing: apostrophes inside a double-quoted
-    # description (Ar-Ra'd, Al-Ma'un, people's) must not truncate the value.
-    for tag in re.findall(r'<meta\\b[^>]*>', text, re.I | re.S):
-        if attr_value(tag, "name").lower() == "description":
-            return attr_value(tag, "content")
-    return ""
+    p = MetaDescriptionParser()
+    p.feed(text)
+    return p.description
 def canonical(text: str) -> str:
     return (
         first(r'<link\b[^>]*\brel=["\']canonical["\'][^>]*\bhref=["\']([^"\']+)', text)
