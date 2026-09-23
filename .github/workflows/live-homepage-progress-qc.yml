@@ -1,0 +1,51 @@
+name: Live Homepage Quran Progress QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/quran-progress.json'
+      - '.github/scripts/live_homepage_progress_qc.mjs'
+      - '.github/workflows/live-homepage-progress-qc.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  live-homepage-qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Run live homepage QC
+        id: qc
+        continue-on-error: true
+        run: node .github/scripts/live_homepage_progress_qc.mjs
+
+      - name: Persist latest QC report and screenshots
+        if: always()
+        run: |
+          git config user.name "tadabburlife-qc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f .github/qc-state/homepage-live/
+          if git diff --cached --quiet; then
+            echo "No QC state changes to commit."
+          else
+            git commit -m "QC: refresh live homepage progress report"
+            git push
+          fi
+
+      - name: Enforce live homepage QC
+        if: steps.qc.outcome == 'failure'
+        run: |
+          echo "Live homepage Quran progress QC failed. See .github/qc-state/homepage-live/."
+          exit 1
