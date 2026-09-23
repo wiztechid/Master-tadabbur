@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-09-23T07:19:32.430Z",
+  "url": "https://tadabburlife.com/",
+  "expected": {
+    "discussed": 75,
+    "total": 6236,
+    "sessions": 47,
+    "pct": 1.2026940346375883,
+    "idText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an",
+    "enText": "75 of 6,236 verses • 1.2% Qur’an coverage",
+    "mentions": 75
+  },
+  "propagationAttempts": 1,
+  "propagated": true,
+  "profiles": [
+    {
+      "name": "desktop-id",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "language": "id",
+      "status": 200,
+      "checks": {
+        "http200": true,
+        "progressText": true,
+        "discussedAyat": true,
+        "totalAyat": true,
+        "sessions": true,
+        "htmlLang": true,
+        "noHorizontalOverflow": true,
+        "progressBarRatio": true,
+        "heroVisible": true,
+        "statsVisible": true,
+        "noConsoleErrors": true,
+        "noPageErrors": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "pass": true,
+      "metrics": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "barWidth": 10.796875,
+        "trackWidth": 898,
+        "heroWidth": 948,
+        "statsWidth": 902,
+        "expectedRatio": 0.012026940346375883,
+        "actualRatio": 0.012023246102449888
+      },
+      "actualText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an"
+    },
+    {
+      "name": "tablet-id",
+      "viewport": {
+        "width": 1024,
+        "height": 1200
+      },
+      "language": "id",
+      "status": 200,
+      "checks": {
+        "http200": true,
+        "progressText": true,
+        "discussedAyat": true,
+        "totalAyat": true,
+        "sessions": true,
+        "htmlLang": true,
+        "noHorizontalOverflow": true,
+        "progressBarRatio": true,
+        "heroVisible": true,
+        "statsVisible": true,
+        "noConsoleErrors": true,
+        "noPageErrors": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "pass": true,
+      "metrics": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "barWidth": 10.796875,
+        "trackWidth": 898,
+        "heroWidth": 948,
+        "statsWidth": 902,
+        "expectedRatio": 0.012026940346375883,
+        "actualRatio": 0.012023246102449888
+      },
+      "actualText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an"
+    },
+    {
+      "name": "mobile-id",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "language": "id",
+      "status": 200,
+      "checks": {
+        "http200": true,
+        "progressText": true,
+        "discussedAyat": true,
+        "totalAyat": true,
+        "sessions": true,
+        "htmlLang": true,
+        "noHorizontalOverflow": true,
+        "progressBarRatio": true,
+        "heroVisible": true,
+        "statsVisible": true,
+        "noConsoleErrors": true,
+        "noPageErrors": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "pass": true,
+      "metrics": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "barWidth": 3.84375,
+        "trackWidth": 320,
+        "heroWidth": 370,
+        "statsWidth": 324,
+        "expectedRatio": 0.012026940346375883,
+        "actualRatio": 0.01201171875
+      },
+      "actualText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an"
+    },
+    {
+      "name": "desktop-en",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "language": "en",
+      "status": 200,
+      "checks": {
+        "http200": true,
+        "progressText": true,
+        "discussedAyat": true,
+        "totalAyat": true,
+        "sessions": true,
+        "htmlLang": true,
+        "noHorizontalOverflow": true,
+        "progressBarRatio": true,
+        "heroVisible": true,
+        "statsVisible": true,
+        "noConsoleErrors": true,
+        "noPageErrors": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "pass": true,
+      "metrics": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "barWidth": 10.796875,
+        "trackWidth": 898,
+        "heroWidth": 948,
+        "statsWidth": 902,
+        "expectedRatio": 0.012026940346375883,
+        "actualRatio": 0.012023246102449888
+      },
+      "actualText": "75 of 6,236 verses • 1.2% Qur’an coverage"
+    },
+    {
+      "name": "mobile-en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "language": "en",
+      "status": 200,
+      "checks": {
+        "http200": true,
+        "progressText": true,
+        "discussedAyat": true,
+        "totalAyat": true,
+        "sessions": true,
+        "htmlLang": true,
+        "noHorizontalOverflow": true,
+        "progressBarRatio": true,
+        "heroVisible": true,
+        "statsVisible": true,
+        "noConsoleErrors": true,
+        "noPageErrors": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "pass": true,
+      "metrics": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "barWidth": 3.84375,
+        "trackWidth": 320,
+        "heroWidth": 370,
+        "statsWidth": 324,
+        "expectedRatio": 0.012026940346375883,
+        "actualRatio": 0.01201171875
+      },
+      "actualText": "75 of 6,236 verses • 1.2% Qur’an coverage"
+    }
+  ],
+  "overallPass": true
+}
