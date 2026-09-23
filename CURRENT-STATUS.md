@@ -42,6 +42,21 @@ Published sessions follow Master SOP v1.4 governance and content integrity: Qura
 - Release record: `seo/final-release-gate-v1-2026-09-23.md`
 - Next operational phase: **Google Search Console indexing verification + AdSense account-side/production setup**.
 
+### Google Search Console indexing launch — 23 September 2026
+
+- Website-side indexing readiness remains **GREEN**.
+- Root sitemap inventory remains **103 canonical public URLs** and robots.txt points to `https://tadabburlife.com/sitemap.xml`.
+- Sitemap `lastmod` values were synchronized to actual 20–23 September content/SEO changes before GSC launch.
+- Corrected sitemap deployment commit: `d5360ac1a30948fcc6a741ff67733c0de13d3b89`.
+- GitHub Pages deployment for the corrected sitemap: **SUCCESS**.
+- Live 103-URL Crawl QC after the sitemap sync: **SUCCESS**.
+- Live Canonical/Hreflang QC after the sitemap sync: **SUCCESS**.
+- Public search sampling did not yet surface TadabburLife pages; this is only an external observation and **not** the canonical Google indexing count.
+- Recommended Search Console property: **Domain property `tadabburlife.com`**.
+- GSC account-side evidence still required: property verification/access, sitemap submission/read status, discovered-page count, Page Indexing indexed/not-indexed counts, and representative URL Inspection results.
+- Launch record: `seo/gsc-indexing-launch-2026-09-23.md`.
+- Do not change the already-green SEO architecture merely because a new-site URL is not indexed yet; classify the actual GSC reason first.
+
 ---
 
 
