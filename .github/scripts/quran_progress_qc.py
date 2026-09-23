@@ -93,7 +93,8 @@ def main() -> int:
             issues.append(f"{name}_static_mismatch:{got!r}_expected_{expected!r}")
 
     pct_id = f"{pct:.1f}".replace(".", ",")
-    hero_expected = f"{discussed} dari {quran_total:,} ayat • {pct_id}% cakupan Al-Qur'an".replace(",", ".")
+    total_id = f"{quran_total:,}".replace(",", ".")
+    hero_expected = f"{discussed} dari {total_id} ayat • {pct_id}% cakupan Al-Qur'an"
     m_hero = re.search(r'id="quran-progress-text">([^<]+)</small>', html)
     hero_got = m_hero.group(1).strip() if m_hero else ""
     if hero_got != hero_expected:
