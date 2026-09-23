@@ -64,8 +64,8 @@ def main() -> int:
     quran_total = int(data.get("quranTotalAyat", 0))
     if quran_total != 6236:
         issues.append(f"quran_total_{quran_total}_expected_6236")
-    if data.get("countMode") != "unique_ayat":
-        issues.append("count_mode_must_be_unique_ayat")
+    if data.get("countMode") != "unique_owned_ayat":
+        issues.append("count_mode_must_be_unique_owned_ayat")
 
     unique: set[str] = set()
     mentions = 0
@@ -107,7 +107,7 @@ def main() -> int:
         "metadata_sessions": len(sessions),
         "quran_total_ayat": quran_total,
         "unique_ayat_discussed": discussed,
-        "ayat_mentions_in_sessions": mentions,
+        "owned_ayat_mentions": mentions,
         "coverage_percent": round(pct, 4),
         "issues": issues,
         "pass": not issues,
