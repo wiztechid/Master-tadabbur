@@ -8,6 +8,7 @@ on:
       - '.github/workflows/live-reader-regression.yml'
       - '.github/scripts/live_reader_regression.mjs'
       - 'index.html'
+      - 'data/quran-progress.json'
       - 'data/sessions-*.html'
 
 permissions:
