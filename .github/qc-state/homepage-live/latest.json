@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T07:19:32.430Z",
+  "generatedAt": "2026-09-23T07:22:21.345Z",
   "url": "https://tadabburlife.com/",
   "expected": {
     "discussed": 75,
@@ -8,7 +8,11 @@
     "pct": 1.2026940346375883,
     "idText": "75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an",
     "enText": "75 of 6,236 verses • 1.2% Qur’an coverage",
-    "mentions": 75
+    "schemaVersion": 2,
+    "countMode": "unique_owned_ayat",
+    "ownedAyatOccurrences": 75,
+    "crossReferenceOccurrences": 11,
+    "totalReferenceOccurrences": 86
   },
   "propagationAttempts": 1,
   "propagated": true,
