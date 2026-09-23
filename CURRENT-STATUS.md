@@ -32,6 +32,16 @@ Source/work material exists with numbering beyond the published corpus, includin
 
 Published sessions follow Master SOP v1.4 governance and content integrity: Quran/hadith source material is protected by the **Absolute Sacred Lock**; explanatory/supporting content may be SEO-adaptive when relevant and evidence-based; reflection, key takeaway, Journey Mission, and practical action remain **meaning-constrained**.
 
+### Release baseline — 23 September 2026
+
+- **Final Release Gate v1.0: 🟢 GREEN**
+- Release checks: **16 / 16 PASS**
+- Release blockers: **0**
+- Tested commit: `7fabca8c13942c9ad08dc614a16a2d169a406721`
+- Evidence: `.github/qc-state/final-release-v1/latest.json`
+- Release record: `seo/final-release-gate-v1-2026-09-23.md`
+- Next operational phase: **Google Search Console indexing verification + AdSense account-side/production setup**.
+
 ---
 
 
@@ -41,7 +51,7 @@ Published sessions follow Master SOP v1.4 governance and content integrity: Qura
 - Approved ad-placement blueprint: `seo/ad-placement-template.md`.
 - Launch rule: reader-first manual placements; session S1 after Fakta Nash/Pelajaran/Batas, optional S2 after application section, HOME-01 after first substantial homepage block, HUB-01 after 6–8 session entries.
 - Sacred-source blocks, legal/trust pages, navigation/completion controls, and interactive overlays remain ad-free.
-- Auto Ads aggressive formats remain OFF initially pending mobile reader QC.
+- Mobile reader/browser QC is now PASS; aggressive Auto Ads formats remain OFF by launch policy until the production ad layer itself is placed and reader-QC'd.
 
 ### Homepage Qur'an coverage progress — 23 September 2026
 
@@ -135,35 +145,41 @@ The active corpus count must be updated whenever a new session becomes publicly 
 
 ### Overall
 
-**SEO Architecture v1.1: FUNDAMENTALLY IMPLEMENTED**
+**SEO Architecture v1.1 + Post-Dedup Technical Integrity: 🟢 FINAL RELEASE GATE v1.0 GREEN**
 
-Current architecture already includes:
+The published bilingual architecture includes:
 
-- bilingual public SEO landing structure,
-- self-referencing canonical architecture,
-- ID/EN hreflang pairing,
-- x-default,
-- sitemap,
-- robots configuration,
-- bilingual keyword registry,
-- structured-data foundation,
-- public landing → interactive reader connection,
-- search-territory mapping,
-- related-session architecture on the more mature landing implementation.
+- 47 Indonesian + 47 English session landings;
+- self-referencing canonical architecture;
+- reciprocal ID/EN/x-default hreflang;
+- 103-URL canonical sitemap;
+- robots/indexability controls;
+- bilingual keyword registry synchronized to source + live implementation;
+- Article + BreadcrumbList schema;
+- Reflection Card-derived OG/share images;
+- public landing → interactive reader connection;
+- search-territory + cannibalization controls;
+- ayat-ownership / companion architecture;
+- browser-level responsive and behavioral regression.
 
-However:
+**Final Release Gate v1.0 completed 23 September 2026: 16 / 16 PASS, 0 blockers.**
 
-**Corpus-wide SEO normalization is not yet complete.**
+Verified release commit:
 
-Therefore the current technical status remains:
+`7fabca8c13942c9ad08dc614a16a2d169a406721`
 
-**🟡 SEO Architecture / Technical Integrity — GREEN GATE IN PROGRESS**
+Persistent release evidence:
 
-**P0 Deploy Parity / Cache Gate: 🟢 PASS (source → GitHub Pages artifact).**
+- `.github/qc-state/final-release-v1/latest.json`
+- `seo/final-release-gate-v1-2026-09-23.md`
 
-The remaining P0 priority is **live 103-URL crawl verification on the custom domain**.
+Current website-side release state:
 
-This does not mean the architecture needs to be rebuilt. The current priority is normalization and corpus-wide verification.
+**🟢 SEO ARCHITECTURE / TECHNICAL INTEGRITY — RELEASE GREEN**
+
+This closes the post-dedup technical re-sync. The next operations are external/indexing/monetization workflows: Search Console indexing verification, AdSense account-side submission/setup, and post-index performance measurement.
+
+**Scope distinction:** RELEASE GREEN means the website-side checks passed. It does not guarantee Google index inclusion, ranking, traffic, or AdSense approval.
 
 ---
 
@@ -193,7 +209,7 @@ Alternates reciprocally reference ID and EN.
 
 **Current audited status: 🟢 PASS — 94/94 session landings verified at repository/source level for canonical + ID/EN/x-default hreflang + index/follow + title + meta description + H1.**
 
-The same published corpus is present in the successful GitHub Pages build artifact. Final custom-domain live crawl/indexability verification remains pending.
+The same published corpus is present in the successful GitHub Pages build artifact and has now passed the Final Release Gate live custom-domain verification.
 
 ---
 
@@ -256,12 +272,28 @@ Observed crawl latency from the public runner was approximately **70 ms minimum 
 
 **P0 LIVE 103-URL CRAWL QC: 🟢 PASS**
 
-Final Green Gate still requires remaining corpus verification that:
+### Final Release Gate v1.0 recheck — 23 September 2026
 
-- sitemap contains only intended canonical public URLs,
-- no published landing is missing,
-- no unintended utility/internal page enters the search inventory,
-- robots/noindex/canonical/sitemap signals remain consistent.
+The release gate repeated the custom-domain inventory after the post-dedup SEO/schema work:
+
+- sitemap inventory: **103 / 103 exact intended URLs**;
+- HTTP 200: **103 / 103**;
+- redirects: **0**;
+- canonical issues: **0**;
+- `noindex`: **0**;
+- soft-404 suspects: **0**;
+- robots: **200 / PASS**;
+- sitemap: **200 / PASS**;
+- global crawl issues: **0**.
+
+Canonical + hreflang release checks also passed:
+
+- session landings checked: **94 / 94**;
+- canonical PASS: **94 / 94**;
+- ID/EN/x-default hreflang PASS: **94 / 94**;
+- reciprocal bilingual pairs: **47 / 47**.
+
+**Final custom-domain inventory/indexability gate: 🟢 CLOSED / PASS.**
 
 ---
 
@@ -288,9 +320,12 @@ The existing SEO research fields continue to store:
 
 The current research boundary is:
 
-- Sessions **001–012**: `deep-live-serp-validated-2026-09-20` in ID + EN;
-- Sessions **013–036**: `deep-live-serp-validated-2026-09-22` in ID + EN;
-- Sessions **037–047**: `deep-live-serp-validated-2026-09-23` in ID + EN.
+- Sessions **001–012**: original Deep validation on 20 September, with post-dedup revalidation on **004, 007, 011**;
+- Sessions **013–036**: original Deep validation on 22 September, with post-dedup revalidation on **016**;
+- Sessions **037–047**: Deep validation on 23 September, with post-dedup revalidation on **043, 044**;
+- post-dedup evidence marker for the six remapped sessions: `deep-live-serp-validated-2026-09-23-post-dedup`.
+
+The active published research boundary is therefore **47 / 47 Deep; 0 directional-only**.
 
 Deep status is upgraded only after a controlled live-SERP + cannibalization batch, never by technical synchronization alone.
 
@@ -312,14 +347,17 @@ This gives the registry explicit coverage for:
 
 **47 sessions × 2 languages = 94 landing implementations.**
 
-Source synchronization QC:
+Final Release Gate source synchronization QC:
 
 - sessions checked: **47 / 47**
 - landing implementations checked: **94 / 94**
 - source implementation PASS: **94 / 94**
 - related-session pair parity: **47 / 47**
+- technical map changes required at final sync: **0**
 - research-boundary issues: **0**
 - post-sync registry issues: **0**
+- Deep boundary: **47 / 47**
+- directional-only boundary: **0 / 0**
 
 Live custom-domain QC:
 
@@ -408,7 +446,7 @@ Live QC state:
 
 **No Deep SERP revalidation remains for the published Sessions 001–047 corpus.**
 
-The next project phase is the post-dedup technical re-sync / Final Release Gate before indexing and monetization operations.
+The post-dedup technical re-sync and Final Release Gate v1.0 are now complete. The next project phase is Search Console indexing verification + AdSense account-side/production setup, followed by 7/14/28-day measurement.
 
 ---
 
@@ -680,17 +718,17 @@ Reusable controls:
 
 **Reflection Card OG Image Coverage: 🟢 PASS 94/94 source + live**
 
-The remaining share-related Green-Gate work is limited to **interactive reader/share action regression**, not static share metadata or image availability.
+Interactive reader/share action regression is also complete; the static and interactive share layers are both included in Final Release Gate v1.0 GREEN.
 
 ---
 
 ## 15. CURRENT GREEN GATE
 
-Technical SEO architecture becomes:
+The technical Green Gate is complete.
 
-**🟢 PASS**
+**🟢 FINAL RELEASE GATE v1.0 — GREEN**
 
-only after the following Green Gate is completed.
+The G1–G7 program below remains the detailed control history; Final Release Gate v1.0 re-ran the critical source + live controls as one release checkpoint and passed **16 / 16** checks.
 
 ### G1 — 94/94 Landing Integrity — 🟢 PASS
 
@@ -730,7 +768,7 @@ Completed and live-verified across **94 / 94** session landings.
 - page body unchanged during normalization: **94 / 94**
 - live custom-domain metadata/OG/share validation: **94 / 94 PASS**
 
-The Deep-SERP boundary remains intact: Sessions 013–016 were later upgraded only through their dedicated validated research batch; Sessions 017–047 still receive only safe technical repairs until their own Deep Live SERP work.
+The Deep-SERP boundary remains intact and is now complete at **47 / 47 sessions Deep validated**, including the six post-dedup revalidations.
 
 `og:image` is now part of the required baseline: **94/94 unique Reflection Card-derived PNGs are live and verified at 1200×630**, with Twitter/X upgraded to `summary_large_image`.
 
@@ -775,9 +813,10 @@ Completed and verified across **47 session records / 94 language implementations
 - related-session registry ↔ source/live: PASS
 - related ID/EN pair parity: **47 / 47**
 - live map ↔ landing validation: **94 / 94 PASS**
-- Deep SERP boundary preserved: **12 / 12**
-- directional-only boundary preserved: **35 / 35**
+- Deep SERP boundary preserved: **47 / 47**
+- directional-only published sessions: **0**
 - research-boundary issues: **0**
+- final technical sync drift: **0**
 
 The keyword map now records both search-research state and the exact implemented ID/EN landing signals without conflating the two.
 
@@ -848,11 +887,20 @@ Reusable browser regression control:
 
 ### GREEN GATE RESULT
 
-All G1–G7 technical-integrity gates are now closed.
+All G1–G7 technical-integrity gates are closed, and Final Release Gate v1.0 has independently rechecked the release baseline.
 
-**🟢 SEO ARCHITECTURE / TECHNICAL INTEGRITY — PASS**
+**🟢 SEO ARCHITECTURE / TECHNICAL INTEGRITY — RELEASE GREEN**
 
-This Green Gate remains separate from the unfinished Deep SERP research track. Sessions 013–047 are now Deep SERP validated through controlled research batches. The Deep SERP research track is complete.
+Final Release Gate v1.0:
+- **16 / 16 PASS**;
+- **0 blockers**;
+- exact 103-URL public inventory PASS;
+- 94/94 canonical/hreflang/keyword-map/metadata/OG/schema/internal-link layers PASS;
+- 282/282 responsive reader checks PASS;
+- post-dedup 12/12 targeted landing checks PASS;
+- homepage Qur'an-progress regression PASS.
+
+The Deep SERP research track is also complete at **47 / 47 sessions**.
 
 ---
 
@@ -866,9 +914,9 @@ Current:
 
 Next controlled batch:
 
-**Deep SERP research track complete — no remaining batch**
+**Deep SERP research track complete — no remaining batch in Sessions 001–047.**
 
-Then continue in controlled batches through the active corpus.
+Future Session 048+ must enter the same controlled pipeline before its Deep status is recorded.
 
 Workflow:
 
