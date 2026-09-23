@@ -69,3 +69,10 @@ Do not create first-party advertising audiences, remarketing lists, or personali
 **ads.txt:** WAITING FOR EXACT PUBLISHER ID  
 **CMP:** CONFIGURE BEFORE REQUIRED AD SERVING  
 **Overall:** **GO TO SUBMIT**
+
+
+## Approved ad-placement blueprint
+
+Canonical placement blueprint: `seo/ad-placement-template.md`.
+
+Launch baseline: manual reader-first placements only; no ads inside sacred-source blocks, legal/trust pages, or adjacent to navigation/completion controls.
