@@ -1,0 +1,35 @@
+name: Ayat Ownership Anti-Duplicate Guard
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'data/quran-progress.json'
+      - 'data/ayat-ownership.json'
+      - 'data/sessions-*.html'
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+      - '.github/scripts/ayat_ownership_qc.py'
+      - '.github/workflows/ayat-ownership-qc.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/quran-progress.json'
+      - 'data/ayat-ownership.json'
+      - 'data/sessions-*.html'
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+      - '.github/scripts/ayat_ownership_qc.py'
+      - '.github/workflows/ayat-ownership-qc.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  ayat-ownership:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Enforce one ayat one primary owner
+        run: python3 .github/scripts/ayat_ownership_qc.py
