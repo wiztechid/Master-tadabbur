@@ -8,6 +8,17 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-23
 
+### [Indexing] Google Search Console launch baseline — PREPARED
+- Prepared the Google Search Console indexing-verification baseline after Final Release Gate v1.0.
+- Synchronized `sitemap.xml` `lastmod` values to the actual 20–23 September content/SEO change dates rather than leaving changed landing pages at the older 20 September timestamp.
+- Corrected sitemap deployment commit **`d5360ac1a30948fcc6a741ff67733c0de13d3b89`** completed GitHub Pages deployment successfully.
+- Post-sync **Live 103-URL Crawl QC = SUCCESS** and **Live Canonical Hreflang QC = SUCCESS**.
+- Root sitemap remains **103 canonical public URLs** and robots.txt continues to advertise the root sitemap.
+- Public search sampling did not yet surface TadabburLife pages; this is recorded only as an external launch observation, not as the authoritative indexed-page count.
+- Recommended GSC setup is a **Domain property `tadabburlife.com`** with DNS verification, followed by root sitemap submission and representative URL Inspection rather than manual requests for all 103 URLs.
+- Added launch/verification record **`seo/gsc-indexing-launch-2026-09-23.md`**.
+- Actual Google-side indexed/not-indexed counts remain account-side evidence and must be read from Search Console before any indexing diagnosis is made.
+
 ### [Release] Post-Dedup Technical Re-Sync + Final Release Gate v1.0 — 🟢 GREEN
 - Completed the aggregate website-side release checkpoint after ayat-ownership deduplication and post-dedup Deep SERP revalidation.
 - Final Release Gate v1.0 tested commit **`7fabca8c13942c9ad08dc614a16a2d169a406721`** and returned **16 / 16 PASS, 0 blockers**.
