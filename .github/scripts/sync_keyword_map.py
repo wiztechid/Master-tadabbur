@@ -6,8 +6,7 @@ research fields and adds/refreshes a technical implementation snapshot for
 both Indonesian and English landings:
 canonical, reader, title, meta, H1, lang, related sessions.
 
-For Sessions 017–047, this remains technical synchronization only and does not
-upgrade demand_evidence or claim Deep SERP validation.
+The published Sessions 001–047 corpus is Deep Live SERP validated. This script only synchronizes technical implementation snapshots and must not invent or alter research evidence.
 """
 
 from __future__ import annotations
@@ -219,7 +218,7 @@ def main() -> int:
 
         implementation = {
             "synced_from": "source-landings",
-            "synced_on": "2026-09-22",
+            "synced_on": "2026-09-23",
             "id": id_snap,
             "en": en_snap,
         }
@@ -227,21 +226,14 @@ def main() -> int:
             entry["implementation"] = implementation
             map_changes += 1
 
-        # Research/evidence guardrail: do not silently upgrade 017–047.
+        # Research/evidence guardrail: all published Sessions 001–047 must remain Deep validated.
         id_ev = (entry.get("seo", {}).get("id", {}) or {}).get("demand_evidence", "")
         en_ev = (entry.get("seo", {}).get("en", {}) or {}).get("demand_evidence", "")
-        if n <= 16:
-            ok = id_ev.startswith("deep-live-serp-validated") and en_ev.startswith("deep-live-serp-validated")
-            if ok:
-                deep_ok += 1
-            else:
-                research_boundary_issues.append({"session": sid, "expected": "deep-live-serp-validated", "id": id_ev, "en": en_ev})
+        ok = id_ev.startswith("deep-live-serp-validated") and en_ev.startswith("deep-live-serp-validated")
+        if ok:
+            deep_ok += 1
         else:
-            ok = id_ev == "serp-directional" and en_ev == "serp-directional"
-            if ok:
-                directional_ok += 1
-            else:
-                research_boundary_issues.append({"session": sid, "expected": "serp-directional", "id": id_ev, "en": en_ev})
+            research_boundary_issues.append({"session": sid, "expected": "deep-live-serp-validated", "id": id_ev, "en": en_ev})
 
         # Related graph is now intentionally paired across ID/EN.
         related_pair_match = id_snap["related_sessions"] == en_snap["related_sessions"]
@@ -258,10 +250,10 @@ def main() -> int:
             "en": en_snap,
         })
 
-    data["generated"] = "2026-09-22"
+    data["generated"] = "2026-09-23"
     data["implementation_sync"] = {
         "status": "source-synced",
-        "synced_on": "2026-09-22",
+        "synced_on": "2026-09-23",
         "scope": "47 sessions x ID+EN = 94 landing implementations",
         "note": "Technical implementation snapshot only. It does not upgrade Deep SERP evidence or change keyword/search-intent research status.",
     }
@@ -305,8 +297,8 @@ def main() -> int:
             len(rows) == 47
             and not source_failures
             and all(r["related_pair_match"] for r in rows)
-            and deep_ok == 16
-            and directional_ok == 31
+            and deep_ok == 47
+            and directional_ok == 0
             and not research_boundary_issues
             and not final_issues
         ),
@@ -331,8 +323,8 @@ def main() -> int:
         f"- Related-session pair parity: {summary['related_pair_parity_count']} / 47",
         f"- ID sessions with registry drift before safe sync: {summary['top_level_id_sessions_with_drift_before_sync']}",
         f"- Technical registry changes: {summary['technical_map_changes']}",
-        f"- Deep SERP boundary (001–016): {summary['deep_serp_boundary_pass_count']} / 16",
-        f"- Directional-only boundary (017–047): {summary['directional_boundary_pass_count']} / 31",
+        f"- Deep SERP boundary (001–047): {summary['deep_serp_boundary_pass_count']} / 47",
+        f"- Directional-only boundary remaining: {summary['directional_boundary_pass_count']} / 0",
         f"- Research-boundary issues: {summary['research_boundary_issue_count']}",
         f"- Post-sync registry issues: {summary['post_sync_registry_issue_count']}",
         f"- Overall: {'PASS' if summary['overall_pass'] else 'FAIL'}",
