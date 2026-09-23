@@ -56,6 +56,21 @@ Published sessions follow Master SOP v1.4 governance and content integrity: Qura
 - Source-integrity guard: **`.github/scripts/quran_progress_qc.py`** + **`.github/workflows/quran-progress-qc.yml`**.
 - Reader regression is also triggered when `data/quran-progress.json` changes.
 
+### Live homepage propagation + visual QC — 23 September 2026
+
+- Custom-domain propagation: **PASS on first live attempt**.
+- Live homepage returned **HTTP 200** and the primary copy matched the repository-derived value in both languages.
+- Verified ID: **`75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an`**.
+- Verified EN: **`75 of 6,236 verses • 1.2% Qur’an coverage`**.
+- Verified supporting stats: **75 Ayat dibahas / 6.236 Total ayat / 47 Sesi**.
+- Browser profiles passed: **desktop ID, tablet ID, mobile ID, desktop EN, mobile EN = 5 / 5 PASS**.
+- No horizontal overflow, no browser console errors, and no page errors were detected in the tested profiles.
+- Progress-bar ratio matched the calculated coverage (**1.2027%**) at desktop and mobile dimensions.
+- Visual screenshots were reviewed for desktop ID, mobile ID, and mobile EN; hero, toolbar, three-stat layout, bilingual copy, list flow, and footer remained readable without clipping.
+- Live-QC source/report: **`.github/scripts/live_homepage_progress_qc.mjs`**, **`.github/workflows/live-homepage-progress-qc.yml`**, and **`.github/qc-state/homepage-live/`**.
+- QC report is aligned to ayat-ownership schema v2: **75 owned unique ayat + 11 cross-reference occurrences = 86 historical reference occurrences represented**.
+- Non-blocking visual polish candidate: the floating back-to-top control is available from initial load; hiding it until the user scrolls would reduce unnecessary overlay on small screens.
+
 ### Ayat Deduplication & Ownership — 23 September 2026
 
 - Governance rule: **ONE AYAT → ONE PRIMARY OWNER SESSION**.
