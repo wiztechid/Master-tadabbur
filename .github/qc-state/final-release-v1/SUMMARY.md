@@ -1,10 +1,10 @@
 # TadabburLife — Final Release Gate v1.0
 
-- Tested commit: `5b94bd4da925e2b4957f800766dab787dcd3803a`
-- Generated: 2026-09-23T08:12:09.893514+00:00
-- Duration: 108.65 s
-- Checks: 14 / 16 PASS
-- Release status: **BLOCKED**
+- Tested commit: `7fabca8c13942c9ad08dc614a16a2d169a406721`
+- Generated: 2026-09-23T08:23:45.657928+00:00
+- Duration: 27.78 s
+- Checks: 16 / 16 PASS
+- Release status: **GREEN**
 
 | Gate | Result |
 |---|---:|
@@ -17,15 +17,16 @@
 | live_103_url_crawl | PASS |
 | live_hreflang_94 | PASS |
 | live_keyword_map_94 | PASS |
-| live_metadata_og_94 | FAIL |
+| live_metadata_og_94 | PASS |
 | live_reflection_og_94 | PASS |
 | live_schema_94 | PASS |
 | live_internal_links_94 | PASS |
-| live_post_dedup_serp_12 | FAIL |
+| live_post_dedup_serp_12 | PASS |
 | live_reader_regression | PASS |
 | live_homepage_progress | PASS |
 
-## Blocking failures
+## Release decision
 
-- **live_metadata_og_94** — {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
-- **live_post_dedup_serp_12** — {"generated_at": "2026-09-23T08:11:49Z", "propagated": true, "propagation_attempts": 1, "pages_checked": 12, "http_200": 12, "pass_count": 11, "fail_count": 1, "owner_guard_issues": [], "overall_pass": false}
+**GREEN — website-side technical release gate passed.**
+
+The published 001–047 bilingual corpus is technically ready to proceed to Search Console indexing operations and the already-approved AdSense account-side submission/setup sequence.

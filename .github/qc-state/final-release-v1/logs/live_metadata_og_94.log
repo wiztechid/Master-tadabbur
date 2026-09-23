@@ -1,19 +1,9 @@
-Attempt 1/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
-Waiting 15s for Pages/cache propagation...
-Attempt 2/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
-Waiting 15s for Pages/cache propagation...
-Attempt 3/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
-Waiting 15s for Pages/cache propagation...
-Attempt 4/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
-Waiting 15s for Pages/cache propagation...
-Attempt 5/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
-Waiting 15s for Pages/cache propagation...
-Attempt 6/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 86, "fail_count": 8, "og_image_count": 94, "overall_pass": false}
+Attempt 1/6: {"live_checked": 94, "http_200_count": 94, "pass_count": 94, "fail_count": 0, "og_image_count": 94, "overall_pass": true}
 {
   "live_checked": 94,
   "http_200_count": 94,
-  "pass_count": 86,
-  "fail_count": 8,
+  "pass_count": 94,
+  "fail_count": 0,
   "og_image_count": 94,
-  "overall_pass": false
+  "overall_pass": true
 }

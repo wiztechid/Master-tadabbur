@@ -8,16 +8,16 @@ PASS https://tadabburlife.com/tadabbur/016/ []
 PASS https://tadabburlife.com/en/tadabbur/016/ []
 PASS https://tadabburlife.com/tadabbur/043/ []
 PASS https://tadabburlife.com/en/tadabbur/043/ []
-FAIL https://tadabburlife.com/tadabbur/044/ ['article_description']
+PASS https://tadabburlife.com/tadabbur/044/ []
 PASS https://tadabburlife.com/en/tadabbur/044/ []
 {
-  "generated_at": "2026-09-23T08:11:49Z",
+  "generated_at": "2026-09-23T08:23:26Z",
   "propagated": true,
   "propagation_attempts": 1,
   "pages_checked": 12,
   "http_200": 12,
-  "pass_count": 11,
-  "fail_count": 1,
+  "pass_count": 12,
+  "fail_count": 0,
   "owner_guard_issues": [],
-  "overall_pass": false
+  "overall_pass": true
 }
