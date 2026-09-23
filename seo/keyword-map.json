@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "methodology": "Bilingual SERP architecture. Indonesian and English targets are researched as independent search territories, not literal translations. Search demand is treated as directional SERP evidence unless first-party keyword-volume data is available. One primary intent per canonical landing; adjacent intent is used where sessions overlap.",
   "sessions": [
     {
@@ -205,16 +205,16 @@
     },
     {
       "session": "004",
-      "locked_title": "Amanah Tidak Berhenti pada Jabatan",
-      "primary_long_tail": "ayat tentang amanah dan keadilan dalam jabatan",
+      "locked_title": "Keadilan Tidak Boleh Tunduk pada Kepentingan",
+      "primary_long_tail": "An Nisa 4:135 keadilan meski terhadap diri sendiri",
       "intent": "informational-reflection",
       "cluster": "amanah-muamalah-sosial",
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/004/",
       "reader": "https://tadabburlife.com/?session=4&lang=id",
-      "seo_title": "Ayat tentang Amanah dan Keadilan dalam Jabatan — An-Nisa 4:58",
-      "meta_description": "Tadabbur An-Nisa 4:58 tentang amanah dan keadilan dalam jabatan: menunaikan hak kepada yang berhak dan berlaku adil ketika mengambil keputusan.",
-      "h1": "Ayat tentang Amanah dan Keadilan dalam Jabatan — An-Nisa 4:58",
+      "seo_title": "Keadilan dalam Jabatan meski Melawan Kepentingan Sendiri — An-Nisa 4:135",
+      "meta_description": "Tadabbur An-Nisa 4:135 tentang menegakkan keadilan meski keputusan menyentuh diri sendiri, keluarga, pihak kaya atau miskin, dan kepentingan pribadi.",
+      "h1": "Keadilan dalam Jabatan meski Melawan Kepentingan Sendiri — An-Nisa 4:135",
       "related_sessions": [
         "020",
         "021",
@@ -223,18 +223,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tentang amanah dan keadilan dalam jabatan",
-          "adjacent_long_tail": "amanah pemimpin menurut An Nisa ayat 58",
+          "primary_long_tail": "An Nisa 4:135 keadilan meski terhadap diri sendiri",
+          "adjacent_long_tail": "ayat tentang adil walau merugikan kepentingan sendiri",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "competition": "medium",
+          "search_territory": "An-Nisa 4:135 on standing firmly for justice even against oneself, relatives, wealth, poverty, or personal interest.",
+          "cannibalization_guard": "Session 023 owns An-Nisa 4:58 on returning trusts to rightful recipients. Session 004 no longer repeats 4:58 and owns only 4:135."
         },
         "en": {
-          "primary_long_tail": "Quran verse about trust and justice in leadership",
-          "adjacent_long_tail": "amanah and justice in leadership Quran 4 58",
+          "primary_long_tail": "Quran 4:135 justice even against yourself",
+          "adjacent_long_tail": "stand firmly for justice against self interest Quran 4 135",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "competition": "medium",
+          "search_territory": "Quran 4:135 on standing firmly for justice even against oneself, relatives, wealth, poverty, or personal interest.",
+          "cannibalization_guard": "Session 023 owns Quran 4:58 on returning trusts. Session 004 no longer repeats Quran 4:58 and owns only Quran 4:135."
         }
       },
       "implementation": {
@@ -268,6 +272,18 @@
             "023"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "4:135"
+        ],
+        "cross_references": [
+          {
+            "ayat": "4:58",
+            "owner_session": "023"
+          }
+        ]
       }
     },
     {
@@ -296,7 +312,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium",
           "search_territory": "Al-Hujurat 49:11 on mocking, insulting, offensive labels and protecting another person's honor.",
-          "cannibalization_guard": "Session 015 owns Al-Hujurat 49:12: suspicion, tajassus and backbiting. Session 005 should not target 49:12 as its primary search territory."
+          "cannibalization_guard": "Session 015 owns Al-Hujurat 49:12 on suspicion, tajassus and backbiting. Session 005 contains no repeated 49:12 verse block."
         },
         "en": {
           "primary_long_tail": "Quran 49:11 mocking people and offensive names",
@@ -305,7 +321,7 @@
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
           "competition": "medium",
           "search_territory": "Quran 49:11 on mocking, insulting and offensive names as violations of human dignity.",
-          "cannibalization_guard": "Session 015 owns Quran 49:12 suspicion, spying and backbiting. Session 005 owns Quran 49:11 mocking/offensive-name intent."
+          "cannibalization_guard": "Session 015 owns Quran 49:12 suspicion, spying and backbiting. Session 005 contains no repeated Quran 49:12 verse block."
         }
       },
       "implementation": {
@@ -339,6 +355,18 @@
             "015"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "49:11"
+        ],
+        "cross_references": [
+          {
+            "ayat": "49:12",
+            "owner_session": "015"
+          }
+        ]
       }
     },
     {
@@ -362,17 +390,21 @@
       "seo": {
         "id": {
           "primary_long_tail": "ayat Al Quran saat hidup terasa berat sabar dan shalat",
-          "adjacent_long_tail": "sabar dan shalat saat menghadapi kesulitan Al Baqarah 45",
+          "adjacent_long_tail": "Al Baqarah 2:153 sabar dan shalat saat menghadapi kesulitan",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "competition": "medium",
+          "search_territory": "Al-Baqarah 2:153 on seeking help through patience and prayer when life feels heavy.",
+          "cannibalization_guard": "Session 018 owns Ash-Sharh 94:5-6 and the hardship-with-ease promise. Session 006 contains no repeated 94:5-6 verse block."
         },
         "en": {
-          "primary_long_tail": "Quran verse for when life feels hard patience and prayer",
-          "adjacent_long_tail": "seek help through patience and prayer Quran 2 45",
+          "primary_long_tail": "Quran 2:153 patience and prayer when life feels hard",
+          "adjacent_long_tail": "seek help through patience and prayer Quran 2 153",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium-high"
+          "competition": "medium-high",
+          "search_territory": "Quran 2:153 on seeking help through steadfastness and prayer when life feels heavy.",
+          "cannibalization_guard": "Session 018 owns Quran 94:5-6 and 'with hardship comes ease'. Session 006 contains no repeated Quran 94:5-6 verse block."
         }
       },
       "implementation": {
@@ -406,20 +438,32 @@
             "029"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "2:153"
+        ],
+        "cross_references": [
+          {
+            "ayat": "94:5-6",
+            "owner_session": "018"
+          }
+        ]
       }
     },
     {
       "session": "007",
-      "locked_title": "Jangan Putus Asa untuk Kembali",
-      "primary_long_tail": "cara kembali kepada Allah setelah berbuat dosa",
+      "locked_title": "Taubat Nasuha: Kembali dengan Sungguh-Sungguh",
+      "primary_long_tail": "taubat nasuha menurut At Tahrim 66:8",
       "intent": "informational-reflection",
       "cluster": "ketahanan-jiwa-tawakal",
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/007/",
       "reader": "https://tadabburlife.com/?session=7&lang=id",
-      "seo_title": "Cara Kembali kepada Allah Setelah Berbuat Dosa — Jalan Taubat",
-      "meta_description": "Tadabbur tentang cara kembali kepada Allah setelah berbuat dosa: tidak meremehkan kesalahan, tidak menjadikannya alasan untuk menjauh, dan menempuh jalan taubat.",
-      "h1": "Cara Kembali kepada Allah Setelah Berbuat Dosa — Jalan Taubat",
+      "seo_title": "Taubat Nasuha: Kembali kepada Allah dengan Sungguh-Sungguh — At-Tahrim 66:8",
+      "meta_description": "Tadabbur At-Tahrim 66:8 tentang taubat nasuha: kembali kepada Allah dengan sungguh-sungguh, meninggalkan kesalahan, dan memperbaiki arah.",
+      "h1": "Taubat Nasuha: Kembali kepada Allah dengan Sungguh-Sungguh — At-Tahrim 66:8",
       "related_sessions": [
         "006",
         "008",
@@ -428,18 +472,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "cara kembali kepada Allah setelah berbuat dosa",
-          "adjacent_long_tail": "jalan taubat setelah melakukan dosa menurut Al Quran",
+          "primary_long_tail": "taubat nasuha menurut At Tahrim 66:8",
+          "adjacent_long_tail": "cara bertaubat sungguh sungguh kepada Allah",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "competition": "medium",
+          "search_territory": "At-Tahrim 66:8 on sincere repentance (taubat nasuha), returning to Allah earnestly and correcting direction.",
+          "cannibalization_guard": "Session 031 owns Az-Zumar 39:53 on despair after sin and Allah's mercy. Session 007 no longer repeats 39:53."
         },
         "en": {
-          "primary_long_tail": "how to return to Allah after sinning",
-          "adjacent_long_tail": "Quran guidance on returning to Allah after sin",
+          "primary_long_tail": "sincere repentance Quran 66:8 meaning",
+          "adjacent_long_tail": "how to return to Allah with sincere repentance",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "competition": "medium",
+          "search_territory": "Quran 66:8 on sincere repentance: returning to Allah earnestly and correcting direction.",
+          "cannibalization_guard": "Session 031 owns Quran 39:53 on despair after sin and Allah's mercy. Session 007 no longer repeats Quran 39:53."
         }
       },
       "implementation": {
@@ -473,6 +521,18 @@
             "029"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "66:8"
+        ],
+        "cross_references": [
+          {
+            "ayat": "39:53",
+            "owner_session": "031"
+          }
+        ]
       }
     },
     {
@@ -678,16 +738,16 @@
     },
     {
       "session": "011",
-      "locked_title": "Jangan Bertindak Sebelum Memeriksa",
-      "primary_long_tail": "ayat tabayyun sebelum menyebarkan berita",
+      "locked_title": "Jangan Mengikuti Apa yang Tidak Kita Ketahui",
+      "primary_long_tail": "Al Isra 17:36 jangan mengikuti sesuatu tanpa pengetahuan",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "medium",
       "canonical": "https://tadabburlife.com/tadabbur/011/",
       "reader": "https://tadabburlife.com/?session=11&lang=id",
-      "seo_title": "Ayat Tabayyun Sebelum Menyebarkan Berita — Al-Hujurat 49:6",
-      "meta_description": "Tadabbur Al-Hujurat 49:6 tentang tabayyun sebelum menyebarkan berita: periksa informasi sebelum percaya, menilai, bertindak, atau membagikannya kepada orang lain.",
-      "h1": "Ayat Tabayyun Sebelum Menyebarkan Berita — Al-Hujurat 49:6",
+      "seo_title": "Jangan Mengikuti Informasi Tanpa Pengetahuan — Al-Isra 17:36",
+      "meta_description": "Tadabbur Al-Isra 17:36 tentang tidak mengikuti sesuatu tanpa pengetahuan dan tanggung jawab pendengaran, penglihatan, serta hati.",
+      "h1": "Jangan Mengikuti Informasi Tanpa Pengetahuan — Al-Isra 17:36",
       "related_sessions": [
         "009",
         "014",
@@ -696,18 +756,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "ayat tabayyun sebelum menyebarkan berita",
-          "adjacent_long_tail": "cek fakta sebelum share berita menurut Al Hujurat 6",
+          "primary_long_tail": "Al Isra 17:36 jangan mengikuti sesuatu tanpa pengetahuan",
+          "adjacent_long_tail": "ayat tentang tanggung jawab informasi pendengaran penglihatan hati",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "competition": "medium",
+          "search_territory": "Al-Isra 17:36 on not following what one does not know and the accountability of hearing, sight and heart.",
+          "cannibalization_guard": "Session 042 owns Al-Hujurat 49:6 tabayyun and verification of incoming reports. Session 011 no longer repeats 49:6."
         },
         "en": {
-          "primary_long_tail": "Quran verse about verifying news before sharing it",
-          "adjacent_long_tail": "verify information before sharing Quran 49 6",
+          "primary_long_tail": "Quran 17:36 do not follow what you do not know",
+          "adjacent_long_tail": "Quran verse accountability hearing sight heart information",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-20",
-          "competition": "medium"
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
+          "competition": "medium",
+          "search_territory": "Quran 17:36 on not following what one does not know and the accountability of hearing, sight and heart.",
+          "cannibalization_guard": "Session 042 owns Quran 49:6 verification of reports. Session 011 no longer repeats Quran 49:6."
         }
       },
       "implementation": {
@@ -741,6 +805,18 @@
             "005"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "17:36"
+        ],
+        "cross_references": [
+          {
+            "ayat": "49:6",
+            "owner_session": "042"
+          }
+        ]
       }
     },
     {
@@ -1032,9 +1108,9 @@
       "serp_competition_estimate": "low-medium",
       "canonical": "https://tadabburlife.com/tadabbur/016/",
       "reader": "https://tadabburlife.com/?session=16&lang=id",
-      "seo_title": "Muhasabah Diri Sebelum Tidur — Al-Hashr 59:18 | TadabburLife",
-      "meta_description": "Al-Hashr 59:18 mengajak setiap jiwa melihat apa yang disiapkan untuk esok. Gunakan tadabbur ini untuk muhasabah sebelum tidur: syukur, istighfar, dan bekal amal.",
-      "h1": "Muhasabah Diri Sebelum Tidur — Al-Hashr 59:18",
+      "seo_title": "Muhasabah Malam: Praktik Audit Diri Sebelum Tidur",
+      "meta_description": "Checkpoint praktis muhasabah sebelum tidur: syukur, istighfar atau perbaikan, dan satu langkah baik untuk hari berikutnya. Ayat utama dirujuk ke Sesi 030.",
+      "h1": "Muhasabah Malam: Praktik Audit Diri Sebelum Tidur",
       "related_sessions": [
         "010",
         "030",
@@ -1047,18 +1123,18 @@
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "low-medium",
-          "adjacent_long_tail": "Al Hashr 59:18 muhasabah diri",
-          "search_territory": "Muhasabah harian sebelum tidur sebagai praktik self-review yang berakar pada Al-Hashr 59:18 dan diarahkan kepada perbaikan amal.",
-          "cannibalization_guard": "Sesi 030 memakai ayat yang sama tetapi memiliki territory berbeda: mempersiapkan bekal akhirat. Sesi 016 harus tetap pada nightly/daily self-accountability."
+          "adjacent_long_tail": "cara muhasabah malam singkat sebelum tidur",
+          "search_territory": "Practical nightly muhasabah/self-review routine: gratitude, repair or repentance, and one concrete next step.",
+          "cannibalization_guard": "Session 030 exclusively owns Al-Hashr 59:18 and its verse/tafsir discussion. Session 016 is a practice companion and must link to 030 without repeating the verse."
         },
         "en": {
-          "primary_long_tail": "nightly muhasabah in Islam",
-          "adjacent_long_tail": "Quran 59:18 self accountability",
+          "primary_long_tail": "nightly muhasabah self accountability before sleep",
+          "adjacent_long_tail": "simple nightly self review Islam",
           "intent": "informational-reflection",
           "demand_evidence": "deep-live-serp-validated-2026-09-22",
           "competition": "low-medium",
-          "search_territory": "Nightly/daily muhasabah and self-accountability before sleep, anchored in Quran 59:18 and oriented toward repentance, repair, and concrete action.",
-          "cannibalization_guard": "Session 030 owns preparing for the Hereafter / what have you prepared for tomorrow. Session 016 owns the nightly self-review practice."
+          "search_territory": "Practical nightly muhasabah/self-review routine: gratitude, repair or repentance, and one concrete next step.",
+          "cannibalization_guard": "Session 030 exclusively owns Quran 59:18 and its verse/tafsir discussion. Session 016 is a practice companion and must link to 030 without repeating the verse."
         }
       },
       "implementation": {
@@ -1092,6 +1168,16 @@
             "039"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "companion",
+        "owned": [],
+        "cross_references": [
+          {
+            "ayat": "59:18",
+            "owner_session": "030"
+          }
+        ]
       }
     },
     {
@@ -2942,16 +3028,16 @@
     },
     {
       "session": "043",
-      "locked_title": "Rendah Hati Terlihat dari Cara Kita Hadir di Tengah Manusia",
-      "primary_long_tail": "Luqman 31:18 19 rendah hati berjalan berbicara",
+      "locked_title": "Rendah Hati dalam Berjalan dan Menjaga Suara",
+      "primary_long_tail": "Luqman 31:19 rendah hati berjalan rendahkan suara",
       "intent": "informational-reflection",
       "cluster": "akhlak-relasi-informasi",
       "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/043/",
       "reader": "https://tadabburlife.com/?session=43&lang=id",
-      "seo_title": "Luqman 31:18–19: Rendah Hati dalam Berjalan dan Berbicara | TadabburLife",
-      "meta_description": "Luqman 31:18–19 melarang kesombongan lalu mengajarkan berjalan dengan wajar dan merendahkan suara. Pahami rendah hati dalam sikap, bahasa tubuh, dan cara berbicara.",
-      "h1": "Luqman 31:18–19: Rendah Hati dalam Berjalan dan Berbicara",
+      "seo_title": "Luqman 31:19: Rendah Hati dalam Berjalan dan Menjaga Suara",
+      "meta_description": "Tadabbur Luqman 31:19 tentang berjalan secara wajar, menjaga suara tetap proporsional, dan menghadirkan kerendahan hati dalam perilaku sehari-hari.",
+      "h1": "Luqman 31:19: Rendah Hati dalam Berjalan dan Menjaga Suara",
       "related_sessions": [
         "028",
         "027",
@@ -2960,22 +3046,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "Luqman 31:18 19 rendah hati berjalan berbicara",
-          "adjacent_long_tail": "sederhanakan berjalan rendahkan suara Luqman 31 19 makna",
+          "primary_long_tail": "Luqman 31:19 rendah hati berjalan rendahkan suara",
+          "adjacent_long_tail": "waqsid fi masyika waghdud min sawtik makna",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
           "competition": "high",
-          "search_territory": "Luqman 31:18-19 on the positive practice of humility in bearing, walking and speech/voice after rejecting arrogance and contempt.",
-          "cannibalization_guard": "Session 027 owns the negative prohibition of arrogance, contempt and turning the face away in Luqman 31:18. Session 014 owns choosing better words/speech. Session 043 owns humility expressed through bearing, measured walking and restrained voice across Luqman 31:18-19."
+          "search_territory": "Luqman 31:19 on humility expressed through measured walking and a restrained voice.",
+          "cannibalization_guard": "Session 027 exclusively owns Luqman 31:18 on arrogance and contempt. Session 043 owns only 31:19 and links to 027 for 31:18."
         },
         "en": {
-          "primary_long_tail": "Quran 31:18-19 humility walking speaking meaning",
-          "adjacent_long_tail": "Luqman 31 19 lower your voice walk moderately meaning",
+          "primary_long_tail": "Quran 31:19 humility walking lower your voice meaning",
+          "adjacent_long_tail": "be modest in your bearing subdue your voice Quran 31 19",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
           "competition": "high",
-          "search_territory": "Quran 31:18-19 on humility in bearing, measured walking and restrained speech/voice.",
-          "cannibalization_guard": "Session 027 owns arrogance/contempt in Quran 31:18; Session 014 owns better speech/word choice. Session 043 owns the positive embodied practice of humility across Quran 31:18-19."
+          "search_territory": "Quran 31:19 on humility expressed through measured walking and a restrained voice.",
+          "cannibalization_guard": "Session 027 exclusively owns Quran 31:18 on arrogance and contempt. Session 043 owns only 31:19 and links to 027 for 31:18."
         }
       },
       "implementation": {
@@ -3009,20 +3095,32 @@
             "014"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "31:19"
+        ],
+        "cross_references": [
+          {
+            "ayat": "31:18",
+            "owner_session": "027"
+          }
+        ]
       }
     },
     {
       "session": "044",
-      "locked_title": "Waktu Tidak Cukup Diisi; Ia Harus Diarahkan",
-      "primary_long_tail": "Surat Al Asr makna manusia dalam kerugian iman amal kebenaran sabar",
+      "locked_title": "Audit Waktu: Apakah Kesibukan Kita Terarah?",
+      "primary_long_tail": "cara audit waktu harian agar tidak habis sia sia",
       "intent": "informational-reflection",
       "cluster": "muhasabah-ibadah-akhirat",
       "serp_competition_estimate": "high",
       "canonical": "https://tadabburlife.com/tadabbur/044/",
       "reader": "https://tadabburlife.com/?session=44&lang=id",
-      "seo_title": "Surat Al-'Asr: Waktu, Kerugian, Iman, Amal, Kebenaran, dan Sabar | TadabburLife",
-      "meta_description": "Surat Al-'Asr menjelaskan manusia berada dalam kerugian kecuali yang beriman, beramal saleh, saling menasihati dalam kebenaran, dan saling menasihati dalam kesabaran.",
-      "h1": "Surat Al-'Asr: Waktu, Kerugian, Iman, Amal, Kebenaran, dan Sabar",
+      "seo_title": "Audit Waktu Harian: Mengarahkan Kesibukan Menjadi Amal Bernilai",
+      "meta_description": "Checkpoint praktis untuk mengaudit waktu yang mudah bocor dan mengarahkannya kembali pada amal yang bernilai. Pembahasan Al-'Asr 103:1–3 dirujuk ke Sesi 010.",
+      "h1": "Audit Waktu Harian: Mengarahkan Kesibukan Menjadi Amal Bernilai",
       "related_sessions": [
         "040",
         "039",
@@ -3031,22 +3129,22 @@
       ],
       "seo": {
         "id": {
-          "primary_long_tail": "Surat Al Asr makna manusia dalam kerugian iman amal kebenaran sabar",
-          "adjacent_long_tail": "makna Surat Al Asr tentang waktu agar hidup tidak sia sia",
+          "primary_long_tail": "cara audit waktu harian agar tidak habis sia sia",
+          "adjacent_long_tail": "cara mengevaluasi penggunaan waktu setiap hari",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
           "competition": "high",
-          "search_territory": "Surah Al-Asr as a compact framework of human loss and the four exceptions: faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience.",
-          "cannibalization_guard": "Session 030 owns deeds sent ahead for tomorrow/the Hereafter. Session 039 owns sincerity in worship. Session 040 owns Al-Ma'un's ritual-social warning. Session 044 owns Surah Al-Asr's four-condition framework for escaping loss and directing time."
+          "search_territory": "A practical time-audit checkpoint for identifying time leakage and redirecting part of the day toward worthwhile deeds.",
+          "cannibalization_guard": "Session 010 exclusively owns Al-'Asr 103:1-3 and its verse/tafsir framework. Session 044 is a practice companion and must not repeat the surah."
         },
         "en": {
-          "primary_long_tail": "Surah Al Asr meaning loss faith good deeds truth patience",
-          "adjacent_long_tail": "Surah Al Asr meaning how not to waste your life",
+          "primary_long_tail": "daily time audit how to stop wasting time",
+          "adjacent_long_tail": "practical time audit routine for meaningful priorities",
           "intent": "informational-reflection",
-          "demand_evidence": "deep-live-serp-validated-2026-09-23",
+          "demand_evidence": "dedup-remap-pending-live-serp-2026-09-23",
           "competition": "high",
-          "search_territory": "Surah Al-Asr on humanity's loss and the four exceptions: faith, righteous deeds, mutual counsel to truth, and mutual counsel to patience.",
-          "cannibalization_guard": "Session 030 owns provision for the Hereafter; Session 039 owns sincere devotion; Session 040 owns Al-Ma'un's ritual-social warning. Session 044 owns the four-condition framework of Al-Asr."
+          "search_territory": "A practical time-audit checkpoint for identifying time leakage and redirecting part of the day toward worthwhile deeds.",
+          "cannibalization_guard": "Session 010 exclusively owns Quran 103:1-3 and its verse/tafsir framework. Session 044 is a practice companion and must not repeat the surah."
         }
       },
       "implementation": {
@@ -3080,6 +3178,16 @@
             "030"
           ]
         }
+      },
+      "ayat_ownership": {
+        "mode": "companion",
+        "owned": [],
+        "cross_references": [
+          {
+            "ayat": "103:1-3",
+            "owner_session": "010"
+          }
+        ]
       }
     },
     {
