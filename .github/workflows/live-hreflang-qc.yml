@@ -1,0 +1,32 @@
+name: Live Canonical Hreflang QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+      - 'sitemap.xml'
+      - '.github/scripts/live_hreflang_qc.py'
+      - '.github/workflows/live-hreflang-qc.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  live-hreflang:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate live canonical and hreflang reciprocity
+        run: python3 .github/scripts/live_hreflang_qc.py
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-live-hreflang-qc
+          path: qc-live-hreflang-report/
+          if-no-files-found: error
+          retention-days: 30
