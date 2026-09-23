@@ -16,12 +16,16 @@ function expandRef(ref) {
 }
 
 const seen = new Set();
-let mentions = 0;
+let ownedAyatOccurrences = 0;
+let crossReferenceOccurrences = 0;
 for (const session of progressData.sessions || []) {
   for (const ref of session.ayat || []) {
     const verses = expandRef(ref);
-    mentions += verses.length;
+    ownedAyatOccurrences += verses.length;
     verses.forEach(v => seen.add(v));
+  }
+  for (const cross of session.crossReferences || []) {
+    crossReferenceOccurrences += expandRef(cross.ayat).length;
   }
 }
 const expected = {
@@ -45,7 +49,14 @@ const browser = await chromium.launch({ headless: true });
 const report = {
   generatedAt: new Date().toISOString(),
   url: 'https://tadabburlife.com/',
-  expected: { ...expected, mentions },
+  expected: {
+    ...expected,
+    schemaVersion: progressData.schemaVersion,
+    countMode: progressData.countMode,
+    ownedAyatOccurrences,
+    crossReferenceOccurrences,
+    totalReferenceOccurrences: ownedAyatOccurrences + crossReferenceOccurrences,
+  },
   propagationAttempts: 0,
   propagated: false,
   profiles: [],
@@ -173,7 +184,9 @@ const md = [
   `Propagation: ${report.propagated ? 'PASS' : 'FAIL'} after ${report.propagationAttempts} attempt(s)`,
   `Expected: ${expected.idText}`,
   `Supporting sessions: ${expected.sessions}`,
-  `Ayat mentions / unique: ${mentions} / ${expected.discussed}`,
+  `Owned ayat / unique: ${ownedAyatOccurrences} / ${expected.discussed}`,
+  `Cross-reference occurrences: ${crossReferenceOccurrences}`,
+  `Total historical reference occurrences represented: ${ownedAyatOccurrences + crossReferenceOccurrences}`,
   '',
   '| Profile | HTTP | Progress | Stats | Overflow | Bar | Errors | Result |',
   '|---|---:|---:|---:|---:|---:|---:|---:|',
