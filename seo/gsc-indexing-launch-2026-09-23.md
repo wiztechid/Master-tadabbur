@@ -145,10 +145,20 @@ The next account-side step is representative URL Inspection, beginning with the 
 
 ## Homepage URL Inspection result — 23 September 2026
 
-Search Console inspection for `https://tadabburlife.com/` returned:
+Search Console inspection for `https://tadabburlife.com/` returned a **clean indexed result**:
 
 - **URL is on Google**
 - **Page indexing: Indexed**
-- **HTTPS: Page served over HTTPS**
+- Referring sitemap: `https://tadabburlife.com/sitemap.xml`
+- Referring page: **No information available** (not a blocking issue)
+- Last crawl: **23 Sep 2026, 06:27:34**
+- Crawled as: **Googlebot Smartphone**
+- Crawl allowed: **Yes**
+- Page fetch: **Successful**
+- Indexing allowed: **Yes**
+- User-declared canonical: `https://tadabburlife.com/`
+- Google-selected canonical: **Inspected URL**
+- HTTPS: **PASS**
 
-No manual indexing request was made because the homepage is already indexed. Detailed crawl/canonical fields remain to be captured from the expanded **Page indexing** panel before deciding whether a live test or recrawl request is useful.
+Interpretation: the homepage is indexed and Google agrees with the site's canonical URL. No request indexing action is needed for the homepage.
+
