@@ -1,0 +1,81 @@
+name: Final Release Gate v1.0
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/final_release_gate_v1.py'
+      - '.github/workflows/final-release-gate-v1.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tadabburlife-final-release-v1
+  cancel-in-progress: true
+
+jobs:
+  release-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout tested commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install browser regression dependencies
+        run: |
+          npm install --no-save playwright@1.55.0 pngjs jsqr
+          npx playwright install --with-deps chromium
+
+      - name: Run Final Release Gate v1.0
+        id: gate
+        continue-on-error: true
+        run: python3 .github/scripts/final_release_gate_v1.py
+
+      - name: Upload complete gate evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tadabburlife-final-release-gate-v1
+          path: |
+            .github/qc-state/final-release-v1/
+            qc-keyword-map-report/
+            qc-metadata-og-report/
+            qc-live-report/
+            qc-live-hreflang-report/
+            qc-live-keyword-map-report/
+            qc-live-metadata-og-report/
+            qc-live-reflection-og-report/
+            qc-live-schema-report/
+            qc-live-internal-links-report/
+            qc-live-reader-report/
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Persist release decision
+        if: always()
+        run: |
+          # Never persist runner-only synchronization or refreshed subordinate QC state.
+          git restore -- seo/keyword-map.json 2>/dev/null || true
+          git restore -- .github/qc-state/homepage-live/ 2>/dev/null || true
+          git restore -- .github/qc-state/post-dedup-serp/ 2>/dev/null || true
+
+          git config user.name "tadabburlife-release-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f .github/qc-state/final-release-v1/
+          if git diff --cached --quiet; then
+            echo "No release-state changes to commit."
+          else
+            git commit -m "Release: persist Final Gate v1.0 decision"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Enforce release decision
+        if: steps.gate.outcome == 'failure'
+        run: |
+          echo "Final Release Gate v1.0 is BLOCKED. Review persisted release report."
+          exit 1
