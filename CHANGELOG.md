@@ -8,6 +8,23 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ## 2026-09-23
 
+### [SEO] Post-Dedup Deep Live SERP Revalidation — Sessions 004, 007, 011, 016, 043, 044 — PASS
+- Revalidated **6 sessions × ID/EN = 12 landing targets** after the ayat-ownership deduplication remap.
+- Restored the published corpus to **47 / 47 Deep Live SERP aligned sessions = 94 / 94 session-language targets**.
+- Session **004** now owns only **An-Nisa/Quran 4:135** on justice even against self-interest; Session 023 exclusively owns 4:58 on returning trusts.
+- Session **007** owns **At-Tahrim/Quran 66:8** on taubat nasuha / sincere repentance; Session 031 exclusively owns Az-Zumar 39:53 on despair after sin and Allah's mercy.
+- Session **011** owns **Al-Isra/Quran 17:36** on not following what is unknown and accountability of hearing/sight/heart; Session 042 exclusively owns Al-Hujurat 49:6 on tabayyun / verification of incoming reports.
+- Session **016** remains a no-ayat nightly-muhasabah companion linking to owner Session 030 for Al-Hashr 59:18.
+- Session **043** owns only **Luqman/Quran 31:19** on measured walking and lowering the voice; Session 027 exclusively owns 31:18 on arrogance/contempt.
+- Session **044** remains a no-ayat daily time-audit companion linking to owner Session 010 for Al-'Asr 103:1–3.
+- Sharpened title/H1/meta for **004, 011, and 044** based on the post-dedup live intent.
+- Added/normalized exactly one post-dedup SERP answer block across all 12 ID/EN targets.
+- Removed stale schema-keyword references to former duplicate ayat/themes and refreshed owner↔companion cannibalization guards.
+- Updated demand evidence to **`deep-live-serp-validated-2026-09-23-post-dedup`**.
+- Added research record **`seo/post-dedup-deep-serp-004-007-011-016-043-044-2026-09-23.md`**.
+- Added persistent targeted live validator **`.github/scripts/live_post_dedup_serp_qc.py`** + **`.github/workflows/live-post-dedup-serp-qc.yml`**.
+- Final targeted live QC: **12 / 12 HTTP 200, 12 / 12 PASS, 0 failures, 0 owner-guard issues**, with propagation passing on the first attempt.
+
 ### [Homepage / UX] Back-to-Top Scroll Polish — PASS
 - Changed the floating ↑ control to remain hidden while `scrollY < 400` and fade in once the reader reaches `scrollY >= 400`.
 - Added fade/translate transition, disabled pointer interaction while hidden, and respected `prefers-reduced-motion`.
