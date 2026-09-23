@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """TadabburLife Final Release Gate v1.0.
 
+Gate revision: post-schema-parser hardening (2026-09-23).
+
 Runs source-integrity + live custom-domain checks and writes one durable release
 report. This gate is read-only with respect to public content. The keyword-map
 sync script is executed only to prove idempotency; any resulting map diff fails
