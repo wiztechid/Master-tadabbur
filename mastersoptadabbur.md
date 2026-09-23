@@ -1,6 +1,6 @@
 # TADABBURLIFE — MASTER SOP
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Status:** FROZEN GOVERNANCE BASELINE  
 **Scope:** TadabburLife Platform  
 **Long-term scale:** 1,000+ sessions × bilingual/multiple languages
@@ -108,6 +108,34 @@ Jika ditemukan typo teks ayat, salah referensi surah/ayat, kesalahan terjemahan 
 4. jangan menyamarkan koreksi sumber sebagai optimasi SEO;
 5. lakukan Sacred Source Integrity QC setelah koreksi;
 6. catat koreksi material dalam CHANGELOG.
+
+### 2.5 Ayat Ownership & Deduplication Lock
+
+TadabburLife menggunakan prinsip **ONE AYAT → ONE PRIMARY OWNER SESSION**.
+
+Tujuannya adalah menjaga journey benar-benar berkembang, mencegah pengulangan ayat/tafsir yang sama, menjaga progress cakupan Al-Qur'an tetap jujur, dan menghindari cannibalization antarhalaman.
+
+Aturan wajib:
+
+1. Setiap ayat Al-Qur'an yang masuk sebagai bahasan utama hanya boleh mempunyai **satu primary owner session** pada seluruh active corpus.
+2. Overlap sebagian tetap dianggap overlap. Contoh: jika Luqman 31:18 sudah dimiliki satu sesi, sesi lain tidak boleh mengklaim rentang 31:18–19 sebagai bahasan utama; sesi lain hanya boleh memiliki 31:19 dan melakukan cross-reference ke owner 31:18.
+3. Sesi berikutnya yang membutuhkan ayat yang sudah dimiliki wajib menggunakan **cross-reference ke owner session**, bukan mengulang blok Arab, transliterasi, terjemahan, tafsir, atau direct-answer yang menjadikan ayat tersebut sebagai anchor utama.
+4. Cross-reference boleh menyebut nomor surah/ayat dan menjelaskan konteks tautannya secara ringkas, tetapi tidak boleh menciptakan halaman owner kedua.
+5. Jika kebutuhan pembaca hanya berupa penerapan/praktik dari ayat yang sudah dimiliki, sesi boleh menjadi **companion/practical checkpoint**. Companion session:
+   - tidak memiliki ayat baru pada numerator progress;
+   - wajib menautkan owner session;
+   - tidak mengulang teks ayat atau tafsir owner;
+   - harus mempunyai fungsi pembaca yang berbeda dan jelas.
+6. Perpindahan ownership hanya boleh dilakukan sebagai **explicit ownership migration**: owner lama dilepas, owner baru ditetapkan, seluruh ID/EN reader source, landing, metadata, keyword map, progress registry, cross-link, OG/share derivative, dan QC diperbarui dalam satu perubahan terkontrol. Tidak boleh ada dua owner aktif.
+7. Ownership berlaku lintas bahasa. ID dan EN dari session yang sama harus mempunyai sacred-anchor ownership yang sama.
+8. Sumber data ownership:
+   - `data/quran-progress.json` = deklarasi owner/cross-reference per session;
+   - `data/ayat-ownership.json` = registry ayat → primary owner session.
+9. Sebelum Session 048+ atau session baru apa pun dipublikasi, **Ayat Ownership Preflight** wajib dijalankan. Jika ayat/rentang bertabrakan dengan registry, publikasi harus berhenti sampai ayat baru dipilih atau sesi diubah menjadi cross-reference/companion.
+10. CI **Ayat Ownership Anti-Duplicate Guard** wajib lulus sebelum perubahan corpus dianggap aman.
+11. Progress utama TadabburLife dihitung sebagai **jumlah ayat unik yang dimiliki / 6.236**, bukan jumlah penyebutan ayat dan bukan jumlah sesi.
+
+**Prinsip:** JIKA AYAT SUDAH PERNAH DIBAHAS SEBAGAI OWNER, JANGAN ULANGI. HUBUNGKAN PERJALANANNYA.
 
 ---
 
@@ -445,6 +473,7 @@ IMPLEMENTED
 + DEPLOY PARITY VERIFIED WHEN RELEVANT  
 + LIVE VERIFIED  
 + SACRED SOURCE INTEGRITY VERIFIED  
++ AYAT OWNERSHIP / ANTI-DUPLICATE QC VERIFIED WHEN CORPUS CHANGES  
 + EXPLANATORY CONTENT VERIFIED  
 + NO MATERIAL REGRESSION  
 + READER EXPERIENCE VERIFIED  
