@@ -53,7 +53,7 @@ Published sessions follow Master SOP v1.4 governance and content integrity: Qura
 - Live Canonical/Hreflang QC after the sitemap sync: **SUCCESS**.
 - Public search sampling did not yet surface TadabburLife pages; this is only an external observation and **not** the canonical Google indexing count.
 - Recommended Search Console property: **Domain property `tadabburlife.com`**.
-- Google Search Console **Domain property `tadabburlife.com` is verified via Cloudflare DNS**. Root sitemap submission is complete: **Status Success, last read 23 Sep 2026, 103 discovered pages, 0 discovered videos**, exactly matching the 103-URL site inventory. Homepage URL Inspection is now also confirmed **URL is on Google / Page indexed / HTTPS PASS**. Remaining GSC evidence: detailed homepage crawl/canonical fields, ID/EN hub/session representative inspections, and Page Indexing indexed/not-indexed counts.
+- Google Search Console **Domain property `tadabburlife.com` is verified via Cloudflare DNS**. Root sitemap submission is complete: **Status Success, last read 23 Sep 2026, 103 discovered pages, 0 discovered videos**, exactly matching the 103-URL site inventory. Homepage URL Inspection is now **clean PASS**: indexed, crawled by Smartphone Googlebot, crawl allowed, fetch successful, indexing allowed, user canonical `https://tadabburlife.com/`, and Google-selected canonical = **inspected URL**. Remaining GSC evidence: ID/EN hub/session representative inspections and Page Indexing indexed/not-indexed counts.
 - Launch record: `seo/gsc-indexing-launch-2026-09-23.md`.
 - Do not change the already-green SEO architecture merely because a new-site URL is not indexed yet; classify the actual GSC reason first.
 
