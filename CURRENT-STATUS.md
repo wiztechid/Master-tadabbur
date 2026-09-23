@@ -2,7 +2,7 @@
 
 **Version:** 1.3  
 **Status:** ACTIVE LIVING DOCUMENT  
-**Snapshot:** 22 September 2026  
+**Snapshot:** 23 September 2026  
 **Repository:** `wiztechid/Master-tadabbur`  
 **Primary Branch:** `main`  
 **Governing SOP:** `mastersoptadabbur.md` v1.3 — FROZEN GOVERNANCE BASELINE
@@ -42,6 +42,21 @@ Published sessions follow Master SOP v1.1 content integrity: Quran/hadith source
 - Launch rule: reader-first manual placements; session S1 after Fakta Nash/Pelajaran/Batas, optional S2 after application section, HOME-01 after first substantial homepage block, HUB-01 after 6–8 session entries.
 - Sacred-source blocks, legal/trust pages, navigation/completion controls, and interactive overlays remain ad-free.
 - Auto Ads aggressive formats remain OFF initially pending mobile reader QC.
+
+### Homepage Qur'an coverage progress — 23 September 2026
+
+- Homepage primary progress now measures **unique Qur'an ayat discussed / 6,236 ayat**, not published sessions / an estimated 1,000-session target.
+- Current published corpus resolves to **75 unique ayat discussed** across **47 sessions** = **1.2% Qur'an coverage**.
+- There are **86 ayat mentions** across the session references, but repeated ayat are counted only once in the coverage numerator.
+- Final Indonesian hero copy: **`75 dari 6.236 ayat • 1,2% cakupan Al-Qur'an`**.
+- Final English hero copy: **`75 of 6,236 verses • 1.2% Qur’an coverage`**.
+- Supporting dashboard stats are **Ayat dibahas / Total ayat / Sesi**; session count remains visible but is no longer the primary progress denominator.
+- Single progress-data source: **`data/quran-progress.json`**, with `countMode=unique_ayat`.
+- Homepage runtime derives the bar width, localized hero copy, ayat count, denominator, and session count from the progress dataset.
+- Source-integrity guard: **`.github/scripts/quran_progress_qc.py`** + **`.github/workflows/quran-progress-qc.yml`**.
+- Reader regression is also triggered when `data/quran-progress.json` changes.
+- Future publication rule: every newly published session must register its normalized Qur'an references in `data/quran-progress.json`; duplicate references do not increase the unique-ayat numerator.
+
 
 ## 2. SOURCE OF TRUTH
 
