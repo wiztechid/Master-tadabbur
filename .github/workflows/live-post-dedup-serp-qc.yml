@@ -1,0 +1,56 @@
+name: Post-Dedup Deep SERP Live QC
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tadabbur/004/index.html'
+      - 'en/tadabbur/004/index.html'
+      - 'tadabbur/007/index.html'
+      - 'en/tadabbur/007/index.html'
+      - 'tadabbur/011/index.html'
+      - 'en/tadabbur/011/index.html'
+      - 'tadabbur/016/index.html'
+      - 'en/tadabbur/016/index.html'
+      - 'tadabbur/043/index.html'
+      - 'en/tadabbur/043/index.html'
+      - 'tadabbur/044/index.html'
+      - 'en/tadabbur/044/index.html'
+      - 'seo/keyword-map.json'
+      - 'seo/post-dedup-deep-serp-004-007-011-016-043-044-2026-09-23.md'
+      - '.github/scripts/live_post_dedup_serp_qc.py'
+      - '.github/workflows/live-post-dedup-serp-qc.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  live-post-dedup-serp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run post-dedup live SERP QC
+        id: qc
+        continue-on-error: true
+        run: python3 .github/scripts/live_post_dedup_serp_qc.py
+
+      - name: Persist latest QC report
+        if: always()
+        run: |
+          git config user.name "tadabburlife-qc-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f .github/qc-state/post-dedup-serp/
+          if git diff --cached --quiet; then
+            echo "No QC state changes to commit."
+          else
+            git commit -m "QC: refresh post-dedup Deep SERP live report"
+            git push
+          fi
+
+      - name: Enforce QC result
+        if: steps.qc.outcome == 'failure'
+        run: exit 1
