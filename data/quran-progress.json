@@ -1,296 +1,422 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "quranTotalAyat": 6236,
-  "countMode": "unique_ayat",
-  "note": "Each Qur'an ayah is counted once across the published corpus, even when revisited in another session.",
+  "countMode": "unique_owned_ayat",
+  "note": "Primary coverage counts only uniquely owned Qur'an ayat. A verse/range has exactly one owner session; later sessions must cross-reference the owner instead of repeating the verse or tafsir.",
   "sessions": [
     {
       "id": 1,
       "ayat": [
         "1:1-7"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 2,
       "ayat": [
         "2:1-5"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 3,
       "ayat": [
         "2:21-22"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 4,
       "ayat": [
-        "4:58",
         "4:135"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "4:58",
+          "ownerSession": 23
+        }
       ]
     },
     {
       "id": 5,
       "ayat": [
-        "49:11-12"
+        "49:11"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "49:12",
+          "ownerSession": 15
+        }
       ]
     },
     {
       "id": 6,
       "ayat": [
-        "2:153",
-        "94:5-6"
+        "2:153"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "94:5-6",
+          "ownerSession": 18
+        }
       ]
     },
     {
       "id": 7,
       "ayat": [
-        "39:53",
         "66:8"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "39:53",
+          "ownerSession": 31
+        }
       ]
     },
     {
       "id": 8,
       "ayat": [
         "65:2-3"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 9,
       "ayat": [
         "14:7",
         "34:13"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 10,
       "ayat": [
         "103:1-3"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 11,
       "ayat": [
-        "49:6",
         "17:36"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "49:6",
+          "ownerSession": 42
+        }
       ]
     },
     {
       "id": 12,
       "ayat": [
         "99:7-8"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 13,
       "ayat": [
         "3:134",
         "41:34"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 14,
       "ayat": [
         "17:53"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 15,
       "ayat": [
         "49:12"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 16,
-      "ayat": [
-        "59:18"
+      "ayat": [],
+      "mode": "companion",
+      "crossReferences": [
+        {
+          "ayat": "59:18",
+          "ownerSession": 30
+        }
       ]
     },
     {
       "id": 17,
       "ayat": [
         "49:13"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 18,
       "ayat": [
         "94:5-6"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 19,
       "ayat": [
         "13:11"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 20,
       "ayat": [
         "5:8"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 21,
       "ayat": [
         "83:1-3"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 22,
       "ayat": [
         "2:188"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 23,
       "ayat": [
         "4:58"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 24,
       "ayat": [
         "5:1"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 25,
       "ayat": [
         "4:29"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 26,
       "ayat": [
         "2:261"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 27,
       "ayat": [
         "31:18"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 28,
       "ayat": [
         "49:10"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 29,
       "ayat": [
         "29:69"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 30,
       "ayat": [
         "59:18"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 31,
       "ayat": [
         "39:53"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 32,
       "ayat": [
         "2:286"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 33,
       "ayat": [
         "5:2"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 34,
       "ayat": [
         "28:77"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 35,
       "ayat": [
         "16:90"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 36,
       "ayat": [
         "17:26-27"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 37,
       "ayat": [
         "42:38"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 38,
       "ayat": [
         "2:177"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 39,
       "ayat": [
         "98:5"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 40,
       "ayat": [
         "107:1-7"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 41,
       "ayat": [
         "18:46"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 42,
       "ayat": [
         "49:6"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 43,
       "ayat": [
-        "31:18-19"
+        "31:19"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "31:18",
+          "ownerSession": 27
+        }
       ]
     },
     {
       "id": 44,
-      "ayat": [
-        "103:1-3"
+      "ayat": [],
+      "mode": "companion",
+      "crossReferences": [
+        {
+          "ayat": "103:1-3",
+          "ownerSession": 10
+        }
       ]
     },
     {
       "id": 45,
       "ayat": [
         "93:3-5"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 46,
       "ayat": [
         "94:7-8"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     },
     {
       "id": 47,
       "ayat": [
         "9:105"
-      ]
+      ],
+      "mode": "owner",
+      "crossReferences": []
     }
   ]
 }
