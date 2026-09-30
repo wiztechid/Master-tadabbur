@@ -1,6 +1,6 @@
 ## 2026-09-30 — Wave 1B Content Expansion FROZEN
 
-**Status:** FROZEN / PR #3 READY TO MERGE
+**Status:** FROZEN / MERGED TO `main` — PR #3
 
 - Scope: Sessions 025–031, Indonesian + English canonical landings and synchronized source in `data/sessions-018-032.html`.
 - Editorial-only depth gate: PASS — all 14 ID/EN canonical landings exceed the 700-word editorial floor.
@@ -10,19 +10,8 @@
 - Cannibalization guard: PASS — boundaries checked for 025↔022/024, 027↔043, 028↔014/015, 029↔008/019, 030↔016, and 031↔007/018/045.
 - ID ↔ EN semantic parity: PASS.
 - Latest `main` OG publication commit was synchronized into the branch before PR closure; Wave 1B editorial tree was preserved.
-- GitHub PR head reports mergeable. No PR-triggered workflow run or commit status check was reported for the synchronized head, so automated CI is recorded as **NOT REPORTED**, not falsely marked green.
+- PR #3 merged successfully to `main` at merge commit `2171560f350361ef7aee0ea46c8f5d818cf1a4ae`. No PR-triggered workflow run or commit status check was reported for the synchronized head, so automated CI is recorded as **NOT REPORTED**, not falsely marked green.
 - Freeze rule: no further substantive edits to Wave 1B after this checkpoint except a separately scoped corrective patch.
-
-
-## 2026-09-30 — Wave 1B Working Checkpoint (025–031)
-
-**Status:** IN PROGRESS / SAVED ON `content/wave1b-025-031` — NOT FROZEN, NOT MERGED
-
-- Wave 1B source expansion for Sessions 025–031 ID/EN is implemented in `data/sessions-018-032.html` and synced to canonical landing files.
-- First-pass distinct utility frameworks: 025 Consent Check; 026 non-transactional giving/usefulness; 027 Hidden Arrogance Check; 028 Conflict Intervention Ladder; 029 Effort–Outcome Review; 030 seven-day akhirat provision audit; 031 Return After Sin Path.
-- Depth hardening for 026–031 has been implemented and synced to ID/EN canonical landings. This checkpoint intentionally records work before the post-hardening final word-count and adversarial QC.
-- Sacred-source rule remains absolute: no Qur'an Arabic, established translation, verse identity/reference, quoted hadith text, or verified hadith identity/reference may be changed for editorial/SEO depth.
-- Next conversation must resume with: (1) conservative editorial-only word count for all 025–031 ID/EN; (2) source→landing parity; (3) Sacred Diff against `main`; (4) religious-claim/framework-as-syariah adversarial check; (5) cannibalization checks 025↔022/024, 027↔043, 028↔014/015, 029↔008/019, 030↔016, 031↔007; (6) ID↔EN semantic parity. Do not freeze or merge until all gates pass.
 
 
 ## 2026-09-30 — Wave 1A Content Expansion FROZEN
