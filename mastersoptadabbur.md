@@ -1,6 +1,6 @@
 # TADABBURLIFE — MASTER SOP
 
-**Version:** 1.4  
+**Version:** 1.5  
 **Status:** FROZEN GOVERNANCE BASELINE  
 **Scope:** TadabburLife Platform  
 **Long-term scale:** 1,000+ sessions × bilingual/multiple languages
@@ -35,6 +35,16 @@ Jika terjadi konflik, acuan yang lebih tinggi harus dipertahankan.
 Detail implementasi yang cepat berubah ditempatkan pada CURRENT-STATUS, technical documentation, SEO documentation, product specification, atau CHANGELOG.
 
 ---
+
+## 1.1 Private SEO + AdSense Publication Governance
+
+For SEO/content-value enhancement and AdSense pre-resubmission work, the operational companion document is:
+
+- `seo/PRIVATE-SEO-ADSENSE-GOVERNANCE.md`
+
+It is subordinate to this MASTER-SOP. If any instruction conflicts, **ABSOLUTE SACRED LOCK and MASTER-SOP win**.
+
+The companion governance formalizes corpus-wide Thin/Borderline/Strong review, keyword opportunity gates, companion-session standalone-value rules, mass-produced-content guards, and live AdSense pre-resubmission verification.
 
 ## 2. CONTENT INTEGRITY
 

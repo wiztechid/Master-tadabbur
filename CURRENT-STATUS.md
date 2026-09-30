@@ -1,3 +1,18 @@
+
+### Editorial mission lock — 2026-09-30
+TadabburLife content is now governed as a Muslim daily-life companion: sessions must address recognizable real-life needs where naturally supported by the sacred anchor, then provide context, interpretation/prediction boundary, muhasabah, practical action and journey continuity. Internal depth baseline is **700+ original editorial words per canonical language landing**, excluding sacred quotations/translations and template boilerplate; this is a TadabburLife quality standard, not a claimed AdSense word-count requirement. Sacred Lock remains absolute.
+
+
+## 2026-09-30 — AdSense Rejection Remediation Governance
+
+Status: **PRE-RESUBMISSION — CONTENT VALUE AUDIT REQUIRED**.
+
+A production rejection audit triggered a new controlled remediation track. The Master SOP remains authoritative and the Absolute Sacred Lock remains unchanged. Added `seo/PRIVATE-SEO-ADSENSE-GOVERNANCE.md` for the pre-resubmission workflow.
+
+Hard boundary: **do not change Qur'an text, established Qur'an translation, verified surah/ayah identity, quoted hadith text, or verified hadith reference/attribution for SEO or monetization.** Allowed content strengthening is limited to relevant explanatory layers such as context, interpretation/prediction boundaries, muhasabah, practical action, journey relationship, answer blocks/FAQ/examples where evidence and search intent support them.
+
+Next gate: corpus-wide 47-session × ID/EN **Thin / Borderline / Strong** audit, then targeted remediation only; no blanket rewrite and no AdSense resubmission until P0 is closed and live production is re-verified.
+
 # TADABBURLIFE — CURRENT STATUS
 
 **Version:** 1.4  
