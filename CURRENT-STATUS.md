@@ -1,4 +1,17 @@
 
+## 2026-09-30 — Wave 1A Content Expansion FROZEN
+
+**Status:** FROZEN / MERGED TO `main`
+
+- PR #2 merged as `8ca049e7895c359fb7e6ee2c91124c4f93eccc69`.
+- Session 016 ID/EN expanded as the practical nightly-muhasabah companion while Session 030 remains the owner of Al-Hashr 59:18 and its tafsir.
+- Session 044 ID/EN expanded as the practical time-audit companion while Session 010 remains the owner of Al-'Asr 103:1–3 and its tafsir.
+- Session 030 practical-action copy was hardened only to remove nightly-practice intent overlap and route that practice to Session 016; sacred verse/translation/tafsir remained untouched.
+- Final conservative editorial counts after excluding ownership cross-reference, CTA/navigation, Qur'an/translation containers, EN note, and quoted-hadith block: 016-ID 756; 016-EN 794; 044-ID 839; 044-EN 921.
+- Sacred Diff: PASS. Companion-owner cannibalization adversarial check: PASS after hardening. Practical frameworks are explicitly editorial reflection tools, not newly prescribed acts of worship.
+- Wave 1B next scope: Sessions 025–031 ID/EN, using the frozen Wave 1A pattern: daily-life utility, distinct intent, 700+ original editorial floor, Sacred Diff Gate, evidence/claim boundary, and cannibalization adversarial QC before merge.
+
+
 ### Editorial mission lock — 2026-09-30
 TadabburLife content is now governed as a Muslim daily-life companion: sessions must address recognizable real-life needs where naturally supported by the sacred anchor, then provide context, interpretation/prediction boundary, muhasabah, practical action and journey continuity. Internal depth baseline is **700+ original editorial words per canonical language landing**, excluding sacred quotations/translations and template boilerplate; this is a TadabburLife quality standard, not a claimed AdSense word-count requirement. Sacred Lock remains absolute.
 
