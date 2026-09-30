@@ -1,4 +1,8 @@
 
+### Editorial mission lock — 2026-09-30
+TadabburLife content is now governed as a Muslim daily-life companion: sessions must address recognizable real-life needs where naturally supported by the sacred anchor, then provide context, interpretation/prediction boundary, muhasabah, practical action and journey continuity. Internal depth baseline is **700+ original editorial words per canonical language landing**, excluding sacred quotations/translations and template boilerplate; this is a TadabburLife quality standard, not a claimed AdSense word-count requirement. Sacred Lock remains absolute.
+
+
 ## 2026-09-30 — AdSense Rejection Remediation Governance
 
 Status: **PRE-RESUBMISSION — CONTENT VALUE AUDIT REQUIRED**.
