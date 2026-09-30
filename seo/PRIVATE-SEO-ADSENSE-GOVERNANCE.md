@@ -132,3 +132,23 @@ Any content enhancement batch must record:
 - live deployment result.
 
 **Core rule:** MONETIZATION MAY EXPAND USEFUL EXPLANATION. IT MAY NEVER REWRITE REVELATION OR VERIFIED HADITH SOURCE TEXT.
+
+## 11. Muslim Daily-Life Utility + 700+ Original Depth Lock
+
+TadabburLife is intended to become a **practical life companion for Muslims**, not a collection of generic religious articles. Every substantive session should start from a recognizable daily-life need that can be naturally illuminated by the session's Qur'an/hadith anchor.
+
+Editorial question: **What real situation brings a Muslim to this guidance, what does the sacred anchor actually support, what should the reader reflect on, and what proportionate action can they take?**
+
+When genuinely relevant to the sacred anchor, problem territories may include family, parenting, work and amanah, money/consumption, friendship, conflict, anger, envy, gratitude, patience, uncertainty, failure, success, loss, digital/social-media conduct, time/discipline, repentance/self-correction, and community responsibility. These are reader-problem territories—not permission to manufacture rulings.
+
+Preferred reader-value layers are: (1) masalah nyata pembaca; (2) konteks petunjuk; (3) batas makna/interpretasi/prediksi, clearly separating revelation, sourced explanation, editorial synthesis and uncertainty; (4) muhasabah; (5) realistic practical action; (6) concrete daily-life examples; (7) relationship to previous/owner/next session; and (8) concise meaning-constrained life takeaway.
+
+For the current editorial baseline, every **substantive canonical ID/EN session landing targets at least 700 words of original editorial/explanatory content per language**, excluding Qur'an Arabic, established Qur'an translation, quoted hadith, navigation/header/footer/CTA boilerplate, repeated legal copy, schema/metadata and duplicated template text.
+
+**700+ is an internal TadabburLife quality floor, not a claim about a Google/AdSense minimum word count.** A page does not PASS merely by reaching 700 words. Padding, generic religious prose, repeated FAQ, paraphrase loops, keyword stuffing, mechanically expanded translation, unsupported religious claims and sacred-source drift are prohibited. If 700+ useful words cannot be written without stretching meaning or duplicating an owner session, do not inflate the page; reconsider its search intent, companion role or indexability.
+
+For bilingual pages, both languages require independently useful editorial writing. English may adapt examples/structure to English search intent while preserving sacred-anchor and evidence-boundary parity.
+
+A STRONG session should therefore satisfy: recognizable Muslim daily-life problem; standalone usefulness; clear source-vs-reflection boundary; explicit interpretation/prediction limits where needed; meaningful muhasabah; practical evidence-traceable action; unique contribution to the journey; 700+ original editorial words per language unless a documented role/indexability exception applies; and zero filler or sacred drift.
+
+**Target experience:** SEARCH NEED → REAL-LIFE CONTEXT → SACRED GUIDANCE → BOUNDARY → MUHASABAH → PRACTICAL ACTION → CONNECTED JOURNEY.
