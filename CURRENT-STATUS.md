@@ -1,6 +1,6 @@
 ## Wave 1C — Session 045 Delay Interpretation
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-045` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #15
 
 - Target selection: Session 045 was the remaining thin candidate from the Wave 1C depth scan (ID 668 / EN 742 before expansion).
 - Conservative editorial depth after hardening: ID 1044 / EN 1191.
