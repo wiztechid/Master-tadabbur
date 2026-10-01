@@ -1,6 +1,6 @@
 ## Wave 1C — Session 037 Shura Readiness
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-037` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #10
 
 - Target selection: Session 037 was the thinnest remaining verified non-frozen candidate after Session 017 (ID 609 / EN 657 before expansion).
 - Conservative editorial depth after hardening: ID 936 / EN 1004.
