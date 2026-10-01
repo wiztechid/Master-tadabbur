@@ -1,3 +1,16 @@
+
+## 2026-10-01 — Wave 1C Session 001 Working Checkpoint
+
+**Status:** SAVED / IN PROGRESS on `content/wave1c-001` — NOT FROZEN, NOT MERGED
+
+- Session 001 ID/EN expanded around its unique daily-life territory: Decision Compass, seeking guidance vs seeking justification, seeking Allah's help without passivity, and concrete work/money/family decision examples.
+- Explicit guard: Decision Compass is an editorial reflection tool, not a new syariah method, not a replacement for istikharah, and not a fatwa.
+- Meaning/prediction guard added: calm feelings, coincidence, dreams, profit, or hardship are not treated as automatic proof that Allah has declared a specific choice right or wrong.
+- Territory guard: Session 003 retains purpose-of-creation territory; Session 008 retains tawakkul territory; Session 001 remains the journey doorway for servitude, accountability, seeking help, and guidance as a decision compass.
+- Source `data/sessions-001-017.html` and canonical `tadabbur/001/` + `en/tadabbur/001/` have been synchronized.
+- Conservative editorial-only count after excluding Qur'an/translation containers, hadith block, navigation/completion wrapper, and EN translation-source note: ID 776; EN 893.
+- Next gate before freeze/merge: Sacred Diff → source/landing parity → religious-claim leakage → Decision-Compass-as-new-syariah adversarial attack → 001↔003/008 cannibalization → ID/EN semantic parity.
+
 ## 2026-09-30 — Wave 1B Content Expansion FROZEN
 
 **Status:** FROZEN / MERGED TO `main` — PR #3
