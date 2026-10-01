@@ -1,3 +1,18 @@
+## Wave 1C — Session 002 Integrated Muttaqin Profile
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-002` — NOT YET MERGED
+
+- Target selection: corpus-depth ranking identified Session 002 as the thinnest remaining non-frozen landing audited.
+- Conservative editorial depth after hardening: ID 876 / EN 1020.
+- Sacred territory: integrated muttaqin profile across belief in the unseen → prayer → giving → revelation → certainty in the Hereafter; not deep ownership of the individual themes.
+- Sacred Diff: PASS — frozen sessions 001, 016, 025–032, 044 untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Religious-claim leakage: PASS.
+- Profile Audit new-syariah / taqwa-score / judging-others attack: PASS — explicitly editorial-only, not a fatwa, not a new religious method, not a piety score, and not a procedure for declaring who is muttaqin.
+- Cannibalization: PASS — 001 retains guidance/decision-compass territory; 003 retains purpose/servitude; deeper thematic treatment of deeds, wealth, intention, and the Hereafter remains with owner sessions.
+- ID ↔ EN semantic parity: PASS.
+- Scoped source binding: PASS — source expansion is bound only to `s2` / `en-s2`.
+
 ## 2026-10-01 — Wave 1C Session 032 Final Adversarial QC
 
 **Status:** FROZEN / MERGED TO `main` — PR #5
