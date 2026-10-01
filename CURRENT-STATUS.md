@@ -1,3 +1,19 @@
+## Wave 1C — Session 017 Identity → Ta‘āruf
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-017` — NOT YET MERGED
+
+- Target selection: Session 017 was the thinnest remaining verified non-frozen candidate after Session 043 (ID 562 / EN 626 before expansion).
+- Conservative editorial depth after hardening: ID 924 / EN 1019.
+- Sacred territory: Al-Hujurat 49:13 — identity as a doorway to ta‘āruf, not a summary of an individual or a human-made ladder of worth.
+- Sacred Diff: PASS — frozen sessions 001, 002, 006, 016, 025–032, 043, 044 untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — Ta‘āruf Check exists only in `s17` / `en-s17`; adjacent frozen `s16` remains clean.
+- Religious-claim leakage: PASS.
+- Ta‘āruf Check adversarial attack: PASS — explicitly editorial-only; not a new religious method, fatwa, taqwa score, nobility ranking, identity-to-character inference, or inward-taqwa inference tool.
+- Cannibalization: PASS — 005 retains mockery/harmful labels; 015 suspicion/tajassus/ghibah; 027 personal arrogance/contempt; 039 sincerity. Their terms occur in the expansion only inside explicit owner-boundary language.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 043 Proportionate Presence
 
 **Status:** FROZEN / MERGED TO `main` — PR #8
