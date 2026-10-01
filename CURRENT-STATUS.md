@@ -1,6 +1,6 @@
 ## Wave 1C — Session 017 Identity → Ta‘āruf
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-017` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #9
 
 - Target selection: Session 017 was the thinnest remaining verified non-frozen candidate after Session 043 (ID 562 / EN 626 before expansion).
 - Conservative editorial depth after hardening: ID 924 / EN 1019.
