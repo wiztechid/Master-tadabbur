@@ -1,7 +1,7 @@
 
 ## 2026-10-01 — Wave 1C Session 001 Working Checkpoint
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-001` — READY FOR PR/MERGE
+**Status:** FROZEN / MERGED TO `main` — PR #4
 
 - Session 001 ID/EN expanded around its unique daily-life territory: Decision Compass, seeking guidance vs seeking justification, seeking Allah's help without passivity, and concrete work/money/family decision examples.
 - Explicit guard: Decision Compass is an editorial reflection tool, not a new syariah method, not a replacement for istikharah, and not a fatwa.
