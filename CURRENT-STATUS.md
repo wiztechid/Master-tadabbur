@@ -1,6 +1,6 @@
 ## 2026-10-01 — Wave 1C Session 032 Final Adversarial QC
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-032` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #5
 
 - Scope: Session 032 ID/EN only; owner anchor remains Al-Baqarah 2:286.
 - Editorial depth after expansion: conservative landing count ID 849 / EN 922; 700+ remains an internal quality floor, not a Google/AdSense requirement.
