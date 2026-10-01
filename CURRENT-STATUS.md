@@ -1,3 +1,19 @@
+## Wave 1C — Session 039 Intention Alignment
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-039` — NOT YET MERGED
+
+- Target selection: Session 039 was the thinnest remaining ID candidate after Session 036 (ID 657 / EN 707 before expansion).
+- Conservative editorial depth after hardening: ID 998 / EN 1082.
+- Sacred territory: Al-Bayyinah 98:5 — purifying the direction of worship toward Allah while preserving correct outward obedience.
+- Sacred Diff: PASS — frozen sessions remain untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — source owner `data/sessions-035-051-part3.html`; Intention Alignment Check exists only in `s39` / `en-s39`; adjacent `s38` / `s40` remain clean.
+- Religious-claim leakage: PASS.
+- Intention Alignment adversarial attack: PASS — self-reflection only; not a new religious method, fatwa, sincerity score, riya detector, heart-reading tool, or divine-value estimator. Praise/success/popularity do not prove or disprove sincerity; anonymity does not prove sincerity either.
+- Cannibalization: PASS — 008 retains tawakkul/effort-outcome; 047 retains integrity/accountability beyond human oversight. Session 039 remains on direction of intention + correct outward obedience.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 036 Resource Direction
 
 **Status:** FROZEN / MERGED TO `main` — PR #13
