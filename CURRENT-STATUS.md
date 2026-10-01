@@ -1,3 +1,19 @@
+## Wave 1C — Session 036 Resource Direction
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-036` — NOT YET MERGED
+
+- Target selection: Session 036 was the thinnest remaining bilingual candidate after Session 047 (ID 657 / EN 656 before expansion).
+- Conservative editorial depth after hardening: ID 1006 / EN 1031.
+- Sacred territory: Al-Isra 17:26–27 — fulfilling rights and preventing resources from losing direction through tabdzir.
+- Sacred Diff: PASS — frozen sessions remain untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — source owner `data/sessions-035-051-part2.html`; Resource Direction Check exists only in `s36` / `en-s36`; adjacent `s35` / `s37` remain clean.
+- Religious-claim leakage: PASS.
+- Resource Direction adversarial attack: PASS — editorial-only; no halal/haram verdict, universal monetary threshold, financial score, public-audit formula, or replacement of fiqh rules. Expensive is not automatically wasteful and cheap is not automatically wise; context, rights, needs, and obligations remain relevant.
+- Cannibalization: PASS — 004/023 retain amanah; 034 world/Hereafter balance; 035 justice/ihsan. Session 036 remains on rights + tabdzir/resource direction.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 047 Unseen-Work Integrity
 
 **Status:** FROZEN / MERGED TO `main` — PR #12
