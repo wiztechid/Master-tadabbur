@@ -1,3 +1,19 @@
+## Wave 1C — Session 047 Unseen-Work Integrity
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-047` — NOT YET MERGED
+
+- Target selection: Session 047 was the thinnest remaining ID candidate after Session 046 (ID 649 / EN 677 before expansion), with a clean narrow territory.
+- Conservative editorial depth after hardening: ID 994 / EN 1058.
+- Sacred territory: At-Tawbah 9:105 — integrity and accountability for deeds when human visibility or inspection is absent.
+- Sacred Diff: PASS — frozen sessions untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — source owner `data/sessions-035-051-part4.html`; Unseen Work Check exists only in `s47` / `en-s47`; adjacent Session 046 remains clean.
+- Religious-claim leakage: PASS.
+- Unseen Work adversarial attack: PASS — editorial-only; does not determine the value of deeds before Allah; not a new religious method, fatwa, productivity score, or faith score; does not authorize limitless surveillance or workaholism; work output is not treated as human worth.
+- Cannibalization: PASS — 004/023 retain amanah; 039 retains sincerity/intention; 046 retains transition after completion. Session 047 stays on integrity/accountability beyond human visibility.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 046 Transition After Completion
 
 **Status:** FROZEN / MERGED TO `main` — PR #11
