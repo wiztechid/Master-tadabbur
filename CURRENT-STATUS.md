@@ -1,6 +1,6 @@
 ## Wave 1C — Session 047 Unseen-Work Integrity
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-047` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #12
 
 - Target selection: Session 047 was the thinnest remaining ID candidate after Session 046 (ID 649 / EN 677 before expansion), with a clean narrow territory.
 - Conservative editorial depth after hardening: ID 994 / EN 1058.
