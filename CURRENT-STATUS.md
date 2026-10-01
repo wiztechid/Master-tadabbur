@@ -1,3 +1,18 @@
+## 2026-10-01 — Wave 1C Session 032 Final Adversarial QC
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-032` — NOT YET MERGED
+
+- Scope: Session 032 ID/EN only; owner anchor remains Al-Baqarah 2:286.
+- Editorial depth after expansion: conservative landing count ID 849 / EN 922; 700+ remains an internal quality floor, not a Google/AdSense requirement.
+- Sacred Diff: PASS after correction — branch diff is limited to canonical Session 032 ID/EN, synchronized source `data/sessions-018-032.html`, and this status record; no sacred text/translation change was introduced by Wave 1C expansion.
+- Source ↔ landing semantic parity: PASS. Final four expansion sections and their substantive paragraphs are synchronized in source and canonical ID/EN landings. Canonical-only SEO/wrapper content is not treated as source drift.
+- Corrective QC finding: the first source-sync attempt matched the first generic Muhasabah/Reflection marker and temporarily placed the new blocks under Session 018 in the aggregate source. Final Adversarial QC caught this before freeze; commit `a10627d` removed them from 018 and bound them to Session 032 ID/EN. Verification: s18/en-s18 contain no Burden Triage; s32/en-s32 do.
+- Religious-claim leakage: PASS — practical burden management remains editorial synthesis; serious health, safety, legal, and financial issues explicitly route to appropriate professional help rather than treating the verse as a diagnostic tool.
+- Burden Triage as new-syariah attack: PASS — explicitly labeled an editorial reflection tool, not a fatwa/new religious method, not permission to abandon obligations, and not a mechanism for deciding religious rulings.
+- Cannibalization: PASS — 006 retains patience/prayer coping; 008 retains tawakkul/means/outcome; 018 retains hardship-with-ease; 029 retains striving/guidance and effort-outcome review; 032 uniquely owns capacity × accountability × asking for help and misuse prevention around Al-Baqarah 2:286.
+- ID ↔ EN semantic parity: PASS — same sacred anchor, capacity/accountability thesis, help-seeking boundary, professional-help guard, three-misreadings guard, and Burden Triage disclaimer. Explanatory wording remains language-natural rather than mechanically identical.
+- Freeze rule: no further substantive edits to Session 032 after this checkpoint except a separately scoped corrective patch.
+
 
 ## 2026-10-01 — Wave 1C Session 001 Working Checkpoint
 
