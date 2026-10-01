@@ -1,6 +1,6 @@
 ## Wave 1C — Session 036 Resource Direction
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-036` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #13
 
 - Target selection: Session 036 was the thinnest remaining bilingual candidate after Session 047 (ID 657 / EN 656 before expansion).
 - Conservative editorial depth after hardening: ID 1006 / EN 1031.
