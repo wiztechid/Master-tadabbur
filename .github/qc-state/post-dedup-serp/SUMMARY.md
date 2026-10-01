@@ -1,6 +1,6 @@
 # Post-Dedup Deep Live SERP QC
 
-- Generated: 2026-10-01T03:53:54Z
+- Generated: 2026-10-01T23:47:07Z
 - Propagation: PASS after 1 attempt(s)
 - Pages checked: 12 / 12
 - HTTP 200: 12 / 12
