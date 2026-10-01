@@ -1,3 +1,17 @@
+## Wave 1C — Closure Record
+
+**Status:** CLOSED / FROZEN ON `main`
+
+- Closure baseline: `9a89d78710305ef04dc99a924363b70471ff2643` (after Session 045 merge housekeeping).
+- Canonical publication surface: 94 landing files present = 47 sessions × ID/EN.
+- Wave 1C hardened and merged sessions: 001, 002, 006, 017, 032, 036, 037, 039, 043, 045, 046, 047.
+- Every Wave 1C session passed its own Sacred Diff, source↔landing parity, exact session-scoped source binding, religious-claim leakage attack, cannibalization attack, ID↔EN semantic parity, exact-head CI, mergeable-state clean gate, and post-merge contamination check before closure.
+- Required repository CI for each Wave 1C merge: `Ayat Ownership Anti-Duplicate Guard` = SUCCESS and `Qur'an Progress Integrity QC` = SUCCESS.
+- Unique-framework aggregate audit: no cross-session leakage found for Syura Readiness Check (037), Resource Direction Check (036), Intention Alignment Check (039), Delay Interpretation Check (045), Transition Check (046), and Unseen Work Check (047); their verified ID/EN owners remain session-scoped. Earlier framework owners retain their per-session freeze evidence.
+- Wave 1A/1B remain separately frozen under their existing records; this closure does not reopen or silently rewrite them.
+- Important scope limit: closure certifies the completed Wave 1C hardening set and its governance/integrity gates. It does **not** claim a fresh word-by-word recount of all 94 canonical landings in this closure pass; prior per-wave depth audits remain authoritative for already hardened sessions.
+- Freeze rule: Wave 1C is closed. Any later substantive change to a frozen session requires a separately scoped corrective patch with Sacred Diff + parity + ownership + adversarial QC + CI; do not silently extend Wave 1C.
+
 ## Wave 1C — Session 045 Delay Interpretation
 
 **Status:** FROZEN / MERGED TO `main` — PR #15
