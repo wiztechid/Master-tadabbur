@@ -1,3 +1,19 @@
+## Wave 1C — Session 037 Shura Readiness
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-037` — NOT YET MERGED
+
+- Target selection: Session 037 was the thinnest remaining verified non-frozen candidate after Session 017 (ID 609 / EN 657 before expansion).
+- Conservative editorial depth after hardening: ID 936 / EN 1004.
+- Sacred territory: Asy-Syura 42:38 — quality of consultation in shared affairs before a decision is made.
+- Sacred Diff: PASS — frozen sessions 001, 002, 006, 016, 017, 025–032, 043, 044 untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — aggregate owner correctly resolved to `data/sessions-035-051-part2.html`; Shura Readiness Check exists only in `s37` / `en-s37`; adjacent `s36` / `s38` remain clean.
+- Religious-claim leakage: PASS.
+- Shura Readiness adversarial attack: PASS — editorial-only; does not guarantee a correct decision; does not equate shura with majority vote; not a new religious method, fatwa, divine-approval formula, replacement for clear revelation/law, or excuse for endless meetings.
+- Cannibalization: PASS — 042 retains verification-before-action; 043 retains proportionate presence/voice/authority. Their terms occur in the expansion only as consultation inputs or explicit owner-boundary language.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 017 Identity → Ta‘āruf
 
 **Status:** FROZEN / MERGED TO `main` — PR #9
