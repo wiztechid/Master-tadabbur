@@ -1,3 +1,37 @@
+## Wave 1C — Session 046 Transition After Completion
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-046` — NOT YET MERGED
+
+- Lineage audit: PASS — branch descends directly from current main housekeeping head `7652ae08d70dc0c39423dc85d8345f290223eb20`; pre-freeze changes are exactly ID landing, EN landing, and scoped source sync.
+- Target selection: Session 046 was the thinnest remaining verified non-frozen candidate (ID 617 / EN 651 before expansion).
+- Conservative editorial depth after hardening: ID 977 / EN 1047.
+- Sacred territory: Ash-Sharh 94:7–8 — preserving direction of earnest effort and hope in Allah when one phase ends; transition after completion rather than perpetual busyness.
+- Sacred Diff: PASS — frozen sessions remain untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — source owner `data/sessions-035-051-part4.html`; Transition Check exists only in `s46` / `en-s46`; adjacent `s45` / `s47` remain clean.
+- Religious-claim leakage: PASS.
+- Transition Check adversarial attack: PASS — editorial-only; not a new religious method, fatwa, productivity score, faith/busyness score, or promise of a particular worldly result. Rest is explicitly preserved as proportionate rather than treated as failure.
+- Cannibalization: PASS — 018 retains ease-with-hardship; 008 tawakkul/effort-outcome; 039 sincerity; 047 integrity/accountability. Their terms occur in 046 primarily in explicit owner-boundary language or necessary cross-reference.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
+## Wave 1C — Session 046 Transition After Completion
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-046` — NOT YET MERGED
+
+- Target selection: Session 046 was the thinnest remaining verified non-frozen candidate after Session 037 (ID 617 / EN 651 before expansion).
+- Conservative editorial depth after hardening: ID 977 / EN 1047.
+- Sacred territory: Ash-Sharh 94:7–8 — preserving direction of earnest effort and hope in Allah when one phase ends; transition after completion, not endless busyness.
+- Branch lineage audit: PASS — expansion descends directly from the Session 037 housekeeping head; existing branch work was valid and was audited rather than overwritten.
+- Sacred Diff: PASS — previously frozen sessions untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — aggregate owner is `data/sessions-035-051-part4.html`; Transition Check exists only in `s46` / `en-s46`; adjacent `s45` / `s47` remain clean.
+- Religious-claim leakage: PASS.
+- Transition Check adversarial attack: PASS — editorial-only; not a new religious method, fatwa, productivity score, faith judgment, or promise of a particular worldly outcome; explicitly preserves proportional rest and bodily/family obligations.
+- Cannibalization: PASS — 018 retains ease-with-hardship; 008 tawakkul/effort-outcome; 039 sincerity; 045 delayed-answer/judging a pause; 047 integrity/accountability. Overlap terms in the expansion are either ordinary transition language or explicit owner-boundary language.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 037 Shura Readiness
 
 **Status:** FROZEN / MERGED TO `main` — PR #10
