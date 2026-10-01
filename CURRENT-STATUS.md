@@ -1,6 +1,6 @@
 ## Wave 1C — Session 046 Transition After Completion
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-046` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #11
 
 - Lineage audit: PASS — branch descends directly from current main housekeeping head `7652ae08d70dc0c39423dc85d8345f290223eb20`; pre-freeze changes are exactly ID landing, EN landing, and scoped source sync.
 - Target selection: Session 046 was the thinnest remaining verified non-frozen candidate (ID 617 / EN 651 before expansion).
