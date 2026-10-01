@@ -1,3 +1,19 @@
+## Wave 1C — Session 043 Proportionate Presence
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-043` — NOT YET MERGED
+
+- Target selection: Session 043 was the thinnest remaining verified non-frozen candidate after Session 006 (ID 533 / EN 577 before expansion).
+- Conservative editorial depth after hardening: ID 902 / EN 982.
+- Sacred territory: Luqman 31:19 as proportionate presence — measured bearing, voice, conversational space, and use of authority without unnecessary domination.
+- Sacred Diff: PASS — frozen sessions 001, 002, 006, 016, 025–032, 044 untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — Presence Check exists only in `s43` / `en-s43`; adjacent `s42` / frozen `s44` remain clean.
+- Religious-claim leakage: PASS.
+- Presence Check adversarial attack: PASS — explicitly editorial-only; not a new religious method, fatwa, humility score, piety-by-volume rule, or tool for inferring arrogance/inward state from outward behavior.
+- Cannibalization: PASS — 027 retains arrogance/contempt and ego under correction; 014 retains choosing better words; 028 retains conflict/islah. Their terms appear in the expansion only inside explicit owner-boundary language.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 006 Patience + Prayer Under Unchanged Circumstances
 
 **Status:** FROZEN / MERGED TO `main` — PR #7
