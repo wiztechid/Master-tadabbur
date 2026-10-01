@@ -1,3 +1,19 @@
+## Wave 1C — Session 006 Patience + Prayer Under Unchanged Circumstances
+
+**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-006` — NOT YET MERGED
+
+- Target selection: Session 006 was the thinnest remaining verified non-frozen candidate (ID 513 / EN 587 before expansion), ahead of Session 043 and 017.
+- Conservative editorial depth after hardening: ID 914 / EN 1012.
+- Sacred territory: seeking help through patience and prayer to guard today's response while circumstances have not yet changed.
+- Sacred Diff: PASS — frozen sessions 001, 002, 016, 025–032, 044 untouched.
+- Source ↔ landing semantic parity: PASS / exact for the new expansion in ID and EN.
+- Scoped source binding: PASS — Pressure Check exists only in `s6` / `en-s6`; adjacent `s5` / `s7` remain clean.
+- Religious-claim leakage: PASS.
+- Pressure Check adversarial attack: PASS — explicitly editorial-only; not a new religious method, fatwa, patience score, mental-health diagnostic, or faith judgment; professional-help boundary preserved.
+- Cannibalization: PASS — 007 retains repentance; 008 retains tawakkul and the theological relationship of effort/outcome; 018 retains ease-with-hardship; 032 retains capacity/responsibility/help. Session 006's action-vs-outcome distinction is limited to preventing passivity and over-control under pressure, not a tawakkul teaching.
+- ID ↔ EN semantic parity: PASS.
+- Freeze rule: no further substantive edits except a separately scoped corrective patch if a new defect is found.
+
 ## Wave 1C — Session 002 Integrated Muttaqin Profile
 
 **Status:** FROZEN / MERGED TO `main` — PR #6
