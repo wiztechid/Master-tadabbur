@@ -1,6 +1,6 @@
 ## Wave 1C — Session 043 Proportionate Presence
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-043` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #8
 
 - Target selection: Session 043 was the thinnest remaining verified non-frozen candidate after Session 006 (ID 533 / EN 577 before expansion).
 - Conservative editorial depth after hardening: ID 902 / EN 982.
