@@ -1,6 +1,6 @@
 ## Wave 1C — Session 002 Integrated Muttaqin Profile
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-002` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #6
 
 - Target selection: corpus-depth ranking identified Session 002 as the thinnest remaining non-frozen landing audited.
 - Conservative editorial depth after hardening: ID 876 / EN 1020.
