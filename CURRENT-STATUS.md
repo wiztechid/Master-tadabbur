@@ -1,6 +1,6 @@
 ## Wave 1C — Session 039 Intention Alignment
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-039` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #14
 
 - Target selection: Session 039 was the thinnest remaining ID candidate after Session 036 (ID 657 / EN 707 before expansion).
 - Conservative editorial depth after hardening: ID 998 / EN 1082.
