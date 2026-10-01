@@ -1,6 +1,6 @@
 ## Wave 1C — Session 006 Patience + Prayer Under Unchanged Circumstances
 
-**Status:** FINAL ADVERSARIAL QC PASSED / FROZEN on `content/wave1c-006` — NOT YET MERGED
+**Status:** FROZEN / MERGED TO `main` — PR #7
 
 - Target selection: Session 006 was the thinnest remaining verified non-frozen candidate (ID 513 / EN 587 before expansion), ahead of Session 043 and 017.
 - Conservative editorial depth after hardening: ID 914 / EN 1012.
