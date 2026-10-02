@@ -1450,3 +1450,15 @@ Recommended handoff instruction:
 ---
 
 **END OF CURRENT-STATUS v1.3**
+
+
+## 2026-10-02 — AdSense Review Hold / Post-Approval Backlog
+
+**Status:** FROZEN — WAITING FOR ADSENSE REVIEW OUTCOME
+
+- Latest homepage language-parity correction merged via PR #23 (`5be58ea8f66419d14e10cbc36bdc9eb423c1387e`).
+- Post-merge automatic guards PASS: GitHub Pages deployment, Qur'an Progress Integrity, Live Reader Regression, and Live Homepage Quran Progress.
+- Subsequent `main` advancement to `cb6ea6756fda09b231a2650610c6795e8c02dbf1` contains only persisted homepage-live QC evidence; no product/corpus drift.
+- Product decision: make no further feature, corpus, internal-link, or monetization-layout changes while waiting for the AdSense review outcome, unless a concrete defect or compliance issue requires correction.
+- Deferred post-approval improvement: contextual links when a session explicitly references another TadabburLife session. Proposed rule: link only semantically valid explicit session references, preserve ID/EN target parity, point to canonical landing pages, avoid sacred verse/translation territory, avoid mass keyword replacement, and audit before implementation.
+- The contextual session-link idea is BACKLOG ONLY and is not authorized for implementation during the AdSense review hold.
