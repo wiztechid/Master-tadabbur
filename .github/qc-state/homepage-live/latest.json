@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T03:03:51.793Z",
+  "generatedAt": "2026-10-02T05:06:11.517Z",
   "url": "https://tadabburlife.com/",
   "expected": {
     "discussed": 75,
@@ -48,12 +48,12 @@
       "metrics": {
         "scrollWidth": 1440,
         "clientWidth": 1440,
-        "barWidth": 12,
-        "trackWidth": 998,
-        "heroWidth": 1048,
-        "statsWidth": 1002,
+        "barWidth": 9.734375,
+        "trackWidth": 810,
+        "heroWidth": 860,
+        "statsWidth": 814,
         "expectedRatio": 0.012026940346375883,
-        "actualRatio": 0.012024048096192385,
+        "actualRatio": 0.012017746913580247,
         "topAtStart": {
           "showClass": false,
           "opacity": 0,
