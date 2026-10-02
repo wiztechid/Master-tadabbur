@@ -1462,3 +1462,17 @@ Recommended handoff instruction:
 - Product decision: make no further feature, corpus, internal-link, or monetization-layout changes while waiting for the AdSense review outcome, unless a concrete defect or compliance issue requires correction.
 - Deferred post-approval improvement: contextual links when a session explicitly references another TadabburLife session. Proposed rule: link only semantically valid explicit session references, preserve ID/EN target parity, point to canonical landing pages, avoid sacred verse/translation territory, avoid mass keyword replacement, and audit before implementation.
 - The contextual session-link idea is BACKLOG ONLY and is not authorized for implementation during the AdSense review hold.
+
+
+## 2026-10-02 — AdSense Pre-Submission P1 Closure
+
+**Status:** FINAL RELEASE GATE GREEN — READY FOR ADSENSE SITE REVIEW
+
+- P1 crawl-surface hardening merged via PR #24; merge commit `a09349a19043463107a620b40561e23412164e51`.
+- Scope was limited to `robots.txt`: legacy/source/QC artifacts not intended as reader landing pages are excluded from crawl. Homepage, 94 bilingual canonical landings, sacred/session source data, sitemap, ads.txt, and monetization layout were unchanged.
+- GitHub Pages deployment for `a09349a`: SUCCESS.
+- Fresh Final Release Gate v1.0 workflow_dispatch tested `a09349a`: **16 / 16 PASS**, release status **GREEN**.
+- Gate coverage includes source inventory, keyword-map parity, metadata/OG, ayat ownership, Quran progress, live 103-URL crawl, 94/94 hreflang, live metadata/OG/schema/internal links, post-dedup SERP sample, reader regression, and homepage progress.
+- Persisted gate evidence advanced `main` only through QC state; subsequent Pages deployment succeeded.
+- AdSense source `ads.txt` contains publisher `pub-4750547049813961`. Dashboard crawl status may update asynchronously; do not alter the canonical record merely to force refresh.
+- Submission rule: no further website changes are required by this gate. After requesting AdSense review, enter submission freeze; only concrete P0/P1 correctness, security, legal/policy, or Google-required fixes may reopen production.
