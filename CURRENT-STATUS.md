@@ -15,6 +15,20 @@
 - Freeze rule: Trust Footer Parity is closed. Any future footer change requires a separately scoped defect/corrective patch.
 
 
+
+## 2026-10-02 — Homepage AdSense Polish v1 Freeze
+
+**Status:** FROZEN — FINAL RELEASE GATE GREEN
+
+- Conservative homepage-only polish merged via PR #19; no redesign and no changes to the 94 session landing pages or sacred/session source data.
+- Added clearer site purpose/editorial identity, Start Here navigation, featured reflections, a short usage guide, and cleaner publisher credit.
+- The apparent `x.open=true` fragment was verified as valid inline behavior for the Open All control, not visible DOM leakage; no JS correction was required.
+- Sacred Diff: PASS — homepage `index.html` was the only product-content file changed by the polish.
+- Post-merge automated checks: Pages deployment PASS; Qur'an Progress Integrity PASS; Live Homepage Quran Progress PASS; Live Reader Regression PASS.
+- Fresh Final Release Gate v1.0 run #5: workflow_dispatch SUCCESS; tested commit `ea8df75fbc4b2b6a23c86b429ec00395d1b796aa`; **16 / 16 PASS**; release status **GREEN**.
+- Post-gate `main` advancement is limited to persisted Final Release Gate evidence under `.github/qc-state/final-release-v1/`; no homepage/corpus drift detected.
+- Freeze rule: do not modify the homepage, frozen Tadabbur corpus, trust footer, or monetization layout during AdSense review unless a concrete defect/compliance issue requires a separately scoped change and fresh QC.
+
 ## 2026-10-02 — Final AdSense Submission Readiness Freeze
 
 **Status:** WEBSITE-SIDE ADSENSE SUBMISSION READY — FROZEN
