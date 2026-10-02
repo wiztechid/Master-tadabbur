@@ -1,3 +1,19 @@
+# Current Checkpoint — Trust Footer + AdSense Readiness
+
+**Status:** TRUST FOOTER PARITY FROZEN / FINAL ADSENSE SUBMISSION GATE NEXT
+
+- Trust Footer Parity: 96/96 canonical surfaces completed (47 ID sessions + 47 EN sessions + 2 hubs), merged via PR #16.
+- Merge commit: `c528d6e0f08c56d222435db7cb5ae0dccd238b20`.
+- Post-merge integrity: later QC-bot commit touched only post-dedup SERP QC state; sampled ID/EN session and hub trust footers remained intact.
+- GitHub Pages: latest observed main deployment completed successfully.
+- Live repository QC record: 12/12 sampled live URLs returned HTTP 200 and PASS, including bilingual frozen-session samples.
+- Trust/legal destinations present: About, Privacy Policy, Cookie Policy, Terms, Disclaimer, Contact.
+- AdSense technical baseline: real publisher entry present in `ads.txt`; `robots.txt` allows crawling and declares sitemap; sitemap includes homepage, bilingual hubs, 94 session landings, and trust/legal pages.
+- SEO baseline sampled: homepage has canonical + schema; trust/legal pages have canonical + schema; bilingual session samples have canonical + ID/EN/x-default hreflang + structured data.
+- No concrete technical blocker found in this checkpoint. Do not reopen frozen Tadabbur corpus merely to increase word count.
+- Next authorized stage: **Final AdSense Submission Gate** — publisher identity → content value/corpus uniqueness → navigation/discoverability → policy/trust → ads/CMP readiness → live technical/indexability. Patch only concrete defects.
+- Freeze rule: Trust Footer Parity is closed. Any future footer change requires a separately scoped defect/corrective patch.
+
 ## Wave 1C — Closure Record
 
 **Status:** CLOSED / FROZEN ON `main`
