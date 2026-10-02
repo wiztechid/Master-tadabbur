@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 Disallow: /owner/
+Disallow: /data/
+Disallow: /seo/
+Disallow: /index_fixed.html
+Disallow: /owner_index_fixed.html
+Disallow: /Tadabbur_AlQuran_Master_Sesi_001-019_OWNER_V22-1.html
+Disallow: /Tadabbur_AlQuran_Master_Sesi_001-019_PUBLIC_V22.html
 Sitemap: https://tadabburlife.com/sitemap.xml
