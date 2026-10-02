@@ -1,8 +1,8 @@
 {
   "gate": "TadabburLife Final Release Gate v1.0",
-  "tested_commit": "9a5b3fa62329ce832abd3ceabeabdf5e981d5912",
-  "generated_at_utc": "2026-10-02T00:23:48.372651+00:00",
-  "duration_seconds": 29.61,
+  "tested_commit": "ea8df75fbc4b2b6a23c86b429ec00395d1b796aa",
+  "generated_at_utc": "2026-10-02T01:06:59.469075+00:00",
+  "duration_seconds": 29.87,
   "checks_total": 16,
   "checks_pass": 16,
   "checks_fail": 0,
@@ -23,7 +23,7 @@
         ".github/scripts/sync_keyword_map.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.73,
+      "duration_seconds": 0.51,
       "report": "qc-keyword-map-report/keyword-map-sync-report.json",
       "report_summary": {
         "sessions_expected": 47,
@@ -62,7 +62,7 @@
       },
       "pass": true,
       "command_exit_code": 0,
-      "duration_seconds": 0.17
+      "duration_seconds": 0.12
     },
     {
       "name": "ayat_ownership_source",
@@ -71,7 +71,7 @@
         ".github/scripts/ayat_ownership_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.29,
+      "duration_seconds": 0.07,
       "report": null,
       "report_summary": {},
       "pass": true
@@ -83,7 +83,7 @@
         ".github/scripts/quran_progress_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.04,
+      "duration_seconds": 0.03,
       "report": null,
       "report_summary": {},
       "pass": true
@@ -95,11 +95,11 @@
         ".github/scripts/live_crawl_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 2.47,
+      "duration_seconds": 2.83,
       "report": "qc-live-report/live-crawl-report.json",
       "report_summary": {
-        "generated_at_utc": "2026-10-02T00:23:22.438081+00:00",
-        "duration_seconds": 2.33,
+        "generated_at_utc": "2026-10-02T01:06:33.143436+00:00",
+        "duration_seconds": 2.7,
         "base": "https://tadabburlife.com",
         "robots_url": "https://tadabburlife.com/robots.txt",
         "sitemap_url": "https://tadabburlife.com/sitemap.xml",
@@ -129,7 +129,7 @@
         ".github/scripts/live_hreflang_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 1.07,
       "report": "qc-live-hreflang-report/live-hreflang-report.json",
       "report_summary": {
         "sitemap_status": 200,
@@ -153,7 +153,7 @@
         ".github/scripts/live_keyword_map_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.55,
+      "duration_seconds": 0.73,
       "report": "qc-live-keyword-map-report/live-keyword-map-report.json",
       "report_summary": {
         "sessions_checked": 47,
@@ -177,7 +177,7 @@
         ".github/scripts/live_metadata_og_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.55,
+      "duration_seconds": 0.84,
       "report": "qc-live-metadata-og-report/live-metadata-og-report.json",
       "report_summary": {
         "live_checked": 94,
@@ -196,7 +196,7 @@
         ".github/scripts/live_reflection_og_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 1.74,
+      "duration_seconds": 2.17,
       "report": "qc-live-reflection-og-report/live-reflection-og-report.json",
       "report_summary": {
         "landing_count": 94,
@@ -219,7 +219,7 @@
         ".github/scripts/live_schema_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.54,
+      "duration_seconds": 0.8,
       "report": "qc-live-schema-report/live-schema-report.json",
       "report_summary": {
         "urls_expected": 94,
@@ -238,7 +238,7 @@
         ".github/scripts/live_internal_links_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.44,
+      "duration_seconds": 0.77,
       "report": "qc-live-internal-links-report/live-internal-link-parity-report.json",
       "report_summary": {
         "urls_expected": 94,
@@ -259,10 +259,10 @@
         ".github/scripts/live_post_dedup_serp_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.44,
+      "duration_seconds": 0.79,
       "report": ".github/qc-state/post-dedup-serp/latest.json",
       "report_summary": {
-        "generated_at": "2026-10-02T00:23:27Z",
+        "generated_at": "2026-10-02T01:06:40Z",
         "propagated": true,
         "propagation_attempts": 1,
         "pages_checked": 12,
@@ -281,7 +281,7 @@
         ".github/scripts/live_reader_regression.mjs"
       ],
       "exit_code": 0,
-      "duration_seconds": 9.97,
+      "duration_seconds": 8.51,
       "report": "qc-live-reader-report/live-reader-regression-report.json",
       "report_summary": {
         "corpusViewportChecks": 282,
@@ -298,7 +298,7 @@
         ".github/scripts/live_homepage_progress_qc.mjs"
       ],
       "exit_code": 0,
-      "duration_seconds": 11.12,
+      "duration_seconds": 10.58,
       "report": ".github/qc-state/homepage-live/latest.json",
       "report_summary": {
         "overall_pass": true,
