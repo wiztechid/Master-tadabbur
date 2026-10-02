@@ -1,8 +1,8 @@
 {
   "gate": "TadabburLife Final Release Gate v1.0",
-  "tested_commit": "7fabca8c13942c9ad08dc614a16a2d169a406721",
-  "generated_at_utc": "2026-09-23T08:23:45.657928+00:00",
-  "duration_seconds": 27.78,
+  "tested_commit": "9a5b3fa62329ce832abd3ceabeabdf5e981d5912",
+  "generated_at_utc": "2026-10-02T00:23:48.372651+00:00",
+  "duration_seconds": 29.61,
   "checks_total": 16,
   "checks_pass": 16,
   "checks_fail": 0,
@@ -23,7 +23,7 @@
         ".github/scripts/sync_keyword_map.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.37,
+      "duration_seconds": 0.73,
       "report": "qc-keyword-map-report/keyword-map-sync-report.json",
       "report_summary": {
         "sessions_expected": 47,
@@ -62,7 +62,7 @@
       },
       "pass": true,
       "command_exit_code": 0,
-      "duration_seconds": 0.09
+      "duration_seconds": 0.17
     },
     {
       "name": "ayat_ownership_source",
@@ -71,7 +71,7 @@
         ".github/scripts/ayat_ownership_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.05,
+      "duration_seconds": 0.29,
       "report": null,
       "report_summary": {},
       "pass": true
@@ -83,7 +83,7 @@
         ".github/scripts/quran_progress_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.02,
+      "duration_seconds": 0.04,
       "report": null,
       "report_summary": {},
       "pass": true
@@ -95,11 +95,11 @@
         ".github/scripts/live_crawl_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 2.13,
+      "duration_seconds": 2.47,
       "report": "qc-live-report/live-crawl-report.json",
       "report_summary": {
-        "generated_at_utc": "2026-09-23T08:23:20.403536+00:00",
-        "duration_seconds": 1.91,
+        "generated_at_utc": "2026-10-02T00:23:22.438081+00:00",
+        "duration_seconds": 2.33,
         "base": "https://tadabburlife.com",
         "robots_url": "https://tadabburlife.com/robots.txt",
         "sitemap_url": "https://tadabburlife.com/sitemap.xml",
@@ -129,7 +129,7 @@
         ".github/scripts/live_hreflang_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.91,
+      "duration_seconds": 0.5,
       "report": "qc-live-hreflang-report/live-hreflang-report.json",
       "report_summary": {
         "sitemap_status": 200,
@@ -153,7 +153,7 @@
         ".github/scripts/live_keyword_map_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.87,
+      "duration_seconds": 0.55,
       "report": "qc-live-keyword-map-report/live-keyword-map-report.json",
       "report_summary": {
         "sessions_checked": 47,
@@ -177,7 +177,7 @@
         ".github/scripts/live_metadata_og_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.73,
+      "duration_seconds": 0.55,
       "report": "qc-live-metadata-og-report/live-metadata-og-report.json",
       "report_summary": {
         "live_checked": 94,
@@ -196,7 +196,7 @@
         ".github/scripts/live_reflection_og_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 1.75,
+      "duration_seconds": 1.74,
       "report": "qc-live-reflection-og-report/live-reflection-og-report.json",
       "report_summary": {
         "landing_count": 94,
@@ -206,7 +206,7 @@
         "unique_image_urls": 94,
         "pass_count": 94,
         "fail_count": 0,
-        "min_image_bytes": 121225,
+        "min_image_bytes": 108937,
         "max_image_bytes": 187990,
         "overall_pass": true
       },
@@ -219,7 +219,7 @@
         ".github/scripts/live_schema_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.67,
+      "duration_seconds": 0.54,
       "report": "qc-live-schema-report/live-schema-report.json",
       "report_summary": {
         "urls_expected": 94,
@@ -238,7 +238,7 @@
         ".github/scripts/live_internal_links_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.61,
+      "duration_seconds": 0.44,
       "report": "qc-live-internal-links-report/live-internal-link-parity-report.json",
       "report_summary": {
         "urls_expected": 94,
@@ -259,10 +259,10 @@
         ".github/scripts/live_post_dedup_serp_qc.py"
       ],
       "exit_code": 0,
-      "duration_seconds": 0.58,
+      "duration_seconds": 0.44,
       "report": ".github/qc-state/post-dedup-serp/latest.json",
       "report_summary": {
-        "generated_at": "2026-09-23T08:23:26Z",
+        "generated_at": "2026-10-02T00:23:27Z",
         "propagated": true,
         "propagation_attempts": 1,
         "pages_checked": 12,
@@ -281,7 +281,7 @@
         ".github/scripts/live_reader_regression.mjs"
       ],
       "exit_code": 0,
-      "duration_seconds": 8.48,
+      "duration_seconds": 9.97,
       "report": "qc-live-reader-report/live-reader-regression-report.json",
       "report_summary": {
         "corpusViewportChecks": 282,
@@ -298,7 +298,7 @@
         ".github/scripts/live_homepage_progress_qc.mjs"
       ],
       "exit_code": 0,
-      "duration_seconds": 10.49,
+      "duration_seconds": 11.12,
       "report": ".github/qc-state/homepage-live/latest.json",
       "report_summary": {
         "overall_pass": true,
