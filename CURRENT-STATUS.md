@@ -1,6 +1,6 @@
 # Current Checkpoint — Trust Footer + AdSense Readiness
 
-**Status:** TRUST FOOTER PARITY FROZEN / FINAL ADSENSE SUBMISSION GATE NEXT
+**Status:** ADSENSE SUBMISSION READY / FINAL RELEASE GATE GREEN / TRUST FOOTER FROZEN
 
 - Trust Footer Parity: 96/96 canonical surfaces completed (47 ID sessions + 47 EN sessions + 2 hubs), merged via PR #16.
 - Merge commit: `c528d6e0f08c56d222435db7cb5ae0dccd238b20`.
@@ -13,6 +13,23 @@
 - No concrete technical blocker found in this checkpoint. Do not reopen frozen Tadabbur corpus merely to increase word count.
 - Next authorized stage: **Final AdSense Submission Gate** — publisher identity → content value/corpus uniqueness → navigation/discoverability → policy/trust → ads/CMP readiness → live technical/indexability. Patch only concrete defects.
 - Freeze rule: Trust Footer Parity is closed. Any future footer change requires a separately scoped defect/corrective patch.
+
+
+## 2026-10-02 — Final AdSense Submission Readiness Freeze
+
+**Status:** WEBSITE-SIDE ADSENSE SUBMISSION READY — FROZEN
+
+- Fresh Final Release Gate v1.0 run #4 completed SUCCESS on `main`.
+- Tested commit: `9a5b3fa62329ce832abd3ceabeabdf5e981d5912`.
+- Result: **16 / 16 PASS**, 0 failed checks, release status **GREEN**.
+- Live crawl: 103/103 intended public URLs HTTP 200; 0 redirects, soft-404 suspects, canonical issues, or noindex URLs.
+- Bilingual corpus: 94/94 canonical/hreflang, keyword-map, metadata/OG, schema, and internal-link checks PASS.
+- Post-dedup targeted live QC: 12/12 PASS; reader regression: 282/282 PASS; homepage live regression: PASS.
+- Gate evidence is persisted under `.github/qc-state/final-release-v1/`.
+- Post-gate `main` advanced only through persisted QC evidence; no landing/corpus content changed after the tested commit.
+- `ads.txt` contains the real AdSense publisher entry; the earlier WAITING status is superseded.
+- This means ready to submit for AdSense review, not guaranteed approval by Google.
+- Freeze during review: no corpus, trust-footer, or monetization-layout changes without a concrete defect/compliance reason and scoped QC.
 
 ## Wave 1C — Closure Record
 
