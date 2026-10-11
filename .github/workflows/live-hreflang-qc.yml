@@ -1,15 +1,8 @@
 name: Live Canonical Hreflang QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'tadabbur/**/index.html'
-      - 'en/tadabbur/**/index.html'
-      - 'sitemap.xml'
-      - '.github/scripts/live_hreflang_qc.py'
-      - '.github/workflows/live-hreflang-qc.yml'
 
 permissions:
   contents: read
