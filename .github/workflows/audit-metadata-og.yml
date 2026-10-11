@@ -1,12 +1,8 @@
 name: Audit Metadata and OG Share
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/audit-metadata-og.yml'
-      - '.github/scripts/audit_metadata_og.py'
 
 permissions:
   contents: read

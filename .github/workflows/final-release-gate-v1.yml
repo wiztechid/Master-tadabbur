@@ -1,12 +1,8 @@
 name: Final Release Gate v1.0
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/scripts/final_release_gate_v1.py'
-      - '.github/workflows/final-release-gate-v1.yml'
 
 permissions:
   contents: write

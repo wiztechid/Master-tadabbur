@@ -1,12 +1,8 @@
 name: Normalize 94 Landing Internal Links
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/normalize-internal-links.yml'
-      - '.github/scripts/normalize_internal_links.py'
 
 permissions:
   contents: write

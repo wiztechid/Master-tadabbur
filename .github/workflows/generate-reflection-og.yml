@@ -1,15 +1,8 @@
 name: Generate Reflection Card OG Images
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/generate-reflection-og.yml'
-      - '.github/scripts/generate_reflection_og.py'
-      - '.github/scripts/attach_reflection_og.py'
-      - '.github/scripts/normalize_metadata_og.py'
-      - 'data/sessions-*.html'
 
 permissions:
   contents: write

@@ -1,13 +1,8 @@
 name: Live 103-URL Crawl QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/live-crawl-qc.yml'
-      - '.github/scripts/live_crawl_qc.py'
-      - 'sitemap.xml'
 
 permissions:
   contents: read

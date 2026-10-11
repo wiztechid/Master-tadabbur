@@ -1,12 +1,8 @@
 name: Live 94-Landing Internal-Link QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/live-internal-links-qc.yml'
-      - '.github/scripts/live_internal_links_qc.py'
 
 permissions:
   contents: read

@@ -1,13 +1,8 @@
 name: Live Metadata and OG Share QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/live-metadata-og-qc.yml'
-      - '.github/scripts/live_metadata_og_qc.py'
-      - 'seo/keyword-map.json'
 
 permissions:
   contents: read

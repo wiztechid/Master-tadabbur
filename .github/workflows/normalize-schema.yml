@@ -1,14 +1,8 @@
 name: Normalize 94 Landing Schemas
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/normalize-schema.yml'
-      - '.github/scripts/normalize_schema.py'
-      - 'tadabbur/**/index.html'
-      - 'en/tadabbur/**/index.html'
 
 concurrency:
   group: normalize-schema-main

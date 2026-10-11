@@ -1,14 +1,8 @@
 name: Live Homepage Quran Progress QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'index.html'
-      - 'data/quran-progress.json'
-      - '.github/scripts/live_homepage_progress_qc.mjs'
-      - '.github/workflows/live-homepage-progress-qc.yml'
 
 permissions:
   contents: write

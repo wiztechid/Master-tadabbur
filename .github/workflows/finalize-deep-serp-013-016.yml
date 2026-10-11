@@ -1,11 +1,8 @@
 name: Finalize Deep SERP 013-016
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/finalize-deep-serp-013-016.yml'
 
 permissions:
   contents: write

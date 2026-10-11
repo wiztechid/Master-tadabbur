@@ -1,12 +1,8 @@
 name: Normalize Metadata and OG Share
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/normalize-metadata-og.yml'
-      - '.github/scripts/normalize_metadata_og.py'
 
 permissions:
   contents: write
