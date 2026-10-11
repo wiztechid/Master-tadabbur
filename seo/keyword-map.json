@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-10-11",
   "methodology": "Bilingual SERP architecture. Indonesian and English targets are researched as independent search territories, not literal translations. Search demand is treated as directional SERP evidence unless first-party keyword-volume data is available. One primary intent per canonical landing; adjacent intent is used where sessions overlap.",
   "sessions": [
     {
@@ -3415,10 +3415,88 @@
           ]
         }
       }
+    },
+    {
+      "session": "048",
+      "locked_title": "Saat Hati Gelisah, Kembali kepada Zikir kepada Allah",
+      "primary_long_tail": "Ar Rad 13:28 hati tenang dengan mengingat Allah makna",
+      "intent": "informational-reflection",
+      "cluster": "ketahanan-jiwa-tawakal",
+      "serp_competition_estimate": "high",
+      "canonical": "https://tadabburlife.com/tadabbur/048/",
+      "reader": "https://tadabburlife.com/?session=48&lang=id",
+      "seo_title": "Ar-Ra'd 13:28: Hati Menjadi Tenteram dengan Mengingat Allah",
+      "meta_description": "Tadabbur Ar-Ra'd 13:28 tentang hati yang tenteram dengan mengingat Allah: konteks ayat, tafsir Al-Tabari dan Ibn Kathir, batas makna, serta refleksi praktis.",
+      "h1": "Ar-Ra'd 13:28: Hati Menjadi Tenteram dengan Mengingat Allah",
+      "related_sessions": [
+        "018",
+        "031",
+        "045",
+        "008"
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "Ar Rad 13:28 hati tenang dengan mengingat Allah makna",
+          "adjacent_long_tail": "dengan mengingat Allah hati menjadi tenteram Ar Rad 13 28",
+          "intent": "informational-reflection",
+          "demand_evidence": "live-serp-reviewed-2026-10-11",
+          "competition": "high",
+          "search_territory": "Ar-Ra'd 13:28 on the heart finding reassurance through remembrance of Allah, with an explicit boundary against treating the verse as a promise of instant emotional relief or a substitute for appropriate mental-health care.",
+          "cannibalization_guard": "Session 018 owns hardship/ease in Ash-Sharh 94:5-6; Session 031 owns despair after sin in Az-Zumar 39:53; Session 045 owns delayed answers/feeling abandoned in Ad-Duha 93:3-5. Session 048 owns reassurance of the heart through remembrance of Allah in Ar-Ra'd 13:28."
+        },
+        "en": {
+          "primary_long_tail": "Quran 13:28 hearts find rest in remembrance of Allah meaning",
+          "adjacent_long_tail": "what does Quran 13 28 mean when the heart feels restless",
+          "intent": "informational-reflection",
+          "demand_evidence": "live-serp-reviewed-2026-10-11",
+          "competition": "high",
+          "search_territory": "Quran 13:28 on hearts finding rest in the remembrance of Allah, with clear boundaries against promising instant emotional relief or replacing appropriate mental-health care.",
+          "cannibalization_guard": "Session 018 owns hardship/ease in Quran 94:5-6; Session 031 owns sin-related despair in Quran 39:53; Session 045 owns delayed answers/feeling abandoned in Quran 93:3-5. Session 048 owns reassurance through Allah's remembrance in Quran 13:28."
+        }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-10-11",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/048/",
+          "reader": "https://tadabburlife.com/?session=48&lang=id",
+          "seo_title": "Ar-Ra'd 13:28: Hati Menjadi Tenteram dengan Mengingat Allah",
+          "meta_description": "Tadabbur Ar-Ra'd 13:28 tentang hati yang tenteram dengan mengingat Allah: konteks ayat, tafsir Al-Tabari dan Ibn Kathir, batas makna, serta refleksi praktis.",
+          "h1": "Ar-Ra'd 13:28: Hati Menjadi Tenteram dengan Mengingat Allah",
+          "html_lang": "id",
+          "related_sessions": [
+            "018",
+            "031",
+            "045",
+            "008"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/048/",
+          "reader": "https://tadabburlife.com/?session=48&lang=en",
+          "seo_title": "Quran 13:28: Hearts Find Rest in the Remembrance of Allah",
+          "meta_description": "Quran 13:28 reflection on hearts finding rest in Allah's remembrance: verse context, classical tafsir, practical reflection, and boundaries against oversimplifying distress.",
+          "h1": "Quran 13:28: Hearts Find Rest in the Remembrance of Allah",
+          "html_lang": "en",
+          "related_sessions": [
+            "018",
+            "031",
+            "045",
+            "008"
+          ]
+        }
+      },
+      "ayat_ownership": {
+        "mode": "owner",
+        "owned": [
+          "13:28"
+        ],
+        "cross_references": []
+      }
     }
   ],
   "version": "2.0-bilingual-serp",
-  "updated": "2026-09-23",
+  "updated": "2026-10-11",
   "cannibalization_controls": [
     "One primary search intent per language per canonical landing.",
     "English targets are independently selected and must not be literal translations by default.",
@@ -3470,12 +3548,12 @@
   },
   "deep_serp_boundary": {
     "deep_through": "047",
-    "directional_from": null,
+    "directional_from": "048",
     "deep_sessions": 47,
-    "directional_sessions": 0,
+    "directional_sessions": 1,
     "session_language_targets_deep": 94,
     "last_completed_batch": "045-047",
     "validated_on": "2026-09-23",
-    "status": "complete"
+    "status": "deep-through-047; controlled-growth directional from 048"
   }
 }
