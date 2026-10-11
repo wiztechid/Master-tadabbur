@@ -1,6 +1,6 @@
 # TADABBURLIFE — MASTER SOP
 
-**Version:** 1.5  
+**Version:** 1.6  
 **Status:** FROZEN GOVERNANCE BASELINE  
 **Scope:** TadabburLife Platform  
 **Long-term scale:** 1,000+ sessions × bilingual/multiple languages
@@ -343,7 +343,7 @@ Social crawler tidak boleh bergantung pada client-side JavaScript untuk menghasi
 Current baseline:
 
 - satu unique image untuk setiap **session × language**;
-- active corpus 47 sessions × ID/EN = **94 OG images**;
+- one unique OG image per active **session × language**; the changing corpus count belongs in CURRENT-STATUS, not in this stable SOP;
 - format baseline **PNG 1200×630**;
 - `og:image` dan `twitter:image` menunjuk image pasangan sesi/bahasa yang benar;
 - Twitter/X menggunakan `summary_large_image`;
@@ -454,6 +454,26 @@ Minimum deploy-parity check:
 Untuk perubahan global, deployment verification harus diikuti live crawl/regression QC sesuai luas scope. Untuk perubahan pada seluruh search inventory, corpus-wide URL verification lebih kuat daripada sampling.
 
 **SOURCE CORRECT ≠ ARTIFACT VERIFIED ≠ LIVE VERIFIED. Ketiganya harus dibedakan.**
+
+### 13.9 Resource-Efficient UI / Browser QC
+
+Gunakan lapisan verifikasi termurah yang sudah cukup membuktikan perubahan, lalu eskalasi hanya bila diperlukan:
+
+1. **Repository/source QC** untuk struktur deterministik, canonical, hreflang, indexability, sitemap, metadata, link target, dan wiring kontrol.
+2. **Live URL/fetch QC** untuk HTTP, deploy parity, redirect, metadata live, dan destination availability.
+3. **Connected-browser spot-check** untuk perilaku/visual interaktif yang memang membutuhkan browser nyata.
+4. **Manual Playwright/Chromium smoke** hanya untuk perubahan navigation/JS/CSS yang substantif, sebelum release/resubmission sensitif, atau ketika indikasi regresi tidak cukup dibuktikan oleh source + live fetch.
+5. **Agentic browser exploration** hanya sebagai fallback untuk perilaku multi-step yang ambigu dan sulit direproduksi secara deterministik.
+
+Aturan biaya/kapasitas:
+
+- browser smoke default-nya **manual/on-demand**, bukan otomatis setiap push/PR;
+- wajib memakai timeout dan concurrency cancellation;
+- target smoke harus mengikuti **sesi/fitur yang berubah**, bukan hanya contoh historis yang di-hard-code;
+- workflow berat, live crawl penuh, full release gate, mass normalization, OG regeneration, dan regression corpus-wide tidak dijalankan berulang untuk perubahan kecil;
+- jika perubahan hanya lokal dan bukti source/live sudah cukup, jangan menjalankan browser suite hanya untuk reassurance.
+
+Untuk perubahan yang dapat memengaruhi seluruh active corpus, prinsip Active Corpus QC tetap menang: lakukan validasi luas **sekali** setelah batch substantif stabil, bukan berkali-kali di setiap iterasi kecil.
 
 ---
 
@@ -566,4 +586,4 @@ Perubahan fundamental harus menaikkan versi dokumen dan dicatat dalam CHANGELOG.
 
 ---
 
-**END OF MASTER-SOP v1.3**
+**END OF MASTER-SOP v1.6**
