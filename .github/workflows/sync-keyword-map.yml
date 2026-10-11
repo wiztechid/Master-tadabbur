@@ -1,14 +1,8 @@
 name: Sync Keyword Map to 94 Landings
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/sync-keyword-map.yml'
-      - '.github/scripts/sync_keyword_map.py'
-      - 'tadabbur/**/index.html'
-      - 'en/tadabbur/**/index.html'
 
 concurrency:
   group: sync-keyword-map-main
