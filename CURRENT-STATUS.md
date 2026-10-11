@@ -1,4 +1,20 @@
-# Current Checkpoint — Trust Footer + AdSense Readiness
+# Current Checkpoint — Controlled Growth + UI Regression Baseline
+
+**Status:** 48-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+
+- Published corpus: **48 Indonesian + 48 English sessions = 96 canonical session landings**.
+- Published range: **001–048**.
+- Qur'an progress registry: **76 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
+- Root sitemap current inventory: **105 canonical public URLs**.
+- Session 048 was published on **2026-10-11** with actual publication date; no backdating/date churn.
+- Deep SERP baseline remains **Deep through Session 047**; Session 048 is a controlled-growth directional target with live-SERP review and cannibalization guard, not retroactively mislabeled Deep.
+- Reader/navigation hardening completed for latest-session semantics; inactive button-like latest marker was replaced by a plain status label.
+- Manual UI Smoke Test is now reusable and **workflow_dispatch only**. It accepts the target session and distinguishes latest-session behavior from older-session Previous/Next behavior.
+- Default verification order: source/repo → live URL → connected browser spot-check if needed → manual Playwright → agentic-browser fallback.
+- Heavy/full regression remains manual/on-demand and should run once after a substantive batch, not after every small change.
+- Previous 47-session Final Release Gate records remain valid historical evidence for that frozen baseline; they must not be misreported as a fresh 48-session full-corpus rerun.
+
+## Historical checkpoint — Trust Footer + AdSense Readiness
 
 **Status:** ADSENSE SUBMISSION READY / FINAL RELEASE GATE GREEN / TRUST FOOTER FROZEN
 
@@ -329,17 +345,17 @@ TadabburLife is an ongoing bilingual tadabbur platform built as a connected sess
 Current public baseline:
 
 - Canonical custom domain: **`https://tadabburlife.com/`**
-- **47 Indonesian sessions**
-- **47 English sessions**
-- **94 published session-language landing targets**
-- Published session range: **001–047**
+- **48 Indonesian sessions**
+- **48 English sessions**
+- **96 published session-language landing targets**
+- Published session range: **001–048**
 - **6 public information/legal pages:** About, Privacy Policy, Cookie Policy, Terms, Disclaimer, Contact
 - Public Contact channel: **`info@tadabburlife.com`**
 - Long-term architecture target: **1,000+ sessions**
 
 Source/work material exists with numbering beyond the published corpus, including material named through 051 in repository data areas. These are **not counted as published sessions** until public session landings are actually released and verified.
 
-Published sessions follow Master SOP v1.4 governance and content integrity: Quran/hadith source material is protected by the **Absolute Sacred Lock**; explanatory/supporting content may be SEO-adaptive when relevant and evidence-based; reflection, key takeaway, Journey Mission, and practical action remain **meaning-constrained**.
+Published sessions follow Master SOP v1.6 governance and content integrity: Quran/hadith source material is protected by the **Absolute Sacred Lock**; explanatory/supporting content may be SEO-adaptive when relevant and evidence-based; reflection, key takeaway, Journey Mission, and practical action remain **meaning-constrained**.
 
 ### Release baseline — 23 September 2026
 
@@ -449,17 +465,17 @@ Historical chat statements must not override a newer verified repository/live st
 
 Public SEO landing structure:
 
-`/tadabbur/001/` through `/tadabbur/047/`
+`/tadabbur/001/` through `/tadabbur/048/`
 
 ### English
 
 Public SEO landing structure:
 
-`/en/tadabbur/001/` through `/en/tadabbur/047/`
+`/en/tadabbur/001/` through `/en/tadabbur/048/`
 
 ### Current Search Inventory
 
-**47 sessions × 2 languages = 94 session-language targets**
+**48 sessions × 2 languages = 96 session-language targets**
 
 The active corpus count must be updated whenever a new session becomes publicly released.
 
@@ -473,7 +489,7 @@ The active corpus count must be updated whenever a new session becomes publicly 
 
 The published bilingual architecture includes:
 
-- 47 Indonesian + 47 English session landings;
+- 48 Indonesian + 48 English session landings;
 - self-referencing canonical architecture;
 - reciprocal ID/EN/x-default hreflang;
 - 103-URL canonical sitemap;
@@ -539,13 +555,13 @@ The same published corpus is present in the successful GitHub Pages build artifa
 
 ## 6. SITEMAP / ROBOTS / INDEXABILITY
 
-Current sitemap contains **103 canonical public URLs**:
+Current sitemap contains **105 canonical public URLs**:
 
 - 1 homepage,
 - 1 Indonesian Tadabbur hub,
 - 1 English Tadabbur hub,
-- 47 Indonesian session landings,
-- 47 English session landings,
+- 48 Indonesian session landings,
+- 48 English session landings,
 - 6 public information/legal pages: About, Privacy Policy, Cookie Policy, Terms, Disclaimer, Contact.
 
 Work/source material beyond the published corpus is not treated as public search inventory.
@@ -1427,29 +1443,26 @@ Recommended handoff instruction:
 
 ## 22. CURRENT SNAPSHOT
 
-**Master SOP:** v1.3 FROZEN GOVERNANCE BASELINE  
-**Published sessions:** 001–047  
+**Master SOP:** v1.6 FROZEN GOVERNANCE BASELINE  
+**Published sessions:** 001–048  
 **Languages:** ID + EN  
-**Published search targets:** 94  
-**SEO Architecture v1.1:** Fundamentally implemented  
-**Canonical / hreflang baseline:** 94/94 source-level PASS; live sitemap crawl PASS  
-**Sitemap / robots baseline:** PASS; 103/103 live URLs HTTP 200, zero redirect/canonical/noindex/soft-404 issues  
-**Keyword mapping:** 🟢 001–047 bilingual mapped + implementation-synced 94/94 source/live  
-**Deep SERP:** 001–047 bilingual validated  
-**Deep SERP coverage:** 47/47 sessions are Deep Live SERP validated
-**Internal linking:** 🟢 NORMALIZED + LIVE VERIFIED 94/94; related parity 47/47  
-**Schema:** 🟢 NORMALIZED + LIVE VERIFIED 94/94  
-**Metadata / OG / Share:** 🟢 NORMALIZED + 94/94 BRANDED REFLECTION CARD OG IMAGES LIVE VERIFIED  
-**Deploy Parity / Cache P0:** PASS — source and GitHub Pages artifact aligned  
-**Live 103-URL Crawl P0:** PASS — 103/103 HTTP 200; 0 redirect; 0 canonical issue; 0 noindex; 0 soft-404  
-**Technical Green Gate:** 🟢 PASS  
-**Immediate work:** post-completion live SERP regression and cannibalization monitoring only as needed  
-**Next Deep SERP batch:** none — research track complete  
+**Published search targets:** 96 session-language landings  
+**Qur'an progress:** 76 unique owned ayat / 6,236; Session 048 owns Ar-Ra'd 13:28  
+**Sitemap:** 105 canonical public URLs  
+**SEO Architecture:** established 47-session full-release baseline + controlled-growth Session 048 extension  
+**Canonical / hreflang:** historical 94/94 full-corpus gate remains recorded; Session 048 ID/EN pair added with self-canonical + reciprocal hreflang  
+**Keyword mapping:** 001–048 mapped; 001–047 Deep baseline, 048 controlled-growth directional  
+**Deep SERP:** 47/48 sessions Deep; Session 048 intentionally remains directional pending a separate deep-validation decision  
+**Reader navigation:** latest-session status semantics hardened; no fake inactive Next button on the latest session  
+**UI regression:** reusable Manual UI Smoke Test available as workflow_dispatch only; target session supplied per run  
+**GitHub Mode Hemat:** source/live checks default; browser regression and heavy/full gates manual/on-demand  
+**Technical release evidence:** previous 47-session Final Release Gate history remains authoritative for its tested commit; do not reinterpret it as a fresh 48-session full-corpus run  
+**Immediate work:** controlled growth, indexing/AdSense recovery, and targeted regression only when evidence requires it  
 **Long-term scale:** 1,000+ sessions
 
 ---
 
-**END OF CURRENT-STATUS v1.3**
+**END OF CURRENT-STATUS — synced 2026-10-12**
 
 
 ## 2026-10-02 — AdSense Review Hold / Post-Approval Backlog
