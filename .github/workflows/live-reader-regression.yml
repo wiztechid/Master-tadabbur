@@ -1,15 +1,8 @@
 name: Live Reader Regression QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/live-reader-regression.yml'
-      - '.github/scripts/live_reader_regression.mjs'
-      - 'index.html'
-      - 'data/quran-progress.json'
-      - 'data/sessions-*.html'
 
 permissions:
   contents: read
