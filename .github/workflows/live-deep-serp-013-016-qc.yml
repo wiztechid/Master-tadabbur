@@ -1,12 +1,8 @@
 name: Live Deep SERP 013-016 QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/live-deep-serp-013-016-qc.yml'
-      - '.github/scripts/live_deep_serp_013_016_qc.py'
 
 permissions:
   contents: read
