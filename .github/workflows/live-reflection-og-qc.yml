@@ -1,13 +1,8 @@
 name: Live Reflection Card OG QC
 
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/live-reflection-og-qc.yml'
-      - '.github/scripts/live_reflection_og_qc.py'
-      - 'og/reflection/**'
 
 permissions:
   contents: read
