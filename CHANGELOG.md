@@ -6,6 +6,20 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 
 ---
 
+## 2026-10-12
+
+### [Governance / CI] Controlled-growth + resource-efficient UI regression baseline
+- Published Session **048** (Ar-Ra'd 13:28) as a bilingual controlled-growth extension, taking the live corpus to **48 sessions / 96 session-language landings** and Qur'an ownership progress to **76 unique ayat**.
+- Root sitemap now contains **105 canonical public URLs**.
+- Preserved the historical Deep SERP boundary through Session 047; Session 048 remains explicitly directional rather than being mislabeled as fully Deep-validated.
+- Hardened latest-session reader navigation so the terminal state is a plain **Sesi terbaru / Latest session** label instead of a button-styled inactive control.
+- Added a reusable Playwright/Chromium **Manual UI Smoke Test** for USER/OWNER reader behavior and bilingual static session pages.
+- Manual UI smoke remains **workflow_dispatch only**, with no push, pull-request, or schedule trigger.
+- Generalized the smoke test for both latest and older sessions and added canonical, noindex, hreflang, Previous/Next, Journey, language, Continue, Mission, Focus, Open All, completion, back-to-top, and internal-link checks.
+- Formalized the validation hierarchy: source/repo → live URL → connected browser spot-check → manual Playwright → agentic-browser fallback.
+- Updated MASTER SOP to **v1.6** and synchronized CURRENT-STATUS to the 48-session controlled-growth baseline.
+
+
 ## 2026-09-23
 
 ### [Indexing] Google Search Console sitemap submission — SUCCESS
