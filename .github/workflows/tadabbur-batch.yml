@@ -1,8 +1,8 @@
 name: Publish Tadabbur Batch 025-029
+# GitHub Mode Hemat WIZ: heavy/live workflow — manual only.
 on:
-  push:
-    paths:
-      - '.github/workflows/tadabbur-batch.yml'
+  workflow_dispatch:
+
 permissions:
   contents: write
 jobs:
