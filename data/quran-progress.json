@@ -425,6 +425,37 @@
       ],
       "mode": "owner",
       "crossReferences": []
+    },
+    {
+      "id": 49,
+      "ayat": [
+        "16:125",
+        "20:44",
+        "3:159"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "103:1-3",
+          "ownerSession": 10
+        },
+        {
+          "ayat": "41:34",
+          "ownerSession": 13
+        },
+        {
+          "ayat": "17:53",
+          "ownerSession": 14
+        },
+        {
+          "ayat": "42:38",
+          "ownerSession": 37
+        },
+        {
+          "ayat": "31:19",
+          "ownerSession": 43
+        }
+      ]
     }
   ]
 }
