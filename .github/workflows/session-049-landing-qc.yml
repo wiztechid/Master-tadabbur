@@ -1,0 +1,19 @@
+name: Session 049 Landing QC
+on:
+  pull_request:
+    paths:
+      - 'tadabbur/049/index.html'
+      - 'en/tadabbur/049/index.html'
+      - '.github/scripts/session_049_landing_qc.py'
+      - '.github/workflows/session-049-landing-qc.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  landing-qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify bilingual landing navigation and responsive structure
+        run: python3 .github/scripts/session_049_landing_qc.py
