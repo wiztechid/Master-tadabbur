@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Run headless Chrome against a local branch preview at mobile widths."""
 from pathlib import Path
-import os, re, subprocess, sys, tempfile, threading
+import os, subprocess, sys, threading
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 ROOT=Path(__file__).resolve().parents[2]
@@ -26,6 +26,18 @@ try:
                 failures.append(f"{lang} {width}px screenshot failed: {result.stderr[-300:]}")
             else:
                 print(f"Screenshot: {screenshot.relative_to(ROOT)} ({screenshot.stat().st_size} bytes)")
+            if width == 390:
+                # PDF prints the full document, including below-the-fold content.
+                pdf = OUT / f"session049-{lang}-fullpage.pdf"
+                pdf_cmd = [chrome, "--headless=new", "--no-sandbox", "--disable-gpu",
+                           "--disable-dev-shm-usage", "--no-pdf-header-footer",
+                           f"--window-size={width},844", f"--print-to-pdf={pdf}",
+                           "--virtual-time-budget=1500", url]
+                pdf_result = subprocess.run(pdf_cmd, capture_output=True, text=True, timeout=45)
+                if pdf_result.returncode or not pdf.exists() or pdf.stat().st_size < 5000:
+                    failures.append(f"{lang} full-document PDF failed: {pdf_result.stderr[-300:]}")
+                else:
+                    print(f"Full document: {pdf.relative_to(ROOT)} ({pdf.stat().st_size} bytes)")
 finally:
     server.shutdown()
 if failures:
