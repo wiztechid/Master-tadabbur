@@ -39,7 +39,7 @@ try:
                 else:
                     print(f"Full document: {pdf.relative_to(ROOT)} ({pdf.stat().st_size} bytes)")
 finally:
-    server.shutdown()
+    pass
 # Interactive navigation smoke test in the same local origin.
 # Use real anchor clicks in Chrome rather than relying only on static href existence.
 test_html = r'''<!doctype html><meta charset="utf-8"><title>Navigation smoke</title>
@@ -90,6 +90,7 @@ if "NAV_PASS: 8 real browser anchor clicks" not in result.stdout:
     failures.append("Navigation click smoke failed: "+result.stdout[-1500:])
 else:
     print("Interactive navigation PASS: 8 browser anchor clicks")
+server.shutdown()
 if failures:
     print("\n".join(failures),file=sys.stderr)
     sys.exit(1)
