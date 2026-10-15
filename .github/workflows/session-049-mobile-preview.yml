@@ -19,11 +19,13 @@ jobs:
         run: |
           command -v google-chrome
           python3 .github/scripts/session_049_mobile_preview.py
-      - name: Upload mobile screenshots for visual review
+      - name: Upload mobile screenshots and full-document PDFs
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: session-049-mobile-preview
-          path: mobile-preview-artifacts/*.png
+          path: |
+            mobile-preview-artifacts/*.png
+            mobile-preview-artifacts/*.pdf
           retention-days: 3
           if-no-files-found: warn
