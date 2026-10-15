@@ -1,0 +1,29 @@
+name: Session 049 Mobile Preview
+on:
+  pull_request:
+    paths:
+      - 'tadabbur/049/index.html'
+      - 'en/tadabbur/049/index.html'
+      - '.github/scripts/session_049_mobile_preview.py'
+      - '.github/workflows/session-049-mobile-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  screenshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render ID and EN mobile previews at 375px and 390px
+        run: |
+          command -v google-chrome
+          python3 .github/scripts/session_049_mobile_preview.py
+      - name: Upload mobile screenshots for visual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: session-049-mobile-preview
+          path: mobile-preview-artifacts/*.png
+          retention-days: 3
+          if-no-files-found: warn
