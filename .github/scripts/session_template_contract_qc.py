@@ -64,6 +64,7 @@ for n in range(1,50):
         checked+=1
         html=path.read_text(encoding="utf-8")
         p=Page(); p.feed(html)
+        if p.styles or any("style" in a for _,a in p.attrs): fail(errors,rel,"inline styles are forbidden; use the frozen shared stylesheet")
         expected=f"{BASE}/{folder}/{number}/"
         titles=[a.get("content") for a in meta(p,"property","og:title")]
         descriptions=[a.get("content") for a in meta(p,"property","og:description")]
