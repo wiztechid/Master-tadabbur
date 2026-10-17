@@ -13,6 +13,7 @@ body{min-width:0;margin:0;background:#f4faf6;color:var(--i);font:17px/1.8 system
 .secondary{background:#f8fbf9}
 .feature{background:var(--d);color:#fff}
 .feature h3{color:#f2d87e}
+.feature a{color:#f2d87e;text-underline-offset:3px}
 .feature .ayahbox{background:#0b5a45}
 .feature .ayah,.feature .latin{color:#fff}
 .feature .tr{color:#263e35}
