@@ -1,6 +1,6 @@
 # TADABBURLIFE — MASTER SOP
 
-**Version:** 1.6  
+**Version:** 1.7  
 **Status:** FROZEN GOVERNANCE BASELINE  
 **Scope:** TadabburLife Platform  
 **Long-term scale:** 1,000+ sessions × bilingual/multiple languages
@@ -45,6 +45,18 @@ For SEO/content-value enhancement and AdSense pre-resubmission work, the operati
 It is subordinate to this MASTER-SOP. If any instruction conflicts, **ABSOLUTE SACRED LOCK and MASTER-SOP win**.
 
 The companion governance formalizes corpus-wide Thin/Borderline/Strong review, keyword opportunity gates, companion-session standalone-value rules, mass-produced-content guards, and live AdSense pre-resubmission verification.
+
+## 1.2 Frozen Session Landing Template
+
+The public session landing template is governed by \`docs/SESSION-LANDING-TEMPLATE-v1.md\`, frozen as **SESSION-LANDING-v1.2**.
+
+For all existing and future bilingual session articles:
+
+- **Article updates change article content only.** The shared page structure, layout, visual design, CSS, spacing, typography, navigation presentation, and component treatments must remain unchanged.
+- Reuse the shared stylesheet \`assets/css/session-landing-v1.css?v=1.2\` and the established page structure. Do not introduce per-article visual redesign, alternate layout, or inline template styles.
+- The primary Qur'an verse module follows the approved Session 013 visual: deep-green featured card, gold heading, and green ayah panel with a gold border. Keep Ayat Utama green.
+- A template/layout/design change requires an explicit user instruction to thaw the freeze. After thaw, create a new template revision and cache key, update this MASTER-SOP and the companion contract, and pass corpus-wide QC across every published ID/EN landing, mobile preview, and live production verification before refreezing.
+- The companion contract QC pins the shared CSS asset by Git blob SHA and fails if it changes without an approved thaw and updated freeze record.
 
 ## 2. CONTENT INTEGRITY
 
