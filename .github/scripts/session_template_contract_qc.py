@@ -75,7 +75,11 @@ for n in range(1,50):
         else:
             if hreflang["id"]!=f"{BASE}/tadabbur/{number}/" or hreflang["en"]!=f"{BASE}/en/tadabbur/{number}/" or hreflang["x-default"]!=f"{BASE}/tadabbur/{number}/":
                 fail(errors,rel,"hreflang target mismatch")
-        if len(titles)!=1 or not titles[0]: fail(errors,rel,"OG title missing or duplicated")\n        twitter_titles=[a.get("content") for a in meta(p,"name","twitter:title")]\n        twitter_descriptions=[a.get("content") for a in meta(p,"name","twitter:description")]\n        if len(twitter_titles)!=1 or (titles and twitter_titles[0]!=titles[0]): fail(errors,rel,"Twitter title must match OG title")\n        if len(twitter_descriptions)!=1 or (descriptions and twitter_descriptions[0]!=descriptions[0]): fail(errors,rel,"Twitter description must match OG description")
+        if len(titles)!=1 or not titles[0]: fail(errors,rel,"OG title missing or duplicated")
+        twitter_titles=[a.get("content") for a in meta(p,"name","twitter:title")]
+        twitter_descriptions=[a.get("content") for a in meta(p,"name","twitter:description")]
+        if len(twitter_titles)!=1 or (titles and twitter_titles[0]!=titles[0]): fail(errors,rel,"Twitter title must match OG title")
+        if len(twitter_descriptions)!=1 or (descriptions and twitter_descriptions[0]!=descriptions[0]): fail(errors,rel,"Twitter description must match OG description")
         if len(descriptions)!=1 or not descriptions[0]: fail(errors,rel,"OG description missing or duplicated")
         ogtypes=attr(p,"meta","property","og:type")
         ogurls=attr(p,"meta","property","og:url")
