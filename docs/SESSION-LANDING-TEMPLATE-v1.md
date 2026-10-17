@@ -40,6 +40,7 @@ The article's headings, examples, explanations, and reflection are session-speci
 
 - Every bilingual session landing links to the single shared stylesheet at `assets/css/session-landing-v1.css` using the correct relative path.
 - Inline page styles are removed from session landing pages. Shared shell, cards, typography, Qur'an display, calls to action, related links, and responsive behavior are maintained in the shared stylesheet.
+- Primary Qur'an verse blocks use the same deep green background and gold border, including legacy ayahbox blocks and Arabic verse paragraphs.
 - Session-specific article content and modules remain in each page; compatibility selectors keep legacy session modules readable.
 
 ## Responsive and monetization rules

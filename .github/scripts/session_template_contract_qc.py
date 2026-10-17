@@ -96,8 +96,16 @@ for n in range(1,50):
         else:
             css_path=(path.parent/stylesheet[0]["href"]).resolve()
             if not css_path.is_file(): fail(errors,rel,"shared session stylesheet asset missing")
-            elif not re.search(r"@media\s*\(",css_path.read_text(encoding="utf-8")):
-                fail(errors,rel,"responsive breakpoint missing from shared CSS")
+            else:
+                shared_css=css_path.read_text(encoding="utf-8")
+                if not re.search(r"@media\s*\(",shared_css):
+                    fail(errors,rel,"responsive breakpoint missing from shared CSS")
+                ayahbox_rule=re.search(r"\.ayahbox\s*\{([^}]*)\}",shared_css)
+                arabic_rule=re.search(r'p\[lang="ar"\]\s*\{([^}]*)\}',shared_css)
+                if not ayahbox_rule or "background:#0b5a45" not in ayahbox_rule.group(1):
+                    fail(errors,rel,"Qur'an ayahbox background must remain green")
+                if not arabic_rule or "background:#0b5a45" not in arabic_rule.group(1):
+                    fail(errors,rel,"Arabic verse block background must be green")
         if re.search(r"pagead\.googlesyndication\.com/pagead/js/adsbygoogle",html,re.I): fail(errors,rel,"AdSense loader found on session landing")
         footer=html[html.rfind("<footer"):] if "<footer" in html else ""
         footer_paths=set()
