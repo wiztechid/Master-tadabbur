@@ -1,18 +1,18 @@
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
-**Status:** 48-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+**Status:** 49-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
 
-- Published corpus: **48 Indonesian + 48 English sessions = 96 canonical session landings**.
-- Published range: **001–048**.
-- Qur'an progress registry: **76 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
-- Root sitemap current inventory: **105 canonical public URLs**.
+- Published corpus: **49 Indonesian + 49 English sessions = 98 canonical session landings**.
+- Published range: **001–049**.
+- Qur'an progress registry: **79 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
+- Root sitemap current inventory: **107 canonical public URLs**.
 - Session 048 was published on **2026-10-11** with actual publication date; no backdating/date churn.
 - Deep SERP baseline remains **Deep through Session 047**; Session 048 is a controlled-growth directional target with live-SERP review and cannibalization guard, not retroactively mislabeled Deep.
 - Reader/navigation hardening completed for latest-session semantics; inactive button-like latest marker was replaced by a plain status label.
 - Manual UI Smoke Test is now reusable and **workflow_dispatch only**. It accepts the target session and distinguishes latest-session behavior from older-session Previous/Next behavior.
 - Default verification order: source/repo → live URL → connected browser spot-check if needed → manual Playwright → agentic-browser fallback.
 - Heavy/full regression remains manual/on-demand and should run once after a substantive batch, not after every small change.
-- Previous 47-session Final Release Gate records remain valid historical evidence for that frozen baseline; they must not be misreported as a fresh 48-session full-corpus rerun.
+- Previous 47-session Final Release Gate records remain valid historical evidence for that frozen baseline; they must not be misreported as a fresh 49-session full-corpus rerun.
 
 ## Historical checkpoint — Trust Footer + AdSense Readiness
 
