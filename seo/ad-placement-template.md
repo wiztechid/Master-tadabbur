@@ -1,8 +1,12 @@
 # TadabburLife — Ad Placement Template
 
 **Version:** 1.0  
-**Date:** 2026-09-23  
-**Status:** APPROVED BLUEPRINT — NO LIVE AD CODE YET
+**Date:** 2026-10-17  
+**Status:** APPROVED PLACEMENT BLUEPRINT — HOMEPAGE ADSENSE LOADER PRESENT; MANUAL AD UNITS NOT VERIFIED ACTIVE
+
+## Status implementasi saat ini
+
+The AdSense loader is present on the homepage. A loader alone is not an active ad placement. The 98 session landing pages remain free of AdSense scripts; no manual ad unit is declared active by this document. Keep session and hub placements off until their exact implementation is verified against this blueprint and mobile QC.
 
 ## Prinsip
 
@@ -68,7 +72,7 @@ Jangan menaruh iklan di atas fold sebelum pengunjung memahami apa itu TadabburLi
 
 ## Hub /tadabbur/ dan /en/tadabbur/
 
-Gunakan **HUB-01** setelah intro dan sekitar **6–8 kartu sesi pertama**. Untuk corpus 47 sesi saat ini, satu unit sudah cukup. HUB-02 baru dipertimbangkan jika corpus jauh lebih panjang.
+Gunakan **HUB-01** setelah intro dan sekitar **6–8 kartu sesi pertama**. Untuk corpus 49 sesi, satu unit sudah cukup. HUB-02 baru dipertimbangkan jika corpus jauh lebih panjang.
 
 ## Halaman tanpa iklan
 
