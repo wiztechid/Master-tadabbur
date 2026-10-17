@@ -50,11 +50,11 @@ for page in PAGES:
         issues.append(f"{page}: expected one H1, found {scan.h1}")
     if not scan.viewport or not scan.canonical:
         issues.append(f"{page}: missing viewport or canonical")
-    expected_css = "../../../assets/css/session-landing-v1.css" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css"
+    expected_css = "../../../assets/css/session-landing-v1.css?v=1.1" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css?v=1.1"
     if scan.stylesheets != [expected_css]:
         issues.append(f"{page}: expected one shared stylesheet at {expected_css}")
     else:
-        css_path = (page.parent / scan.stylesheets[0]).resolve()
+        css_path = (page.parent / unquote(urlsplit(scan.stylesheets[0]).path)).resolve()
         if not css_path.is_file():
             issues.append(f"{page}: shared stylesheet missing")
         else:
