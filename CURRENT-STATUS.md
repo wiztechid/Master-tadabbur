@@ -1,3 +1,16 @@
+# Current Checkpoint — 2026-10-17 Resume Audit (pending PR #33; documentation only)
+
+**Live/repo verified:** 49 Indonesian + 49 English sessions = **98 canonical session landings**; published range 001–049. Qur'an ownership register contains **79 uniquely owned ayat**, 0 duplicate owners and 0 mismatched cross-reference owners. `sitemap.xml` contains **107 distinct canonical URLs**, including both /tadabbur/049/ and /en/tadabbur/049/. Both pages respond as crawlable, self-canonical public landings.
+
+- Session 049 entered `main` via merged PR #32 on 2026-10-15. The 48-session heading and inventory below are historical and should not be treated as current operational counts.
+- Master SOP v1.6 `mastersoptadabbur.md` and **ABSOLUTE SACRED LOCK** govern every edit; no ayat, translation, hadith, source attribution or frozen content was changed in this resume audit.
+- Last documented AdSense status remains `Getting ready` as recorded on 2026-10-02; the current AdSense dashboard decision was **not verified** this turn. Continue submission-state freeze until current decision and specific Google feedback are known.
+- PR #33 is a documentation-only, still-draft WIZ GitHub Mode Hemat SOP candidate. No new session #050, homepage redesign, content regeneration, artificial date change, automatic workflow or production deployment was authorized.
+- Next action: audit live/indexing and any explicit Google review feedback; if revision is justified, one small evidence-backed batch → Sacred QC → lightweight checks → single final heavy gate on-demand → review/merge.
+- Latest source verification does **not** by itself establish an executed full-corpus release regression for 49 sessions; preserve historical gate scope rather than extending it by implication.
+
+---
+
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
 **Status:** 48-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
