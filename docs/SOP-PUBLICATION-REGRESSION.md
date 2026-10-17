@@ -1,6 +1,6 @@
-# TadabburLife — Publication SOP & Regression Gate v1.1
+# TadabburLife — Publication SOP & Regression Gate v1.2
 
-Updated: 2026-10-14. Baseline incident: Session 049 / PR #32.
+Updated: 2026-10-17. Baseline incident: Session 049 / PR #32.
 
 ## Release contract (fail closed)
 Do not merge or publish while any required integrity check fails, while changed-commit checks are pending, or when the required visual/link checks have not been completed. A passing static test is not proof of browser rendering. Keep production unchanged until gates are met.
@@ -13,6 +13,14 @@ Do not merge or publish while any required integrity check fails, while changed-
 - `tadabbur/index.html` and `en/tadabbur/index.html`: crawlable index entries, session counts, page title and description must match the published inventory.
 - `tadabbur/NNN/index.html`, `en/tadabbur/NNN/index.html`: landing pages with correct canonical, hreflang, visible content and owner cross-reference links.
 - `sitemap.xml` and `seo/keyword-map.json`: both language paths and unique search intents; check for cannibalization.
+
+## Canonical landing template contract
+
+- `docs/SESSION-LANDING-TEMPLATE-v1.md` is the required contract for every generated or manually maintained session landing. The article content may differ by session; the HTML head, metadata, schema, navigation, trust destinations, responsive behavior, and ad boundaries must satisfy the contract.
+- Run `python3 .github/scripts/session_template_contract_qc.py` on every PR that changes a session landing or its template rules. It checks all 98 published landings, not only the changed page.
+- OG/Twitter title and description, canonical, reciprocal hreflang, Article + BreadcrumbList JSON-LD, author/publisher identity, responsive viewport/CSS, legal destinations, and absence of ad loader on session landings are required. Social image metadata is required only when a matching verified image asset exists; never point to a missing image.
+- For visual mobile regression, use the representative preview at 375px/390px for sessions 001, 048, and 049 in both languages, including programmatic horizontal-overflow assertions. A screenshot artifact still requires visual inspection; screenshots alone do not prove a pass.
+- Sacred text, established translation, hadith quotations/references, and session meaning are outside this template patch scope. Any source correction follows the verified source-correction workflow and Sacred Diff.
 
 ## Before committing a new session
 1. Check full verse ownership across ALL reader modules; do not reuse owned verses as primary. Register reused verses as explicit crossReferences with correct ownerSession.
