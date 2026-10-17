@@ -13,7 +13,7 @@ This document does not replace Git history. Routine commits, minor copy adjustme
 - Recorded the approved Session 013 visual as the fixed layout/design baseline for all 98 published bilingual session landings and future articles.
 - Article copy, sources, and metadata may be updated within the frozen structure; shared layout, CSS, spacing, typography, navigation presentation, and component styling do not change during article updates.
 - Preserved the green Ayat Utama card and green/gold ayah treatment.
-- Linked \`mastersoptadabbur.md\` to \`docs/SESSION-LANDING-TEMPLATE-v1.md\`; contract QC pins the shared CSS asset by blob SHA \`524bcb52805e1af028d85405a71c17090368509e\`.
+- Linked `mastersoptadabbur.md` to `docs/SESSION-LANDING-TEMPLATE-v1.md`; contract QC pins the shared CSS asset by blob SHA `524bcb52805e1af028d85405a71c17090368509e`.
 - Session 049 ID/EN visual correction merged in PR #39 and deployed successfully. Template freeze and CSS-integrity QC merged in PR #40; the all-page contract gate passed.
 
 ## 2026-10-12
