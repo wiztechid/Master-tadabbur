@@ -90,7 +90,7 @@ for n in range(1,50):
         if len(meta(p,"name","twitter:card"))!=1 or len(meta(p,"name","twitter:title"))!=1 or len(meta(p,"name","twitter:description"))!=1:
             fail(errors,rel,"Twitter card/title/description incomplete")
         stylesheet=attr(p,"link","rel","stylesheet")
-        expected_css="../../assets/css/session-landing-v1.css?v=1.1" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.1"
+        expected_css="../../assets/css/session-landing-v1.css?v=1.2" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.2"
         if len(stylesheet)!=1 or stylesheet[0].get("href")!=expected_css:
             fail(errors,rel,"expected exactly one shared session stylesheet with correct path")
         else:
@@ -106,6 +106,10 @@ for n in range(1,50):
                     fail(errors,rel,"Qur'an ayahbox background must remain green")
                 if not arabic_rule or "background:#0b5a45" not in arabic_rule.group(1):
                     fail(errors,rel,"Arabic verse block background must be green")
+        if n==49:
+            heading="Tiga Ayat, Tiga Sudut Pandang" if lang=="id" else "Three Quranic Anchors"
+            featured=re.search(r'<section\b(?=[^>]*\bclass=["\'][^"\']*\bfeature\b)[^>]*>(?:(?!</section>).)*?'+re.escape(heading),html,re.S)
+            if not featured: fail(errors,rel,"primary Qur'an anchors must use the green feature card")
         if re.search(r"pagead\.googlesyndication\.com/pagead/js/adsbygoogle",html,re.I): fail(errors,rel,"AdSense loader found on session landing")
         footer=html[html.rfind("<footer"):] if "<footer" in html else ""
         footer_paths=set()

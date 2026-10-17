@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import sys
+import re
 
 ROOT = Path(__file__).resolve().parents[2]
 PAGES = [ROOT / "tadabbur/049/index.html", ROOT / "en/tadabbur/049/index.html"]
@@ -50,7 +51,7 @@ for page in PAGES:
         issues.append(f"{page}: expected one H1, found {scan.h1}")
     if not scan.viewport or not scan.canonical:
         issues.append(f"{page}: missing viewport or canonical")
-    expected_css = "../../../assets/css/session-landing-v1.css?v=1.1" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css?v=1.1"
+    expected_css = "../../../assets/css/session-landing-v1.css?v=1.2" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css?v=1.2"
     if scan.stylesheets != [expected_css]:
         issues.append(f"{page}: expected one shared stylesheet at {expected_css}")
     else:
@@ -59,6 +60,9 @@ for page in PAGES:
             issues.append(f"{page}: shared stylesheet missing")
         else:
             scan.styles = css_path.read_text(encoding="utf-8")
+    heading = "Three Quranic Anchors" if "/en/" in page.as_posix() else "Tiga Ayat, Tiga Sudut Pandang"
+    if not re.search(r'<section class="card feature">.*?'+re.escape(heading), page.read_text(encoding="utf-8"), re.S):
+        issues.append(f"{page}: Quran anchors must use the green feature card")
     for selector in (".wrap", ".session-head", ".card", ".breadcrumb", ".seo-h1", "@media"):
         if selector not in scan.styles:
             issues.append(f"{page}: missing responsive/template selector {selector}")
