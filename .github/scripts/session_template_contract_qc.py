@@ -89,8 +89,15 @@ for n in range(1,50):
         if len(meta(p,"property","og:locale"))!=1: fail(errors,rel,"OG locale missing or duplicated")
         if len(meta(p,"name","twitter:card"))!=1 or len(meta(p,"name","twitter:title"))!=1 or len(meta(p,"name","twitter:description"))!=1:
             fail(errors,rel,"Twitter card/title/description incomplete")
-        styles="\n".join(p.styles)
-        if not re.search(r"@media\s*\(",styles): fail(errors,rel,"responsive CSS breakpoint missing")
+        stylesheet=attr(p,"link","rel","stylesheet")
+        expected_css="../../assets/css/session-landing-v1.css" if lang=="id" else "../../../assets/css/session-landing-v1.css"
+        if len(stylesheet)!=1 or stylesheet[0].get("href")!=expected_css:
+            fail(errors,rel,"expected exactly one shared session stylesheet with correct path")
+        else:
+            css_path=(path.parent/stylesheet[0]["href"]).resolve()
+            if not css_path.is_file(): fail(errors,rel,"shared session stylesheet asset missing")
+            elif not re.search(r"@media\s*\(",css_path.read_text(encoding="utf-8")):
+                fail(errors,rel,"responsive breakpoint missing from shared CSS")
         if re.search(r"pagead\.googlesyndication\.com/pagead/js/adsbygoogle",html,re.I): fail(errors,rel,"AdSense loader found on session landing")
         footer=html[html.rfind("<footer"):] if "<footer" in html else ""
         footer_paths=set()

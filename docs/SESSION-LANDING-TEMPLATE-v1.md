@@ -1,6 +1,6 @@
 # TadabburLife — Session Landing Template Contract
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Date:** 2026-10-17  
 **Status:** ACTIVE CONTRACT — REQUIRED FOR ALL PUBLISHED SESSIONS  
 **Authority:** subordinate to `mastersoptadabbur.md` and the Absolute Sacred Lock.
@@ -36,9 +36,15 @@ Keep the visual and navigation order consistent:
 
 The article's headings, examples, explanations, and reflection are session-specific. Shared layout must not create repeated filler or change a session's meaning.
 
+## Shared visual template
+
+- Every bilingual session landing links to the single shared stylesheet at `assets/css/session-landing-v1.css` using the correct relative path.
+- Inline page styles are removed from session landing pages. Shared shell, cards, typography, Qur'an display, calls to action, related links, and responsive behavior are maintained in the shared stylesheet.
+- Session-specific article content and modules remain in each page; compatibility selectors keep legacy session modules readable.
+
 ## Responsive and monetization rules
 
-- Include a viewport declaration and a mobile breakpoint; avoid horizontal overflow at 375px and 390px.
+- Include a viewport declaration and use the shared mobile breakpoints; avoid horizontal overflow at 375px and 390px.
 - Session landing pages remain free of AdSense loader/units unless a separately approved change updates this contract and passes mobile/accidental-click QC.
 - Do not place an ad inside or beside Qur'an, translation, tafsir, hadith, answer blocks, navigation, reader controls, or reflection/action controls.
 - The homepage loader does not mean an ad unit is active. Confirm actual placements separately before changing the launch matrix.
