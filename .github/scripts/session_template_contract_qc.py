@@ -90,11 +90,11 @@ for n in range(1,50):
         if len(meta(p,"name","twitter:card"))!=1 or len(meta(p,"name","twitter:title"))!=1 or len(meta(p,"name","twitter:description"))!=1:
             fail(errors,rel,"Twitter card/title/description incomplete")
         stylesheet=attr(p,"link","rel","stylesheet")
-        expected_css="../../assets/css/session-landing-v1.css" if lang=="id" else "../../../assets/css/session-landing-v1.css"
+        expected_css="../../assets/css/session-landing-v1.css?v=1.1" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.1"
         if len(stylesheet)!=1 or stylesheet[0].get("href")!=expected_css:
             fail(errors,rel,"expected exactly one shared session stylesheet with correct path")
         else:
-            css_path=(path.parent/stylesheet[0]["href"]).resolve()
+            css_path=(path.parent/unquote(urlsplit(stylesheet[0]["href"]).path)).resolve()
             if not css_path.is_file(): fail(errors,rel,"shared session stylesheet asset missing")
             else:
                 shared_css=css_path.read_text(encoding="utf-8")
