@@ -16,8 +16,7 @@ chrome=os.environ.get("CHROME_BIN","google-chrome")
 failures=[]
 samples=(("id","tadabbur"),("en","en/tadabbur"))
 sessions=("001","048","049")
-try:
-    # Actual headless Chrome renders both language variants at common narrow widths.
+# Actual headless Chrome renders both language variants at common narrow widths.
     for lang,root in samples:
         for session in sessions:
             path=f"{root}/{session}/"
