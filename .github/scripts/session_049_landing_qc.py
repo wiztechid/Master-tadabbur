@@ -61,7 +61,7 @@ for page in PAGES:
         else:
             scan.styles = css_path.read_text(encoding="utf-8")
     heading = "Three Quranic Anchors" if "/en/" in page.as_posix() else "Tiga Ayat, Tiga Sudut Pandang"
-    if not re.search(r'<section\\b(?=[^>]*\\bclass=["\\'][^"\\']*\\bfeature\\b)[^>]*>(?:(?!</section>).)*?'+re.escape(heading), page.read_text(encoding="utf-8"), re.S):
+    if not re.search(r'<section[^>]*class="[^"]*\\bfeature\\b[^"]*"[^>]*>.*?'+re.escape(heading), page.read_text(encoding="utf-8"), re.S):
         issues.append(f"{page}: Quran anchors must use the green feature card")
     for selector in (".wrap", ".session-head", ".card", ".breadcrumb", ".seo-h1", "@media"):
         if selector not in scan.styles:
