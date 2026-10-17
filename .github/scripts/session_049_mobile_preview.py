@@ -17,20 +17,20 @@ failures=[]
 samples=(("id","tadabbur"),("en","en/tadabbur"))
 sessions=("001","048","049")
 # Actual headless Chrome renders both language variants at common narrow widths.
-    for lang,root in samples:
-        for session in sessions:
-            path=f"{root}/{session}/"
-            for width in (375,390):
-                url=f"http://127.0.0.1:{server.server_port}/{path}"
-                screenshot=OUT/f"session-{session}-{lang}-{width}.png"
-                cmd=[chrome,"--headless=new","--no-sandbox","--disable-gpu","--disable-dev-shm-usage",
-                     "--force-device-scale-factor=1",f"--window-size={width},844","--hide-scrollbars",
-                     f"--screenshot={screenshot}","--virtual-time-budget=1500",url]
-                result=subprocess.run(cmd,capture_output=True,text=True,timeout=45)
-                if result.returncode or not screenshot.exists() or screenshot.stat().st_size<2000:
-                    failures.append(f"{path} {width}px screenshot failed: {result.stderr[-300:]}")
-                else:
-                    print(f"Screenshot: {screenshot.relative_to(ROOT)} ({screenshot.stat().st_size} bytes)")
+for lang,root in samples:
+    for session in sessions:
+        path=f"{root}/{session}/"
+        for width in (375,390):
+            url=f"http://127.0.0.1:{server.server_port}/{path}"
+            screenshot=OUT/f"session-{session}-{lang}-{width}.png"
+            cmd=[chrome,"--headless=new","--no-sandbox","--disable-gpu","--disable-dev-shm-usage",
+                 "--force-device-scale-factor=1",f"--window-size={width},844","--hide-scrollbars",
+                 f"--screenshot={screenshot}","--virtual-time-budget=1500",url]
+            result=subprocess.run(cmd,capture_output=True,text=True,timeout=45)
+            if result.returncode or not screenshot.exists() or screenshot.stat().st_size<2000:
+                failures.append(f"{path} {width}px screenshot failed: {result.stderr[-300:]}")
+            else:
+                print(f"Screenshot: {screenshot.relative_to(ROOT)} ({screenshot.stat().st_size} bytes)")
 # In Chrome, each iframe is a real mobile viewport. Check its document dimensions directly.
 overflow_html=r'''<!doctype html><meta charset="utf-8"><title>Mobile overflow QC</title>
 <pre id="results">RUNNING</pre><div id="frames"></div><script>
