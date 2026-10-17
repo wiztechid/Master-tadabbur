@@ -2,6 +2,13 @@
 
 **Status:** 49-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
 
+## Frozen template baseline
+
+- `SESSION-LANDING-v1.2` is the master template for all 98 published ID/EN session landings and new articles.
+- Article updates must preserve the shared layout and design. Session 013 is the visual reference; Ayat Utama remains green.
+- Template changes require explicit thaw authorization, a new cache key/revision, full-corpus QC, mobile preview, and production verification.
+- Master rule: `mastersoptadabbur.md` §1.2. Detailed contract: `docs/SESSION-LANDING-TEMPLATE-v1.md`.
+
 - Published corpus: **49 Indonesian + 49 English sessions = 98 canonical session landings**.
 - Published range: **001–049**.
 - Qur'an progress registry: **79 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
