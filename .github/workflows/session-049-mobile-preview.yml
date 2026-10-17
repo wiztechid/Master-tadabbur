@@ -1,7 +1,11 @@
-name: Session 049 Mobile Preview
+name: Representative Landing Mobile Preview
 on:
   pull_request:
     paths:
+      - 'tadabbur/001/index.html'
+      - 'en/tadabbur/001/index.html'
+      - 'tadabbur/048/index.html'
+      - 'en/tadabbur/048/index.html'
       - 'tadabbur/049/index.html'
       - 'en/tadabbur/049/index.html'
       - '.github/scripts/session_049_mobile_preview.py'
@@ -15,7 +19,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Render ID and EN mobile previews at 375px and 390px
+      - name: Render representative ID/EN landings at 375px and 390px; assert overflow
         run: |
           command -v google-chrome
           python3 .github/scripts/session_049_mobile_preview.py
@@ -23,7 +27,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: session-049-mobile-preview
+          name: representative-landing-mobile-preview
           path: |
             mobile-preview-artifacts/*.png
             mobile-preview-artifacts/*.pdf
