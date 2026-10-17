@@ -1,0 +1,23 @@
+name: Session Landing Template Contract QC
+on:
+  pull_request:
+    paths:
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+      - 'docs/SESSION-LANDING-TEMPLATE-v1.md'
+      - 'docs/SOP-PUBLICATION-REGRESSION.md'
+      - '.github/scripts/session_template_contract_qc.py'
+      - '.github/workflows/session-landing-template-qc.yml'
+      - 'seo/ad-placement-template.md'
+      - 'CURRENT-STATUS.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the complete bilingual session corpus
+        run: python3 .github/scripts/session_template_contract_qc.py
