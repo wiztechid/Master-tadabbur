@@ -5,10 +5,15 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import json
 import re
+import hashlib
 import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 BASE="https://tadabburlife.com"
+FROZEN_TEMPLATE_CSS_BLOB_SHA="524bcb52805e1af028d85405a71c17090368509e"
+def git_blob_sha(content):
+    data=content.encode("utf-8")
+    return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\0"+data).hexdigest()
 LEGAL={"about","privacy","cookies","terms","disclaimer","contact"}
 
 class Page(HTMLParser):
@@ -98,6 +103,8 @@ for n in range(1,50):
             if not css_path.is_file(): fail(errors,rel,"shared session stylesheet asset missing")
             else:
                 shared_css=css_path.read_text(encoding="utf-8")
+                if git_blob_sha(shared_css)!=FROZEN_TEMPLATE_CSS_BLOB_SHA:
+                    fail(errors,rel,"frozen shared template CSS changed; thaw and update the freeze record explicitly")
                 if not re.search(r"@media\s*\(",shared_css):
                     fail(errors,rel,"responsive breakpoint missing from shared CSS")
                 ayahbox_rule=re.search(r"\.ayahbox\s*\{([^}]*)\}",shared_css)

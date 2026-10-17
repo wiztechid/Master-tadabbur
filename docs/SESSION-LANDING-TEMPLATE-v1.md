@@ -1,9 +1,18 @@
 # TadabburLife — Session Landing Template Contract
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** 2026-10-17  
-**Status:** ACTIVE CONTRACT — REQUIRED FOR ALL PUBLISHED SESSIONS  
+**Status:** FROZEN — REQUIRED FOR ALL PUBLISHED SESSIONS  
 **Authority:** subordinate to `mastersoptadabbur.md` and the Absolute Sacred Lock.
+
+## Freeze record
+
+- **Freeze ID:** SESSION-LANDING-v1.2
+- **Frozen on:** 2026-10-17
+- **Reference visual:** Session 013's deep-green featured Qur'an module, gold heading, and green verse panel with gold border.
+- **Locked asset:** \`assets/css/session-landing-v1.css\` (Git blob SHA \`524bcb52805e1af028d85405a71c17090368509e\`). The contract QC verifies this exact asset.
+- **Scope:** all 98 published bilingual session pages and future session landing pages. Keep the shared stylesheet at cache key \`?v=1.2\` until an approved thaw creates a new revision.
+- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together. Article content may still be edited when the shared visual contract is preserved.
 
 ## Purpose
 
