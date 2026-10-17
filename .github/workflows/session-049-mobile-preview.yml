@@ -8,6 +8,7 @@ on:
       - 'en/tadabbur/048/index.html'
       - 'tadabbur/049/index.html'
       - 'en/tadabbur/049/index.html'
+      - 'assets/css/session-landing-v1.css'
       - '.github/scripts/session_049_mobile_preview.py'
       - '.github/workflows/session-049-mobile-preview.yml'
   workflow_dispatch:

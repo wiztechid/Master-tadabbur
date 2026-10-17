@@ -16,6 +16,7 @@ class Scan(HTMLParser):
         self.viewport = False
         self.canonical = False
         self.styles = ""
+        self.stylesheets = []
         self.in_style = False
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -25,6 +26,8 @@ class Scan(HTMLParser):
             self.viewport = True
         if tag == "link" and a.get("rel") == "canonical":
             self.canonical = True
+        if tag == "link" and a.get("rel") == "stylesheet" and a.get("href"):
+            self.stylesheets.append(a["href"])
         if tag == "a" and "href" in a:
             self.links.append(a["href"])
         if tag == "style":
@@ -47,6 +50,15 @@ for page in PAGES:
         issues.append(f"{page}: expected one H1, found {scan.h1}")
     if not scan.viewport or not scan.canonical:
         issues.append(f"{page}: missing viewport or canonical")
+    expected_css = "../../../assets/css/session-landing-v1.css" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css"
+    if scan.stylesheets != [expected_css]:
+        issues.append(f"{page}: expected one shared stylesheet at {expected_css}")
+    else:
+        css_path = (page.parent / scan.stylesheets[0]).resolve()
+        if not css_path.is_file():
+            issues.append(f"{page}: shared stylesheet missing")
+        else:
+            scan.styles = css_path.read_text(encoding="utf-8")
     for selector in (".wrap", ".session-head", ".card", ".breadcrumb", ".seo-h1", "@media"):
         if selector not in scan.styles:
             issues.append(f"{page}: missing responsive/template selector {selector}")
