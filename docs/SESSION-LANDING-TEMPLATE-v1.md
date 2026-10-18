@@ -1,18 +1,18 @@
 # TadabburLife — Session Landing Template Contract
 
-**Version:** 1.2  
-**Date:** 2026-10-17  
+**Version:** 1.3  
+**Date:** 2026-10-18  
 **Status:** FROZEN — REQUIRED FOR ALL PUBLISHED SESSIONS  
 **Authority:** subordinate to `mastersoptadabbur.md` and the Absolute Sacred Lock.
 
 ## Freeze record
 
-- **Freeze ID:** SESSION-LANDING-v1.2
+- **Freeze ID:** SESSION-LANDING-v1.3
 - **Frozen on:** 2026-10-17
 - **Reference visual:** Session 013's deep-green featured Qur'an module, gold heading, and green verse panel with gold border.
-- **Locked asset:** `assets/css/session-landing-v1.css` (Git blob SHA `524bcb52805e1af028d85405a71c17090368509e`). The contract QC verifies this exact asset.
-- **Scope:** all 98 published bilingual session pages and future session landing pages. Keep the shared stylesheet at cache key `?v=1.2` until an approved thaw creates a new revision.
-- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together. Article content may still be edited when the shared visual contract is preserved.
+- **Locked asset:** `assets/css/session-landing-v1.css` (Git blob SHA `64699cb5a25f5ffc8e45494c203899bf8cdca641`). The contract QC verifies this exact asset.
+- **Scope:** all 98 published bilingual session pages and future session landing pages. Keep the shared stylesheet at cache key `?v=1.3` until an approved thaw creates a new revision.
+- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together. The 2026-10-18 approved thaw is limited to setting all `.ayah` Arabic text white on the existing green ayah panel; layout, spacing, typography scale, navigation, and all other colors remain frozen. Article content may still be edited when the shared visual contract is preserved.
 
 ## Purpose
 
@@ -47,9 +47,9 @@ The article's headings, examples, explanations, and reflection are session-speci
 
 ## Shared visual template
 
-- Every bilingual session landing links to the single shared stylesheet at `assets/css/session-landing-v1.css?v=1.2` using the correct relative path.
+- Every bilingual session landing links to the single shared stylesheet at `assets/css/session-landing-v1.css?v=1.3` using the correct relative path.
 - Inline page styles are removed from session landing pages. Shared shell, cards, typography, Qur'an display, calls to action, related links, and responsive behavior are maintained in the shared stylesheet.
-- Primary Qur'an modules use the deep green featured-card shell from Session 013; ayahbox blocks and Arabic verse paragraphs keep their deep green background and gold border. The multi-verse Quranic anchors on Session 049 follow the same featured-card treatment.
+- Primary Qur'an modules use the deep green featured-card shell from Session 013; ayahbox blocks and Arabic verse paragraphs keep their deep green background and gold border; Arabic verse text is white for readable contrast. The multi-verse Quranic anchors on Session 049 follow the same featured-card treatment.
 - Session-specific article content and modules remain in each page; compatibility selectors keep legacy session modules readable.
 
 ## Responsive and monetization rules

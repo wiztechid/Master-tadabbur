@@ -4,6 +4,9 @@ on:
     paths:
       - 'tadabbur/**/index.html'
       - 'en/tadabbur/**/index.html'
+      - 'assets/css/session-landing-v1.css'
+      - 'mastersoptadabbur.md'
+      - 'CHANGELOG.md'
       - 'docs/SESSION-LANDING-TEMPLATE-v1.md'
       - 'docs/SOP-PUBLICATION-REGRESSION.md'
       - '.github/scripts/session_template_contract_qc.py'

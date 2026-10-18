@@ -4,9 +4,9 @@
 
 ## Frozen template baseline
 
-- `SESSION-LANDING-v1.2` is the master template for all 98 published ID/EN session landings and new articles.
+- `SESSION-LANDING-v1.3` is the master template for all 98 published ID/EN session landings and new articles.
 - Article updates must preserve the shared layout and design. Session 013 is the visual reference; Ayat Utama remains green.
-- Template changes require explicit thaw authorization, a new cache key/revision, full-corpus QC, mobile preview, and production verification.
+- Template changes require explicit thaw authorization, a new cache key/revision, full-corpus QC, mobile preview, and production verification. The 2026-10-18 authorized v1.3 correction sets Arabic `.ayah` text to white on the unchanged green panel; all other layout and design remain frozen.
 - Master rule: `mastersoptadabbur.md` §1.2. Detailed contract: `docs/SESSION-LANDING-TEMPLATE-v1.md`.
 
 - Published corpus: **49 Indonesian + 49 English sessions = 98 canonical session landings**.
