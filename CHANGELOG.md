@@ -1,3 +1,16 @@
+## 2026-10-18 — Homepage Cards + Session Index Discovery
+
+**Status:** DEPLOYED — production verified; SESSION-LANDING-v1.4 remains frozen
+
+- Localized the English-edition homepage card in Indonesian mode; preserved the EN badge, English-mode copy, and English-index destination.
+- Added accessible search to Indonesian and English session indexes by session number, title, or verse reference, with live result counts, clear/reset, focus restoration, and a no-results state.
+- Fixed each index ItemList schema to include all 49 sessions and item position 49.
+- Scope stayed on the homepage card and index pages. No session landing/template, sacred content, main menu, or trust/legal-page changes.
+- Commit `45eb8468290022255a202e067b55d9dae0623729`; GitHub Pages workflow `39130974561` build/deploy succeeded, with ayat-ownership, Qur'an-progress, and reader-content-parity QC passing.
+- Production desktop checks passed for ID/EN card language, index search behavior, keyboard focus, count/schema parity. Responsive CSS rules were reviewed; direct small-viewport visual rendering remains unverified in this pass.
+
+---
+
 # TadabburLife — Project Changelog
 
 ## 2026-10-18 — Session Landing Template v1.4 Arabic Glyph Fallback
