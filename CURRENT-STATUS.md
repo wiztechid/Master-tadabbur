@@ -4,9 +4,11 @@
 
 ## Frozen template baseline
 
-- `SESSION-LANDING-v1.3` is the master template for all 98 published ID/EN session landings and new articles.
-- Article updates must preserve the shared layout and design. Session 013 is the visual reference; Ayat Utama remains green.
-- Template changes require explicit thaw authorization, a new cache key/revision, full-corpus QC, mobile preview, and production verification. The 2026-10-18 authorized v1.3 correction sets Arabic `.ayah` text to white on the unchanged green panel; all other layout and design remain frozen.
+- `SESSION-LANDING-v1.4` is the master template for all 98 published ID/EN session landings and future articles. Shared stylesheet: `assets/css/session-landing-v1.css?v=1.4`.
+- Session 013 remains the visual reference; Ayat Utama and ayah panels remain green with gold borders. Arabic verse text is white and uses Noto Naskh Arabic with a serif fallback.
+- PR #65 introduced the authorized Arabic glyph fallback and was merged at `34296cda73d760f55b06c6b11dab8c27f7d2b462`. Corpus contract QC passed 98/98 pages; mobile preview passed 12 checks across Sessions 001, 048, and 049 at 375px/390px in ID/EN; live production spot-checks passed for Sessions 001 and 027 in both languages.
+- Template v1.4 was refrozen after verification; contract/SOP/changelog sync merged via PR #66 at `759e4574b4d6a73d62e87625ad74f23b5a1bf5c8`.
+- Article updates must preserve the shared layout and design. Any template change requires explicit thaw authorization, a new revision/cache key, corpus-wide QC, mobile preview, and production verification.
 - Master rule: `mastersoptadabbur.md` §1.2. Detailed contract: `docs/SESSION-LANDING-TEMPLATE-v1.md`.
 
 - Published corpus: **49 Indonesian + 49 English sessions = 98 canonical session landings**.
