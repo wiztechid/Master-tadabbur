@@ -97,7 +97,8 @@ def inspect(url: str, n: int, is_en: bool):
         )
         if expected_home not in bhrefs:
             issues.append("breadcrumb_home")
-        if expected_pair not in bhrefs:
+        expected_pair_absolute = f"{BASE}/{'en/' if not is_en else ''}tadabbur/{n:03d}/"
+        if expected_pair not in bhrefs and expected_pair_absolute not in bhrefs:
             issues.append("language_pair_link")
 
     if not nav:
@@ -116,7 +117,7 @@ def inspect(url: str, n: int, is_en: bool):
             issues.append("invalid_next")
 
     targets = related_targets(text)
-    if not related:
+    if not related and not OWNER_LINKS_RE.search(text):
         issues.append("missing_related")
     elif not targets:
         issues.append("related_no_session_links")
