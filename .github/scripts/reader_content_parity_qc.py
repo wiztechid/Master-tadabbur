@@ -123,7 +123,7 @@ def validate_reader_verse_contract(errors):
     if not style:
         errors.append("Interactive reader visual contract: homepage style block missing")
         return
-    css = re.sub(r"\\s+", "", style.group(1))
+    css = re.sub(r"\s+", "", style.group(1))
     if "Noto+Naskh+Arabic" not in page:
         errors.append("Interactive reader visual contract: Noto Naskh Arabic font link missing")
 
@@ -150,13 +150,13 @@ def validate_reader_verse_contract(errors):
         except OSError as exc:
             errors.append(f"Interactive reader visual contract: cannot read {module}: {exc}")
             continue
-        for article in re.findall(r"<article\\b[\\s\\S]*?</article>", source, flags=re.IGNORECASE):
-            opening = re.match(r"<article\\b([^>]*)>", article, flags=re.IGNORECASE)
+        for article in re.findall(r"<article\b[\s\S]*?</article>", source, flags=re.IGNORECASE):
+            opening = re.match(r'<article\b([^>]*)>', article, flags=re.IGNORECASE)
             if not opening:
                 continue
-            attrs = dict(re.findall(r'([\\w-]+)\\s*=\\s*["\\']([^"\\']*)["\\']', opening.group(1)))
-            article_id = attrs.get("id")
-            if not article_id or not re.fullmatch(r"(?:en-)?s\\d+", article_id):
+            id_match = re.search(r'\bid="([^"]+)"', opening.group(1))
+            article_id = id_match.group(1) if id_match else None
+            if not article_id or not re.fullmatch(r"(?:en-)?s\d+", article_id):
                 continue
             found[article_id] = article
     if set(found) != expected:
@@ -167,18 +167,18 @@ def validate_reader_verse_contract(errors):
             errors.append("Interactive reader visual contract: unexpected modules " + ", ".join(extra))
 
     for article_id, article in found.items():
-        number_match = re.search(r"(\\d+)$", article_id)
+        number_match = re.search(r"(\d+)$", article_id)
         number = int(number_match.group(1))
         if number in (16, 44):
             if "data-ayat-crossref" not in article:
                 errors.append(f"Interactive reader visual contract: {article_id} must remain a cross-reference session")
         elif number == 49:
-            arabic = re.findall(r"<p\\b[^>]*\\blang=[\\\'\"]ar[\\\'\"][^>]*>", article, flags=re.IGNORECASE)
+            arabic = re.findall(r'<p\b[^>]*\blang="ar"[^>]*>', article, flags=re.IGNORECASE)
             if len(arabic) < 3:
                 errors.append(f"Interactive reader visual contract: {article_id} must retain its three styled Arabic anchors")
         else:
-            feature = re.search(r"<section\\b[^>]*\\bclass=[\\\'\"][^\\\'\"]*\\bfeature\\b", article, flags=re.IGNORECASE)
-            if not feature or not re.search(r'class=[\\\'\"][^\\\'\"]*\\bayahbox\\b', article) or not re.search(r'class=[\\\'\"][^\\\'\"]*\\bayah\\b', article):
+            feature = re.search(r'<section\b[^>]*\bclass="[^"]*\bfeature\b', article, flags=re.IGNORECASE)
+            if not feature or not re.search(r'class="[^"]*\bayahbox\b', article) or not re.search(r'class="[^"]*\bayah\b', article):
                 errors.append(f"Interactive reader visual contract: {article_id} is missing its featured Ayat Utama module")
     if not any(e.startswith("Interactive reader visual contract:") for e in errors):
         print("PASS Interactive Reader visual parity: 98 bilingual modules, Ayat Utama and Arabic text styles")
