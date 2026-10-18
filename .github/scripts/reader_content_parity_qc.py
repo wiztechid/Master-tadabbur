@@ -121,21 +121,23 @@ def main():
             errors.append(f"Sesi {check['session']} ({check['lang']}): {exc}")
             continue
 
+        pair_errors = []
         for source_name, content in (("reader", reader), ("landing", landing)):
             for phrase in check["required"]:
                 if phrase not in content:
-                    errors.append(
+                    pair_errors.append(
                         f"Sesi {check['session']} ({check['lang']}): "
                         f"required phrase {phrase!r} missing from {source_name}"
                     )
             for phrase in check["forbidden"]:
                 if phrase in content:
-                    errors.append(
+                    pair_errors.append(
                         f"Sesi {check['session']} ({check['lang']}): "
                         f"stale phrase {phrase!r} remains in {source_name}"
                     )
 
-        if not errors:
+        errors.extend(pair_errors)
+        if not pair_errors:
             print(f"PASS Sesi {check['session']} ({check['lang']}) reader/landing parity")
 
     if errors:
