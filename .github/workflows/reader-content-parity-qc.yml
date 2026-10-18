@@ -1,0 +1,32 @@
+name: Reader Content Parity QC
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'data/sessions-*.html'
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+      - '.github/scripts/reader_content_parity_qc.py'
+      - '.github/workflows/reader-content-parity-qc.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/sessions-*.html'
+      - 'tadabbur/**/index.html'
+      - 'en/tadabbur/**/index.html'
+      - '.github/scripts/reader_content_parity_qc.py'
+      - '.github/workflows/reader-content-parity-qc.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check reviewed bilingual reader and landing copy
+        run: python3 .github/scripts/reader_content_parity_qc.py
