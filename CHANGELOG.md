@@ -1,5 +1,17 @@
 # TadabburLife — Project Changelog
 
+## 2026-10-18 — Session Landing Template v1.4 Arabic Glyph Fallback
+
+**Status:** THAWED — awaiting corpus, mobile, and production verification before refreeze
+
+- Authorized fix for Arabic Qur'anic glyphs appearing as empty squares: load Noto Naskh Arabic with `display=swap`, then serif fallback, for Arabic verse blocks only.
+- Keep Arabic verse text white and the ayah module green with its existing gold border; preserve layout, spacing, font size, line-height, navigation, and all other colors.
+- Update stylesheet cache key to `?v=1.4` on all 98 bilingual landings and update the template contract QC to pin the new CSS blob and check the font loading/fallback.
+- Source: Google Fonts Noto Naskh Arabic; official Noto documentation describes this family as suitable for longer Arabic text and confirms the Noto fonts use the Open Font License.
+- Re-freeze only after the complete gates listed in MASTER-SOP v1.7 pass.
+
+---
+
 ## 2026-10-18 — Session Landing Template v1.3 Arabic Contrast Correction
 
 **Status:** FROZEN — MASTER-SOP v1.7

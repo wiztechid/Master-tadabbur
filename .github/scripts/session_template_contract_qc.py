@@ -10,7 +10,7 @@ import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 BASE="https://tadabburlife.com"
-FROZEN_TEMPLATE_CSS_BLOB_SHA="64699cb5a25f5ffc8e45494c203899bf8cdca641"
+FROZEN_TEMPLATE_CSS_BLOB_SHA="153087a92bde745d47470d9c82ebff1ea5384036"
 def git_blob_sha(content):
     data=content.encode("utf-8")
     return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\0"+data).hexdigest()
@@ -95,10 +95,18 @@ for n in range(1,50):
         if len(meta(p,"property","og:locale"))!=1: fail(errors,rel,"OG locale missing or duplicated")
         if len(meta(p,"name","twitter:card"))!=1 or len(meta(p,"name","twitter:title"))!=1 or len(meta(p,"name","twitter:description"))!=1:
             fail(errors,rel,"Twitter card/title/description incomplete")
-        stylesheet=attr(p,"link","rel","stylesheet")
-        expected_css="../../assets/css/session-landing-v1.css?v=1.3" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.3"
+        stylesheet=[a for a in attr(p,"link","rel","stylesheet") if "session-landing-v1.css" in a.get("href","")]
+        expected_css="../../assets/css/session-landing-v1.css?v=1.4" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.4"
         if len(stylesheet)!=1 or stylesheet[0].get("href")!=expected_css:
             fail(errors,rel,"expected exactly one shared session stylesheet with correct path")
+        font_urls=[a.get("href","") for a in attr(p,"link","rel","stylesheet")]
+        if not any("fonts.googleapis.com/css2?family=Noto+Naskh+Arabic" in href and "display=swap" in href for href in font_urls):
+            fail(errors,rel,"Noto Naskh Arabic web font stylesheet missing")
+        preconnects=[a for t,a in p.attrs if t=="link" and a.get("rel")=="preconnect"]
+        if not any(a.get("href")=="https://fonts.googleapis.com" for a in preconnects):
+            fail(errors,rel,"Google Fonts preconnect missing")
+        if not any(a.get("href")=="https://fonts.gstatic.com" and "crossorigin" in a for a in preconnects):
+            fail(errors,rel,"Google font file preconnect missing")
         else:
             css_path=(path.parent/unquote(urlsplit(stylesheet[0]["href"]).path)).resolve()
             if not css_path.is_file(): fail(errors,rel,"shared session stylesheet asset missing")
@@ -113,6 +121,10 @@ for n in range(1,50):
                 arabic_rule=re.search(r'p\[lang="ar"\]\s*\{([^}]*)\}',shared_css)
                 if not ayah_rule or "color:#fff" not in ayah_rule.group(1):
                     fail(errors,rel,"Arabic ayah text must be white for contrast on the green panel")
+                if not ayah_rule or '"Noto Naskh Arabic",serif' not in ayah_rule.group(1):
+                    fail(errors,rel,"Arabic ayah font stack must use Noto Naskh Arabic and serif fallback")
+                if not arabic_rule or '"Noto Naskh Arabic",serif' not in arabic_rule.group(1):
+                    fail(errors,rel,"Arabic paragraph font stack must use Noto Naskh Arabic and serif fallback")
                 if not ayahbox_rule or "background:#0b5a45" not in ayahbox_rule.group(1):
                     fail(errors,rel,"Qur'an ayahbox background must remain green")
                 if not arabic_rule or "background:#0b5a45" not in arabic_rule.group(1):

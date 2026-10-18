@@ -1,18 +1,18 @@
 # TadabburLife — Session Landing Template Contract
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Date:** 2026-10-18  
-**Status:** FROZEN — REQUIRED FOR ALL PUBLISHED SESSIONS  
+**Status:** THAWED FOR AUTHORIZED ARABIC FONT FALLBACK RELEASE  
 **Authority:** subordinate to `mastersoptadabbur.md` and the Absolute Sacred Lock.
 
 ## Freeze record
 
-- **Freeze ID:** SESSION-LANDING-v1.3
+- **Freeze ID:** SESSION-LANDING-v1.4
 - **Frozen on:** 2026-10-17
 - **Reference visual:** Session 013's deep-green featured Qur'an module, gold heading, and green verse panel with gold border.
-- **Locked asset:** `assets/css/session-landing-v1.css` (Git blob SHA `64699cb5a25f5ffc8e45494c203899bf8cdca641`). The contract QC verifies this exact asset.
-- **Scope:** all 98 published bilingual session pages and future session landing pages. Keep the shared stylesheet at cache key `?v=1.3` until an approved thaw creates a new revision.
-- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together. The 2026-10-18 approved thaw is limited to setting all `.ayah` Arabic text white on the existing green ayah panel; layout, spacing, typography scale, navigation, and all other colors remain frozen. Article content may still be edited when the shared visual contract is preserved.
+- **Locked asset:** `assets/css/session-landing-v1.css` (Git blob SHA `153087a92bde745d47470d9c82ebff1ea5384036`; the contract QC verifies this exact asset). The contract QC verifies this exact asset.
+- **Scope:** all 98 published bilingual session pages and future session landing pages. Keep the shared stylesheet at cache key `?v=1.3` until a later approved thaw creates a new revision.
+- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together. The 2026-10-18 authorized thaw adds the Google Fonts Noto Naskh Arabic stylesheet to all bilingual landing pages and sets `font-family: "Noto Naskh Arabic", serif` on `.ayah` and `p[lang="ar"]` only. This addresses missing Arabic Qur'anic glyphs in system fonts. The font loads with `display=swap`; generic serif remains the fallback if Google Fonts is unavailable. Arabic text remains white, the ayah panel remains green with its gold border, and font size, line-height, layout, spacing, navigation, and other colors stay unchanged. Refreeze as v1.4 only after corpus QC, mobile preview, and live production verification pass. Article content may still be edited when the shared visual contract is preserved.
 
 ## Purpose
 
@@ -47,9 +47,9 @@ The article's headings, examples, explanations, and reflection are session-speci
 
 ## Shared visual template
 
-- Every bilingual session landing links to the single shared stylesheet at `assets/css/session-landing-v1.css?v=1.3` using the correct relative path.
+- Every bilingual session landing links to the shared stylesheet at `assets/css/session-landing-v1.css?v=1.4` using the correct relative path, and loads the Google Fonts Noto Naskh Arabic stylesheet with `display=swap`.
 - Inline page styles are removed from session landing pages. Shared shell, cards, typography, Qur'an display, calls to action, related links, and responsive behavior are maintained in the shared stylesheet.
-- Primary Qur'an modules use the deep green featured-card shell from Session 013; ayahbox blocks and Arabic verse paragraphs keep their deep green background and gold border; Arabic verse text is white for readable contrast. The multi-verse Quranic anchors on Session 049 follow the same featured-card treatment.
+- Primary Qur'an modules use the deep green featured-card shell from Session 013; ayahbox blocks and Arabic verse paragraphs keep their deep green background and gold border; Arabic verse text is white for readable contrast and uses Noto Naskh Arabic with a serif fallback. The multi-verse Quranic anchors on Session 049 follow the same featured-card treatment.
 - Session-specific article content and modules remain in each page; compatibility selectors keep legacy session modules readable.
 
 ## Responsive and monetization rules
@@ -66,7 +66,7 @@ This template is structural. It must never rewrite, paraphrase, reorder, transla
 
 ## Required release checks
 
-- Run `python3 .github/scripts/session_template_contract_qc.py` for all 98 published bilingual landings.
+- Run `python3 .github/scripts/session_template_contract_qc.py` for all 98 published bilingual landings. Verify the Google Fonts request and local fallback family.
 - Run the representative mobile preview for sessions 001, 048, and 049 in ID/EN at 375px and 390px; verify no horizontal overflow and visually inspect screenshots.
 - Preserve lightweight pull-request checks. Run the heavier full release gate once after a substantial batch, not repeatedly after small edits.
 - Record exact tested commit SHA and any visual limitation. A source-level pass is not a visual pass.
