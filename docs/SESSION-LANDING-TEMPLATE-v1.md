@@ -52,6 +52,7 @@ The article's headings, examples, explanations, and reflection are session-speci
 - Every bilingual session landing links to the shared stylesheet at `assets/css/session-landing-v1.css?v=1.4` using the correct relative path, and loads the Google Fonts Noto Naskh Arabic stylesheet with `display=swap`.
 - Inline page styles are removed from session landing pages. Shared shell, cards, typography, Qur'an display, calls to action, related links, and responsive behavior are maintained in the shared stylesheet.
 - Primary Qur'an modules use the deep green featured-card shell from Session 013; ayahbox blocks and Arabic verse paragraphs keep their deep green background and gold border; Arabic verse text is white for readable contrast and uses Noto Naskh Arabic with a serif fallback. The multi-verse Quranic anchors on Session 049 follow the same featured-card treatment.
+- **Interactive reader parity:** The homepage reader injects these same session modules, so its primary verse cards must retain the same frozen v1.4 treatment: deep-green featured shell, gold heading, green ayah panel with gold border, and white Arabic in Noto Naskh Arabic. Session 049's three Arabic excerpts (`p[lang="ar"]`) use the matching green/gold panel and white type. Sessions 016 and 044 remain cross-references and must not gain duplicated ayat. The reader's dashboard and navigation shell remain independent.
 - Session-specific article content and modules remain in each page; compatibility selectors keep legacy session modules readable.
 
 ## Responsive and monetization rules
