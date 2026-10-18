@@ -2,17 +2,19 @@
 
 **Version:** 1.4  
 **Date:** 2026-10-18  
-**Status:** THAWED FOR AUTHORIZED ARABIC FONT FALLBACK RELEASE  
+**Status:** FROZEN  
 **Authority:** subordinate to `mastersoptadabbur.md` and the Absolute Sacred Lock.
 
 ## Freeze record
 
 - **Freeze ID:** SESSION-LANDING-v1.4
-- **Frozen on:** 2026-10-17
+- **Frozen on:** 2026-10-18, after the authorized Arabic glyph-fallback thaw passed release gates.
 - **Reference visual:** Session 013's deep-green featured Qur'an module, gold heading, and green verse panel with gold border.
-- **Locked asset:** `assets/css/session-landing-v1.css` (Git blob SHA `153087a92bde745d47470d9c82ebff1ea5384036`; the contract QC verifies this exact asset). The contract QC verifies this exact asset.
-- **Scope:** all 98 published bilingual session pages and future session landing pages. Keep the shared stylesheet at cache key `?v=1.3` until a later approved thaw creates a new revision.
-- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together. The 2026-10-18 authorized thaw adds the Google Fonts Noto Naskh Arabic stylesheet to all bilingual landing pages and sets `font-family: "Noto Naskh Arabic", serif` on `.ayah` and `p[lang="ar"]` only. This addresses missing Arabic Qur'anic glyphs in system fonts. The font loads with `display=swap`; generic serif remains the fallback if Google Fonts is unavailable. Arabic text remains white, the ayah panel remains green with its gold border, and font size, line-height, layout, spacing, navigation, and other colors stay unchanged. Refreeze as v1.4 only after corpus QC, mobile preview, and live production verification pass. Article content may still be edited when the shared visual contract is preserved.
+- **Locked asset:** `assets/css/session-landing-v1.css` (Git blob SHA `153087a92bde745d47470d9c82ebff1ea5384036`; contract QC pins this exact asset).
+- **Scope:** all 98 published bilingual session pages and future session landing pages. The shared stylesheet cache key is `?v=1.4`.
+- **Verified release:** PR #65, merge commit `34296cda73d760f55b06c6b11dab8c27f7d2b462`. Contract QC passed for 98/98 pages; the representative mobile preview passed 12 checks at 375px and 390px across sessions 001, 048, and 049 in Indonesian and English. Production spot-checks on sessions 001 and 027 confirmed connected white Arabic text on the green ayah panel in both Indonesian and English, with language-switch and session navigation available.
+- **Locked Arabic treatment:** Noto Naskh Arabic is loaded with `display=swap` for `.ayah` and `p[lang="ar"]`, with a generic serif fallback. Arabic remains white; the ayah panel remains green with its gold border. Font size, line-height, layout, spacing, navigation, and other colors remain unchanged.
+- **Thaw rule:** change the frozen visual contract only after an explicit user instruction. Then update the stylesheet, cache key, freeze record, and QC together; pass corpus-wide QC, mobile preview, and live production verification before refreezing. Article content may still be edited when the shared visual contract is preserved.
 
 ## Purpose
 
@@ -68,5 +70,6 @@ This template is structural. It must never rewrite, paraphrase, reorder, transla
 
 - Run `python3 .github/scripts/session_template_contract_qc.py` for all 98 published bilingual landings. Verify the Google Fonts request and local fallback family.
 - Run the representative mobile preview for sessions 001, 048, and 049 in ID/EN at 375px and 390px; verify no horizontal overflow and visually inspect screenshots.
+- After deployment, verify the updated template on representative Indonesian and English production pages; record the tested commit and observed Arabic contrast/glyph rendering.
 - Preserve lightweight pull-request checks. Run the heavier full release gate once after a substantial batch, not repeatedly after small edits.
 - Record exact tested commit SHA and any visual limitation. A source-level pass is not a visual pass.
