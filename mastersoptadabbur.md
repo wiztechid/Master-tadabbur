@@ -598,4 +598,4 @@ Perubahan fundamental harus menaikkan versi dokumen dan dicatat dalam CHANGELOG.
 
 ---
 
-**END OF MASTER-SOP v1.6**
+**END OF MASTER-SOP v1.7**
