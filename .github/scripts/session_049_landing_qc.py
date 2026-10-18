@@ -51,15 +51,18 @@ for page in PAGES:
         issues.append(f"{page}: expected one H1, found {scan.h1}")
     if not scan.viewport or not scan.canonical:
         issues.append(f"{page}: missing viewport or canonical")
-    expected_css = "../../../assets/css/session-landing-v1.css?v=1.3" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css?v=1.3"
-    if scan.stylesheets != [expected_css]:
+    expected_css = "../../../assets/css/session-landing-v1.css?v=1.4" if "/en/" in page.as_posix() else "../../assets/css/session-landing-v1.css?v=1.4"
+    shared_stylesheets = [href for href in scan.stylesheets if "session-landing-v1.css" in href]
+    if shared_stylesheets != [expected_css]:
         issues.append(f"{page}: expected one shared stylesheet at {expected_css}")
     else:
-        css_path = (page.parent / unquote(urlsplit(scan.stylesheets[0]).path)).resolve()
+        css_path = (page.parent / unquote(urlsplit(shared_stylesheets[0]).path)).resolve()
         if not css_path.is_file():
             issues.append(f"{page}: shared stylesheet missing")
         else:
             scan.styles = css_path.read_text(encoding="utf-8")
+    if not any("fonts.googleapis.com/css2?family=Noto+Naskh+Arabic" in href and "display=swap" in href for href in scan.stylesheets):
+        issues.append(f"{page}: Noto Naskh Arabic font stylesheet missing")
     heading = "Three Quranic Anchors" if "/en/" in page.as_posix() else "Tiga Ayat, Tiga Sudut Pandang"
     if not re.search(r'<section class="card feature">.*?'+re.escape(heading), page.read_text(encoding="utf-8"), re.S):
         issues.append(f"{page}: Quran anchors must use the green feature card")
