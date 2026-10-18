@@ -13,6 +13,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'index.html'
       - 'data/sessions-*.html'
       - 'tadabbur/**/index.html'
       - 'en/tadabbur/**/index.html'
