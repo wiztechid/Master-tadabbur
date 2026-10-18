@@ -1,5 +1,16 @@
 # TadabburLife — Project Changelog
 
+## 2026-10-18 — Session Landing Template v1.3 Arabic Contrast Correction
+
+**Status:** FROZEN — MASTER-SOP v1.7
+
+- Applied the approved, narrowly scoped thaw: Arabic `.ayah` text is white across all shared green ayah panels for readable contrast.
+- Preserved green Ayat Utama and green/gold ayah panels; no text, translation, layout, spacing, typography scale, or navigation changes.
+- Updated the shared CSS cache key to `?v=1.3` across all 98 bilingual session landings; pinned the new CSS blob in contract QC.
+- Full-corpus contract, representative mobile preview, and production live verification are required before final sign-off.
+
+---
+
 Records material verified changes to TadabburLife.
 
 This document does not replace Git history. Routine commits, minor copy adjustments, and work that has not yet been implemented or verified are not recorded here.

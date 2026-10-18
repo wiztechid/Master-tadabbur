@@ -10,7 +10,7 @@ import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 BASE="https://tadabburlife.com"
-FROZEN_TEMPLATE_CSS_BLOB_SHA="524bcb52805e1af028d85405a71c17090368509e"
+FROZEN_TEMPLATE_CSS_BLOB_SHA="64699cb5a25f5ffc8e45494c203899bf8cdca641"
 def git_blob_sha(content):
     data=content.encode("utf-8")
     return hashlib.sha1(b"blob "+str(len(data)).encode("ascii")+b"\0"+data).hexdigest()
@@ -96,7 +96,7 @@ for n in range(1,50):
         if len(meta(p,"name","twitter:card"))!=1 or len(meta(p,"name","twitter:title"))!=1 or len(meta(p,"name","twitter:description"))!=1:
             fail(errors,rel,"Twitter card/title/description incomplete")
         stylesheet=attr(p,"link","rel","stylesheet")
-        expected_css="../../assets/css/session-landing-v1.css?v=1.2" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.2"
+        expected_css="../../assets/css/session-landing-v1.css?v=1.3" if lang=="id" else "../../../assets/css/session-landing-v1.css?v=1.3"
         if len(stylesheet)!=1 or stylesheet[0].get("href")!=expected_css:
             fail(errors,rel,"expected exactly one shared session stylesheet with correct path")
         else:
@@ -109,7 +109,10 @@ for n in range(1,50):
                 if not re.search(r"@media\s*\(",shared_css):
                     fail(errors,rel,"responsive breakpoint missing from shared CSS")
                 ayahbox_rule=re.search(r"\.ayahbox\s*\{([^}]*)\}",shared_css)
+                ayah_rule=re.search(r"\.ayah\s*\{([^}]*)\}",shared_css)
                 arabic_rule=re.search(r'p\[lang="ar"\]\s*\{([^}]*)\}',shared_css)
+                if not ayah_rule or "color:#fff" not in ayah_rule.group(1):
+                    fail(errors,rel,"Arabic ayah text must be white for contrast on the green panel")
                 if not ayahbox_rule or "background:#0b5a45" not in ayahbox_rule.group(1):
                     fail(errors,rel,"Qur'an ayahbox background must remain green")
                 if not arabic_rule or "background:#0b5a45" not in arabic_rule.group(1):
