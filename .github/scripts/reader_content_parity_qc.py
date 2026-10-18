@@ -135,7 +135,7 @@ def validate_reader_verse_contract(errors):
         "mobile verse size": "@media(max-width:650px){#session-content-root .session .card.feature,#session-content-root .en-session .card.feature{padding:20px 17px!important;margin:14px 0!important;border-radius:16px!important}#session-content-root .feature .ayah{font-size:32px!important;line-height:2.05!important}",
     }
     for label, fragment in required_css.items():
-        if re.sub(r"\\s+", "", fragment) not in css:
+        if fragment.replace(" ", "") not in css:
             errors.append(f"Interactive reader visual contract: {label} rule missing")
 
     expected = {
