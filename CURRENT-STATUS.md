@@ -2,6 +2,18 @@
 
 **Status:** 49-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
 
+## 2026-10-18 — Homepage Cards + Session Index Discovery
+
+**Status:** LIVE / DEPLOYED / QC COMPLETE WITH MOBILE VIEWPORT LIMITATION
+
+- Commit `45eb8468290022255a202e067b55d9dae0623729` localized the homepage English-edition card in Indonesian mode while preserving its English label, EN badge, and destination in English mode. No menus, trust/legal pages, or session landing content were changed.
+- Added accessible session search to both Indonesian and English indexes. Readers can filter by session number, title, or verse reference; the result count is announced, the clear control restores the full list and focus, and a no-results state is provided.
+- Corrected both index ItemList schemas to represent all 49 published sessions and include position 49.
+- GitHub Pages workflow run `39130974561`: build and deployment completed successfully. Repository QC checks for ayat ownership, Qur'an progress integrity, and reader-content parity passed.
+- Production desktop verification passed for localized homepage card behavior in ID/EN and index search, no-results, clear/reset, keyboard focus, 49-card count, and English schema count.
+- Responsive single-column and stacked-search rules were reviewed in source. A narrow mobile viewport was not rendered directly in this browser pass; record this as the remaining visual-QC limitation before claiming full mobile visual sign-off.
+- Frozen `SESSION-LANDING-v1.4` and its green Ayat Utama / green-and-gold ayah treatment remain unchanged.
+
 ## Frozen template baseline
 
 - `SESSION-LANDING-v1.4` is the master template for all 98 published ID/EN session landings and future articles. Shared stylesheet: `assets/css/session-landing-v1.css?v=1.4`.
