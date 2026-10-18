@@ -25,6 +25,7 @@ OUT.mkdir(exist_ok=True)
 BREAD_RE = re.compile(r'<nav\s+class=["\']breadcrumb["\'][^>]*>.*?</nav>', re.I | re.S)
 SEO_NAV_RE = re.compile(r'<nav\s+class=["\']seo-nav["\'][^>]*>.*?</nav>', re.I | re.S)
 RELATED_RE = re.compile(r'<aside\s+class=["\']related["\'][^>]*>.*?</aside>', re.I | re.S)
+OWNER_LINKS_RE = re.compile(r'<nav\s+class=["\']owner-links["\'][^>]*>.*?</nav>', re.I | re.S)
 CTA_RE = re.compile(r'<a\b[^>]*class=["\'][^"\']*(?:reader-cta|cta)[^"\']*["\'][^>]*>.*?</a>', re.I | re.S)
 A_RE = re.compile(r'<a\b([^>]*)>(.*?)</a>', re.I | re.S)
 HREF_RE = re.compile(r'\bhref=["\']([^"\']+)["\']', re.I)
@@ -38,14 +39,19 @@ def hrefs(block: str) -> list[str]:
     return out
 
 def related_targets(text: str) -> list[int]:
-    m = RELATED_RE.search(text)
-    if not m:
+    block = RELATED_RE.search(text) or OWNER_LINKS_RE.search(text)
+    if not block:
         return []
     vals = []
-    for href in hrefs(m.group(0)):
-        mm = re.fullmatch(r"\.\./(\d{3})/", href)
-        if mm:
-            vals.append(int(mm.group(1)))
+    for href in hrefs(block.group(0)):
+        match = re.fullmatch(r"\.\./(\d{3})/", href)
+        if not match:
+            match = re.fullmatch(
+                r"(?:https://tadabburlife\.com)?/(?:en/)?tadabbur/(\d{3})/",
+                href,
+            )
+        if match:
+            vals.append(int(match.group(1)))
     return vals
 
 def fetch(url: str):
