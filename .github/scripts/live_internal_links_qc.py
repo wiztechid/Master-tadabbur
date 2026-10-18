@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Live functional internal-link parity QC for 94 TadabburLife session landings."""
+"""Live functional internal-link parity QC for 98 TadabburLife session landings."""
 
 from __future__ import annotations
 
@@ -108,11 +108,11 @@ def inspect(url: str, n: int, is_en: bool):
             issues.append("missing_hub_link")
         if n > 1 and f"../{n-1:03d}/" not in nhrefs:
             issues.append("missing_prev")
-        if n < 47 and f"../{n+1:03d}/" not in nhrefs:
+        if n < 49 and f"../{n+1:03d}/" not in nhrefs:
             issues.append("missing_next")
         if n == 1 and "../000/" in nhrefs:
             issues.append("invalid_prev")
-        if n == 47 and "../048/" in nhrefs:
+        if n == 49 and "../050/" in nhrefs:
             issues.append("invalid_next")
 
     targets = related_targets(text)
@@ -122,7 +122,7 @@ def inspect(url: str, n: int, is_en: bool):
         issues.append("related_no_session_links")
     elif n in targets:
         issues.append("related_self_link")
-    elif any(x < 1 or x > 47 for x in targets):
+    elif any(x < 1 or x > 49 for x in targets):
         issues.append("related_out_of_range")
 
     if not cta:
@@ -147,7 +147,7 @@ def inspect(url: str, n: int, is_en: bool):
 
 def run_once():
     specs = []
-    for n in range(1, 48):
+    for n in range(1, 50):
         specs.append((f"{BASE}/tadabbur/{n:03d}/", n, False))
         specs.append((f"{BASE}/en/tadabbur/{n:03d}/", n, True))
 
@@ -159,7 +159,7 @@ def run_once():
     rows.sort(key=lambda x: (x["session"], x["language"]))
 
     pair_issues = []
-    for n in range(1, 48):
+    for n in range(1, 50):
         id_row = next(x for x in rows if x["session"] == n and x["language"] == "id")
         en_row = next(x for x in rows if x["session"] == n and x["language"] == "en")
         if id_row["related_targets"] != en_row["related_targets"]:
@@ -171,14 +171,14 @@ def run_once():
 
     failures = [x for x in rows if not x["pass"]]
     summary = {
-        "urls_expected": 94,
+        "urls_expected": 98,
         "urls_checked": len(rows),
         "http_200_count": sum(1 for x in rows if x["status"] == 200),
         "page_pass_count": sum(1 for x in rows if x["pass"]),
         "page_fail_count": len(failures),
-        "related_pair_parity_count": 47 - len(pair_issues),
+        "related_pair_parity_count": 49 - len(pair_issues),
         "related_pair_mismatch_count": len(pair_issues),
-        "overall_pass": len(rows) == 94 and not failures and not pair_issues,
+        "overall_pass": len(rows) == 98 and not failures and not pair_issues,
     }
     return summary, rows, failures, pair_issues
 
@@ -207,10 +207,10 @@ def main():
     lines = [
         "# TadabburLife Live Internal-Link Parity QC",
         "",
-        f"- URLs checked: {summary['urls_checked']} / 94",
-        f"- HTTP 200: {summary['http_200_count']} / 94",
-        f"- Page structural link PASS: {summary['page_pass_count']} / 94",
-        f"- Related ID/EN pair parity: {summary['related_pair_parity_count']} / 47",
+        f"- URLs checked: {summary['urls_checked']} / 98",
+        f"- HTTP 200: {summary['http_200_count']} / 98",
+        f"- Page structural link PASS: {summary['page_pass_count']} / 98",
+        f"- Related ID/EN pair parity: {summary['related_pair_parity_count']} / 49",
         f"- Pair mismatches: {summary['related_pair_mismatch_count']}",
         f"- Overall: {'PASS' if summary['overall_pass'] else 'FAIL'}",
         "",
