@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Live canonical/hreflang reciprocity QC for 94 TadabburLife session landings."""
+"""Live canonical/hreflang reciprocity QC for 98 TadabburLife session landings."""
 
 from __future__ import annotations
 
@@ -120,17 +120,17 @@ def run_once():
             global_issues.append(f"sitemap_parse:{exc!r}")
     expected_session_urls = {
         expected(n, lang)["self"]
-        for n in range(1,48)
+        for n in range(1,50)
         for lang in ("id","en")
     }
-    if len(sitemap_urls) != 103:
+    if len(sitemap_urls) != 107:
         global_issues.append(f"sitemap_count_{len(sitemap_urls)}")
     missing_session_urls = sorted(expected_session_urls - sitemap_urls)
     if missing_session_urls:
         global_issues.append(f"missing_session_urls_{len(missing_session_urls)}")
 
     rows = []
-    specs = [(n,lang) for n in range(1,48) for lang in ("id","en")]
+    specs = [(n,lang) for n in range(1,50) for lang in ("id","en")]
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         futs = {pool.submit(inspect,n,lang,sitemap_urls):(n,lang) for n,lang in specs}
         for fut in as_completed(futs):
@@ -138,7 +138,7 @@ def run_once():
     rows.sort(key=lambda x:(x["session"],x["language"]))
 
     pair_issues = []
-    for n in range(1,48):
+    for n in range(1,50):
         sid=f"{n:03d}"
         idr=next(x for x in rows if x["session"]==sid and x["language"]=="id")
         enr=next(x for x in rows if x["session"]==sid and x["language"]=="en")
@@ -158,11 +158,11 @@ def run_once():
             r["alternates"]==expected(int(r["session"]),r["language"])["alternates"]
             for r in rows
         ),
-        "reciprocal_pairs_pass":47-len(pair_issues),
+        "reciprocal_pairs_pass":49-len(pair_issues),
         "fail_count":len(fails),
         "global_issues":global_issues,
         "pair_issues":pair_issues,
-        "overall_pass":len(rows)==94 and not fails and not global_issues and not pair_issues,
+        "overall_pass":len(rows)==98 and not fails and not global_issues and not pair_issues,
     }
     return summary,rows,fails
 
@@ -182,12 +182,12 @@ def main():
     lines=[
         "# TadabburLife Live Canonical + Hreflang QC","",
         f"- Attempts: {attempt}",
-        f"- Sitemap: {summary['sitemap_urls']} / 103",
-        f"- Landings checked: {summary['landings_checked']} / 94",
-        f"- HTTP 200: {summary['http_200']} / 94",
-        f"- Canonical PASS: {summary['canonical_pass']} / 94",
-        f"- Hreflang ID/EN/x-default PASS: {summary['hreflang_pass']} / 94",
-        f"- Reciprocal pairs PASS: {summary['reciprocal_pairs_pass']} / 47",
+        f"- Sitemap: {summary['sitemap_urls']} / 107",
+        f"- Landings checked: {summary['landings_checked']} / 98",
+        f"- HTTP 200: {summary['http_200']} / 98",
+        f"- Canonical PASS: {summary['canonical_pass']} / 98",
+        f"- Hreflang ID/EN/x-default PASS: {summary['hreflang_pass']} / 98",
+        f"- Reciprocal pairs PASS: {summary['reciprocal_pairs_pass']} / 49",
         f"- FAIL: {summary['fail_count']}",
         f"- Global issues: {', '.join(summary['global_issues']) if summary['global_issues'] else 'none'}",
         f"- Overall: {'PASS' if summary['overall_pass'] else 'FAIL'}",""

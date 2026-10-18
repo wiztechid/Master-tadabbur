@@ -25,7 +25,7 @@ from typing import Any
 BASE = "https://tadabburlife.com"
 SITEMAP = BASE + "/sitemap.xml"
 ROBOTS = BASE + "/robots.txt"
-EXPECTED_SITEMAP_COUNT = 103
+EXPECTED_SITEMAP_COUNT = 107
 TIMEOUT = 20
 RETRIES = 2
 WORKERS = 12
@@ -355,7 +355,7 @@ def main() -> int:
             writer.writerow(out)
 
     md = [
-        "# TadabburLife Live 103-URL Crawl QC",
+        "# TadabburLife Live 107-URL Crawl QC",
         "",
         f"- Generated: {summary['generated_at_utc']}",
         f"- Sitemap: {summary['actual_sitemap_urls']} / {summary['expected_sitemap_urls']} URLs",
