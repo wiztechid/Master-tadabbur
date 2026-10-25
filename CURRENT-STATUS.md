@@ -1,6 +1,17 @@
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
-**Status:** 49-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+**Status:** 50-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+
+## 2026-10-25 — Session 050 publication
+
+**Status:** LIVE / DEPLOYED / QC COMPLETE — DESKTOP VERIFIED
+
+- Published bilingual Session 050 on Al-Baqarah 2:186, focusing on Allah's nearness, prayer, faith, and responsible action without promising a particular result or timeline.
+- Registered 2:186 as Session 050's unique primary ayah; the corpus now has 80 uniquely owned ayat and 50 ID/EN landings.
+- PR #80 merged at `db0198dac300c9fe253d8667204ee3a3c8220db4`. Ayat Ownership Anti-Duplicate Guard, Qur'an Progress Integrity QC, Reader Content Parity QC, and Session Landing Template Contract QC passed on the PR head.
+- GitHub Pages deployment run `40193956298` completed successfully for the merge commit.
+- Production desktop checks passed for the ID and EN landings and the interactive reader; the reader shows 50 sessions and 80 owned ayat.
+- Session Landing v1.4 and its shared CSS/cache key remain unchanged. Session 050 is a controlled-growth directional SEO target; no search-volume figure is claimed.
 
 ## 2026-10-18 — Homepage Cards + Session Index Discovery
 
@@ -16,19 +27,19 @@
 
 ## Frozen template baseline
 
-- `SESSION-LANDING-v1.4` is the master template for all 98 published ID/EN session landings and future articles. Shared stylesheet: `assets/css/session-landing-v1.css?v=1.4`.
+- `SESSION-LANDING-v1.4` is the master template for all 100 published ID/EN session landings and future articles. Shared stylesheet: `assets/css/session-landing-v1.css?v=1.4`.
 - Session 013 remains the visual reference; Ayat Utama and ayah panels remain green with gold borders. Arabic verse text is white and uses Noto Naskh Arabic with a serif fallback.
 - PR #65 introduced the authorized Arabic glyph fallback and was merged at `34296cda73d760f55b06c6b11dab8c27f7d2b462`. Corpus contract QC passed 98/98 pages; mobile preview passed 12 checks across Sessions 001, 048, and 049 at 375px/390px in ID/EN; live production spot-checks passed for Sessions 001 and 027 in both languages.
 - Template v1.4 was refrozen after verification; contract/SOP/changelog sync merged via PR #66 at `759e4574b4d6a73d62e87625ad74f23b5a1bf5c8`.
 - Article updates must preserve the shared layout and design. Any template change requires explicit thaw authorization, a new revision/cache key, corpus-wide QC, mobile preview, and production verification.
 - Master rule: `mastersoptadabbur.md` §1.2. Detailed contract: `docs/SESSION-LANDING-TEMPLATE-v1.md`.
 
-- Published corpus: **49 Indonesian + 49 English sessions = 98 canonical session landings**.
-- Published range: **001–049**.
-- Qur'an progress registry: **79 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
-- Root sitemap current inventory: **107 canonical public URLs**.
+- Published corpus: **50 Indonesian + 50 English sessions = 100 canonical session landings**.
+- Published range: **001–050**.
+- Qur'an progress registry: **80 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
+- Root sitemap current inventory: **109 canonical public URLs**.
 - Session 048 was published on **2026-10-11** with actual publication date; no backdating/date churn.
-- Deep SERP baseline remains **Deep through Session 047**; Session 048 is a controlled-growth directional target with live-SERP review and cannibalization guard, not retroactively mislabeled Deep.
+- Deep SERP baseline remains **Deep through Session 047**; Sessions 048–050 are controlled-growth directional targets with live-SERP review and cannibalization guard, not retroactively mislabeled Deep.
 - Reader/navigation hardening completed for latest-session semantics; inactive button-like latest marker was replaced by a plain status label.
 - Manual UI Smoke Test is now reusable and **workflow_dispatch only**. It accepts the target session and distinguishes latest-session behavior from older-session Previous/Next behavior.
 - Default verification order: source/repo → live URL → connected browser spot-check if needed → manual Playwright → agentic-browser fallback.
