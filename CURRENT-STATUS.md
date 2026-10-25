@@ -19,7 +19,7 @@
 
 - Commit `45eb8468290022255a202e067b55d9dae0623729` localized the homepage English-edition card in Indonesian mode while preserving its English label, EN badge, and destination in English mode. No menus, trust/legal pages, or session landing content were changed.
 - Added accessible session search to both Indonesian and English indexes. Readers can filter by session number, title, or verse reference; the result count is announced, the clear control restores the full list and focus, and a no-results state is provided.
-- Corrected both index ItemList schemas to represent all 50 published sessions and include position 49.
+- Corrected both index ItemList schemas to represent all 49 published sessions and include position 49.
 - GitHub Pages workflow run `39130974561`: build and deployment completed successfully. Repository QC checks for ayat ownership, Qur'an progress integrity, and reader-content parity passed.
 - Production desktop verification passed for localized homepage card behavior in ID/EN and index search, no-results, clear/reset, keyboard focus, 49-card count, and English schema count.
 - Responsive single-column and stacked-search rules were reviewed in source. A narrow mobile viewport was not rendered directly in this browser pass; record this as the remaining visual-QC limitation before claiming full mobile visual sign-off.
@@ -27,7 +27,7 @@
 
 ## Frozen template baseline
 
-- `SESSION-LANDING-v1.4` is the master template for all 98 published ID/EN session landings and future articles. Shared stylesheet: `assets/css/session-landing-v1.css?v=1.4`.
+- `SESSION-LANDING-v1.4` is the master template for all 100 published ID/EN session landings and future articles. Shared stylesheet: `assets/css/session-landing-v1.css?v=1.4`.
 - Session 013 remains the visual reference; Ayat Utama and ayah panels remain green with gold borders. Arabic verse text is white and uses Noto Naskh Arabic with a serif fallback.
 - PR #65 introduced the authorized Arabic glyph fallback and was merged at `34296cda73d760f55b06c6b11dab8c27f7d2b462`. Corpus contract QC passed 98/98 pages; mobile preview passed 12 checks across Sessions 001, 048, and 049 at 375px/390px in ID/EN; live production spot-checks passed for Sessions 001 and 027 in both languages.
 - Template v1.4 was refrozen after verification; contract/SOP/changelog sync merged via PR #66 at `759e4574b4d6a73d62e87625ad74f23b5a1bf5c8`.
