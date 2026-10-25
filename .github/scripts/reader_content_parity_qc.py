@@ -2,6 +2,7 @@
 """Guard reviewed terminology parity between standalone pages and the interactive reader."""
 from html.parser import HTMLParser
 from pathlib import Path
+import json
 import re
 import sys
 
@@ -39,6 +40,22 @@ CHECKS = [
         "landing": "en/tadabbur/016/index.html",
         "required": ["Carry Forward", "review what you are carrying forward"],
         "forbidden": ["Provision", "audit your own provision"],
+    },
+    {
+        "session": "50",
+        "lang": "id",
+        "reader": "data/sessions-035-051-part4.html",
+        "landing": "tadabbur/050/index.html",
+        "required": ["Allah Dekat", "Al-Baqarah 2:186"],
+        "forbidden": ["Session 050", "guarantee"],
+    },
+    {
+        "session": "50",
+        "lang": "en",
+        "reader": "data/sessions-035-051-part4.html",
+        "landing": "en/tadabbur/050/index.html",
+        "required": ["Quran 2:186", "Allah is near"],
+        "forbidden": ["Sesi 050", "guarantee"],
     },
 ]
 
@@ -138,9 +155,11 @@ def validate_reader_verse_contract(errors):
         if fragment.replace(" ", "") not in css:
             errors.append(f"Interactive reader visual contract: {label} rule missing")
 
+    progress = json.loads((ROOT / "data/quran-progress.json").read_text(encoding="utf-8"))
+    session_numbers = [int(item["id"]) for item in progress["sessions"]]
     expected = {
         f"{prefix}s{number}"
-        for number in range(1, 50)
+        for number in session_numbers
         for prefix in ("", "en-")
     }
     found = {}
@@ -181,7 +200,7 @@ def validate_reader_verse_contract(errors):
             if not feature or not re.search(r'class="[^"]*\bayahbox\b', article) or not re.search(r'class="[^"]*\bayah\b', article):
                 errors.append(f"Interactive reader visual contract: {article_id} is missing its featured Ayat Utama module")
     if not any(e.startswith("Interactive reader visual contract:") for e in errors):
-        print("PASS Interactive Reader visual parity: 98 bilingual modules, Ayat Utama and Arabic text styles")
+        print(f"PASS Interactive Reader visual parity: {len(expected)} bilingual modules, Ayat Utama and Arabic text styles")
 
 def main():
     errors = []
