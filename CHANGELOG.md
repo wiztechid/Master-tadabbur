@@ -1,3 +1,14 @@
+## 2026-10-25 — Post-S050 Site Audit: Index Counts
+
+**Status:** LIVE / DEPLOYED / QC COMPLETE — DESKTOP VERIFIED
+
+- Audited the bilingual indexes, Session 050 landings and reader, core navigation, trust links, Qur'an/tafsir destinations, progress totals, robots.txt, and sitemap.
+- Corrected both indexes where visible copy and social titles still said 49 while 50 cards and schema items were already present. Updated homepage and index sitemap `lastmod` dates to 2026-10-25; the sitemap remains 109 unique public URLs.
+- PR #82: branch `audit/session-index-count-50`, head `c42003dc76e02348aab2c5d3f3c779fa9d949cf2`, merged as `20ca9ecc809d66dc3dd74fcee3d20fb485f98558`. Reader Content Parity QC, Ayat Ownership Anti-Duplicate Guard, and Session Landing Template Contract QC passed.
+- GitHub Pages deployment run `40195550478` completed successfully. Desktop verification showed 50/50 results in ID and EN; ID search for 2:186 returned one session and Clear restored all 50. Session 050's Qur'an, tafsir, cross-reference, and bilingual links resolved.
+- Scope followed the user's desktop-only instruction. No mobile visual pass or fresh Core Web Vitals trace was run; Chrome DevTools MCP is unavailable in this workspace.
+- Session Landing v1.4, shared CSS, layout, and article content were not changed in this correction.
+
 ## 2026-10-25 — Session 050: Al-Baqarah 2:186
 
 **Status:** DEPLOYED — production ID/EN landings and interactive reader verified; SESSION-LANDING-v1.4 remains frozen
