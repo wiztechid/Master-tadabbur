@@ -1,6 +1,17 @@
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
-**Status:** 49-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+**Status:** 50-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+
+## 2026-10-25 — Session 050 publication
+
+**Status:** LIVE / DEPLOYED / QC COMPLETE — DESKTOP VERIFIED
+
+- Published bilingual Session 050 on Al-Baqarah 2:186, focusing on Allah's nearness, prayer, faith, and responsible action without promising a particular result or timeline.
+- Registered 2:186 as Session 050's unique primary ayah; the corpus now has 80 uniquely owned ayat and 50 ID/EN landings.
+- PR #80 merged at `db0198dac300c9fe253d8667204ee3a3c8220db4`. Ayat Ownership Anti-Duplicate Guard, Qur'an Progress Integrity QC, Reader Content Parity QC, and Session Landing Template Contract QC passed on the PR head.
+- GitHub Pages deployment run `40193956298` completed successfully for the merge commit.
+- Production desktop checks passed for the ID and EN landings and the interactive reader; the reader shows 50 sessions and 80 owned ayat.
+- Session Landing v1.4 and its shared CSS/cache key remain unchanged. Session 050 is a controlled-growth directional SEO target; no search-volume figure is claimed.
 
 ## 2026-10-18 — Homepage Cards + Session Index Discovery
 
@@ -8,7 +19,7 @@
 
 - Commit `45eb8468290022255a202e067b55d9dae0623729` localized the homepage English-edition card in Indonesian mode while preserving its English label, EN badge, and destination in English mode. No menus, trust/legal pages, or session landing content were changed.
 - Added accessible session search to both Indonesian and English indexes. Readers can filter by session number, title, or verse reference; the result count is announced, the clear control restores the full list and focus, and a no-results state is provided.
-- Corrected both index ItemList schemas to represent all 49 published sessions and include position 49.
+- Corrected both index ItemList schemas to represent all 50 published sessions and include position 49.
 - GitHub Pages workflow run `39130974561`: build and deployment completed successfully. Repository QC checks for ayat ownership, Qur'an progress integrity, and reader-content parity passed.
 - Production desktop verification passed for localized homepage card behavior in ID/EN and index search, no-results, clear/reset, keyboard focus, 49-card count, and English schema count.
 - Responsive single-column and stacked-search rules were reviewed in source. A narrow mobile viewport was not rendered directly in this browser pass; record this as the remaining visual-QC limitation before claiming full mobile visual sign-off.
@@ -23,12 +34,12 @@
 - Article updates must preserve the shared layout and design. Any template change requires explicit thaw authorization, a new revision/cache key, corpus-wide QC, mobile preview, and production verification.
 - Master rule: `mastersoptadabbur.md` §1.2. Detailed contract: `docs/SESSION-LANDING-TEMPLATE-v1.md`.
 
-- Published corpus: **49 Indonesian + 49 English sessions = 98 canonical session landings**.
-- Published range: **001–049**.
-- Qur'an progress registry: **79 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
-- Root sitemap current inventory: **107 canonical public URLs**.
+- Published corpus: **50 Indonesian + 50 English sessions = 100 canonical session landings**.
+- Published range: **001–050**.
+- Qur'an progress registry: **80 uniquely owned ayat**; Session 048 owns **Ar-Ra'd 13:28**.
+- Root sitemap current inventory: **109 canonical public URLs**.
 - Session 048 was published on **2026-10-11** with actual publication date; no backdating/date churn.
-- Deep SERP baseline remains **Deep through Session 047**; Session 048 is a controlled-growth directional target with live-SERP review and cannibalization guard, not retroactively mislabeled Deep.
+- Deep SERP baseline remains **Deep through Session 047**; Sessions 048–050 are controlled-growth directional targets with live-SERP review and cannibalization guard, not retroactively mislabeled Deep.
 - Reader/navigation hardening completed for latest-session semantics; inactive button-like latest marker was replaced by a plain status label.
 - Manual UI Smoke Test is now reusable and **workflow_dispatch only**. It accepts the target session and distinguishes latest-session behavior from older-session Previous/Next behavior.
 - Default verification order: source/repo → live URL → connected browser spot-check if needed → manual Playwright → agentic-browser fallback.
