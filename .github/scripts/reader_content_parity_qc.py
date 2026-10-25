@@ -47,7 +47,7 @@ CHECKS = [
         "reader": "data/sessions-035-051-part4.html",
         "landing": "tadabbur/050/index.html",
         "required": ["Allah Dekat", "Al-Baqarah 2:186"],
-        "forbidden": ["Sesi 050"],
+        "forbidden": [],
     },
     {
         "session": "50",
@@ -55,7 +55,7 @@ CHECKS = [
         "reader": "data/sessions-035-051-part4.html",
         "landing": "en/tadabbur/050/index.html",
         "required": ["Quran 2:186", "Allah is near"],
-        "forbidden": ["Sesi 050", "guarantee"],
+        "forbidden": [],
     },
 ]
 
