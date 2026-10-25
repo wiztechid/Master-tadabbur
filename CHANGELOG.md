@@ -1,3 +1,13 @@
+## 2026-10-25 — Desktop Rating After Main Landmark Fix
+
+**Status:** LIVE / DEPLOYED — DESKTOP VERIFIED
+
+- Added one semantic `<main id="main-content">` landmark around the existing reader content. The header, toolbar, CSS, layout, session article, and frozen Session Landing v1.4 were unchanged.
+- PR #84: branch `fix/home-main-landmark`, head `e39bb1b4fba8dcff2f3d59b09c6adfd69687cdcd`, merged as `f697f4012e17e05e55f8e736081430799ffdcee3`. Reader Content Parity QC and Qur'an Progress Integrity QC passed. Pages deploy run `40196204358` succeeded.
+- The fresh PageSpeed Insights desktop run on 2026-10-25 at 21:09 WITA scored Performance 97, Accessibility 100, Best Practices 81, SEO 100, and Agentic Browsing 2/2. FCP 0.5 s, LCP 0.7 s, TBT 140 ms, CLS 0, Speed Index 0.7 s. No field data was available.
+- The remaining Best Practices warning comes from Google/DoubleClick AdSense `lidar.js` using a deprecated unload handler. The unused-JavaScript diagnostic attributes 212 KiB estimated savings to Google AdSense and Google FundingChoices. These third-party scripts were retained to preserve ad delivery and consent behavior; changing or removing them needs a separate monetization decision.
+- Desktop visual check confirmed the reader content and session template rendering remain unchanged.
+
 ## 2026-10-25 — Post-S050 Site Audit: Index Counts
 
 **Status:** LIVE / DEPLOYED / QC COMPLETE — DESKTOP VERIFIED
