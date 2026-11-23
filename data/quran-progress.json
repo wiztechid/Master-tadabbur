@@ -477,6 +477,19 @@
           "ownerSession": 48
         }
       ]
+    },
+    {
+      "id": 51,
+      "ayat": [
+        "2:187"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "2:186",
+          "ownerSession": 50
+        }
+      ]
     }
   ]
 }
