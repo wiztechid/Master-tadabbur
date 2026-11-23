@@ -1,0 +1,13 @@
+{
+  "name": "tadabburlife-worker-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:worker": "node scripts/build-worker-site.mjs",
+    "deploy:worker": "wrangler deploy",
+    "preview:worker": "wrangler versions upload"
+  },
+  "devDependencies": {
+    "wrangler": "4.167.0"
+  }
+}
