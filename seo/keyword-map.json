@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11",
+  "generated": "2026-11-24",
   "methodology": "Bilingual SERP architecture. Indonesian and English targets are researched as independent search territories, not literal translations. Search demand is treated as directional SERP evidence unless first-party keyword-volume data is available. One primary intent per canonical landing; adjacent intent is used where sessions overlap.",
   "sessions": [
     {
@@ -3627,6 +3627,68 @@
             "006",
             "045",
             "048"
+          ]
+        }
+      }
+    },
+    {
+      "session": "051",
+      "locked_title": "Al-Baqarah 2:187: Batas Puasa, Keringanan, dan Takwa",
+      "primary_long_tail": "makna Al-Baqarah 2:187 tentang batas puasa dan takwa",
+      "intent": "informational-reflection",
+      "cluster": "puasa-batas-ibadah-takwa",
+      "serp_competition_estimate": "not assessed; no volume claim",
+      "canonical": "https://tadabburlife.com/tadabbur/051/",
+      "reader": "https://tadabburlife.com/?session=51&lang=id",
+      "seo_title": "Al-Baqarah 2:187: Batas Puasa, Keringanan, dan Takwa",
+      "meta_description": "Tadabbur Al-Baqarah 2:187 tentang batas puasa, keluasan keringanan, dan tujuan takwa—dengan konteks ayat dan batas refleksi yang jelas.",
+      "h1": "Al-Baqarah 2:187: Batas Puasa, Keringanan, dan Takwa",
+      "related_sessions": [
+        "050"
+      ],
+      "seo": {
+        "id": {
+          "primary_long_tail": "makna Al-Baqarah 2:187 tentang batas puasa dan takwa",
+          "adjacent_long_tail": "pesan Al-Baqarah 2:187 tentang ketentuan puasa",
+          "intent": "informational-reflection",
+          "demand_evidence": "Direct verse-reference mapping; no search-volume or ranking claim.",
+          "competition": "not assessed",
+          "search_territory": "Readers seeking the text and context of Al-Baqarah 2:187, with a distinction between the verse's fasting rulings and this article's reflections.",
+          "cannibalization_guard": "Session 050 owns Al-Baqarah 2:186 and prayer; Session 051 uniquely focuses on 2:187, fasting boundaries, pardon, and taqwa."
+        },
+        "en": {
+          "primary_long_tail": "Quran 2:187 meaning: fasting boundaries and taqwa",
+          "adjacent_long_tail": "what Quran 2:187 says about fasting limits",
+          "intent": "informational-reflection",
+          "demand_evidence": "Direct verse-reference mapping; no search-volume or ranking claim.",
+          "competition": "not assessed",
+          "search_territory": "English readers seeking Quran 2:187 and its fasting context, with a clear boundary between the verse's rulings and practical reflection.",
+          "cannibalization_guard": "Session 050 covers Quran 2:186 and prayer; Session 051 uniquely focuses on Quran 2:187, fasting boundaries, pardon, and taqwa."
+        }
+      },
+      "implementation": {
+        "synced_from": "source-landings",
+        "synced_on": "2026-11-24",
+        "id": {
+          "canonical": "https://tadabburlife.com/tadabbur/051/",
+          "reader": "https://tadabburlife.com/?session=51&lang=id",
+          "seo_title": "Al-Baqarah 2:187: Batas Puasa, Keringanan, dan Takwa",
+          "meta_description": "Tadabbur Al-Baqarah 2:187 tentang batas puasa, keluasan keringanan, dan tujuan takwa—dengan konteks ayat dan batas refleksi yang jelas.",
+          "h1": "Al-Baqarah 2:187: Batas Puasa, Keringanan, dan Takwa",
+          "html_lang": "id",
+          "related_sessions": [
+            "050"
+          ]
+        },
+        "en": {
+          "canonical": "https://tadabburlife.com/en/tadabbur/051/",
+          "reader": "https://tadabburlife.com/?session=51&lang=en",
+          "seo_title": "Quran 2:187: Fasting Boundaries, Mercy, and Taqwa",
+          "meta_description": "Reflect on Quran 2:187, the fasting boundaries it states, its mention of pardon, and its call to taqwa—without turning reflection into a fatwa.",
+          "h1": "Quran 2:187: Fasting Boundaries, Mercy, and Taqwa",
+          "html_lang": "en",
+          "related_sessions": [
+            "050"
           ]
         }
       }
