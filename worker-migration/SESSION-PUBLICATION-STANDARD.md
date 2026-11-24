@@ -62,7 +62,13 @@ A session is ready for publication only when all applicable items pass on the la
 - Worker bundle/build and route checks pass; preview is compared with the current production page before any Worker release.
 - Record branch/PR, head SHA, check results, visual observations, publication decision, and any limitation in the release evidence.
 
-Never publish directly from an authoring screen to production. The future Worker authoring flow must create a Git branch and PR, run these gates, and require review before merge/deploy. Until that workflow exists, this document is the internal standard for work prepared for the Worker migration.
+### Worker-only automatic publication
+
+A submitted session is published automatically by the TadabburLife Worker when every applicable gate above passes. There is no separate per-post approval step, Git branch/PR, or GitHub Actions dependency for content publication. The Worker writes the approved Indonesian, English, reader, revision, verse-ownership, and validation records to D1; publication is the successful D1-backed release. A failed gate stays unpublished, records the failed checks, and is reported to the configured private Telegram chat.
+
+The Worker must enforce this standard before publication: required content sections and language/reader parity; required metadata and route fields; sacred-source/reference fields and verse ownership against the canonical registries; no duplicate primary verse ownership; and frozen-template/SEO route constraints. Keep release evidence (version, content hash, validation results, timestamp, and notification status) in the publication log. The Worker may publish content only through the already verified site rendering path. Do not switch the production domain to the Worker until route parity and rollback have been verified; that infrastructure cutover is separate from per-post approval.
+
+Git may remain the versioned home for Worker code, templates, and this SOP. It is not in the runtime publication path. Do not use GitHub Actions to draft, validate, or publish session content.
 
 ## 6. What Sessions 050–051 add to the quality bar
 
