@@ -32,6 +32,7 @@ concurrency:
 
 jobs:
   publish:
+    if: ${{ vars.TADABBURLIFE_WORKER_PUBLISH_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
