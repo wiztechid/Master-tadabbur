@@ -1,0 +1,33 @@
+name: Verify TadabburLife Worker bundle
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "about/**"
+      - "contact/**"
+      - "cookies/**"
+      - "disclaimer/**"
+      - "privacy/**"
+      - "terms/**"
+      - "tadabbur/**"
+      - "en/tadabbur/**"
+      - "assets/**"
+      - "og/reflection/**"
+      - "data/**"
+      - "scripts/build-worker-site.mjs"
+      - "wrangler.jsonc"
+      - "package.json"
+      - ".github/workflows/worker-build.yml"
+
+jobs:
+  build-public-bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build allowlisted public bundle
+        run: node scripts/build-worker-site.mjs
