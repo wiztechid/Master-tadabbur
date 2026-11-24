@@ -6,7 +6,7 @@ GitHub remains the versioned source of truth. Cloudflare Workers Static Assets w
 
 - The staging branch contains a strict public asset allowlist and a GitHub Actions build gate.
 - SOP, QC logs, SEO governance, keyword research, ownership audits, drafts, and archival master files stay out of the public bundle.
-- Cloudflare Workers Build configuration is not yet attached to the Worker. The Cloudflare plugin connection can inspect and edit Worker resources, but cannot create the dedicated API token required by Workers Builds.
+- A temporary preview Worker is live at `https://tadabburlife-preview-proxy.wiztechid.workers.dev/`. It serves the public allowlisted paths from the staging branch, adds `noindex`, and does not touch production DNS. This verifies routes and reader behavior but is not yet a self-contained static asset bundle. Cloudflare Workers Builds is still not configured because its required dedicated build credential is not available through the connected plugin scope.
 - No custom domain or DNS route is configured by this migration. The existing site remains on its current host.
 
 ## Public asset boundary
