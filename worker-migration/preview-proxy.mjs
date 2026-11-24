@@ -12,17 +12,17 @@ const MODULES = new Set([
 ]);
 function assetPath(pathname) {
   let path;
-  try { path = decodeURIComponent(pathname).replace(/^\\/+/, ""); }
+  try { path = decodeURIComponent(pathname).replace(/^\/+/, ""); }
   catch { return null; }
   if (!path || path === "index.html") return "index.html";
   if (ROOT_FILES.has(path)) return path;
-  if (LEGAL.has(path.replace(/\\/$/, "")) && pathname.endsWith("/")) return path.replace(/\\/$/, "") + "/index.html";
-  if (/^(?:en\\/)?tadabbur\\/$/.test(path) && pathname.endsWith("/")) return path + "index.html";
-  if (/^(?:en\\/)?tadabbur\\/\\d{3}\\/$/.test(path) && pathname.endsWith("/")) return path + "index.html";
-  if (/^(?:en\\/)?tadabbur\\/\\d{3}$/.test(path)) return "__redirect__";
-  if (LEGAL.has(path) || /^(?:en\\/)?tadabbur$/.test(path)) return "__redirect__";
-  if (/^assets\\/css\\/session-landing-v1\\.css$/.test(path)) return path;
-  if (/^og\\/reflection\\/(?:id|en)\\/\\d{3}\\.png$/.test(path)) return path;
+  if (LEGAL.has(path.replace(/\/$/, "")) && pathname.endsWith("/")) return path.replace(/\/$/, "") + "/index.html";
+  if (/^(?:en\/)?tadabbur\/$/.test(path) && pathname.endsWith("/")) return path + "index.html";
+  if (/^(?:en\/)?tadabbur\/\d{3}\/$/.test(path) && pathname.endsWith("/")) return path + "index.html";
+  if (/^(?:en\/)?tadabbur\/\d{3}$/.test(path)) return "__redirect__";
+  if (LEGAL.has(path) || /^(?:en\/)?tadabbur$/.test(path)) return "__redirect__";
+  if (/^assets\/css\/session-landing-v1\.css$/.test(path)) return path;
+  if (/^og\/reflection\/(?:id|en)\/\d{3}\.png$/.test(path)) return path;
   if (path === "data/quran-progress.json" || (path.startsWith("data/") && MODULES.has(path.slice(5)))) return path;
   return null;
 }
@@ -44,7 +44,7 @@ export default {
     }
     const path = assetPath(url.pathname);
     if (path === "__redirect__") {
-      return Response.redirect(url.origin + url.pathname.replace(/\\/$/, "") + "/" + url.search, 308);
+      return Response.redirect(url.origin + url.pathname.replace(/\/$/, "") + "/" + url.search, 308);
     }
     if (!path) return new Response("Not found", { status: 404, headers: { "x-robots-tag": "noindex" } });
 
