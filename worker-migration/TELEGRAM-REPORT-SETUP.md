@@ -2,14 +2,16 @@
 
 The Worker publish workflow sends a private report to **@WissWebBot** after each main-branch Worker deployment attempt. The report includes success/failure, the Worker URL, commit short SHA, and the GitHub Actions run.
 
-## Required repository secrets
+## Required repository configuration
 
-In GitHub, open **Settings → Secrets and variables → Actions → New repository secret** and add:
+In GitHub, open **Settings → Secrets and variables → Actions**. Add these repository secrets:
 
 - `CLOUDFLARE_API_TOKEN`: account-scoped token with the Cloudflare **Edit Cloudflare Workers** permission.
 - `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account ID for the TadabburLife Worker.
 - `TELEGRAM_BOT_TOKEN`: token for **@WissWebBot**. Never put this value in a commit or chat message.
 - `TELEGRAM_CHAT_ID`: numeric ID of the owner's private chat with the bot.
+
+Add the repository variable `TADABBURLIFE_WORKER_PUBLISH_ENABLED` with value `true` only after all four secrets are configured and verified. The workflow is disabled by default; without this variable set to `true`, it will not deploy or send a report.
 
 Open **@WissWebBot** in Telegram and press **Start** before using the private chat. Configure the bot token and chat ID only in GitHub Actions secrets. If the Telegram secrets are missing, deployment may still succeed, but the report step will be skipped and logged as a warning.
 
