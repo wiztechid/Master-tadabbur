@@ -16,10 +16,12 @@ on:
       - "assets/**"
       - "og/reflection/**"
       - "data/**"
+      - "src/**"
       - "scripts/build-worker-site.mjs"
       - "wrangler.jsonc"
       - "package.json"
       - ".github/workflows/worker-build.yml"
+      - ".github/workflows/publish-worker.yml"
 
 jobs:
   build-public-bundle:
@@ -31,3 +33,5 @@ jobs:
           node-version: 22
       - name: Build allowlisted public bundle
         run: node scripts/build-worker-site.mjs
+      - name: Validate Wrangler Worker configuration and bundle
+        run: npx --yes wrangler@4.167.0 deploy --dry-run
