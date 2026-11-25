@@ -1,13 +1,13 @@
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
-**Status:** 55 bilingual sessions published in Cloudflare D1 · Session 055 published at 2026-11-25 17.00 WITA · frozen landing template v1.4
+**Status:** D1: 55 sesi published · 1 antrean (Sesi 056 untuk 26 Nov 2026 pukul 06.00 WITA) · template beku v1.4
 
 ## 2026-11-25 — Worker/D1 registry synchronization
 
-**Status:** LIVE D1: 55 published sessions · 0 queued sessions · template v1.4 remains frozen
+**Status:** LIVE D1: 55 published sessions · 1 queued session · template v1.4 remains frozen
 
 - 2026-11-25 19.40 WITA: corrected the English session-index count rewrite in the live `tadabburlife-publisher` Worker and synced the rendered CollectionPage ItemList schema with published D1 rows. Production now shows 55/55 sessions. Worker deployment `3c859ec4-b735-4a6b-b2da-5304e7cbdd63`; all five scheduled Cron triggers and D1/Telegram secret bindings remain configured. Repository index script commit: `b4c6a1dee24a6e28af589e834e1f19af81eb1814`.
-- Current-state reconciliation: D1 has 55 published sessions, 0 queued sessions, and 87 owned ayat. `data/quran-progress.json` and `data/ayat-ownership.json` match `verse_ownership` exactly. Telegram has five unsent publication-log reports (Sessions 052–055, including the corrected Session 055 rejection notice); the next Worker cron must confirm delivery. No new session was queued during this homepage repair.
+- Current-state reconciliation: D1 has 55 published sessions, 1 queued session (056), and 87 published-owned ayat. `data/quran-progress.json` and `data/ayat-ownership.json` remain exact matches for published `verse_ownership`; queued verses 49:1–3 are not added to ownership registries. Session 056 is queued for 2026-11-26 06.00 WITA (`2026-11-25T22:00:00Z`) with `validation_json` `{}` and awaits the Worker. Visual browser review is pending. Five Telegram publication-log reports for Sessions 052–055 remain unsent (`telegram_sent=0`); no delivery is claimed.
 - Cloudflare D1 is the live authority for publication status and verse ownership. Published sessions 052–054 are present in D1; repository data/quran-progress.json and data/ayat-ownership.json now include their ownership records.
 - The synchronized primary ownership records now include Session 055: Al-Hujurat 49:4–5. The D1 ownership table contains 87 unique ayat across 53 owner sessions.
 - Session 055 covering Al-Hujurat 49:4–5 was published by Worker at 2026-11-25 17.00 WITA; D1 validation passed. Ayat ownership registries are synchronized. Telegram delivery remains pending (publication_log.telegram_sent=0). The 14.00 WITA attempt ran but was rejected by incorrectly escaped H1/CSS validator regexes. Worker version 6 corrects those regexes without relaxing gates; its schedule is re-queued for 17.00 WITA. Telegram delivery for the rejection remains pending until the Worker retry succeeds.
