@@ -1,6 +1,17 @@
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
-**Status:** 50-session bilingual corpus live · controlled-growth AdSense recovery · lightweight CI baseline active
+**Status:** 54 bilingual sessions published in Cloudflare D1 · Session 055 queued for 2026-11-25 14.00 WITA · frozen landing template v1.4
+
+## 2026-11-25 — Worker/D1 registry synchronization
+
+**Status:** LIVE D1: 54 published sessions · 1 queued session · template v1.4 remains frozen
+
+- Cloudflare D1 is the live authority for publication status and verse ownership. Published sessions 052–054 are present in D1; repository data/quran-progress.json and data/ayat-ownership.json now include their ownership records.
+- The synchronized primary ownership records are Session 052: An-Nur 24:35; Session 053: Al-Hujurat 49:9; and Session 054: Al-Hujurat 49:7–8. The D1 ownership table contains 85 unique ayat across 52 owner sessions.
+- Session 055 is queued in D1 for 2026-11-25 14.00 WITA (06:00Z), covering Al-Hujurat 49:4–5. These verses remain unowned until Worker publication succeeds.
+- The checked-in landing pages currently extend through Session 051; Sessions 052–054 are D1/Worker publications. The template QC now discovers every checked-in bilingual landing pair rather than stopping at Session 049. Dynamic D1 payloads continue to use the Worker validation gate.
+- For SESSION-LANDING-v1.4, the regression checker requires the ID stylesheet path ../../assets/css/session-landing-v1.css?v=1.4 and the EN path ../../../assets/css/session-landing-v1.css?v=1.4. The page template remains frozen; no CSS or layout changes are authorized.
+- The repository regression/QC workflows were not invoked as part of this D1/Worker synchronization.
 
 ## 2026-10-25 — Desktop Rating After Main Landmark Fix
 

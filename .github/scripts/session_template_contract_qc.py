@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static contract QC for all published bilingual session landing pages."""
+"""Static contract QC for all checked-in bilingual session landing pages."""
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
@@ -54,8 +54,17 @@ def meta(parser,key,value):
 
 errors=[]
 checked=0
-for n in range(1,50):
-    number=f"{n:03d}"
+session_numbers=set()
+for folder in ("tadabbur","en/tadabbur"):
+    root=ROOT/folder
+    if root.is_dir():
+        for page in root.glob("*/index.html"):
+            candidate=page.parent.name
+            if len(candidate)==3 and candidate.isdigit(): session_numbers.add(candidate)
+expected_pages=len(session_numbers)*2
+if not session_numbers: fail(errors,"tadabbur","no numbered session landing directories found")
+for number in sorted(session_numbers):
+    n=int(number)
     for lang,folder,language in (("id","tadabbur","id-ID"),("en","en/tadabbur","en")):
         rel=f"{folder}/{number}/index.html"
         path=ROOT/rel
@@ -73,6 +82,26 @@ for n in range(1,50):
         desc=meta(p,"name","description")
         robots=meta(p,"name","robots")
         hreflang={a.get("hreflang"):a.get("href") for a in attr(p,"link","rel","alternate")}
+        html_lang=attr(p,"html","lang","id" if lang=="id" else "en")
+        if len(html_lang)!=1: fail(errors,rel,"document language does not match the page edition")
+        document_titles=re.findall(r"<title\b[^>]*>.*?</title>",html,re.I|re.S)
+        if len(document_titles)!=1 or not re.sub(r"<[^>]+>","",document_titles[0]).strip():
+            fail(errors,rel,"expected exactly one non-empty document title")
+        articles=[a for t,a in p.attrs if t=="article"]
+        if len(articles)!=1:
+            fail(errors,rel,"expected exactly one session article")
+        else:
+            tokens=set((articles[0].get("class") or "").split())
+            valid_classes={"session","id-session"} if lang=="id" else {"session","en-session"}
+            if not tokens.intersection(valid_classes): fail(errors,rel,"session article class missing")
+            if articles[0].get("data-lang")!=lang: fail(errors,rel,"session article data-lang mismatches page language")
+            if articles[0].get("data-session-number")!=str(n): fail(errors,rel,"session article number mismatches path")
+        if not any(t=="main" and "wrap" in (a.get("class") or "").split() for t,a in p.attrs):
+            fail(errors,rel,"shared main.wrap shell missing")
+        if not any(t=="nav" and "breadcrumb" in (a.get("class") or "").split() for t,a in p.attrs):
+            fail(errors,rel,"breadcrumb navigation missing")
+        if not any(t=="nav" and "trust-footer" in (a.get("class") or "").split() for t,a in p.attrs):
+            fail(errors,rel,"trust/legal footer navigation missing")
         if p.h1!=1: fail(errors,rel,f"expected exactly one H1, got {p.h1}")
         if len(canonicals)!=1 or canonicals[0].get("href")!=expected: fail(errors,rel,"canonical missing, duplicated, or mismatched")
         if len(viewport)!=1: fail(errors,rel,"expected one viewport declaration")
@@ -175,6 +204,6 @@ for n in range(1,50):
         if not crumb: fail(errors,rel,"BreadcrumbList JSON-LD missing")
         elif len(crumb.get("itemListElement",[]))<2: fail(errors,rel,"BreadcrumbList must include home and current session")
 
-print(f"Template contract QC: {checked}/98 pages inspected; {'PASS' if not errors else 'FAIL'}")
+print(f"Template contract QC: {checked}/{expected_pages} repository landing pages inspected; {'PASS' if not errors else 'FAIL'}")
 for item in errors: print(" -",item)
 sys.exit(bool(errors))
