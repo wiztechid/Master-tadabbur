@@ -1,6 +1,6 @@
 # Current Checkpoint — Controlled Growth + UI Regression Baseline
 
-**Status:** 54 bilingual sessions published in Cloudflare D1 · Session 055 queued for 2026-11-25 14.00 WITA · frozen landing template v1.4
+**Status:** 54 bilingual sessions published in Cloudflare D1 · Session 055 queued for 2026-11-25 17.00 WITA · frozen landing template v1.4
 
 ## 2026-11-25 — Worker/D1 registry synchronization
 
@@ -8,10 +8,10 @@
 
 - Cloudflare D1 is the live authority for publication status and verse ownership. Published sessions 052–054 are present in D1; repository data/quran-progress.json and data/ayat-ownership.json now include their ownership records.
 - The synchronized primary ownership records are Session 052: An-Nur 24:35; Session 053: Al-Hujurat 49:9; and Session 054: Al-Hujurat 49:7–8. The D1 ownership table contains 85 unique ayat across 52 owner sessions.
-- Session 055 is queued in D1 for 2026-11-25 14.00 WITA (06:00Z), covering Al-Hujurat 49:4–5. These verses remain unowned until Worker publication succeeds.
+- Session 055 covers Al-Hujurat 49:4–5 and is queued for 2026-11-25 17.00 WITA (09:00Z); these verses remain unowned until Worker publication succeeds. The 14.00 WITA attempt ran but was rejected by incorrectly escaped H1/CSS validator regexes. Worker version 6 corrects those regexes without relaxing gates; its schedule is re-queued for 17.00 WITA. Telegram delivery for the rejection remains pending until the Worker retry succeeds.
 - The checked-in landing pages currently extend through Session 051; Sessions 052–054 are D1/Worker publications. The template QC now discovers every checked-in bilingual landing pair rather than stopping at Session 049. Dynamic D1 payloads continue to use the Worker validation gate.
 - For SESSION-LANDING-v1.4, the regression checker requires the ID stylesheet path ../../assets/css/session-landing-v1.css?v=1.4 and the EN path ../../../assets/css/session-landing-v1.css?v=1.4. The page template remains frozen; no CSS or layout changes are authorized.
-- The repository regression/QC workflows were not invoked as part of this D1/Worker synchronization.
+- The repository regression/QC workflows were not invoked as part of this D1/Worker synchronization. D1 remains authoritative: 54 published sessions, 85 unique owned ayat, and Session 055 queued for 17.00 WITA.
 
 ## 2026-10-25 — Desktop Rating After Main Landmark Fix
 
