@@ -4,7 +4,7 @@
 
 Session 058 (Qaf 50:16–18) was published by the Worker for the 2026-11-27 20:00 WITA slot. D1 records `status=published`, validation passed at 2026-11-27T12:00:35Z, no publication error, and the publication log confirms Telegram delivery (`telegram_sent=1`). All three primary verses, 50:16–18, are present in D1 `verse_ownership`.
 
-Both production routes opened and rendered the expected bilingual article, verse text, owner links, and six trust/legal destinations. The browser document title and D1 `meta_title` disagree on both routes (production uses “Bisikan Hati dan Tanggung Jawab Ucapan” / “Inner Whispers and Responsible Speech”; D1 stores “Yang Tersembunyi dan Terucap dalam Pengetahuan Allah” / “What Is Hidden and Spoken Is Known”). Treat this as metadata drift to investigate; the H1/article content and D1 publication validation succeeded.
+Both production routes opened and rendered the expected bilingual article, verse text, owner links, and six trust/legal destinations. The browser document title matches the D1 `meta_title` on both routes; the visible H1 matches each D1 `title`. No production title drift was found.
 
 The repository registries were reconciled to all 98 published D1 ownership rows. `data/quran-progress.json` now includes Session 058 (Qaf 50:16–18) and its verified owner references; `data/ayat-ownership.json` matches the full D1 owner map and retains companion-session references. No queued ayat are included.
 
