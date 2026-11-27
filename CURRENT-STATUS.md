@@ -1,4 +1,17 @@
-# Current Checkpoint — Session 058 Queued (2026-11-27)
+# Current Checkpoint — Session 058 Published (2026-11-28)
+
+**Status:** D1 authority: 58 published sessions · 1 queued (Session 059 for 2026-11-28 06:00 WITA) · 98 uniquely published-owned ayat · frozen landing template v1.4.
+
+Session 058 (Qaf 50:16–18) was published by the Worker for the 2026-11-27 20:00 WITA slot. D1 records `status=published`, validation passed at 2026-11-27T12:00:35Z, no publication error, and the publication log confirms Telegram delivery (`telegram_sent=1`). All three primary verses, 50:16–18, are present in D1 `verse_ownership`.
+
+Both production routes opened and rendered the expected bilingual article, verse text, owner links, and six trust/legal destinations. The browser document title and D1 `meta_title` disagree on both routes (production uses “Bisikan Hati dan Tanggung Jawab Ucapan” / “Inner Whispers and Responsible Speech”; D1 stores “Yang Tersembunyi dan Terucap dalam Pengetahuan Allah” / “What Is Hidden and Spoken Is Known”). Treat this as metadata drift to investigate; the H1/article content and D1 publication validation succeeded.
+
+The repository registries were reconciled to all 98 published D1 ownership rows. `data/quran-progress.json` now includes Session 058 (Qaf 50:16–18) and its verified owner references; `data/ayat-ownership.json` matches the full D1 owner map and retains companion-session references. No queued ayat are included.
+
+Session 059 (Qaf 50:19–22) is queued for 2026-11-28 06:00 WITA (`2026-11-27T22:00:00.000Z`). D1 readback confirmed exactly one queued row with `validation_json={}` and `attempt_count=0`; validation and publication are pending. Its verses remain excluded from ownership registries. The two OG PNG assets are 1200×630 and passed signature/dimension checks; post-publication browser rendering remains pending.
+
+---
+## Previous checkpoint — Session 058 Queued (superseded 2026-11-28)
 
 **Status:** D1 authority: 57 published sessions · 1 queued (Session 058 for 2026-11-27 20:00 WITA) · 95 uniquely published-owned ayat · frozen landing template v1.4.
 

@@ -590,6 +590,23 @@
           "ownerSession": 56
         }
       ]
+    },
+    {
+      "id": 58,
+      "ayat": [
+        "50:16-18"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "17:36",
+          "ownerSession": 11
+        },
+        {
+          "ayat": "59:18",
+          "ownerSession": 30
+        }
+      ]
     }
   ]
 }
