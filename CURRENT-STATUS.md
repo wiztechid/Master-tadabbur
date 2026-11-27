@@ -1,12 +1,12 @@
-# Current Checkpoint — Session 057 Queued (2026-11-27)
+# Current Checkpoint — Session 058 Queued (2026-11-27)
 
-**Status:** D1 authority: 56 published sessions · 1 queued (Session 057 for 2026-11-27 17:00 WITA) · 90 uniquely published-owned ayat · frozen landing template v1.4.
+**Status:** D1 authority: 57 published sessions · 1 queued (Session 058 for 2026-11-27 20:00 WITA) · 95 uniquely published-owned ayat · frozen landing template v1.4.
 
-Session 057 covers Al-Hujurat 49:14–18 and is queued for 2026-11-27T09:00:00.000Z. The D1 row was read back as `queued`, with `validation_json={}` and `attempt_count=0`; the Worker’s scheduled validation and publication have not yet run. Do not describe the session as published and do not treat its verses as owned in either registry before Worker publication.
+Session 057 (Al-Hujurat 49:14–18) was published by the Worker for the 17:00 WITA slot. D1 records status `published`, validation passed at 2026-11-27T09:00:24Z, and the publication log records Telegram delivery.
 
-The two landing/reader pairs passed pre-insert structural, metadata, language, parity, source-link, owner-link, and length checks against the frozen v1.4 contract and current Worker validator. Both OG assets have a verified PNG signature and exact 1200×630 dimensions. Browser-rendered review is **VISUAL PENDING**. Primary source checks used Qur’an Kemenag for Arabic/Indonesian text and Quran.com for English translation and tafsir references.
+Session 058 covers Qaf 50:16–18 and is queued for 2026-11-27T12:00:00.000Z (20:00 WITA). D1 readback confirmed exactly one queued row with `validation_json={}` and `attempt_count=0`. Pre-insert checks confirmed session 058 and its scheduled slot were unused, the three primary ayat had no owner, and the bilingual pages, reader parity, metadata, frozen CSS paths, owner links, and 1200×630 PNG assets passed objective preflight gates. Browser-rendered review is **VISUAL PENDING**. Worker validation and publication are pending; do not describe 058 as published or add its ayat to ownership registries before Worker publication.
 
-D1 still reports 90 published-owned verses; `data/quran-progress.json` and `data/ayat-ownership.json` match the D1 ownership table exactly and were left unchanged. The 17:00 WITA Worker run, production routes, validation result, and Telegram delivery are pending.
+The repository registries were reconciled to D1's published ownership rows only: 57 published sessions and 95 uniquely owned ayat. The D1 session-content table retains only the latest six publications; older progress and cross-reference entries are preserved from the repository registry while their primary verse ownership was checked against the complete D1 `verse_ownership` table. Session 058 remains excluded until publication.
 
 ## 2026-11-26 — Prior checkpoint (historical; superseded)
 

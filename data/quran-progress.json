@@ -429,9 +429,9 @@
     {
       "id": 49,
       "ayat": [
+        "3:159",
         "16:125",
-        "20:44",
-        "3:159"
+        "20:44"
       ],
       "mode": "owner",
       "crossReferences": [
@@ -546,11 +546,13 @@
       "mode": "owner",
       "crossReferences": [
         {
-          "ayat": "49:6",
+          "surah": 49,
+          "ayah": 6,
           "ownerSession": 42
         },
         {
-          "ayat": "49:11",
+          "surah": 49,
+          "ayah": 11,
           "ownerSession": 5
         }
       ]
@@ -565,6 +567,27 @@
         {
           "ayat": "49:4-5",
           "ownerSession": 55
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "ayat": [
+        "49:14-18"
+      ],
+      "mode": "owner",
+      "crossReferences": [
+        {
+          "ayat": "49:13",
+          "ownerSession": 17
+        },
+        {
+          "ayat": "49:9",
+          "ownerSession": 53
+        },
+        {
+          "ayat": "49:1-3",
+          "ownerSession": 56
         }
       ]
     }
