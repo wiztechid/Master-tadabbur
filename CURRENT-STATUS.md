@@ -1,12 +1,12 @@
-# Current Checkpoint — Session 059 Requeued (2026-11-28)
+# Current Checkpoint — Session 059 Published (2026-11-28)
 
-**Status:** D1 authority: 58 published sessions · 1 queued (Session 059 for 2026-11-28 10:00 WITA) · 98 uniquely published-owned ayat · frozen landing template v1.4.
+**Status:** D1 authority: 59 published sessions · 0 queued · 102 uniquely published-owned ayat · frozen landing template v1.4.
 
 Session 058 (Qaf 50:16–18) remains published for the 2026-11-27 20:00 WITA slot. D1 records `status=published`, validation passed at 2026-11-27T12:00:35Z, and its publication log confirms Telegram delivery. Both production routes were previously verified; document title and visible H1 matched their D1 metadata.
 
-Session 059 (Qaf 50:19–22) was rejected at its 2026-11-28 06:00 WITA run because the Worker found the ID and EN reader title/reference out of sync. The Worker rejection notification was sent. The same D1 row and session payload were corrected so each reader heading matches its session title, then rescheduled for 2026-11-28 10:00 WITA (`2026-11-28T02:00:00.000Z`). Readback confirms exactly one queued row, `validation_json={}`, `attempt_count=1` (preserving the earlier attempt), no current error, and no publication timestamp. Worker validation and publication remain pending; do not describe Session 059 as published or report production URLs.
+Session 059 (Qaf 50:19–22) was initially rejected at 06:00 WITA because the ID and EN reader title/reference were out of sync. The same session payload was corrected and rescheduled for 10:00 WITA. At 10:00 WITA, D1 records `status=published`, `validation_json={"passed":true,"errors":[],"checked_at":"2026-11-28T02:00:14.000Z"}`, and the publication log confirms Telegram delivery (`telegram_sent=1`). The four verses 50:19–22 are now registered to Session 059.
 
-The repository registries match D1's published ownership only: `data/quran-progress.json` records 58 published sessions and `data/ayat-ownership.json` records 98 unique owners, matching the 98 D1 `verse_ownership` rows. Qaf 50:19–22 remains excluded until Worker publication. The queued OG assets remain 1200×630; production rendering has not yet been verified for Session 059.
+The repository registries are synchronized to D1's published ownership: `data/quran-progress.json` records 59 published sessions and `data/ayat-ownership.json` records 102 unique owners, matching D1. The ID and EN production pages were opened and their titles, session headings, verse text, owner links, and six trust/legal links were verified. Session 059 URLs: https://tadabburlife.com/tadabbur/059/ and https://tadabburlife.com/en/tadabbur/059/.
 
 ---
 ## Previous checkpoint — Session 058 Queued (superseded 2026-11-28)
