@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-11-28",
+  "generated": "2026-11-29",
   "policy": "one-ayat-one-primary-owner",
-  "ownerCount": 102,
+  "ownerCount": 106,
   "owners": {
     "1:1": 1,
     "1:2": 1,
@@ -105,7 +105,11 @@
     "50:19": 59,
     "50:20": 59,
     "50:21": 59,
-    "50:22": 59
+    "50:22": 59,
+    "50:23": 60,
+    "50:24": 60,
+    "50:25": 60,
+    "50:26": 60
   },
   "companionSessions": {
     "016": [
