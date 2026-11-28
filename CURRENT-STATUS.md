@@ -1,3 +1,16 @@
+# Current Checkpoint — Session 060 Queued (2026-11-28)
+
+**Status:** D1 latest published session: 059 · 1 queued session for 20:00 WITA · 102 published-owned ayat · frozen landing template v1.4.
+
+Session 060 covers Qaf 50:23–26 and is queued for 2026-11-28T12:00:00.000Z (20:00 WITA). D1 readback confirms exactly one row for session 060 and that scheduled slot, with `status=queued`, `validation_json={}`, and `attempt_count=0`. The slot was more than five minutes in the future when inserted. No production publication is claimed yet.
+
+D1's retained publication records currently cover Sessions 052–059, with 059 the highest published number. The repository progress registry contains 59 published sessions and the ownership registry contains 102 ayat; the ownership map matches all 102 rows in D1 `verse_ownership`. The proposed primary ayat 50:23–26 are unowned in D1 and remain excluded from both registries until publication. Session 060 cross-references owners 059 (Qaf 50:19–22) and 058 (Qaf 50:16–18).
+
+The bilingual ID/EN landing and reader payloads passed pre-publication checks against frozen SESSION-LANDING-v1.4: language-specific CSS paths, canonical/hreflang, OG/Twitter metadata, Article and BreadcrumbList JSON-LD, one H1, six localized legal links, reader parity and attributes, language-specific copy, owner links, minimum lengths, source links, and exact 1200×630 PNG signature/dimensions. Browser rendering is **VISUAL PENDING**. Worker validation, production route verification, and Telegram publication report remain pending; do not add the four ayat to ownership registries until D1 confirms publication.
+
+Primary source links: Quran.com Indonesian text and Kementerian Agama RI translation for Qaf 50:23–26; Quran.com Legacy page with Sahih International for the English edition; Tafsir Ibn Kathir commentary for the interpretive summary. The source texts were checked against those references.
+
+---
 # Current Checkpoint — Session 059 Published (2026-11-28)
 
 **Status:** D1 authority: 59 published sessions · 0 queued · 102 uniquely published-owned ayat · frozen landing template v1.4.
