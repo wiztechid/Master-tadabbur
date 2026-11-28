@@ -8,7 +8,7 @@ D1's retained publication records currently cover Sessions 052–059, with 059 t
 
 The bilingual ID/EN landing and reader payloads passed pre-publication checks against frozen SESSION-LANDING-v1.4: language-specific CSS paths, canonical/hreflang, OG/Twitter metadata, Article and BreadcrumbList JSON-LD, one H1, six localized legal links, reader parity and attributes, language-specific copy, owner links, minimum lengths, source links, and exact 1200×630 PNG signature/dimensions. Browser rendering is **VISUAL PENDING**. Worker validation, production route verification, and Telegram publication report remain pending; do not add the four ayat to ownership registries until D1 confirms publication.
 
-Primary source links: Quran.com Indonesian text and Kementerian Agama RI translation for Qaf 50:23–26; Quran.com Legacy page with Sahih International for the English edition; Tafsir Ibn Kathir commentary for the interpretive summary. The source texts were checked against those references.
+Primary source links: Quran.com Indonesian text and Kementerian Agama RI translation at https://quran.com/id/qaf/23-27 (the page includes 50:23–27; this session cites 23–26); Quran.com Legacy at https://legacy.quran.com/50/23-29 with the Sahih International translation (the page includes 50:23–29; this session cites 23–26); Tafsir Ibn Kathir commentary for the interpretive summary. The cited Arabic and translations were checked against the accessible source pages.
 
 ---
 # Current Checkpoint — Session 059 Published (2026-11-28)
